@@ -1,0 +1,69 @@
+name: Update AI News
+
+on:
+  # UTC; the 17th minute avoids GitHub's busiest scheduling point.
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Prevent overlapping deployments; each run builds and deploys independently.
+concurrency:
+  group: ai-frontier-pages
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check collector unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect public feeds and API data
+        id: collect
+        # First-run total failure should still deploy a transparent error state.
+        continue-on-error: true
+        run: python scripts/fetch_news.py
+
+      - name: Persist feed data for future fallback
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/news.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh AI Frontier news [skip ci]'
+            git push || echo 'WARNING: Could not push news cache to default branch; deploying current artifact anyway.'
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload only the public site folder
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

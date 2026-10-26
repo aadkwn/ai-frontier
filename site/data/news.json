@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-26T05:27:37Z",
-  "last_success_at": "2026-10-26T05:27:37Z",
+  "last_attempt_at": "2026-10-26T05:49:11Z",
+  "last_success_at": "2026-10-26T05:49:11Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
@@ -1257,7 +1257,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：428",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：432",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1478,7 +1478,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：293",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：294",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1732,7 +1732,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：222",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：223",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1898,7 +1898,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：865",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：867",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1943,7 +1943,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：187",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：188",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2121,7 +2121,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：254",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：255",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2243,7 +2243,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：140",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2358,7 +2358,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3021",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3026",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2458,7 +2458,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：456",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：457",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2470,7 +2470,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：178",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：179",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2881,7 +2881,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：733",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：734",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2893,7 +2893,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：555",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：556",
       "item_type": "model",
       "date_type": "created"
     },

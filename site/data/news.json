@@ -1,11 +1,132 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-26T19:22:15Z",
-  "last_success_at": "2026-10-26T19:22:15Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-10-26T23:55:41Z",
+  "last_success_at": "2026-10-26T23:55:41Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "b555ce2afa55383d5d6c",
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T23:34:58Z",
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to hav…",
+      "date_type": "published"
+    },
+    {
+      "id": "c39f2a58bf6fb070341b",
+      "title": "v0.40.12-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-26T23:10:42Z",
+      "summary": "llama.cpp: version bump b11901 ( #19311 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "90d359b06e094ba879ad",
+      "title": "b11912",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T22:33:56Z",
+      "summary": "llama : enable moe amax rescaling for laguna ( #31147 ) llama : enable moe amax rescaling for laguna Assisted-by: Devin llama : declare laguna sm tensor support Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60129010 macOS/iOS: macOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "a9c488820a62ac4adcd9",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T22:00:00Z",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "date_type": "published"
+    },
+    {
+      "id": "092e8ceea2bd79fc970f",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T21:45:31Z",
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exch…",
+      "date_type": "published"
+    },
+    {
+      "id": "686ae76031355764883a",
+      "title": "b11910",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T21:23:36Z",
+      "summary": "opencl: write KV-cache views in set_tensor so a state restore is not dropped ( #30471 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60106982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISAB…",
+      "date_type": "updated"
+    },
+    {
+      "id": "67d65f355064243488b6",
+      "title": "b11909",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11909",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T21:04:08Z",
+      "summary": "hexagon: MUL_MAT_ID row skipping optimizations and improvements ( #31169 ) hex-mmid: vectorize skipped row zeroing and added zeroing to fused MM_ID_NX hex-mmid: remove scalar div Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60100504…",
+      "date_type": "updated"
+    },
+    {
+      "id": "84403df1ba879799cb55",
+      "title": "b11908",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T20:49:44Z",
+      "summary": "llama : move no_alloc out of llama_hparams ( #31141 ) llama : move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) cont : clean-up cont : clean-up Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spar…",
+      "date_type": "updated"
+    },
+    {
+      "id": "67c44c74430c7c20f6d9",
+      "title": "b11907",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T20:18:54Z",
+      "summary": "models : replace ggml_tensor** out-params with output structs ( #31142 ) The hyper-connection and DSA graph builders wrote their extra outputs (post / comb gates, carried top-k selections, inject gates) through ggml_tensor** out-params. Return them in a small struct next to the …",
+      "date_type": "updated"
+    },
+    {
+      "id": "3806ea7442989e073ce1",
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-26T20:04:16Z",
+      "summary": "Included is the ability to limit which applications Siri can directly access.",
+      "date_type": "published"
+    },
+    {
+      "id": "da08d56823ef39339614",
+      "title": "b11906",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T19:49:05Z",
+      "summary": "ggml-cpu : rewrite concat as one row kernel for all types ( #31179 ) Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a stri…",
+      "date_type": "updated"
+    },
     {
       "id": "1131c79da1510707cee0",
       "title": "b11905",
@@ -124,7 +245,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-10-26T16:46:36Z",
-      "summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
       "date_type": "published"
     },
     {
@@ -172,15 +293,15 @@
       "date_type": "published"
     },
     {
-      "id": "da08d56823ef39339614",
-      "title": "b11906: ggml-cpu : rewrite concat as one row kernel for all types (#31179)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T14:18:45Z",
-      "summary": "Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a strided source is copied element by element with the element size known a…",
-      "date_type": "updated"
+      "id": "8eb6001a836a6e50b8fb",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T14:30:00Z",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "date_type": "published"
     },
     {
       "id": "f9239efda563ef5e7a8c",
@@ -224,6 +345,17 @@
       "category": "industry",
       "published_at": "2026-10-26T14:00:00Z",
       "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the…",
+      "date_type": "published"
+    },
+    {
+      "id": "7d972df501d01ba1f64a",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T13:45:00Z",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
       "date_type": "published"
     },
     {
@@ -1587,7 +1719,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-10-24T16:00:00Z",
-      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "summary": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
       "date_type": "published"
     },
     {
@@ -1620,7 +1752,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：574",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：594",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1841,7 +1973,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：334",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：339",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2095,7 +2227,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：236",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：239",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2261,7 +2393,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：906",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：919",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2306,7 +2438,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：203",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：207",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2362,7 +2494,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：194",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：195",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2484,7 +2616,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：265",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：269",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2595,7 +2727,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T12:02:53Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2618,7 +2750,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：156",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：158",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2630,7 +2762,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：632",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：642",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2642,7 +2774,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T01:34:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：267",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：268",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2698,7 +2830,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：382",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：384",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2733,7 +2865,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3158",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3187",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2833,7 +2965,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：474",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：481",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2845,20 +2977,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：183",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：187",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "9e63539289a31c8631b6",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "date_type": "published"
     },
     {
       "id": "b6756c0a180ee554226c",
@@ -2869,6 +2990,17 @@
       "category": "official",
       "published_at": "2026-10-16T00:00:00Z",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "date_type": "published"
+    },
+    {
+      "id": "9e63539289a31c8631b6",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-16T00:00:00Z",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "date_type": "published"
     },
     {
@@ -3001,7 +3133,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：308",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：313",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3029,17 +3161,6 @@
       "date_type": "created"
     },
     {
-      "id": "94eadcab22c41e356a1d",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-15T00:00:00Z",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "date_type": "published"
-    },
-    {
       "id": "ff0cf28c5d7530571030",
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
@@ -3059,6 +3180,17 @@
       "category": "opensource",
       "published_at": "2026-10-15T00:00:00Z",
       "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "94eadcab22c41e356a1d",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-15T00:00:00Z",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "date_type": "published"
     },
     {
@@ -3256,7 +3388,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：752",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：757",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3268,7 +3400,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：565",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：568",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3511,7 +3643,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-02T03:42:33Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：450",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：453",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3861,9 +3993,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 13,
+      "message": "正常"
     },
     {
       "id": "google-ai",

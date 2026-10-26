@@ -1,11 +1,253 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-26T13:10:58Z",
-  "last_success_at": "2026-10-26T13:10:58Z",
+  "last_attempt_at": "2026-10-26T19:22:15Z",
+  "last_success_at": "2026-10-26T19:22:15Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "1131c79da1510707cee0",
+      "title": "b11905",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T19:12:18Z",
+      "summary": "vulkan: rms norm optimization using subgroup reductions ( #29882 ) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarif…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a4c5f32431d10496f0f5",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-10-26T19:00:00Z",
+      "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+      "date_type": "published"
+    },
+    {
+      "id": "1e663d1fa1b08d3e2a56",
+      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+      "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-26T18:50:41Z",
+      "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+      "date_type": "published"
+    },
+    {
+      "id": "5e742d363152cad5a3c3",
+      "title": "b11904",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T18:49:40Z",
+      "summary": "sycl: template the plain MMVQ launch triples ( #31013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60054506 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram…",
+      "date_type": "updated"
+    },
+    {
+      "id": "82ca109e520592e23b65",
+      "title": "Release: v5.21.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-10-26T18:21:30Z",
+      "summary": "Release v5.21.0 New Model additions MiniCPM-OCR MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is speciali…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c43ee03833a300847059",
+      "title": "b11901",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T17:31:03Z",
+      "summary": "sycl : bound reorder temp memory to 32 MiB ( #31062 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60025946 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c703d92e74636f36951a",
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T17:30:55Z",
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealR…",
+      "date_type": "published"
+    },
+    {
+      "id": "c492858dd6647ddc3ddb",
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-26T17:26:36Z",
+      "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+      "date_type": "published"
+    },
+    {
+      "id": "fe6583a778a0b30ba7d2",
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T17:10:23Z",
+      "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 30…",
+      "date_type": "published"
+    },
+    {
+      "id": "b2ed8daad1cc7e3f4155",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-26T16:49:42Z",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "date_type": "published"
+    },
+    {
+      "id": "d6e31d9e0fa6ab5ca38f",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-26T16:46:36Z",
+      "summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+      "date_type": "published"
+    },
+    {
+      "id": "b1d7eb2dedce5839f589",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-10-26T16:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "e30bddfbc05d54f4d54f",
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T15:58:27Z",
+      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and caree…",
+      "date_type": "published"
+    },
+    {
+      "id": "b67fd02a214f91e2b5ea",
+      "title": "Anthropic officially files for its public debut",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-26T14:35:22Z",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "date_type": "published"
+    },
+    {
+      "id": "d8e91abdba8c9c3fc581",
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-26T14:30:27Z",
+      "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "date_type": "published"
+    },
+    {
+      "id": "da08d56823ef39339614",
+      "title": "b11906: ggml-cpu : rewrite concat as one row kernel for all types (#31179)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T14:18:45Z",
+      "summary": "Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a strided source is copied element by element with the element size known a…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f9239efda563ef5e7a8c",
+      "title": "b11903",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11903",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T14:12:56Z",
+      "summary": "sycl: template the per-quant concat impls ( #31008 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "313af67fd8c7e8b6f1c4",
+      "title": "b11902: sycl: add set_tensor_2d for faster tensor-split loading (#30358)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11902",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T14:12:25Z",
+      "summary": "sycl: add set_tensor_2d for faster tensor-split loading Pack host rows into chunks of up to 64 MiB when destination rows are contiguous, avoiding a separate upload call for each row. Keep the existing per-row copy path for non-contiguous destinations. On two Arc Pro B70s with gp…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6748773ad13d989a5282",
+      "title": "b11900",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T14:04:33Z",
+      "summary": "common: pin model resolution on real HF repo layouts ( #30548 ) tests: pin model resolution on real repo listings Extend test-model-resolution with 63 repo listings captured verbatim from the HF API, chosen to cover every file naming pattern found across 1237 GGUF repos of the m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6f7a1073a8b8ffd9755d",
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T14:00:00Z",
+      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the…",
+      "date_type": "published"
+    },
+    {
+      "id": "8730dc35da783e3d8b16",
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T13:32:49Z",
+      "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI…",
+      "date_type": "published"
+    },
+    {
+      "id": "4d610e220c2d6684cb8c",
+      "title": "Can AI help solve the COBOL code crisis?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-26T13:15:00Z",
+      "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th,…",
+      "date_type": "published"
+    },
     {
       "id": "10d57e44ea333786f408",
       "title": "b11899",
@@ -51,6 +293,17 @@
       "date_type": "updated"
     },
     {
+      "id": "27334100e818b98514ff",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T10:00:00Z",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "date_type": "published"
+    },
+    {
       "id": "ac2dba7d51e93c7bd655",
       "title": "b11895",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895",
@@ -71,6 +324,28 @@
       "published_at": "2026-10-26T08:58:06Z",
       "summary": "deepseekv4.1: follow-up review fixes ( #31137 ) kv-cache : use ggml_backend_tensor_copy to refill the DSV4 K mirrors llama : move the Engram pad id to llama_hparams and the token map to llama_model The saver no longer needs the deepseek41 model class. deepseek41 : drop the F32 s…",
       "date_type": "updated"
+    },
+    {
+      "id": "7e73eebe3e909303c4c5",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T07:00:00Z",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "date_type": "published"
+    },
+    {
+      "id": "742d30efdc4090c11a97",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T07:00:00Z",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "date_type": "published"
     },
     {
       "id": "5f576791a98a9560d038",
@@ -1063,6 +1338,17 @@
       "date_type": "published"
     },
     {
+      "id": "35e334c198740f741663",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T00:00:00Z",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "date_type": "published"
+    },
+    {
       "id": "5f77088f23d78981a7e8",
       "title": "b11889",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11889",
@@ -1250,6 +1536,17 @@
       "date_type": "published"
     },
     {
+      "id": "d3798ec9a0ad0aebf7da",
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-24T20:15:33Z",
+      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
+      "date_type": "published"
+    },
+    {
       "id": "43fa73ddaf377eb53f4d",
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
@@ -1323,7 +1620,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：526",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：574",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1340,7 +1637,7 @@
     },
     {
       "id": "dfe5fb536ca517ba2b1e",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -1544,7 +1841,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：320",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：334",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1670,17 +1967,6 @@
       "date_type": "published"
     },
     {
-      "id": "1fd5dc2d57e9039460a2",
-      "title": "Canva releases its first image generation model",
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T19:00:00Z",
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "date_type": "published"
-    },
-    {
       "id": "9053b1f287d8b411ac91",
       "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
       "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
@@ -1689,6 +1975,17 @@
       "category": "industry",
       "published_at": "2026-10-22T19:00:00Z",
       "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "date_type": "published"
+    },
+    {
+      "id": "1fd5dc2d57e9039460a2",
+      "title": "Canva releases its first image generation model",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-22T19:00:00Z",
+      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
       "date_type": "published"
     },
     {
@@ -1798,7 +2095,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：229",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：236",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1964,7 +2261,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：890",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：906",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2009,7 +2306,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：197",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：203",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2065,7 +2362,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：192",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：194",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2187,7 +2484,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：260",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：265",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2321,7 +2618,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：151",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：156",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2333,7 +2630,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：611",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：632",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2345,7 +2642,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T01:34:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：263",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：267",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2401,7 +2698,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：378",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：382",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2424,7 +2721,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T05:46:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：178",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：179",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2436,7 +2733,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3096",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3158",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2536,7 +2833,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：468",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：474",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2548,7 +2845,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：182",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：183",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2704,7 +3001,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：301",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：308",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2727,7 +3024,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T03:46:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：138",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：142",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2959,7 +3256,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：742",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：752",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2971,7 +3268,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：559",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：565",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3205,6 +3502,18 @@
       "published_at": "2026-10-02T04:00:00Z",
       "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
       "date_type": "published"
+    },
+    {
+      "id": "c070f0700650ad40bd91",
+      "title": "新模型：SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-02T03:42:33Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：450",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "02c744c8cb64f92f8cff",
@@ -3562,7 +3871,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 15,
+      "count": 16,
       "message": "正常"
     },
     {
@@ -3607,7 +3916,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 29,
+      "count": 30,
       "message": "正常"
     },
     {
@@ -3661,7 +3970,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "message": "正常"
     },
     {

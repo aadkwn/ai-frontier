@@ -1,11 +1,77 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-26T05:49:11Z",
-  "last_success_at": "2026-10-26T05:49:11Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-10-26T13:10:58Z",
+  "last_success_at": "2026-10-26T13:10:58Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "10d57e44ea333786f408",
+      "title": "b11899",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11899",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T12:29:36Z",
+      "summary": "mtmd: add mtmd_helper_get_capabilities ( #31183 ) mtmd: add mtmd_helper_get_capabilities cap audio_stream add back old api for compat audio_gen_spk_ref, text_gen Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59906184 macOS/iOS: macOS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "400b7781ac0b129b03b8",
+      "title": "b11898",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11898",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T11:40:55Z",
+      "summary": "ggml-cpu : fix unused variables in arm arch ( #31180 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59889786 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b8d1597f4456030e665e",
+      "title": "b11897",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T11:00:46Z",
+      "summary": "tests : refactor test-llama-archs to not link internal libllama symbols ( #30880 ) test-llama-archs included src/llama-arch.h and src/llama-model-saver.h, which prevented building on Windows with shared libraries since the used symbols are not exported from the DLL. declare llam…",
+      "date_type": "updated"
+    },
+    {
+      "id": "62bc207b9e95c88439f2",
+      "title": "b11896",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11896",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T10:20:04Z",
+      "summary": "ci : fix race in webgpu memset ( #31162 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59862664 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: U…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ac2dba7d51e93c7bd655",
+      "title": "b11895",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T09:57:27Z",
+      "summary": "metal : stop overflow from happening in large matrix output offsets ( #30072 ) Metal : stop overflow from happening in large matrix output offsets Assisted-by: Codex metal : widen batch offsets and MUL_MAT_ID token indices Assisted-by: Codex Co-authored-by: feni6 270037094+feni6…",
+      "date_type": "updated"
+    },
+    {
+      "id": "2ca7d41d10979cb66e73",
+      "title": "b11890",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-26T08:58:06Z",
+      "summary": "deepseekv4.1: follow-up review fixes ( #31137 ) kv-cache : use ggml_backend_tensor_copy to refill the DSV4 K mirrors llama : move the Engram pad id to llama_hparams and the token map to llama_model The saver no longer needs the deepseek41 model class. deepseek41 : drop the F32 s…",
+      "date_type": "updated"
+    },
     {
       "id": "5f576791a98a9560d038",
       "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
@@ -1257,7 +1323,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：432",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：526",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1478,7 +1544,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：294",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：320",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1604,17 +1670,6 @@
       "date_type": "published"
     },
     {
-      "id": "9053b1f287d8b411ac91",
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T19:00:00Z",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "date_type": "published"
-    },
-    {
       "id": "1fd5dc2d57e9039460a2",
       "title": "Canva releases its first image generation model",
       "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
@@ -1623,6 +1678,17 @@
       "category": "industry",
       "published_at": "2026-10-22T19:00:00Z",
       "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "date_type": "published"
+    },
+    {
+      "id": "9053b1f287d8b411ac91",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-22T19:00:00Z",
+      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
       "date_type": "published"
     },
     {
@@ -1732,7 +1798,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：223",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：229",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1898,7 +1964,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：867",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：890",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1943,7 +2009,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：188",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：197",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1999,7 +2065,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：189",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：192",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2121,7 +2187,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：255",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：260",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2225,6 +2291,18 @@
       "date_type": "published"
     },
     {
+      "id": "a580af71aff0a590e766",
+      "title": "新模型：gradium/phonon-31m-en",
+      "url": "https://huggingface.co/gradium/phonon-31m-en",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-19T12:02:53Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "1dbe22633003a2af4fdd",
       "title": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
@@ -2243,7 +2321,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：151",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2255,7 +2333,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：536",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：611",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2267,7 +2345,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T01:34:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：262",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：263",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2323,7 +2401,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：372",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：378",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2346,7 +2424,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T05:46:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：174",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：178",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2358,7 +2436,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3026",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3096",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2458,7 +2536,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：457",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：468",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2470,7 +2548,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：179",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：182",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2626,7 +2704,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：293",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：301",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2649,7 +2727,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T03:46:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：123",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：138",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2881,7 +2959,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：734",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：742",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2893,7 +2971,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：556",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：559",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3474,9 +3552,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 13,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

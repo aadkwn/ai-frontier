@@ -1,11 +1,242 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-27T10:38:55Z",
-  "last_success_at": "2026-10-27T10:38:55Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-10-27T16:43:22Z",
+  "last_success_at": "2026-10-27T16:43:22Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "18d6fa11580979b971c1",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T16:30:57Z",
+      "summary": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
+      "date_type": "published"
+    },
+    {
+      "id": "25296bd10ebb7ad2c6b8",
+      "title": "v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-27T16:29:19Z",
+      "summary": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dh…",
+      "date_type": "updated"
+    },
+    {
+      "id": "991356d9e9385200ab3c",
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T16:14:18Z",
+      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste yo…",
+      "date_type": "published"
+    },
+    {
+      "id": "1d6c5c59e46e52b936cb",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-27T16:12:42Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "393575ee7d83ff0a65d3",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-10-27T16:01:38Z",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "date_type": "published"
+    },
+    {
+      "id": "5fb7508ef46583473fd1",
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-27T16:00:22Z",
+      "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "date_type": "published"
+    },
+    {
+      "id": "8fc62bcb0cb101040102",
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T16:00:00Z",
+      "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio,…",
+      "date_type": "published"
+    },
+    {
+      "id": "fe6c8212a1cce378584e",
+      "title": "b11934",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T15:53:42Z",
+      "summary": "tests : speed up tensor data generation and model saving ( #31145 ) tests : speed up tensor data generation and model saving Refactor save_models to create only the model, not a llama_context, which is not needed for saving. Replace the slow std::normal_distribution draw with a …",
+      "date_type": "updated"
+    },
+    {
+      "id": "ba0c41f8addcc99f7231",
+      "title": "b11933",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11933",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T15:31:54Z",
+      "summary": "vulkan: fix CI llvmpipe by allowing dim 3 broadcast in MUL_MAT ( #31239 ) vulkan: allow dim 3 broadcast in MUL_MAT supports_op rejected every MUL_MAT whose src0 and src1 differ in ne3, although mul_mm, mul_mmq and mul_mat_vec already broadcast src0 over dim 3 through broadcast3.…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0fcf6f6c92fd1124bb80",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T14:59:09Z",
+      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "date_type": "published"
+    },
+    {
+      "id": "a94cf55dda58e660c947",
+      "title": "b11932",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11932",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T14:08:39Z",
+      "summary": "mtmd-cli: Reduced scope of batch pointer ( #31155 ) ( #31165 ) mtmd-cli: Reduced scope of batch pointer ( #31155 ) mtmd-cli: Remove CLI regression test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60401524 macOS/iOS: macOS Apple Sil…",
+      "date_type": "updated"
+    },
+    {
+      "id": "77387043f69a853ed6d4",
+      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T13:50:51Z",
+      "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Ke…",
+      "date_type": "published"
+    },
+    {
+      "id": "03efaabc91c5a0ac5b1f",
+      "title": "b11930",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T13:46:24Z",
+      "summary": "server: add router device memory margin parameter for dynamic unloading ( #21231 ) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory r…",
+      "date_type": "updated"
+    },
+    {
+      "id": "80ab2e6673015dce05c7",
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T13:32:57Z",
+      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "date_type": "published"
+    },
+    {
+      "id": "433c4c8f989e8655527a",
+      "title": "b11929",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11929",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T13:07:50Z",
+      "summary": "common : --model or -hf is required ( #31242 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60378927 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4c772ea870ef1e2f1377",
+      "title": "b11935",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T13:04:55Z",
+      "summary": "rpc : catch std::length_error in recv_msg ( #31204 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "840f2acb14a494b9a8c9",
+      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T13:00:00Z",
+      "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "date_type": "published"
+    },
+    {
+      "id": "0ba745f0c4950a3a1946",
+      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T13:00:00Z",
+      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+      "date_type": "published"
+    },
+    {
+      "id": "e1a6c815842fc51802b5",
+      "title": "b11928",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T12:33:51Z",
+      "summary": "model: Add MiniCPM-OCR-Jev ( #30980 ) model : add MiniCPM-OCR-Jev support The model is a Qwen3.5-VL trunk with a value head read at the last token: it scores an OCR text against an image rendered from it, it does not generate. Add the openbmb-minicpm-ocr-jev decision type, serve…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6276584e0a9e160276e0",
+      "title": "b11927",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T11:11:14Z",
+      "summary": "metal : add GGML_OP_TOP_K_MASK ( #31230 ) metal : add GGML_OP_TOP_K_MASK Port the fused top-k mask from the CUDA backend: a grid-stride kernel fills the output with -inf, then one threadgroup per row copies the mask values of the kept cells over it. Function constants drop the s…",
+      "date_type": "updated"
+    },
+    {
+      "id": "72e188139d8466867249",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T11:00:00Z",
+      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "date_type": "published"
+    },
     {
       "id": "e0ae721a32ea3a299220",
       "title": "b11926",
@@ -15,17 +246,6 @@
       "category": "opensource",
       "published_at": "2026-10-27T10:32:27Z",
       "summary": "glm5-next : QSA without kq_mask (+ DSA) ( #31009 ) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60323739 macOS/iOS: macOS Apple Silic…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6276584e0a9e160276e0",
-      "title": "b11927: metal : add GGML_OP_TOP_K_MASK (#31230)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T10:13:23Z",
-      "summary": "metal : add GGML_OP_TOP_K_MASK Port the fused top-k mask from the CUDA backend: a grid-stride kernel fills the output with -inf, then one threadgroup per row copies the mask values of the kept cells over it. Function constants drop the score, blocks and extra paths that a given …",
       "date_type": "updated"
     },
     {
@@ -1129,17 +1349,6 @@
       "date_type": "updated"
     },
     {
-      "id": "c39f2a58bf6fb070341b",
-      "title": "v0.40.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-27T00:07:12Z",
-      "summary": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dh…",
-      "date_type": "updated"
-    },
-    {
       "id": "b555ce2afa55383d5d6c",
       "title": "OpenAI announces three big science discoveries and a new way to work with academics",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
@@ -1149,6 +1358,17 @@
       "published_at": "2026-10-26T23:34:58Z",
       "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to hav…",
       "date_type": "published"
+    },
+    {
+      "id": "c39f2a58bf6fb070341b",
+      "title": "v0.40.12-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-26T23:10:42Z",
+      "summary": "llama.cpp: version bump b11901 ( #19311 )",
+      "date_type": "updated"
     },
     {
       "id": "90d359b06e094ba879ad",
@@ -1840,7 +2060,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：132",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：192",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2039,7 +2259,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：131",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：143",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2139,7 +2359,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：625",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：643",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2342,6 +2562,18 @@
       "date_type": "published"
     },
     {
+      "id": "0a3ef47953bb954abeab",
+      "title": "新模型：LiconStudio/Minimax-H3-VBVR",
+      "url": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-23T10:38:40Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：124",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "f8c156dba7886826388b",
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
@@ -2360,20 +2592,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：363",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：379",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "cf51e24baa15d2e11b32",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T04:00:00Z",
-      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "date_type": "published"
     },
     {
       "id": "000b68dcd1349dc11835",
@@ -2387,6 +2608,17 @@
       "date_type": "published"
     },
     {
+      "id": "cf51e24baa15d2e11b32",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-23T04:00:00Z",
+      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "date_type": "published"
+    },
+    {
       "id": "fee5d6bca690475f3483",
       "title": "Left alone with nothing to do, AI agents started playing",
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
@@ -2395,6 +2627,17 @@
       "category": "industry",
       "published_at": "2026-10-23T00:45:37Z",
       "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "date_type": "published"
+    },
+    {
+      "id": "3b5a2a6a27ab5490f80a",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "url": "https://openai.com/index/anima",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-23T00:00:00Z",
+      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
       "date_type": "published"
     },
     {
@@ -2614,7 +2857,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：249",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：259",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2780,7 +3023,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：939",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：954",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2825,7 +3068,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：212",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：219",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2881,7 +3124,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：202",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：205",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3003,7 +3246,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：277",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：282",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3137,7 +3380,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：177",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：184",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3149,7 +3392,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：737",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：763",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3217,7 +3460,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：394",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：403",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3252,7 +3495,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3281",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3324",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3352,7 +3595,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：493",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：499",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3364,20 +3607,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：191",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：194",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "b6756c0a180ee554226c",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "date_type": "published"
     },
     {
       "id": "9e63539289a31c8631b6",
@@ -3388,6 +3620,17 @@
       "category": "official",
       "published_at": "2026-10-16T00:00:00Z",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "date_type": "published"
+    },
+    {
+      "id": "b6756c0a180ee554226c",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-16T00:00:00Z",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "date_type": "published"
     },
     {
@@ -3520,7 +3763,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：322",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：328",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3775,7 +4018,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：769",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：773",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3787,20 +4030,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：577",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：578",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "0eb44be10929e638f52e",
-      "title": "proto-v0.5.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.5.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-09T03:11:40Z",
-      "summary": "Release vllm-proto 0.5.0",
-      "date_type": "updated"
     },
     {
       "id": "2f2b75ba2a94fb2ddbb9",
@@ -3825,17 +4057,6 @@
       "date_type": "published"
     },
     {
-      "id": "ffd2818196374b7e8d98",
-      "title": "The model that didn't exist, so you made it yourself",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-08T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "eb7eb8762462fed16142",
       "title": "Discovering the value of humanistic inquiry",
       "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
@@ -3844,17 +4065,6 @@
       "category": "industry",
       "published_at": "2026-10-07T20:10:00Z",
       "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
-      "date_type": "published"
-    },
-    {
-      "id": "16b7810afb00bdc03cf9",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-07T13:21:03Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -3891,17 +4101,6 @@
       "date_type": "published"
     },
     {
-      "id": "d0c284cb68a2d3c18884",
-      "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-06T18:52:05Z",
-      "summary": "Signed-off-by: Cam Quilici cjquilici@gmail.com Signed-off-by: Cam Quilici cameron@semianalysis.com Co-authored-by: Cam Quilici cameron@semianalysis.com Co-authored-by: Nick Hill nickhill123@gmail.com Co-authored-by: Yifan Qiao yifanqiao@inferact.ai",
-      "date_type": "updated"
-    },
-    {
       "id": "d2180633b055866648f7",
       "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
       "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
@@ -3911,17 +4110,6 @@
       "published_at": "2026-10-06T17:00:00Z",
       "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
       "date_type": "published"
-    },
-    {
-      "id": "beb274ef00cc9345c9b0",
-      "title": "Release v5.19.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-06T16:39:23Z",
-      "summary": "Release v5.19.0 New Model additions EmbeddingGemma2 EmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cr…",
-      "date_type": "updated"
     },
     {
       "id": "caed2b7e642ba54e5122",
@@ -3946,50 +4134,6 @@
       "date_type": "published"
     },
     {
-      "id": "9668af85ed2e1acf35b7",
-      "title": "v0.31.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-06T06:49:35Z",
-      "summary": "v0.31.0 Highlights This release features 717 commits from 307 contributors (96 new)! DeepSeek-V4.1-Flash performance : FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default ( #56935 ); DeepGEMM sparse MQA logits for the indexer ( #56254 ) and M…",
-      "date_type": "updated"
-    },
-    {
-      "id": "bd1136d0fcfd6f1357de",
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-03T22:56:48Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "bebca6424b0efee5984c",
-      "title": "Computational tools for society’s most complex challenges",
-      "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-02T19:30:00Z",
-      "summary": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
-      "date_type": "published"
-    },
-    {
-      "id": "5433625968f5adcb94f1",
-      "title": "Documenting the tech worker movement",
-      "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-1002",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-02T17:00:00Z",
-      "summary": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
-      "date_type": "published"
-    },
-    {
       "id": "6a7bb4e3e69d69f535f5",
       "title": "The latest AI news we announced in September 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
@@ -3998,51 +4142,6 @@
       "category": "official",
       "published_at": "2026-10-02T15:00:00Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "56c490db040147f1def4",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-02T04:01:31Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "59d88ee0fd4c3ec0f6fb",
-      "title": "3 Questions: A new resource to empower young entrepreneurs",
-      "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-02T04:00:00Z",
-      "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
-      "date_type": "published"
-    },
-    {
-      "id": "c070f0700650ad40bd91",
-      "title": "新模型：SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-      "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-02T03:42:33Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：465",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "02c744c8cb64f92f8cff",
-      "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
-      "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-01T22:00:00Z",
-      "summary": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
       "date_type": "published"
     },
     {
@@ -4057,28 +4156,6 @@
       "date_type": "published"
     },
     {
-      "id": "a3f2477a7a4c17f88579",
-      "title": "Release 5.18.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-09-30T16:46:27Z",
-      "summary": "New Model additions Nemotron 3 Diarization Nemotron 3 Diarization is an open-weight streaming speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference, handles up to eight speakers, and orders speaker …",
-      "date_type": "updated"
-    },
-    {
-      "id": "17f635e65de8780754dc",
-      "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
-      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-09-30T15:15:00Z",
-      "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
-      "date_type": "published"
-    },
-    {
       "id": "c696e8b1f34224735a5b",
       "title": "Introducing SynthID Bio",
       "url": "https://deepmind.google/blog/introducing-synthid-bio/",
@@ -4087,39 +4164,6 @@
       "category": "official",
       "published_at": "2026-09-30T15:03:07Z",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "date_type": "published"
-    },
-    {
-      "id": "03dddcc866a982e13bdd",
-      "title": "This game-playing AI is the new champ at Stratego",
-      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-09-30T15:00:00Z",
-      "summary": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
-      "date_type": "published"
-    },
-    {
-      "id": "d08507c6dd8f3ff175b5",
-      "title": "The effects of an “algorithmic monoculture” depend on the details",
-      "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-09-29T04:00:00Z",
-      "summary": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
-      "date_type": "published"
-    },
-    {
-      "id": "30d3e0d4c51df52c56ae",
-      "title": "Who we become when we talk to machines",
-      "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-09-29T04:00:00Z",
-      "summary": "Professor Sherry Turkle’s new book, “Artificial Intimacy,” offers a withering critique of chatbots and the antisocial dynamics she believes they encourage.",
       "date_type": "published"
     },
     {
@@ -4142,17 +4186,6 @@
       "category": "official",
       "published_at": "2026-09-28T15:57:59Z",
       "summary": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry.",
-      "date_type": "published"
-    },
-    {
-      "id": "6fb8d323a664475248cd",
-      "title": "New formulation helps RNA vaccines withstand high temperatures",
-      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-09-28T09:00:00Z",
-      "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
       "date_type": "published"
     },
     {
@@ -4336,9 +4369,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 14,
+      "message": "正常"
     },
     {
       "id": "google-ai",

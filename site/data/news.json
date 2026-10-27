@@ -1,11 +1,110 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-27T05:11:49Z",
-  "last_success_at": "2026-10-27T05:11:49Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-10-27T10:38:55Z",
+  "last_success_at": "2026-10-27T10:38:55Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "e0ae721a32ea3a299220",
+      "title": "b11926",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T10:32:27Z",
+      "summary": "glm5-next : QSA without kq_mask (+ DSA) ( #31009 ) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60323739 macOS/iOS: macOS Apple Silic…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6276584e0a9e160276e0",
+      "title": "b11927: metal : add GGML_OP_TOP_K_MASK (#31230)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T10:13:23Z",
+      "summary": "metal : add GGML_OP_TOP_K_MASK Port the fused top-k mask from the CUDA backend: a grid-stride kernel fills the output with -inf, then one threadgroup per row copies the mask values of the kept cells over it. Function constants drop the score, blocks and extra paths that a given …",
+      "date_type": "updated"
+    },
+    {
+      "id": "10515f024c670e282247",
+      "title": "Data center backlash is uniting America",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T10:00:00Z",
+      "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across t…",
+      "date_type": "published"
+    },
+    {
+      "id": "1ce9c5a561d19543dbbd",
+      "title": "b11925",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11925",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T09:08:50Z",
+      "summary": "ci : use ccache depend mode for ROCm release builds ( #31231 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60293667 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f6ebe2c120b7f357d957",
+      "title": "b11923",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T08:53:31Z",
+      "summary": "ggml : relax scale to non-contiguous views ( #31146 ) ggml : relax scale to non-contiguous views SCALE requires src0 to be 1D-contiguous. Relax this to dim-0 contiguity with arbitrary row strides (ggml_is_contiguous_rows), same as the unary ops in the Metal backend. ggml: relax …",
+      "date_type": "updated"
+    },
+    {
+      "id": "ce56c2f85b0234485502",
+      "title": "b11922",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T08:21:35Z",
+      "summary": "tests : fix multi-seq split replay and partial-state cases for trained models ( #31216 ) tests : fix multi-seq split replay against trained models The rollback snapshot is captured by the graph that decoded the rolled-back tail, while the reference context decodes the same prefi…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ef6ce20df87cff519fed",
+      "title": "b11921",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11921",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T08:04:04Z",
+      "summary": "llama : remove obsolete n_pad from memory instances ( #31200 ) Every caller passes n_pad = 1 and the only two users clamp it to 256. Drop the parameter, the members and the trivially true kv_size assert. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Ma…",
+      "date_type": "updated"
+    },
+    {
+      "id": "36719df94f497b62ddbf",
+      "title": "b11919",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11919",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T07:46:39Z",
+      "summary": "opencl: refine mul mat id -1 index ( #31170 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60266382 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i…",
+      "date_type": "updated"
+    },
+    {
+      "id": "2d74e9cabb70f0951e3c",
+      "title": "b11918",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11918",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T07:25:31Z",
+      "summary": "opencl: initial support for q3_k ( #31172 ) opencl: add q3_k AOS mv opencl: add q3_k SOA mv and tiled mm opencl: add q3_k noshuffle gemm/gemv for adreno opencl: add q3_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q3_k kernels for adre…",
+      "date_type": "updated"
+    },
     {
       "id": "5f576791a98a9560d038",
       "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
@@ -1206,6 +1305,17 @@
       "date_type": "updated"
     },
     {
+      "id": "913f8566e8adb0f7b407",
+      "title": "v0.33.0rc0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-10-26T17:59:24Z",
+      "summary": "[Bugfix][MRV2] Skip adaptive verification cost profiling in the CUDA …",
+      "date_type": "updated"
+    },
+    {
       "id": "c43ee03833a300847059",
       "title": "b11901",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901",
@@ -1723,6 +1833,18 @@
       "date_type": "published"
     },
     {
+      "id": "23f9cacadf78880c14c8",
+      "title": "新模型：baidu/Unlimited-OCR-2",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-26T03:57:46Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：132",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "35e334c198740f741663",
       "title": "Introducing GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
@@ -1917,7 +2039,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：116",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：131",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2017,7 +2139,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：607",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：625",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2238,7 +2360,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：348",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：363",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2492,7 +2614,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：239",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：249",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2658,7 +2780,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：931",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：939",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2703,7 +2825,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：210",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：212",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2759,7 +2881,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：199",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：202",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2881,7 +3003,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：274",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：277",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3015,7 +3137,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：166",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：177",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3027,7 +3149,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：689",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：737",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3095,7 +3217,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：393",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：394",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3130,7 +3252,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3218",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3281",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3230,7 +3352,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：486",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：493",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3242,7 +3364,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：190",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：191",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3398,7 +3520,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：318",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：322",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3653,7 +3775,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：763",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：769",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3665,7 +3787,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：572",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：577",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3908,7 +4030,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-02T03:42:33Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：459",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：465",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3979,28 +4101,6 @@
       "date_type": "published"
     },
     {
-      "id": "74c2ff7e2707d1f61043",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-09-30T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "afa8c33f8eb7996a3941",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-09-29T13:07:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "d08507c6dd8f3ff175b5",
       "title": "The effects of an “algorithmic monoculture” depend on the details",
       "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
@@ -4045,17 +4145,6 @@
       "date_type": "published"
     },
     {
-      "id": "09d1d26fa19dd694ec40",
-      "title": "Holo4: powering generalist computer-use agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-09-28T09:44:05Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "6fb8d323a664475248cd",
       "title": "New formulation helps RNA vaccines withstand high temperatures",
       "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
@@ -4064,17 +4153,6 @@
       "category": "industry",
       "published_at": "2026-09-28T09:00:00Z",
       "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
-      "date_type": "published"
-    },
-    {
-      "id": "eb916b5190e379580afd",
-      "title": "Welcome RL Environments to the hub",
-      "url": "https://huggingface.co/blog/rl-environments",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-09-28T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -4258,9 +4336,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 13,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

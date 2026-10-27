@@ -1,20 +1,97 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-27T16:43:22Z",
-  "last_success_at": "2026-10-27T16:43:22Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-10-27T21:22:24Z",
+  "last_success_at": "2026-10-27T21:22:24Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
     {
-      "id": "18d6fa11580979b971c1",
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "id": "f6bcb634209c36dece37",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-10-27T20:55:00Z",
+      "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "date_type": "published"
+    },
+    {
+      "id": "578f4a1cc2a6a4ecc178",
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T20:48:58Z",
+      "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing …",
+      "date_type": "published"
+    },
+    {
+      "id": "4501706684331e525ea0",
+      "title": "b11936",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11936",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T20:15:10Z",
+      "summary": "llama : build the k-pool sparse selection independently of the kq_mask shape ( #31243 ) llama : build the k-pool sparse selection independently of the kq_mask shape qwen4exp (QSA) and glm5-next pick cache cells by index and no longer read the kq_mask values, but they still shape…",
+      "date_type": "updated"
+    },
+    {
+      "id": "373a8b625d1496cb7cd5",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
       "category": "industry",
-      "published_at": "2026-10-27T16:30:57Z",
-      "summary": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
+      "published_at": "2026-10-27T18:55:35Z",
+      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "date_type": "published"
+    },
+    {
+      "id": "7ded73819dc6701072ad",
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-27T18:49:08Z",
+      "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
+      "date_type": "published"
+    },
+    {
+      "id": "b2aff63a03e983b29f98",
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T17:30:00Z",
+      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the…",
+      "date_type": "published"
+    },
+    {
+      "id": "4c772ea870ef1e2f1377",
+      "title": "b11935",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T17:18:49Z",
+      "summary": "rpc : catch std::length_error in recv_msg ( #31204 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60485441 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1c5b51464767c2ad2949",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-27T17:16:52Z",
+      "summary": "",
       "date_type": "published"
     },
     {
@@ -24,9 +101,42 @@
       "source": "GitHub · Ollama",
       "source_id": "github-ollama",
       "category": "opensource",
-      "published_at": "2026-10-27T16:29:19Z",
-      "summary": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in #19247 MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in #19291 mlx: add DFlash2 support by @dhiltgen in #19149 llama.cpp: version bump b11901 by @dh…",
+      "published_at": "2026-10-27T17:16:47Z",
+      "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding l…",
       "date_type": "updated"
+    },
+    {
+      "id": "24969064b492b7122a6e",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T17:08:08Z",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "date_type": "published"
+    },
+    {
+      "id": "bb9f02a56d8cd14e9863",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-27T16:51:22Z",
+      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater ri…",
+      "date_type": "published"
+    },
+    {
+      "id": "18d6fa11580979b971c1",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T16:30:57Z",
+      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "date_type": "published"
     },
     {
       "id": "991356d9e9385200ab3c",
@@ -172,17 +282,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4c772ea870ef1e2f1377",
-      "title": "b11935",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T13:04:55Z",
-      "summary": "rpc : catch std::length_error in recv_msg ( #31204 )",
-      "date_type": "updated"
-    },
-    {
       "id": "840f2acb14a494b9a8c9",
       "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
       "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
@@ -324,6 +423,17 @@
       "published_at": "2026-10-27T07:25:31Z",
       "summary": "opencl: initial support for q3_k ( #31172 ) opencl: add q3_k AOS mv opencl: add q3_k SOA mv and tiled mm opencl: add q3_k noshuffle gemm/gemv for adreno opencl: add q3_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q3_k kernels for adre…",
       "date_type": "updated"
+    },
+    {
+      "id": "c417f8e3d39d0b893c07",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-27T07:00:00Z",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "date_type": "published"
     },
     {
       "id": "5f576791a98a9560d038",
@@ -1349,6 +1459,17 @@
       "date_type": "updated"
     },
     {
+      "id": "c44dc9ed271ff418b14a",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-27T00:00:00Z",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "date_type": "published"
+    },
+    {
       "id": "b555ce2afa55383d5d6c",
       "title": "OpenAI announces three big science discoveries and a new way to work with academics",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
@@ -2060,7 +2181,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：192",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：221",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2259,7 +2380,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：143",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：159",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2359,7 +2480,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：643",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：661",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2569,7 +2690,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T10:38:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：124",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：125",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2592,7 +2713,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：379",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：388",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2857,7 +2978,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：259",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：266",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3023,7 +3144,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：954",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：961",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3068,7 +3189,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：219",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3124,7 +3245,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：205",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：207",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3246,7 +3367,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：282",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：288",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3380,7 +3501,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：184",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：191",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3392,7 +3513,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：763",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：779",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3460,7 +3581,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：403",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：412",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3495,7 +3616,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3324",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3357",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3595,7 +3716,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：499",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：502",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3607,9 +3728,20 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：194",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：196",
       "item_type": "model",
       "date_type": "created"
+    },
+    {
+      "id": "c9a6184923cc1a5837b4",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-16T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
     },
     {
       "id": "9e63539289a31c8631b6",
@@ -3631,17 +3763,6 @@
       "category": "official",
       "published_at": "2026-10-16T00:00:00Z",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "date_type": "published"
-    },
-    {
-      "id": "c9a6184923cc1a5837b4",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -3763,7 +3884,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：328",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：333",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3989,17 +4110,6 @@
       "date_type": "published"
     },
     {
-      "id": "86d056a4b8dd3b41c17b",
-      "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
-      "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-13T04:00:00Z",
-      "summary": "Professor Deb Roy contends there should be someone who is “answerable” for every piece of text in public life, no matter its origins.",
-      "date_type": "published"
-    },
-    {
       "id": "d4901c93c13cc31215bc",
       "title": "v0.32.0rc0: [HiSparse] Report host pool in KV cache capacity logs (#60285)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
@@ -4009,63 +4119,6 @@
       "published_at": "2026-10-12T20:49:49Z",
       "summary": "Signed-off-by: Matthew Bonanni mbonanni@redhat.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
       "date_type": "updated"
-    },
-    {
-      "id": "d55e01a42324c23370c6",
-      "title": "新模型：OpenMOSS-Team/MOSS-Image-SFT",
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-11T07:01:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：773",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "07395aaab74e419c1991",
-      "title": "新模型：OpenMOSS-Team/MOSS-Image-Base",
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-11T06:49:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：578",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "2f2b75ba2a94fb2ddbb9",
-      "title": "3 Questions: What is the best path forward for AI in academia?",
-      "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-08T21:25:00Z",
-      "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
-      "date_type": "published"
-    },
-    {
-      "id": "4564112263663773d0ba",
-      "title": "Using AI to mitigate the growing environmental threat of data centers",
-      "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-08T04:00:00Z",
-      "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
-      "date_type": "published"
-    },
-    {
-      "id": "eb7eb8762462fed16142",
-      "title": "Discovering the value of humanistic inquiry",
-      "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-07T20:10:00Z",
-      "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
-      "date_type": "published"
     },
     {
       "id": "b6aec8c05cfc3e2f0fe3",
@@ -4079,17 +4132,6 @@
       "date_type": "published"
     },
     {
-      "id": "d64d5a2b545447f78bd9",
-      "title": "Supercomputing researchers document evolution of AI hardware",
-      "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-06T20:55:00Z",
-      "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
-      "date_type": "published"
-    },
-    {
       "id": "c11a83f73b42d7563944",
       "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -4098,28 +4140,6 @@
       "category": "official",
       "published_at": "2026-10-06T19:57:04Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "d2180633b055866648f7",
-      "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
-      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-06T17:00:00Z",
-      "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
-      "date_type": "published"
-    },
-    {
-      "id": "caed2b7e642ba54e5122",
-      "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
-      "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-06T15:00:00Z",
-      "summary": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.",
       "date_type": "published"
     },
     {
@@ -4369,9 +4389,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 14,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4460,7 +4480,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 25,
+      "count": 26,
       "message": "正常"
     },
     {

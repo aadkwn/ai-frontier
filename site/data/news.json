@@ -1,11 +1,231 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-28T08:38:28Z",
-  "last_success_at": "2026-10-28T08:38:28Z",
+  "last_attempt_at": "2026-10-28T16:07:24Z",
+  "last_success_at": "2026-10-28T16:07:24Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "c3f3cbf4e178e82211eb",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T15:53:52Z",
+      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+      "date_type": "published"
+    },
+    {
+      "id": "776aed39bd32c423750c",
+      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T15:41:18Z",
+      "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "date_type": "published"
+    },
+    {
+      "id": "ae7be6fb4f6d788b6536",
+      "title": "b11965: llama : remove simple batch splitting for DSV4 (#31300)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11965",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T15:25:47Z",
+      "summary": "llama : fix DSV4 compressor padding for simple batches Count actual tokens per sequence when padding compressor writes. Add a graph reuse regression test for odd-sized DeepSeek V4 and V4.1 batches. Assisted-by: Codex tests : cover multiple sequences in DSV4 padding regression Ex…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5e30d5e3d67dee3832a4",
+      "title": "b11963",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11963",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T15:09:00Z",
+      "summary": "sycl: work-group argmax for short TOP_K rows ( #31110 ) sycl: work-group argmax for short TOP_K rows Used angelX to optimize SYCL/drama 3 coordination, results are as follows Rows with ncols <= max work-group size: one work-item per column, k rounds of work-group argmax. Ties ta…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8fd264d14a343cc6ba12",
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T15:00:00Z",
+      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "date_type": "published"
+    },
+    {
+      "id": "ec733f799e1aaee3d1ac",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-28T14:58:17Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "bddebf86268f0d308cda",
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T14:44:00Z",
+      "summary": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven…",
+      "date_type": "published"
+    },
+    {
+      "id": "63ae6c27cd8130f1a107",
+      "title": "b11962",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11962",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T13:46:28Z",
+      "summary": "cuda: fuse MoE (MUL_MAT_ID) gate/up and GLU in MMQ ( #31188 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60834811 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "3d80486e8e6b07c7d6f8",
+      "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+      "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T13:00:00Z",
+      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+      "date_type": "published"
+    },
+    {
+      "id": "dfe8f4ca2517538c6c73",
+      "title": "v0.8.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T12:49:41Z",
+      "summary": "Overview This release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in mtmd , and wires realtime audio in and out of the server through the new /v1/realtime and /tts endpoints. A batch of new architectures lande…",
+      "date_type": "updated"
+    },
+    {
+      "id": "adfecc92b51ffe6bf370",
+      "title": "b11960",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11960",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T12:48:58Z",
+      "summary": "llama.cpp : bump version to 0.8.0 ( #31309 ) llama.cpp : bump version to 0.8.0 authors : update Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60815024 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3a0e6f223eff99ed1756",
+      "title": "Voters in Texas agree: They hate data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T12:00:00Z",
+      "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a …",
+      "date_type": "published"
+    },
+    {
+      "id": "3c84bdc9f1b42a292410",
+      "title": "Meta quietly launched an ‘AI pet journal’ app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T11:27:30Z",
+      "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal …",
+      "date_type": "published"
+    },
+    {
+      "id": "2382ac28ae22d4673ade",
+      "title": "b11958: server : support tool calls in /v1/realtime (#31287)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11958",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T11:17:13Z",
+      "summary": "server : add tool calls to /v1/realtime Assisted-by: Claude Opus 5.5 refactor Co-authored-by: Xuan Son Nguyen son@huggingface.co",
+      "date_type": "updated"
+    },
+    {
+      "id": "b6c92cb2c2f5abc71a25",
+      "title": "b11957",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11957",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T10:36:51Z",
+      "summary": "sync : ggml",
+      "date_type": "updated"
+    },
+    {
+      "id": "685ab71363a9a3de503b",
+      "title": "b11954",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11954",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T10:32:40Z",
+      "summary": "tests : adjust constants to reduce irrelevant warnings ( #31254 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60769683 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
+      "date_type": "updated"
+    },
+    {
+      "id": "39c5696554580b8daaa5",
+      "title": "b11953",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11953",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T10:15:31Z",
+      "summary": "cuda : add top-k MoE fusion for 384 experts ( #31288 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60764106 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Inte…",
+      "date_type": "updated"
+    },
+    {
+      "id": "754548d382a06747e85f",
+      "title": "v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-10-28T09:31:23Z",
+      "summary": "Signed-off-by: grYe99 guorongye99@gmail.com Co-authored-by: grYe99 guorongye99@gmail.com (cherry picked from commit bfa2a43 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "67c6b18b0a76451db874",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-28T09:30:00Z",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "date_type": "published"
+    },
+    {
+      "id": "c6d4f9f6f2ec23acd2a5",
+      "title": "b11952: vulkan: clamp A prefetch to end_k in coopmat1 int8 matmul (#30283)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11952",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T08:12:22Z",
+      "summary": "fix: clamp the A prefetch to end_k in the Vulkan coopmat1 int8 matmul, like the B prefetch fix: zero the A scale for k steps past end_k in the Vulkan coopmat1 int8 matmul instead of relying on the clamped block",
+      "date_type": "updated"
+    },
     {
       "id": "3406604ed233cacbe078",
       "title": "b11951",
@@ -2379,7 +2599,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：284",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：307",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2578,7 +2798,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：192",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：213",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2678,7 +2898,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：684",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：703",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2888,7 +3108,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T10:38:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：128",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：131",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2911,7 +3131,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：408",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：425",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3165,7 +3385,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T07:29:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：271",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3188,7 +3408,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：287",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：296",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3325,6 +3545,18 @@
       "date_type": "published"
     },
     {
+      "id": "ee99048206eebf866b01",
+      "title": "新模型：openbmb/MiniCPM-OCR-1.0",
+      "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-21T15:51:40Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：221",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "25b2428c48d90bfe39f1",
       "title": "The $15 billion ad-powered AI startup your doctor may already be using",
       "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
@@ -3354,7 +3586,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1094",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1136",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3399,7 +3631,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：236",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：242",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3455,7 +3687,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：221",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3577,20 +3809,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：300",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：306",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "1cfb6291fa158d05a5ba",
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "date_type": "published"
     },
     {
       "id": "39e60f901a735303e0c0",
@@ -3623,6 +3844,17 @@
       "category": "opensource",
       "published_at": "2026-10-20T00:00:00Z",
       "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "1cfb6291fa158d05a5ba",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-20T00:00:00Z",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "date_type": "published"
     },
     {
@@ -3659,28 +3891,6 @@
       "date_type": "updated"
     },
     {
-      "id": "6e82abff5fff04afe2f2",
-      "title": "AI game clones are making indie developers afraid to show their work",
-      "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-19T16:59:22Z",
-      "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
-      "date_type": "published"
-    },
-    {
-      "id": "8b0c296daf1f90b97c46",
-      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
-      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-19T14:45:43Z",
-      "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-      "date_type": "published"
-    },
-    {
       "id": "a580af71aff0a590e766",
       "title": "新模型：gradium/phonon-31m-en",
       "url": "https://huggingface.co/gradium/phonon-31m-en",
@@ -3711,7 +3921,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：209",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：213",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3723,7 +3933,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：820",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：839",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3740,130 +3950,6 @@
       "date_type": "created"
     },
     {
-      "id": "5c52b7d34becd1ccf770",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-19T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "796bbd796e41457364e7",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-18T16:25:19Z",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "date_type": "published"
-    },
-    {
-      "id": "83a753b4160cba93855a",
-      "title": "v0.32.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-18T10:23:45Z",
-      "summary": "v0.32.0 Highlights This release features 814 commits from 363 contributors (121 new)! Structured decisions and generic parsers : the new POST /v1/systemone endpoint answers choice , noul and score questions over a structured state ( #59299 ), is served by default ( #60677 , #606…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6846386ee35eb87e2aa2",
-      "title": "v0.32.1rc0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-18T09:26:56Z",
-      "summary": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
-      "date_type": "updated"
-    },
-    {
-      "id": "5e2e940bee13ebf9654d",
-      "title": "新模型：dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：427",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "9692486eeb77934b280e",
-      "title": "Giving AI a “crystal clear” view of the materials world",
-      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-18T04:00:00Z",
-      "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "date_type": "published"
-    },
-    {
-      "id": "022ec6a37b17a30c40bd",
-      "title": "新模型：ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
-      "url": "https://huggingface.co/ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-17T05:46:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：179",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "cac24968e5aa0d5bf28d",
-      "title": "新模型：deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3451",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "13d109f5467363c930ba",
-      "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-17T00:25:45Z",
-      "summary": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
-      "date_type": "updated"
-    },
-    {
-      "id": "16df95b107d547109795",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-16T20:59:01Z",
-      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "date_type": "published"
-    },
-    {
-      "id": "7353a42c67b5a3214c0d",
-      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-16T20:20:07Z",
-      "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-      "date_type": "published"
-    },
-    {
       "id": "9732b2763df5a67ab945",
       "title": "How Itaú is building generative AI for its entire customer base",
       "url": "https://openai.com/index/itau-generative-ai",
@@ -3872,63 +3958,6 @@
       "category": "official",
       "published_at": "2026-10-16T19:00:00Z",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "date_type": "published"
-    },
-    {
-      "id": "bd03643a45398d758140",
-      "title": "Fostering community amid Kendall Square’s innovation",
-      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-16T16:00:00Z",
-      "summary": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
-      "date_type": "published"
-    },
-    {
-      "id": "ad81c0b4930729b94c5b",
-      "title": "Release v5.20.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-16T13:02:29Z",
-      "summary": "Release v5.20.1 Special surprise including the new model Beam from Reflection AI 🥳 Beam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, an…",
-      "date_type": "updated"
-    },
-    {
-      "id": "609f8bcf76a13e90c920",
-      "title": "新模型：Comfy-Org/MOSS-Image",
-      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：514",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "7ae8772751387a527aea",
-      "title": "新模型：ornith-ai/Ornith-1.5-122B",
-      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-16T07:14:27Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：196",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "c9a6184923cc1a5837b4",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -3965,17 +3994,6 @@
       "date_type": "published"
     },
     {
-      "id": "75bb450ac9abb666c3e6",
-      "title": "Release v5.20.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-15T18:05:36Z",
-      "summary": "Release v5.20.0 New Model additions Muse Spark Open Muse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters (42B active per token) and a context window of up to 1,048,5…",
-      "date_type": "updated"
-    },
-    {
       "id": "ad09b0946a60b7ff505a",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -4007,18 +4025,6 @@
       "published_at": "2026-10-15T12:00:00Z",
       "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.",
       "date_type": "published"
-    },
-    {
-      "id": "12b3f8153ee100f80e6a",
-      "title": "新模型：tencent/Hy-Memory-30B-A3B",
-      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-15T09:52:00Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：313",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "94eadcab22c41e356a1d",
@@ -4490,7 +4496,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 25,
+      "count": 24,
       "message": "正常"
     },
     {

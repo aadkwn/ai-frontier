@@ -1,11 +1,154 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-27T21:22:24Z",
-  "last_success_at": "2026-10-27T21:22:24Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-10-28T01:26:18Z",
+  "last_success_at": "2026-10-28T01:26:18Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "79326e62ecc4a5d82e44",
+      "title": "b11944",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T01:26:18Z",
+      "summary": "server: expose the reasoning effort levels of the chat template ( #31271 ) server: expose the reasoning effort levels of the chat template The capability probe renders a user turn for each candidate level (minimal, low, medium, high, xhigh, max) and for an unknown level. A level…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4ba4897dde9b2c1a6b32",
+      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T01:15:28Z",
+      "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "date_type": "published"
+    },
+    {
+      "id": "e8c798b49e967c6df945",
+      "title": "b11941",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T01:06:31Z",
+      "summary": "model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B ( #31257 ) model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B Co-authored-by: Xuan Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 convert : read the LFM3-Audio config.json as released A transforme…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6747d723bcd58ba07990",
+      "title": "b11940",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T00:35:53Z",
+      "summary": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.githu…",
+      "date_type": "updated"
+    },
+    {
+      "id": "459fa697a2c152c84a58",
+      "title": "b11938",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T00:01:54Z",
+      "summary": "model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B ( #31252 ) model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan-Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 tests : set …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4c5627bb695205d19ffc",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T23:34:27Z",
+      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "date_type": "published"
+    },
+    {
+      "id": "5b8f2377809f90dcf69c",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T22:55:41Z",
+      "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "date_type": "published"
+    },
+    {
+      "id": "1d810bfe409cd0323759",
+      "title": "b11945: model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B (#31275)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T22:36:32Z",
+      "summary": "model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B Assisted-by: Claude Opus 5.5 convert : keep the speech task templates out of the d1 GGUFs Assisted-by: Claude Opus 5.5 small refactoring: no_batching Co-authored-by: Xuan Son Nguyen son@huggingface.co",
+      "date_type": "updated"
+    },
+    {
+      "id": "f45c7980de26dbce15c0",
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-27T21:50:04Z",
+      "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+      "date_type": "published"
+    },
+    {
+      "id": "22c376eb4e78466379a2",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T21:44:34Z",
+      "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "date_type": "published"
+    },
+    {
+      "id": "740c5733ca5094b5da38",
+      "title": "v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-27T21:41:00Z",
+      "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding l…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4f33acf6a2b5045b42df",
+      "title": "Who’s really in charge at Anthropic after the IPO?",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-27T21:38:28Z",
+      "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+      "date_type": "published"
+    },
+    {
+      "id": "8b2d32a128d5af0502cf",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-27T21:31:14Z",
+      "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "date_type": "published"
+    },
     {
       "id": "f6bcb634209c36dece37",
       "title": "Learner collaborates with MIT peers to develop book of AI insights",
@@ -93,17 +236,6 @@
       "published_at": "2026-10-27T17:16:52Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "25296bd10ebb7ad2c6b8",
-      "title": "v0.40.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-27T17:16:47Z",
-      "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding l…",
-      "date_type": "updated"
     },
     {
       "id": "24969064b492b7122a6e",
@@ -205,6 +337,17 @@
       "date_type": "updated"
     },
     {
+      "id": "25296bd10ebb7ad2c6b8",
+      "title": "v0.40.12-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-27T15:47:18Z",
+      "summary": "mlx: add LFM3 and d1 models ( #19333 )",
+      "date_type": "updated"
+    },
+    {
       "id": "ba0c41f8addcc99f7231",
       "title": "b11933",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11933",
@@ -216,6 +359,17 @@
       "date_type": "updated"
     },
     {
+      "id": "1e3ebf94e41ebe19793b",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-27T15:00:00Z",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "date_type": "published"
+    },
+    {
       "id": "0fcf6f6c92fd1124bb80",
       "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
       "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
@@ -225,6 +379,17 @@
       "published_at": "2026-10-27T14:59:09Z",
       "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
       "date_type": "published"
+    },
+    {
+      "id": "c1efe94a438c78db4aca",
+      "title": "b11937",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11937",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-27T14:14:03Z",
+      "summary": "cmake: WASI doesn't support spawning ( #30751 )",
+      "date_type": "updated"
     },
     {
       "id": "a94cf55dda58e660c947",
@@ -333,7 +498,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-10-27T11:00:00Z",
-      "summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
       "date_type": "published"
     },
     {
@@ -2181,7 +2346,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：221",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：246",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2380,7 +2545,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：159",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：175",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2480,7 +2645,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：661",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：676",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2713,7 +2878,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：388",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：401",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2960,6 +3125,18 @@
       "date_type": "published"
     },
     {
+      "id": "535d66fdd9eb2f0b73f6",
+      "title": "新模型：tencent/Hy-SimulMT-30B-A3B-FP8",
+      "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-22T07:29:37Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：137",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "6400feb681472530a689",
       "title": "What FDE means at OpenAI",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
@@ -2978,7 +3155,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：266",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：281",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3144,7 +3321,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：961",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：982",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3189,7 +3366,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：235",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3245,7 +3422,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：207",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：218",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3367,7 +3544,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：288",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：298",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3501,7 +3678,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：191",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：201",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3513,7 +3690,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：779",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：794",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3581,7 +3758,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-18T04:11:31Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：412",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：426",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3616,7 +3793,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-17T02:40:38Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3357",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：3394",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3687,17 +3864,6 @@
       "date_type": "published"
     },
     {
-      "id": "ad740557d1c83584c98d",
-      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-      "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-16T14:00:59Z",
-      "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
-      "date_type": "published"
-    },
-    {
       "id": "ad81c0b4930729b94c5b",
       "title": "Release v5.20.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
@@ -3716,7 +3882,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-16T12:42:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：502",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：512",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3763,28 +3929,6 @@
       "category": "official",
       "published_at": "2026-10-16T00:00:00Z",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "date_type": "published"
-    },
-    {
-      "id": "2bc7550860128a480ad0",
-      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-15T21:00:00Z",
-      "summary": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
-      "date_type": "published"
-    },
-    {
-      "id": "38a125a6c95bf33498ac",
-      "title": "AI model decodes the language cells use to communicate",
-      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-15T20:50:00Z",
-      "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
       "date_type": "published"
     },
     {
@@ -3877,63 +4021,6 @@
       "date_type": "published"
     },
     {
-      "id": "f42b672aa8316807ec5e",
-      "title": "新模型：InternScience/Sage-A1.5",
-      "url": "https://huggingface.co/InternScience/Sage-A1.5",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-15T08:34:39Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：333",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "6961d7c2dc9bbc858b72",
-      "title": "Q&A: The “collision” between AI, your brain, and society",
-      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-15T04:00:00Z",
-      "summary": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
-      "date_type": "published"
-    },
-    {
-      "id": "fd04a69540882e0b1de2",
-      "title": "新模型：MemTensor/MemT-1.0-Nano",
-      "url": "https://huggingface.co/MemTensor/MemT-1.0-Nano",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-15T03:46:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：142",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "ff0cf28c5d7530571030",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-15T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "eb67409897ed2136a753",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-15T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "94eadcab22c41e356a1d",
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "url": "https://openai.com/index/sullivan-cromwell",
@@ -3942,39 +4029,6 @@
       "category": "official",
       "published_at": "2026-10-15T00:00:00Z",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "date_type": "published"
-    },
-    {
-      "id": "deebc1af26824e66f83f",
-      "title": "proto-v0.6.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-14T23:57:02Z",
-      "summary": "vllm-proto 0.6.0",
-      "date_type": "updated"
-    },
-    {
-      "id": "a264c4af5885aa0a7df1",
-      "title": "v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-14T23:29:34Z",
-      "summary": "Signed-off-by: jinzhen.ljz jinzhen.ljz@antgroup.com Co-authored-by: Codex codex@openai.com Co-authored-by: Misha Goin mgoin64@gmail.com Co-authored-by: Kevin H. Luu khluu000@gmail.com",
-      "date_type": "updated"
-    },
-    {
-      "id": "40c8137255fe9e48d14a",
-      "title": "Researchers improve weather forecasts looking two to six weeks out",
-      "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-14T15:00:00Z",
-      "summary": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
       "date_type": "published"
     },
     {
@@ -4044,28 +4098,6 @@
       "date_type": "published"
     },
     {
-      "id": "08d1bb7044624eeb3d4e",
-      "title": "How artificial neural networks build their own learning machinery",
-      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-13T21:00:00Z",
-      "summary": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
-      "date_type": "published"
-    },
-    {
-      "id": "e2c278ab2328153dcf1e",
-      "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
-      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-13T20:40:00Z",
-      "summary": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
-      "date_type": "published"
-    },
-    {
       "id": "8b1ab1df41ac00d8450a",
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
@@ -4073,17 +4105,6 @@
       "source_id": "deepmind",
       "category": "official",
       "published_at": "2026-10-13T19:43:07Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "53911f98c21c784fce1a",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-13T17:05:48Z",
       "summary": "",
       "date_type": "published"
     },
@@ -4108,17 +4129,6 @@
       "published_at": "2026-10-13T16:01:52Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "d4901c93c13cc31215bc",
-      "title": "v0.32.0rc0: [HiSparse] Report host pool in KV cache capacity logs (#60285)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-12T20:49:49Z",
-      "summary": "Signed-off-by: Matthew Bonanni mbonanni@redhat.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
-      "date_type": "updated"
     },
     {
       "id": "b6aec8c05cfc3e2f0fe3",
@@ -4389,9 +4399,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 14,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4480,7 +4490,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 26,
+      "count": 25,
       "message": "正常"
     },
     {

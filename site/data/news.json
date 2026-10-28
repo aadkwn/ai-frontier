@@ -1,11 +1,220 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-28T16:07:24Z",
-  "last_success_at": "2026-10-28T16:07:24Z",
+  "last_attempt_at": "2026-10-28T21:08:38Z",
+  "last_success_at": "2026-10-28T21:08:38Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "1e7cf4e0713c1d74c104",
+      "title": "b11970: hexagon: add conv2d support (#30995)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T20:43:40Z",
+      "summary": "hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kernel params for all paths hex-conv2d: sca…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7b5653451a244c2d34ef",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T20:03:00Z",
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Cla…",
+      "date_type": "published"
+    },
+    {
+      "id": "5a94e92ea1729a3634bb",
+      "title": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-28T19:55:04Z",
+      "summary": "What's Changed llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344 llama.cpp: version bump b11963 by @dhiltgen in #19360 Full Changelog : v0.40.12...v0.40.13-rc0",
+      "date_type": "updated"
+    },
+    {
+      "id": "3b6696291dbcf94fbfc4",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T19:19:58Z",
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "date_type": "published"
+    },
+    {
+      "id": "39cf0e80e1ec33973930",
+      "title": "b11969",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11969",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T19:12:03Z",
+      "summary": "Speed up IQ4 quant creation with pre-computed halfway points ( #31201 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60965905 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4f99b9d14ea0948f4824",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T19:05:46Z",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities cou…",
+      "date_type": "published"
+    },
+    {
+      "id": "297bfab9760612948200",
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T18:50:39Z",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities cou…",
+      "date_type": "published"
+    },
+    {
+      "id": "721146dc4df9479164fe",
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-28T18:47:27Z",
+      "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+      "date_type": "published"
+    },
+    {
+      "id": "8c981a7773ea1054fdaf",
+      "title": "Microsoft is ending Copilot support on smart TVs",
+      "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T18:36:26Z",
+      "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes …",
+      "date_type": "published"
+    },
+    {
+      "id": "f4fbe885f8a380c9bdce",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-28T17:46:32Z",
+      "summary": "But the AI responses get more forthright when asked outside the US.",
+      "date_type": "published"
+    },
+    {
+      "id": "b006d38b52ac3fe65fe0",
+      "title": "b11968",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T17:34:11Z",
+      "summary": "ggml-cpu: SVE 256 bit implementation of gemm_q6_K_8x8_q8_K kernel ( #27472 ) q6_k GEMM working cleanup review comments review comment addressed - removed pg16_8 incorporated the review comments - replaced switch with if and other points marking q8_k_blocklen UNUSEDto disable war…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e8e0cb1d0e685ced8c0e",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-10-28T17:00:58Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "f2796a9e771f5f13b03f",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T17:00:00Z",
+      "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "date_type": "published"
+    },
+    {
+      "id": "dc7790b3a03a16cfe3a5",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T17:00:00Z",
+      "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "date_type": "published"
+    },
+    {
+      "id": "db30df4bb3be374c7021",
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T17:00:00Z",
+      "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced …",
+      "date_type": "published"
+    },
+    {
+      "id": "f04b23208c735a6d0155",
+      "title": "b11966",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11966",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T16:52:33Z",
+      "summary": "ci(s390x): switch to Ubuntu 26.04 runners ( #31317 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60911815 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1583c560106073a3e7c9",
+      "title": "Meta says it’ll probably delay its controversial new business terms again",
+      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T16:15:30Z",
+      "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full c…",
+      "date_type": "published"
+    },
+    {
+      "id": "ba816ae2c66dda0a8ef1",
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-10-28T16:00:00Z",
+      "summary": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "date_type": "published"
+    },
+    {
+      "id": "83fae39fd1ea431a06d5",
+      "title": "b11967: ggml-cpu: SVE 256-bit Implementation of mxfp4 gemv kernel (#28141)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11967",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T15:58:20Z",
+      "summary": "mxfp4 sve 256 impl completed working with pretty good perf improvement review comments addressed review comments for SVE 256 check trailing white spaces removed Co-authored-by: Anubhav Srivastava anubhav.srivastava@fujitsu.com",
+      "date_type": "updated"
+    },
     {
       "id": "c3f3cbf4e178e82211eb",
       "title": "AI execs may be too out of touch to build for the general public",
@@ -93,6 +302,17 @@
       "published_at": "2026-10-28T13:46:28Z",
       "summary": "cuda: fuse MoE (MUL_MAT_ID) gate/up and GLU in MMQ ( #31188 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60834811 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
       "date_type": "updated"
+    },
+    {
+      "id": "a395c7da350b5086cc15",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-28T13:15:00Z",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "date_type": "published"
     },
     {
       "id": "3d80486e8e6b07c7d6f8",
@@ -194,6 +414,17 @@
       "date_type": "updated"
     },
     {
+      "id": "e2ed7680c50ae3f074e0",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-28T10:00:00Z",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "date_type": "published"
+    },
+    {
       "id": "754548d382a06747e85f",
       "title": "v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
@@ -205,9 +436,9 @@
       "date_type": "updated"
     },
     {
-      "id": "67c6b18b0a76451db874",
+      "id": "709cc8e2bd467b791689",
       "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "url": "https://openai.com/index/legora",
       "source": "OpenAI",
       "source_id": "openai",
       "category": "official",
@@ -2599,7 +2830,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：307",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：317",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2798,7 +3029,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：213",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：222",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2898,7 +3129,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：703",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：719",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3108,7 +3339,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T10:38:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：131",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：133",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3131,7 +3362,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：425",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：431",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3345,17 +3576,6 @@
       "date_type": "published"
     },
     {
-      "id": "78de0a5236401fb7ad30",
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T15:03:58Z",
-      "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
-      "date_type": "published"
-    },
-    {
       "id": "301925b8adfcebab105a",
       "title": "Beyond tree cover: mapping the world’s forest types",
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
@@ -3385,7 +3605,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T07:29:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：271",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：320",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3408,7 +3628,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：296",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：301",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3468,28 +3688,6 @@
       "date_type": "updated"
     },
     {
-      "id": "38056d541988b8536657",
-      "title": "The new human-crafted Apple Music brand matters in an AI world",
-      "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-21T19:44:40Z",
-      "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
-      "date_type": "published"
-    },
-    {
-      "id": "7b066c33c960e613f21e",
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-21T18:51:42Z",
-      "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
-      "date_type": "published"
-    },
-    {
       "id": "94a5f6526eada9bc0f52",
       "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
@@ -3498,17 +3696,6 @@
       "category": "opensource",
       "published_at": "2026-10-21T18:26:30Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "ae6ee33522ea65d92781",
-      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
-      "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-21T18:20:40Z",
-      "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
       "date_type": "published"
     },
     {
@@ -3552,20 +3739,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T15:51:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：221",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：245",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "25b2428c48d90bfe39f1",
-      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
-      "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-21T15:14:07Z",
-      "summary": "OpenEvidence is booming despite questions about accuracy and ads.",
-      "date_type": "published"
     },
     {
       "id": "c2ed162a157709f5cb47",
@@ -3586,7 +3762,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1136",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1149",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3631,7 +3807,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：242",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：245",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3714,61 +3890,6 @@
       "date_type": "published"
     },
     {
-      "id": "379ed475f59bcf1fc42a",
-      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-20T20:07:58Z",
-      "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-      "date_type": "published"
-    },
-    {
-      "id": "3fae25bc07477e491f21",
-      "title": "Gemini's Personal Intelligence is coming to cars",
-      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-20T20:00:33Z",
-      "summary": "It's probably time to audit your Gemini settings.",
-      "date_type": "published"
-    },
-    {
-      "id": "7b93b8c0d8e313e111f1",
-      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-20T18:22:54Z",
-      "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
-      "date_type": "published"
-    },
-    {
-      "id": "5e09c3ded611dfaae191",
-      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-20T17:40:20Z",
-      "summary": "Meta argues nobody “decided” to pirate books to train AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "509f48468ef3f724c455",
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-20T12:33:13Z",
-      "summary": "Meta is suspending the sharing feature while it investigates its privacy.",
-      "date_type": "published"
-    },
-    {
       "id": "cb0bf0e1617ea81085ee",
       "title": "Voxtral 3",
       "url": "https://mistral.ai/news/voxtral-3/",
@@ -3809,7 +3930,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：306",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：309",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3836,17 +3957,6 @@
       "date_type": "published"
     },
     {
-      "id": "c2b4b68d7e0027f0e436",
-      "title": "MPS in PyTorch 2.15",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "1cfb6291fa158d05a5ba",
       "title": "OpenAI acquires Orchestra Bio",
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
@@ -3858,51 +3968,6 @@
       "date_type": "published"
     },
     {
-      "id": "21dc8fc69ccc990a68e3",
-      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-19T20:21:53Z",
-      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-      "date_type": "published"
-    },
-    {
-      "id": "820876c7f3cb0963dddc",
-      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-19T18:20:00Z",
-      "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-      "date_type": "published"
-    },
-    {
-      "id": "7613bbebfcfc0377de3b",
-      "title": "Patch release v5.20.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-19T17:45:37Z",
-      "summary": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a580af71aff0a590e766",
-      "title": "新模型：gradium/phonon-31m-en",
-      "url": "https://huggingface.co/gradium/phonon-31m-en",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-19T12:02:53Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "1dbe22633003a2af4fdd",
       "title": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
@@ -3912,42 +3977,6 @@
       "published_at": "2026-10-19T12:00:00Z",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "date_type": "published"
-    },
-    {
-      "id": "90d2b47abb68bf5f438a",
-      "title": "新模型：XHToken/Spark-X2.6-4B-GGUF",
-      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-19T09:49:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：213",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "37ea901da6ec4d672058",
-      "title": "新模型：XHToken/Spark-X2.6-4B",
-      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-19T03:19:51Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：839",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "2efa5f1b75d1adcbb5f3",
-      "title": "新模型：lodestones/Kromoss",
-      "url": "https://huggingface.co/lodestones/Kromoss",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-19T01:34:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：267",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "9732b2763df5a67ab945",
@@ -4406,7 +4435,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 14,
+      "count": 15,
       "message": "正常"
     },
     {

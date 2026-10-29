@@ -1,11 +1,143 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-29T07:10:40Z",
-  "last_success_at": "2026-10-29T07:10:40Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-10-29T14:25:23Z",
+  "last_success_at": "2026-10-29T14:25:23Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "128755116b8b9c05fe32",
+      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-10-29T14:16:58Z",
+      "summary": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e508e29ae812fe586e8d",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-29T13:37:07Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "130656092a266855c3aa",
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T13:30:00Z",
+      "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the bus…",
+      "date_type": "published"
+    },
+    {
+      "id": "3eb958348088c8d06736",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T13:00:00Z",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "date_type": "published"
+    },
+    {
+      "id": "bf2d988c5bee76515aec",
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T13:00:00Z",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "date_type": "published"
+    },
+    {
+      "id": "0603acd173548429c783",
+      "title": "b11982",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11982",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T12:20:22Z",
+      "summary": "hexagon: support for UPSCALE op ( #31331 ) hex-upscale: basic upscale ops (not fully vectorized) hex-upscale: optimize nearest 2x, 4x and bilinear 4x hex-upscale: add support for non-contig rows and dims collapsing hex-upscale: use vgather instead of scalar staging hex-upscale: …",
+      "date_type": "updated"
+    },
+    {
+      "id": "bd03e4a483646b8532a8",
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "Mistral AI",
+      "source_id": "mistral",
+      "category": "official",
+      "published_at": "2026-10-29T12:00:07Z",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "date_type": "published"
+    },
+    {
+      "id": "d62a8f09dced3dd91988",
+      "title": "AI has come for Arizona’s water",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T10:00:04Z",
+      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the…",
+      "date_type": "published"
+    },
+    {
+      "id": "bf42268542540e5c5755",
+      "title": "Patch release v5.21.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-10-29T08:35:02Z",
+      "summary": "Patch release v5.21.1 ** Fix rope_scaling setter for configs that assign it during init ( #50080 ) We broke remote code loading in vllm, this fixes it sorry everyone!",
+      "date_type": "updated"
+    },
+    {
+      "id": "6dca85f696cdb99b504d",
+      "title": "b11981",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11981",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T08:15:57Z",
+      "summary": "hexagon: improve DDR bw utilization in transposed CONCAT ( #31277 ) hex-concat: double row block size for transposed CONCAT hex-concat: double buffer scratchpads hex-concat: chunked src1 rows in transposed concat hex-concat: pad src1 VTCM stride to spread gather lanes hex-vgathe…",
+      "date_type": "updated"
+    },
+    {
+      "id": "250eb8ebad63e92c8005",
+      "title": "b11983",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11983",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T08:09:51Z",
+      "summary": "ggml-metal : fix unary kernels compile on older Metal toolchains ( #31 …",
+      "date_type": "updated"
+    },
+    {
+      "id": "3b6828e3e93cf644113d",
+      "title": "b11980",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T07:14:26Z",
+      "summary": "[SYCL] add DPAS flash attention kernel for quantized KV cache ( #31125 ) sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or conver…",
+      "date_type": "updated"
+    },
     {
       "id": "dd04e48f1b3ea63215de",
       "title": "b11979",
@@ -15,17 +147,6 @@
       "category": "opensource",
       "published_at": "2026-10-29T06:48:48Z",
       "summary": "sycl : vectorize reordered-layout dequantization stores (Q4_0, K-quants, IQ3, MXFP4) ( #30976 ) sycl : widen reordered q4_0 dequantization stores The reordered-layout Q4_0 conversion kernel processed one qs byte per work-item with two scalar stores, strided 16 elements apart. Gi…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3b6828e3e93cf644113d",
-      "title": "b11980: [SYCL] add DPAS flash attention kernel for quantized KV cache (#31125)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T06:01:21Z",
-      "summary": "sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or converting the whole cache to f16 per call. Q.K uses s8 x s4 and s8 x s8 DPAS o…",
       "date_type": "updated"
     },
     {
@@ -412,6 +533,28 @@
       "published_at": "2026-10-29T00:21:05Z",
       "summary": "ggml-cpu: add SVE implementation of ggml_gemv_q8_0_4x8_q8_0 ( #30585 )",
       "date_type": "updated"
+    },
+    {
+      "id": "b6b30743068c26272d89",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-29T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "6394645bd5105adc5435",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-29T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
     },
     {
       "id": "3b64f2126ca310fc1aab",
@@ -3006,7 +3149,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：349",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：364",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3205,7 +3348,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：249",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3305,7 +3448,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T03:46:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：111",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：125",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3317,7 +3460,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：742",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：752",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3527,7 +3670,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T10:38:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：134",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3550,7 +3693,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：455",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：462",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3574,17 +3717,6 @@
       "category": "industry",
       "published_at": "2026-10-23T04:00:00Z",
       "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "date_type": "published"
-    },
-    {
-      "id": "fee5d6bca690475f3483",
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T00:45:37Z",
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
       "date_type": "published"
     },
     {
@@ -3632,50 +3764,6 @@
       "date_type": "updated"
     },
     {
-      "id": "51888f116f5b083740bc",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-22T22:24:34Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "0e6b7b9249b2f7561233",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T22:08:24Z",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "date_type": "published"
-    },
-    {
-      "id": "5f1dd60d45c3c1d2cff1",
-      "title": "This design software reimagines everyday objects as self-aware devices",
-      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-22T20:45:00Z",
-      "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-      "date_type": "published"
-    },
-    {
-      "id": "264af0525447e45c75f4",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T19:07:09Z",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "date_type": "published"
-    },
-    {
       "id": "891b7e0bbf66f86d27b7",
       "title": "Build more responsive apps with the Decisions API",
       "url": "https://openai.com/index/decisions-api",
@@ -3685,17 +3773,6 @@
       "published_at": "2026-10-22T19:00:00Z",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "date_type": "published"
-    },
-    {
-      "id": "1b490a05d592c0ac9dd8",
-      "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-22T18:38:27Z",
-      "summary": "flint: fix replies with thinking disabled Close the thinking section when think:false so Flint answers directly. Default and think:true prompts are unchanged. update template",
-      "date_type": "updated"
     },
     {
       "id": "301925b8adfcebab105a",
@@ -3709,29 +3786,6 @@
       "date_type": "published"
     },
     {
-      "id": "0e5fad3ca5f8a881acf7",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-22T07:51:31Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "535d66fdd9eb2f0b73f6",
-      "title": "新模型：tencent/Hy-SimulMT-30B-A3B-FP8",
-      "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-22T07:29:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：427",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "6400feb681472530a689",
       "title": "What FDE means at OpenAI",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
@@ -3741,29 +3795,6 @@
       "published_at": "2026-10-22T06:00:00Z",
       "summary": "What forward deployed engineering means at OpenAI",
       "date_type": "published"
-    },
-    {
-      "id": "96ce7073bf6cd6e5a30e",
-      "title": "新模型：orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
-      "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：318",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "8f6bec0a27923dd29295",
-      "title": "v0.40.9-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-22T00:13:25Z",
-      "summary": "llama.cpp update ( #19194 )",
-      "date_type": "updated"
     },
     {
       "id": "eda525050cea8fce4b13",
@@ -3777,17 +3808,6 @@
       "date_type": "published"
     },
     {
-      "id": "bb132bf741e1159b4d9c",
-      "title": "v0.40.8",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-21T21:46:35Z",
-      "summary": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context windo…",
-      "date_type": "updated"
-    },
-    {
       "id": "3f1a11956436b1673800",
       "title": "Broad access through consistent standards",
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
@@ -3797,17 +3817,6 @@
       "published_at": "2026-10-21T21:00:00Z",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "date_type": "published"
-    },
-    {
-      "id": "d55387b1b29d2e7bff28",
-      "title": "v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-21T20:12:06Z",
-      "summary": "We were still using a pre-release, and the download site is flaky, so lets get current on the latest CUDA Toolkit for WoA support.",
-      "date_type": "updated"
     },
     {
       "id": "39cad894cdd240fbe2db",
@@ -4402,17 +4411,6 @@
       "published_at": "2026-09-14T19:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "ac6fab4ebd9f6bc88d56",
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-14T16:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4430,9 +4428,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 15,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4449,7 +4447,7 @@
       "category": "official",
       "url": "https://mistral.ai/news/rss",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "message": "正常"
     },
     {
@@ -4521,7 +4519,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 24,
+      "count": 25,
       "message": "正常"
     },
     {
@@ -4539,7 +4537,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 6,
+      "count": 8,
       "message": "正常"
     },
     {

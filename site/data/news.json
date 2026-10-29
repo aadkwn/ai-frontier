@@ -1,11 +1,198 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-29T14:25:23Z",
-  "last_success_at": "2026-10-29T14:25:23Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-10-29T20:21:01Z",
+  "last_success_at": "2026-10-29T20:21:01Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "123909754bc3a61b0023",
+      "title": "b11986",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T20:19:14Z",
+      "summary": "opencl: initial support for iq2 ( #31267 ) opencl: add iq2_s AOS mv opencl: add iq2_s SOA mv and tiled mm opencl: add iq2_s noshuffle gemm/gemv for adreno opencl: add iq2_s dp4a for adreno opencl: optimize iq2_s adreno decode and narrow batches Co-authored-by: Hongqiang Wang wan…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4a81ec2699fd48445f32",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T20:08:31Z",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "date_type": "published"
+    },
+    {
+      "id": "eb97518808c83f5e64fe",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T20:05:47Z",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "date_type": "published"
+    },
+    {
+      "id": "c64d19fa0032f9cea190",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T19:56:19Z",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "date_type": "published"
+    },
+    {
+      "id": "1584446fbcb194380932",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T19:14:36Z",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "date_type": "published"
+    },
+    {
+      "id": "85248bd11eaa5ccdfaf0",
+      "title": "Trump declares robot imports a national security threat",
+      "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-29T19:07:53Z",
+      "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+      "date_type": "published"
+    },
+    {
+      "id": "4aa6b4f10322be2ed130",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T18:45:31Z",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on …",
+      "date_type": "published"
+    },
+    {
+      "id": "20776e88d00f35028020",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T17:54:38Z",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "date_type": "published"
+    },
+    {
+      "id": "e772b09d20c0a3885d7d",
+      "title": "b11985",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T17:13:28Z",
+      "summary": "metal : faster MXFP4 mat-vec, full threadgroups for unary/binary/GLU ( #31075 ) metal : faster MXFP4 mat-vec kernel Decode the fp4 values with the fp16 bit trick instead of a threadgroup lookup table, and load the packed nibbles as aligned 32-bit words. The kernel no longer uses…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9349f418e7bc7ab45091",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-29T17:00:00Z",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "date_type": "published"
+    },
+    {
+      "id": "b138df71b1659a331df5",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T17:00:00Z",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "date_type": "published"
+    },
+    {
+      "id": "8b38a3a44bca7fc78fa4",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T16:42:32Z",
+      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+      "date_type": "published"
+    },
+    {
+      "id": "070a8640133333c98e2d",
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-29T16:24:55Z",
+      "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+      "date_type": "published"
+    },
+    {
+      "id": "8dc21525d02f2a412389",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T16:21:00Z",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "date_type": "published"
+    },
+    {
+      "id": "5f992c32f5756cf3afc3",
+      "title": "Microsoft’s AI future has fewer jobs",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T16:00:00Z",
+      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to aro…",
+      "date_type": "published"
+    },
+    {
+      "id": "8d448df3e470faabd24c",
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T14:39:37Z",
+      "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredien…",
+      "date_type": "published"
+    },
+    {
+      "id": "bc01622ffa1cd4de3b05",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T14:35:26Z",
+      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "date_type": "published"
+    },
     {
       "id": "128755116b8b9c05fe32",
       "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
@@ -16,6 +203,17 @@
       "published_at": "2026-10-29T14:16:58Z",
       "summary": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained…",
       "date_type": "updated"
+    },
+    {
+      "id": "3a644431de131a7405e5",
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-29T14:00:00Z",
+      "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it co…",
+      "date_type": "published"
     },
     {
       "id": "e508e29ae812fe586e8d",
@@ -47,7 +245,18 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-10-29T13:00:00Z",
-      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "f303d11137ac0122eabd",
+      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T13:00:00Z",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
       "date_type": "published"
     },
     {
@@ -95,6 +304,17 @@
       "date_type": "published"
     },
     {
+      "id": "0f01adb2acab0a67ba71",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-29T09:00:00Z",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "date_type": "published"
+    },
+    {
       "id": "bf42268542540e5c5755",
       "title": "Patch release v5.21.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
@@ -114,6 +334,17 @@
       "category": "opensource",
       "published_at": "2026-10-29T08:15:57Z",
       "summary": "hexagon: improve DDR bw utilization in transposed CONCAT ( #31277 ) hex-concat: double row block size for transposed CONCAT hex-concat: double buffer scratchpads hex-concat: chunked src1 rows in transposed concat hex-concat: pad src1 VTCM stride to spread gather lanes hex-vgathe…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3e1de06662103e34e207",
+      "title": "b11984: tests : remove duplicate FA test cases added in #31125 (#31357)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11984",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T08:10:25Z",
+      "summary": "Requested in the #31125 review. The cases duplicate coverage that is already in the file and add CI time. Test-only, nothing changes in the kernel, the docs or the CMake option. Assisted-by: Claude",
       "date_type": "updated"
     },
     {
@@ -137,6 +368,17 @@
       "published_at": "2026-10-29T07:14:26Z",
       "summary": "[SYCL] add DPAS flash attention kernel for quantized KV cache ( #31125 ) sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or conver…",
       "date_type": "updated"
+    },
+    {
+      "id": "d948735545c20cf30721",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-29T07:00:00Z",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "date_type": "published"
     },
     {
       "id": "dd04e48f1b3ea63215de",
@@ -533,6 +775,17 @@
       "published_at": "2026-10-29T00:21:05Z",
       "summary": "ggml-cpu: add SVE implementation of ggml_gemv_q8_0_4x8_q8_0 ( #30585 )",
       "date_type": "updated"
+    },
+    {
+      "id": "718617961cab3abcc8e8",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-29T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
     },
     {
       "id": "b6b30743068c26272d89",
@@ -3149,7 +3402,19 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：364",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：374",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
+      "id": "54830852e56d08e6bd2c",
+      "title": "新模型：maya-research/maya2-native",
+      "url": "https://huggingface.co/maya-research/maya2-native",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-26T02:58:10Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3348,7 +3613,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：272",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3430,17 +3695,6 @@
       "date_type": "published"
     },
     {
-      "id": "ba1e969f5ed16b52b119",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-24T14:00:00Z",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "date_type": "published"
-    },
-    {
       "id": "178c5814d60670d7f513",
       "title": "新模型：Diffuspace/Clover-35B-A3B-Preview",
       "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
@@ -3448,7 +3702,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T03:46:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：125",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3460,7 +3714,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：752",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：763",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3476,105 +3730,6 @@
       "date_type": "updated"
     },
     {
-      "id": "dfe5fb536ca517ba2b1e",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T23:05:49Z",
-      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "date_type": "published"
-    },
-    {
-      "id": "739797ca19c060e4a9ba",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T21:59:19Z",
-      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "date_type": "published"
-    },
-    {
-      "id": "a6d2d5fdb7657f8a34ec",
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T21:11:07Z",
-      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk …",
-      "date_type": "published"
-    },
-    {
-      "id": "303db39c14fcfc30a17e",
-      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-23T21:00:00Z",
-      "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
-      "date_type": "published"
-    },
-    {
-      "id": "7be3008f9053e2beb69c",
-      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-23T20:19:55Z",
-      "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-      "date_type": "published"
-    },
-    {
-      "id": "6b7380afc5963ae9364a",
-      "title": "Reinforcing the value of human understanding at MIT",
-      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-23T19:35:00Z",
-      "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "date_type": "published"
-    },
-    {
-      "id": "60b56cc3037dbda3a951",
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T19:32:39Z",
-      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared …",
-      "date_type": "published"
-    },
-    {
-      "id": "6f6451b374ed58f7d87c",
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T19:06:23Z",
-      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside tra…",
-      "date_type": "published"
-    },
-    {
-      "id": "1e9b03cbb67bfe99c641",
-      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-23T17:18:31Z",
-      "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
-      "date_type": "published"
-    },
-    {
       "id": "8c177b37ece0d145f22f",
       "title": "v0.40.10",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
@@ -3586,17 +3741,6 @@
       "date_type": "updated"
     },
     {
-      "id": "1bb40ddffcb6c2abe17f",
-      "title": "The iPhone Duo should have been an iPad",
-      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T17:00:18Z",
-      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David …",
-      "date_type": "published"
-    },
-    {
       "id": "ee4c22366ef7e7abd786",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -3605,17 +3749,6 @@
       "category": "official",
       "published_at": "2026-10-23T17:00:00Z",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "date_type": "published"
-    },
-    {
-      "id": "a9526976eeebfbfe11f7",
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T16:52:55Z",
-      "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or …",
       "date_type": "published"
     },
     {
@@ -3630,51 +3763,6 @@
       "date_type": "published"
     },
     {
-      "id": "7aa6acbd35f79e1aa638",
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T14:47:41Z",
-      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms w…",
-      "date_type": "published"
-    },
-    {
-      "id": "894d6b5c56fd7cecb49a",
-      "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-23T14:12:11Z",
-      "summary": "renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before its tool calls rather than after the tool responses. Models opt in with RENDERER gemma4-nemotron; gemma4 auto-detection is unchanged. Adds the corresponding chat template…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4958c298c83762219085",
-      "title": "Retro gaming is being overrun with AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-23T12:00:00Z",
-      "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible fre…",
-      "date_type": "published"
-    },
-    {
-      "id": "0a3ef47953bb954abeab",
-      "title": "新模型：LiconStudio/Minimax-H3-VBVR",
-      "url": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-23T10:38:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "f8c156dba7886826388b",
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
@@ -3683,40 +3771,6 @@
       "category": "official",
       "published_at": "2026-10-23T10:00:00Z",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "date_type": "published"
-    },
-    {
-      "id": "0337f1c85ce865c7f648",
-      "title": "新模型：ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：462",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "000b68dcd1349dc11835",
-      "title": "Q&A: How AI came to model the “messy” human mind",
-      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-23T04:00:00Z",
-      "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
-      "date_type": "published"
-    },
-    {
-      "id": "cf51e24baa15d2e11b32",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-23T04:00:00Z",
-      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
       "date_type": "published"
     },
     {
@@ -3740,28 +3794,6 @@
       "published_at": "2026-10-23T00:00:00Z",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "date_type": "published"
-    },
-    {
-      "id": "2b3f616d26d343fed778",
-      "title": "Does Your Model Run on AWS Trainium? Look It Up",
-      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-23T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "1c948c95b065977a6cda",
-      "title": "v0.40.9-rc3: Support GA Gradium Phonon checkpoints (#19227)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-22T22:51:43Z",
-      "summary": "Replace the prerelease checkpoint path with Gradium's GA format, including default-voice import and speech conditioning. Set the 0.40.9 minimum, update the speech docs, and test import, inference setup, and rejection of the old checkpoint.",
-      "date_type": "updated"
     },
     {
       "id": "891b7e0bbf66f86d27b7",
@@ -4378,39 +4410,6 @@
       "published_at": "2026-09-15T16:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "50f1fa34d3c31e122438",
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-15T16:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "b21c5e1ffc812be885ba",
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-15T13:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "6666660dfd652924f82b",
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-14T19:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4428,9 +4427,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 15,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4438,7 +4437,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 16,
+      "count": 14,
       "message": "正常"
     },
     {
@@ -4519,7 +4518,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 25,
+      "count": 26,
       "message": "正常"
     },
     {

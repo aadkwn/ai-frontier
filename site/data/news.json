@@ -1,21 +1,131 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-28T21:08:38Z",
-  "last_success_at": "2026-10-28T21:08:38Z",
+  "last_attempt_at": "2026-10-29T01:01:00Z",
+  "last_success_at": "2026-10-29T01:01:00Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
     {
+      "id": "b3043ea3a927efa6381a",
+      "title": "b11974",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11974",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T00:21:05Z",
+      "summary": "ggml-cpu: add SVE implementation of ggml_gemv_q8_0_4x8_q8_0 ( #30585 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "002a48ec774cc7a0f7a7",
+      "title": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-28T23:48:33Z",
+      "summary": "What's Changed llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344 llama.cpp: version bump b11963 by @dhiltgen in #19360 Full Changelog : v0.40.12...v0.40.13-rc0",
+      "date_type": "updated"
+    },
+    {
+      "id": "3b64f2126ca310fc1aab",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T23:05:39Z",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast …",
+      "date_type": "published"
+    },
+    {
+      "id": "f9fdd453543028293b64",
+      "title": "b11972",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T22:53:53Z",
+      "summary": "common, mtmd: bound control vector layer indices and M-RoPE position loops ( #31336 ) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are c…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4188f17ee65e78dfbd27",
+      "title": "b11971",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11971",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-28T22:28:26Z",
+      "summary": "opencl: add tiled q4_k GEMM for adreno ( #30412 ) opencl: run the tiled q4_K lm_head through a tiled GEMM at batch > 1 opencl: split tiled dp4a q4_k gemm into its own file and test for dp4a Assisted-by: Codex Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app …",
+      "date_type": "updated"
+    },
+    {
+      "id": "0c8f9ce2d60c8e0dbc8d",
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T21:58:32Z",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "date_type": "published"
+    },
+    {
+      "id": "e46d29680afeffb35eba",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T21:48:37Z",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "date_type": "published"
+    },
+    {
+      "id": "020314ea17c3bf3d5e5d",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T21:34:30Z",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "date_type": "published"
+    },
+    {
+      "id": "cf0b445a13fca74cd4d1",
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-28T21:34:04Z",
+      "summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, whic…",
+      "date_type": "published"
+    },
+    {
       "id": "1e7cf4e0713c1d74c104",
-      "title": "b11970: hexagon: add conv2d support (#30995)",
+      "title": "b11970",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970",
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-10-28T20:43:40Z",
-      "summary": "hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kernel params for all paths hex-conv2d: sca…",
+      "published_at": "2026-10-28T21:33:05Z",
+      "summary": "hexagon: add conv2d support ( #30995 ) hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kern…",
       "date_type": "updated"
+    },
+    {
+      "id": "f32d7efe87a5d30e33f2",
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-28T21:25:30Z",
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "date_type": "published"
     },
     {
       "id": "7b5653451a244c2d34ef",
@@ -27,17 +137,6 @@
       "published_at": "2026-10-28T20:03:00Z",
       "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Cla…",
       "date_type": "published"
-    },
-    {
-      "id": "5a94e92ea1729a3634bb",
-      "title": "v0.40.13",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-28T19:55:04Z",
-      "summary": "What's Changed llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in #19344 llama.cpp: version bump b11963 by @dhiltgen in #19360 Full Changelog : v0.40.12...v0.40.13-rc0",
-      "date_type": "updated"
     },
     {
       "id": "3b6696291dbcf94fbfc4",
@@ -115,6 +214,17 @@
       "published_at": "2026-10-28T17:46:32Z",
       "summary": "But the AI responses get more forthright when asked outside the US.",
       "date_type": "published"
+    },
+    {
+      "id": "5a94e92ea1729a3634bb",
+      "title": "v0.40.13-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-10-28T17:37:56Z",
+      "summary": "llama.cpp: version bump b11963 ( #19360 )",
+      "date_type": "updated"
     },
     {
       "id": "b006d38b52ac3fe65fe0",
@@ -2830,7 +2940,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：317",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：324",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3029,7 +3139,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：222",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：227",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3129,7 +3239,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：719",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：722",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3362,7 +3472,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-23T09:43:05Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：431",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：437",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3499,39 +3609,6 @@
       "date_type": "published"
     },
     {
-      "id": "9053b1f287d8b411ac91",
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T19:00:00Z",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "date_type": "published"
-    },
-    {
-      "id": "1fd5dc2d57e9039460a2",
-      "title": "Canva releases its first image generation model",
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T19:00:00Z",
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "date_type": "published"
-    },
-    {
-      "id": "5595c812cd34051e7101",
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T18:43:53Z",
-      "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
-      "date_type": "published"
-    },
-    {
       "id": "1b490a05d592c0ac9dd8",
       "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
@@ -3541,39 +3618,6 @@
       "published_at": "2026-10-22T18:38:27Z",
       "summary": "flint: fix replies with thinking disabled Close the thinking section when think:false so Flint answers directly. Default and think:true prompts are unchanged. update template",
       "date_type": "updated"
-    },
-    {
-      "id": "6af0fd42e696c932c3bb",
-      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T16:47:17Z",
-      "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-      "date_type": "published"
-    },
-    {
-      "id": "9fdd22fa30fbdf82a9dd",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-22T16:00:00Z",
-      "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "date_type": "published"
-    },
-    {
-      "id": "2ca8afa9f4eaa54bb6ba",
-      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-22T15:25:02Z",
-      "summary": "Hackers were already probing the bug before defenders were told it existed.",
-      "date_type": "published"
     },
     {
       "id": "301925b8adfcebab105a",
@@ -3605,7 +3649,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T07:29:37Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：320",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：358",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3628,7 +3672,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-22T04:06:52Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：301",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：305",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3739,7 +3783,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T15:51:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：245",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3762,7 +3806,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T14:20:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1149",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1155",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3807,7 +3851,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-21T10:21:04Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：245",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：247",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3854,18 +3898,6 @@
       "published_at": "2026-10-21T04:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "10a77ad2f6863b296c4e",
-      "title": "新模型：KRAFTON/Raon-1-mini-preview",
-      "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-21T00:14:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "3fe372fb2e8166f0e814",
@@ -3920,40 +3952,6 @@
       "category": "official",
       "published_at": "2026-10-20T07:00:00Z",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "date_type": "published"
-    },
-    {
-      "id": "fdaaa5a06528c62afe09",
-      "title": "新模型：unsloth/flint-GGUF",
-      "url": "https://huggingface.co/unsloth/flint-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-20T03:26:14Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：309",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "39e60f901a735303e0c0",
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "41fb25a47d12d204a957",
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {

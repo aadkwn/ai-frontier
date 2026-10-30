@@ -1,11 +1,44 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-29T20:21:01Z",
-  "last_success_at": "2026-10-29T20:21:01Z",
+  "last_attempt_at": "2026-10-30T01:05:41Z",
+  "last_success_at": "2026-10-30T01:05:41Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "ec5258f1002411eb7a7a",
+      "title": "b11997",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T00:54:56Z",
+      "summary": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISAB…",
+      "date_type": "updated"
+    },
+    {
+      "id": "772e2e8e8ca4a19f2546",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-29T23:42:22Z",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "date_type": "published"
+    },
+    {
+      "id": "4a32d2fe895871688c40",
+      "title": "b11988",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T20:57:09Z",
+      "summary": "model : Support Limite 1B - Violetto ( #29433 ) gguf-py : add Limite arch Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org convert : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org llama : …",
+      "date_type": "updated"
+    },
     {
       "id": "123909754bc3a61b0023",
       "title": "b11986",
@@ -172,6 +205,17 @@
       "date_type": "published"
     },
     {
+      "id": "d9382542407a53db42bd",
+      "title": "b11998: model: mistral le chonk (#31376)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T14:43:33Z",
+      "summary": "llama: extend DSA and sdpark to new model fix ci",
+      "date_type": "updated"
+    },
+    {
       "id": "8d448df3e470faabd24c",
       "title": "The NYT Cooking app is testing AI recipe modifications",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
@@ -304,6 +348,17 @@
       "date_type": "published"
     },
     {
+      "id": "684555a3270c71ead40b",
+      "title": "b11996",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11996",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T09:28:03Z",
+      "summary": "server : restore the spec checkpoint for drafts longer than n_rs_seq …",
+      "date_type": "updated"
+    },
+    {
       "id": "0f01adb2acab0a67ba71",
       "title": "How we detect frontier model misalignment",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
@@ -334,6 +389,17 @@
       "category": "opensource",
       "published_at": "2026-10-29T08:15:57Z",
       "summary": "hexagon: improve DDR bw utilization in transposed CONCAT ( #31277 ) hex-concat: double row block size for transposed CONCAT hex-concat: double buffer scratchpads hex-concat: chunked src1 rows in transposed concat hex-concat: pad src1 VTCM stride to spread gather lanes hex-vgathe…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e6f05dec0997e5fdc23e",
+      "title": "b11989: HIP/CUDA: enable sparse attn on CDNA (#31259)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11989",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-29T08:14:11Z",
+      "summary": "HIP/CUDA: enable sparse attn on CDNA Use __ballot for __ballot_sync on old ROCm versions Ignore new large head fattn mma variant",
       "date_type": "updated"
     },
     {
@@ -3402,7 +3468,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：374",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：382",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3414,7 +3480,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T02:58:10Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：117",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3613,7 +3679,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-25T05:43:34Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：272",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：280",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3684,63 +3750,6 @@
       "date_type": "published"
     },
     {
-      "id": "e7a80d87e8606cee69a8",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-24T15:00:00Z",
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "date_type": "published"
-    },
-    {
-      "id": "178c5814d60670d7f513",
-      "title": "新模型：Diffuspace/Clover-35B-A3B-Preview",
-      "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-24T03:46:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "653d82f9a29531960373",
-      "title": "新模型：Nanbeige/Nanbeige4.3-33B",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-24T02:49:18Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：763",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "bf6c1f5aeba5312508e1",
-      "title": "v0.40.11-rc0: voice: add voice catalog for Phonon (#19242)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-23T23:15:08Z",
-      "summary": "mlxrunner: import and list Phonon catalog voices docs: document Phonon voices",
-      "date_type": "updated"
-    },
-    {
-      "id": "8c177b37ece0d145f22f",
-      "title": "v0.40.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-23T17:17:19Z",
-      "summary": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollam…",
-      "date_type": "updated"
-    },
-    {
       "id": "ee4c22366ef7e7abd786",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -3749,17 +3758,6 @@
       "category": "official",
       "published_at": "2026-10-23T17:00:00Z",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "date_type": "published"
-    },
-    {
-      "id": "5d794c3788a3a4be0d42",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-23T16:15:50Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -4518,7 +4516,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 26,
+      "count": 25,
       "message": "正常"
     },
     {

@@ -1,11 +1,220 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-30T07:12:37Z",
-  "last_success_at": "2026-10-30T07:12:37Z",
+  "last_attempt_at": "2026-10-30T14:16:14Z",
+  "last_success_at": "2026-10-30T14:16:14Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "6d508a898eb83dcd9a25",
+      "title": "b12008",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12008",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T14:10:18Z",
+      "summary": "gemma3n, gemma4 : create token_embd before the tied output ( #31394 ) The duplicated output looks up token_embd in its buffer context, so token_embd must exist first. With the old order a load where input and output share a buffer type (CPU-only, -ngl 0) held the table twice: ge…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e54e2cc79a7ae6cbeb92",
+      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+      "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T14:00:00Z",
+      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up t…",
+      "date_type": "published"
+    },
+    {
+      "id": "baf2e8680ec92ea7a5c1",
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T13:54:25Z",
+      "summary": "DoorDash said that it is open to working with third-party agent makers",
+      "date_type": "published"
+    },
+    {
+      "id": "b15bec59cff16399bd34",
+      "title": "b12007",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T13:54:18Z",
+      "summary": "kv-cache : keep rotation constants on the GPU ( #31073 ) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support…",
+      "date_type": "updated"
+    },
+    {
+      "id": "57bd8cae501a4c7803bc",
+      "title": "Silicon Valley wants you to invest in miracles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T13:11:05Z",
+      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring fo…",
+      "date_type": "published"
+    },
+    {
+      "id": "1c953c6f303dffb252a4",
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T13:01:14Z",
+      "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the co…",
+      "date_type": "published"
+    },
+    {
+      "id": "6edb7f80f01baf9f1bee",
+      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T13:00:00Z",
+      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+      "date_type": "published"
+    },
+    {
+      "id": "93ad0842fdd46a0d77b0",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T13:00:00Z",
+      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "date_type": "published"
+    },
+    {
+      "id": "9387a338862cdb9ec5fa",
+      "title": "b12005",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12005",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T12:48:32Z",
+      "summary": "opencl: add initial q2_0 support ( #31340 ) opencl: add q2_0 AOS mv Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 SOA mv and tiled mm Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 noshuffle gemm/ge…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e09f788c41d9c0e95bca",
+      "title": "b12004",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T12:20:30Z",
+      "summary": "common : end reasoning budget forcing on an end tag from the prompt ( #31374 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61747133 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "99f7c3be6b4c472b0c31",
+      "title": "b12003",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12003",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T11:49:50Z",
+      "summary": "sycl: FLASH_ATTN_EXT failures ( #30761 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61738062 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1683f2ccf0f83b826782",
+      "title": "b12002",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T11:04:04Z",
+      "summary": "ggml : add batched tensor copy API ( #30881 ) ggml : add generic batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : use batched tensor copy API in context io Assisted-by: pi:llama.cpp/ggml-org/DeepSe…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7f7f1671728237403366",
+      "title": "Maine’s data center revolt will decide who controls the Senate",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T11:00:00Z",
+      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brus…",
+      "date_type": "published"
+    },
+    {
+      "id": "c4e7f4822788cff1eac8",
+      "title": "b12010: cmake : embed an app manifest in all Windows exes (#31329)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12010",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T09:56:53Z",
+      "summary": "cmake : embed an app manifest in all Windows exes Signed-off-by: Adrien Gallouët angt@huggingface.co Remove LLAMA_WIN_APP_CMAKE Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co",
+      "date_type": "updated"
+    },
+    {
+      "id": "75a20b079e3b9559a8e8",
+      "title": "Patch release v5.22.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-10-30T09:36:03Z",
+      "summary": "Patch release v5.22.1 We just had to fix the documentation! ** [Fix] Remove WIP doc for Ml4 ( #50124 ) from @remi-or",
+      "date_type": "updated"
+    },
+    {
+      "id": "98f99dc36b67ac3fa80b",
+      "title": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-10-30T09:10:43Z",
+      "summary": "Signed-off-by: Micah Williamson micah.williamson@amd.com (cherry picked from commit 6d01893 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "c096782638d443ac76bd",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T09:00:00Z",
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, i…",
+      "date_type": "published"
+    },
+    {
+      "id": "8f6170be809e1dfd3ccf",
+      "title": "b12006: memory: refuse rollbacks past the snapshots of the last ubatch (#31368)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12006",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T08:11:58Z",
+      "summary": "memory: refuse rollbacks past the snapshots of the last ubatch The recurrent memory and the DSV4 cache accepted any rollback up to n_rs_seq, whether or not the last ubatch wrote that snapshot. Each now records the deepest rollback its last ubatch guarantees and seq_rm refuses an…",
+      "date_type": "updated"
+    },
+    {
+      "id": "53fd94a06da8347a5803",
+      "title": "b12001",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12001",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T07:45:34Z",
+      "summary": "ROCm/HIP: add RDNA4_M family for gfx1170/gfx1171 ( #31373 ) gfx117X is more like RDNA4, with 128b WMMA. But they're not identical. Adjust the defines accordingly to have a new RDNA4_M and use it where it makes sense. Assisted-by: Codex Assisted-by: GitHub Copilot Co-authored-by:…",
+      "date_type": "updated"
+    },
     {
       "id": "1a415dd80bec84ddb128",
       "title": "b12000",
@@ -1041,17 +1250,6 @@
       "date_type": "updated"
     },
     {
-      "id": "e09f788c41d9c0e95bca",
-      "title": "b12004",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T00:27:50Z",
-      "summary": "common : end reasoning budget forcing on an end tag from the prompt (…",
-      "date_type": "updated"
-    },
-    {
       "id": "772e2e8e8ca4a19f2546",
       "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
       "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
@@ -1160,17 +1358,6 @@
       "published_at": "2026-10-29T17:54:38Z",
       "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
       "date_type": "published"
-    },
-    {
-      "id": "53fd94a06da8347a5803",
-      "title": "b12001: ROCm/HIP: add RDNA4_M family for gfx1170/gfx1171 (#31373)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12001",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T17:23:29Z",
-      "summary": "gfx117X is more like RDNA4, with 128b WMMA. But they're not identical. Adjust the defines accordingly to have a new RDNA4_M and use it where it makes sense. Assisted-by: Codex Assisted-by: GitHub Copilot Co-authored-by: Mario Limonciello mario.limonciello@amd.com",
-      "date_type": "updated"
     },
     {
       "id": "e772b09d20c0a3885d7d",
@@ -3512,7 +3699,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：425",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：433",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3524,7 +3711,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-26T02:58:10Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：118",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：122",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3551,17 +3738,6 @@
       "date_type": "updated"
     },
     {
-      "id": "fe1be7ec8610d5b5d20c",
-      "title": "b11888",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11888",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T23:31:40Z",
-      "summary": "common, grammar: add recursive depth limit, make it a requirement ( #31153 ) common, grammar: add recursive depth limit, make it a requirement catch more recursive functions common : tidy up peg parser changes grammar : reject candidates in a loop, without a depth limit The dept…",
-      "date_type": "updated"
-    },
-    {
       "id": "08ec5c76056e031d898a",
       "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
       "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
@@ -3570,182 +3746,6 @@
       "category": "industry",
       "published_at": "2026-10-25T21:31:16Z",
       "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "date_type": "published"
-    },
-    {
-      "id": "544613920f06159137a0",
-      "title": "b11887",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11887",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T18:38:00Z",
-      "summary": "tests : adjust default threads for test-llama-context ( #31157 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59670438 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i…",
-      "date_type": "updated"
-    },
-    {
-      "id": "5947ec3b9f690fa4163d",
-      "title": "b11886",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11886",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T18:20:39Z",
-      "summary": "qwen: merge tensors on convert ( #31028 ) qwen: merge tensors on convert convert: use generator functions qwen4exp: remove conts and pre-scale Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59667111 macOS/iOS: macOS Apple Silicon (arm…",
-      "date_type": "updated"
-    },
-    {
-      "id": "173b2ddf9d58603a1734",
-      "title": "v0.40.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-25T18:06:57Z",
-      "summary": "Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon \" Hello from Ollama. \" d3 decision models d3 brings…",
-      "date_type": "updated"
-    },
-    {
-      "id": "85872e37c055e2fa7def",
-      "title": "b11884",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11884",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T17:59:22Z",
-      "summary": "llama: fix exhausting CPU and MEM caused by dry sequence breaker ( #31035 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59663486 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6c930facd5f312051a53",
-      "title": "b11883",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11883",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T17:29:37Z",
-      "summary": "llama-quant : fix 4D tensor quantization using ggml_nrows() and name-based expert detection ( #30820 ) llama-quant : fix quantizing 4D tensors nrows_total was ne[1]*ne[2], so for a 4D tensor only the first ne[2] slices were quantized and the rest of the rows were dropped. Use gg…",
-      "date_type": "updated"
-    },
-    {
-      "id": "930bbdaab8325f1ed16a",
-      "title": "b11882",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11882",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T17:08:52Z",
-      "summary": "grammar: limit recursion depth to prevent stack overflow ( #29495 ) ( #29755 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59655793 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9a814be9eb368823251c",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-25T16:57:32Z",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "date_type": "published"
-    },
-    {
-      "id": "190f51ace900a81058c8",
-      "title": "b11881",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T16:51:41Z",
-      "summary": "llama : respect no_alloc in all memory caches ( #31087 ) llama : respect no_alloc in memory caches Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e4c34a60fa6e9314307b",
-      "title": "b11880",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11880",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T16:34:26Z",
-      "summary": "tools : reject truncated GGUF tensor data in merge ( #31044 ) Co-authored-by: Shreya Agrawal shreyaagrawal@Shreyas-MacBook-Air.local Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59649636 macOS/iOS: macOS Apple Silicon (arm64) macOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "a18a7851efbde35c1b2a",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-25T14:10:00Z",
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "date_type": "published"
-    },
-    {
-      "id": "b411fbb2487aa2da4ef9",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-25T13:25:32Z",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, i…",
-      "date_type": "published"
-    },
-    {
-      "id": "ab1f7cff37722d46d5fd",
-      "title": "Google’s AI search changes upended online publishing",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-25T12:00:00Z",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digita…",
-      "date_type": "published"
-    },
-    {
-      "id": "36111d6bc6b4991f37ea",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-24T21:29:12Z",
-      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when thin…",
-      "date_type": "published"
-    },
-    {
-      "id": "d3798ec9a0ad0aebf7da",
-      "title": "Will AI expose the rickety infrastructure of the internet?",
-      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-24T20:15:33Z",
-      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
-      "date_type": "published"
-    },
-    {
-      "id": "43fa73ddaf377eb53f4d",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-24T19:00:00Z",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "date_type": "published"
-    },
-    {
-      "id": "c7aa9b7dfeaf83bd70a0",
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-24T18:32:21Z",
-      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified o…",
       "date_type": "published"
     },
     {
@@ -4434,7 +4434,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "message": "正常"
     },
     {
@@ -4533,7 +4533,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "message": "正常"
     },
     {

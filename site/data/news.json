@@ -1,11 +1,165 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-30T19:29:13Z",
-  "last_success_at": "2026-10-30T19:29:13Z",
+  "last_attempt_at": "2026-10-30T23:51:53Z",
+  "last_success_at": "2026-10-30T23:51:53Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "4413e75a33c5a4c92893",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T22:56:13Z",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "date_type": "published"
+    },
+    {
+      "id": "8edfa603fa5ede8d9b00",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T22:32:53Z",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 re…",
+      "date_type": "published"
+    },
+    {
+      "id": "d95f2af92ca0c125218f",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T21:54:34Z",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "date_type": "published"
+    },
+    {
+      "id": "f3e255de2b47ab3f1671",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T21:52:03Z",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "date_type": "published"
+    },
+    {
+      "id": "0e01c469a202efbe19b2",
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T21:41:54Z",
+      "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+      "date_type": "published"
+    },
+    {
+      "id": "5732896b70a3ac25d80a",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T21:26:59Z",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "date_type": "published"
+    },
+    {
+      "id": "820dfbe7b2668830f10a",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T21:17:40Z",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "date_type": "published"
+    },
+    {
+      "id": "b0d9b518e1b4ff65758e",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T21:09:54Z",
+      "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "date_type": "published"
+    },
+    {
+      "id": "05a1378ae455d54de0c6",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T20:48:43Z",
+      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on mat…",
+      "date_type": "published"
+    },
+    {
+      "id": "71902cabc13f295e80cd",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T20:40:13Z",
+      "summary": "People who love AI don't always love telling others they used it.",
+      "date_type": "published"
+    },
+    {
+      "id": "7a24eca35f77e86d873f",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T20:26:10Z",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI compan…",
+      "date_type": "published"
+    },
+    {
+      "id": "44509cf95f443e0d4a19",
+      "title": "b12017",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12017",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T20:23:45Z",
+      "summary": "rpc : delete fs_path_to_utf8() ( #31424 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61919870 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) …",
+      "date_type": "updated"
+    },
+    {
+      "id": "d42b8e56046bc19f14b3",
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-10-30T20:15:00Z",
+      "summary": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "date_type": "published"
+    },
+    {
+      "id": "1692dbfc7287ca8b688d",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T19:30:52Z",
+      "summary": "But it's still early days for the relatively new e-commerce use case.",
+      "date_type": "published"
+    },
     {
       "id": "3dbc47c31caae53214cc",
       "title": "Q&A: Hey AI, who should I vote for this year?",
@@ -1426,6 +1580,17 @@
       "date_type": "updated"
     },
     {
+      "id": "574dbaf7fc8731e40575",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-30T00:00:00Z",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "date_type": "published"
+    },
+    {
       "id": "772e2e8e8ca4a19f2546",
       "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
       "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
@@ -2489,7 +2654,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：130",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：145",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3220,17 +3385,6 @@
       "date_type": "published"
     },
     {
-      "id": "0ba745f0c4950a3a1946",
-      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T13:00:00Z",
-      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
-      "date_type": "published"
-    },
-    {
       "id": "e1a6c815842fc51802b5",
       "title": "b11928",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928",
@@ -3253,17 +3407,6 @@
       "date_type": "updated"
     },
     {
-      "id": "72e188139d8466867249",
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T11:00:00Z",
-      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
-      "date_type": "published"
-    },
-    {
       "id": "e0ae721a32ea3a299220",
       "title": "b11926",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926",
@@ -3273,17 +3416,6 @@
       "published_at": "2026-10-27T10:32:27Z",
       "summary": "glm5-next : QSA without kq_mask (+ DSA) ( #31009 ) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60323739 macOS/iOS: macOS Apple Silic…",
       "date_type": "updated"
-    },
-    {
-      "id": "10515f024c670e282247",
-      "title": "Data center backlash is uniting America",
-      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T10:00:00Z",
-      "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across t…",
-      "date_type": "published"
     },
     {
       "id": "1ce9c5a561d19543dbbd",
@@ -3363,28 +3495,6 @@
       "date_type": "published"
     },
     {
-      "id": "939d943fc8f0d3999bfa",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T02:00:00Z",
-      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-      "date_type": "published"
-    },
-    {
-      "id": "8af7b30500f9c04c48b1",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T01:12:21Z",
-      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-      "date_type": "published"
-    },
-    {
       "id": "c410254cd0aaab598566",
       "title": "b11913",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913",
@@ -3404,17 +3514,6 @@
       "category": "official",
       "published_at": "2026-10-27T00:00:00Z",
       "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "date_type": "published"
-    },
-    {
-      "id": "b555ce2afa55383d5d6c",
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T23:34:58Z",
-      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to hav…",
       "date_type": "published"
     },
     {
@@ -3448,17 +3547,6 @@
       "category": "official",
       "published_at": "2026-10-26T22:00:00Z",
       "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "date_type": "published"
-    },
-    {
-      "id": "092e8ceea2bd79fc970f",
-      "title": "Anthropic is burning gas to feed the AI boom",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T21:45:31Z",
-      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exch…",
       "date_type": "published"
     },
     {
@@ -3506,17 +3594,6 @@
       "date_type": "updated"
     },
     {
-      "id": "3806ea7442989e073ce1",
-      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-26T20:04:16Z",
-      "summary": "Included is the ability to limit which applications Siri can directly access.",
-      "date_type": "published"
-    },
-    {
       "id": "da08d56823ef39339614",
       "title": "b11906",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
@@ -3537,28 +3614,6 @@
       "published_at": "2026-10-26T19:12:18Z",
       "summary": "vulkan: rms norm optimization using subgroup reductions ( #29882 ) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarif…",
       "date_type": "updated"
-    },
-    {
-      "id": "a4c5f32431d10496f0f5",
-      "title": "At New York Climate Week 2026, MIT connects with a global network",
-      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-26T19:00:00Z",
-      "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
-      "date_type": "published"
-    },
-    {
-      "id": "1e663d1fa1b08d3e2a56",
-      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
-      "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-26T18:50:41Z",
-      "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
-      "date_type": "published"
     },
     {
       "id": "5e742d363152cad5a3c3",
@@ -3603,39 +3658,6 @@
       "published_at": "2026-10-26T17:31:03Z",
       "summary": "sycl : bound reorder temp memory to 32 MiB ( #31062 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60025946 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew…",
       "date_type": "updated"
-    },
-    {
-      "id": "c703d92e74636f36951a",
-      "title": "The RealReal won’t let AI agents hog designer clothing",
-      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T17:30:55Z",
-      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealR…",
-      "date_type": "published"
-    },
-    {
-      "id": "c492858dd6647ddc3ddb",
-      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
-      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-26T17:26:36Z",
-      "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
-      "date_type": "published"
-    },
-    {
-      "id": "fe6583a778a0b30ba7d2",
-      "title": "Five weird details from Anthropic’s IPO filing",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T17:10:23Z",
-      "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 30…",
-      "date_type": "published"
     },
     {
       "id": "b1d7eb2dedce5839f589",
@@ -3723,17 +3745,6 @@
       "category": "opensource",
       "published_at": "2026-10-26T11:40:55Z",
       "summary": "ggml-cpu : fix unused variables in arm arch ( #31180 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59889786 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b8d1597f4456030e665e",
-      "title": "b11897",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T11:00:46Z",
-      "summary": "tests : refactor test-llama-archs to not link internal libllama symbols ( #30880 ) test-llama-archs included src/llama-arch.h and src/llama-model-saver.h, which prevented building on Windows with shared libraries since the used symbols are not exported from the DLL. declare llam…",
       "date_type": "updated"
     },
     {
@@ -4395,17 +4406,6 @@
       "published_at": "2026-09-17T20:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "467dc9d436589458d553",
-      "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "category": "official",
-      "published_at": "2026-09-16T12:00:00Z",
-      "summary": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4478,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 29,
+      "count": 30,
       "message": "正常"
     },
     {

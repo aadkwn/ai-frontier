@@ -1,11 +1,154 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-30T14:16:14Z",
-  "last_success_at": "2026-10-30T14:16:14Z",
+  "last_attempt_at": "2026-10-30T19:29:13Z",
+  "last_success_at": "2026-10-30T19:29:13Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "3dbc47c31caae53214cc",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-10-30T19:00:00Z",
+      "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "date_type": "published"
+    },
+    {
+      "id": "b9ee8bb30716fa37b159",
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T18:21:38Z",
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku ab…",
+      "date_type": "published"
+    },
+    {
+      "id": "037154e824aaff256e14",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-10-30T17:57:24Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "4d0843b360d077cf4f8e",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T17:47:12Z",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "date_type": "published"
+    },
+    {
+      "id": "0371ff9250f932ad40ce",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T17:38:19Z",
+      "summary": "Low costs and offline security mean magnetic tape still has a job.",
+      "date_type": "published"
+    },
+    {
+      "id": "8789b25f4f928a029c45",
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T17:38:04Z",
+      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present pe…",
+      "date_type": "published"
+    },
+    {
+      "id": "235bb524b25e51667400",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T17:00:00Z",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "date_type": "published"
+    },
+    {
+      "id": "77395d8493e28ae35c2b",
+      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-10-30T16:53:49Z",
+      "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+      "date_type": "published"
+    },
+    {
+      "id": "46b9646d17c03bf417e3",
+      "title": "b12015",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12015",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T16:09:47Z",
+      "summary": "common : delete fs_path_to_utf8() ( #31423 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61831888 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
+      "date_type": "updated"
+    },
+    {
+      "id": "621b53d3ad76e2c07e02",
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-30T16:03:45Z",
+      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "date_type": "published"
+    },
+    {
+      "id": "16fa486175267a6e498c",
+      "title": "b12014",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12014",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T15:33:33Z",
+      "summary": "common : drop the Windows argv reconstruction ( #31417 ) The manifest from #31329 already makes argv UTF-8. Fixes #26416 Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61816911 macOS/…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d7f3b41f1dba70c81d25",
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-30T14:58:06Z",
+      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning letha…",
+      "date_type": "published"
+    },
+    {
+      "id": "53f056ac6a2e863fcb5e",
+      "title": "b12012",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T14:56:37Z",
+      "summary": "vendor : update cpp-httplib to 0.64.0 ( #31400 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61801183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L…",
+      "date_type": "updated"
+    },
     {
       "id": "6d508a898eb83dcd9a25",
       "title": "b12008",
@@ -36,7 +179,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-10-30T13:54:25Z",
-      "summary": "DoorDash said that it is open to working with third-party agent makers",
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
       "date_type": "published"
     },
     {
@@ -150,6 +293,17 @@
       "date_type": "published"
     },
     {
+      "id": "71ac64837d9c01fa28c7",
+      "title": "b12013: quant : allow quantization for LFM3-Audio codec decoder (#31386)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12013",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-30T10:52:59Z",
+      "summary": "quantize : quantize the LFM3-Audio codec decoder, it is Q4_0 QAT quantize : drop the QAT note from the LFM3-Audio comment",
+      "date_type": "updated"
+    },
+    {
       "id": "c4e7f4822788cff1eac8",
       "title": "b12010: cmake : embed an app manifest in all Windows exes (#31329)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12010",
@@ -172,6 +326,17 @@
       "date_type": "updated"
     },
     {
+      "id": "84abd1857de5dfd951d9",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-30T09:30:00Z",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "date_type": "published"
+    },
+    {
       "id": "98f99dc36b67ac3fa80b",
       "title": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
@@ -181,6 +346,17 @@
       "published_at": "2026-10-30T09:10:43Z",
       "summary": "Signed-off-by: Micah Williamson micah.williamson@amd.com (cherry picked from commit 6d01893 )",
       "date_type": "updated"
+    },
+    {
+      "id": "a86d24c59c826150d16d",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-30T09:00:00Z",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "date_type": "published"
     },
     {
       "id": "c096782638d443ac76bd",
@@ -1954,6 +2130,17 @@
       "date_type": "updated"
     },
     {
+      "id": "85f94c0fe8f02a81789b",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-29T00:00:00Z",
+      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "date_type": "published"
+    },
+    {
       "id": "718617961cab3abcc8e8",
       "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "url": "https://huggingface.co/blog/announcing-project-protostar",
@@ -2293,6 +2480,18 @@
       "published_at": "2026-10-28T15:58:20Z",
       "summary": "mxfp4 sve 256 impl completed working with pretty good perf improvement review comments addressed review comments for SVE 256 check trailing white spaces removed Co-authored-by: Anubhav Srivastava anubhav.srivastava@fujitsu.com",
       "date_type": "updated"
+    },
+    {
+      "id": "50a561c320a6e2b2a456",
+      "title": "新模型：speridlabs/idol",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-28T15:55:17Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：130",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "c3f3cbf4e178e82211eb",
@@ -3439,28 +3638,6 @@
       "date_type": "published"
     },
     {
-      "id": "b2ed8daad1cc7e3f4155",
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-26T16:49:42Z",
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-      "date_type": "published"
-    },
-    {
-      "id": "d6e31d9e0fa6ab5ca38f",
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-26T16:46:36Z",
-      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-      "date_type": "published"
-    },
-    {
       "id": "b1d7eb2dedce5839f589",
       "title": "Our newest AI Quest: Mapping the human brain",
       "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
@@ -3469,39 +3646,6 @@
       "category": "official",
       "published_at": "2026-10-26T16:00:00Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "e30bddfbc05d54f4d54f",
-      "title": "Microsoft offers buyouts to 60,000 employees",
-      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T15:58:27Z",
-      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and caree…",
-      "date_type": "published"
-    },
-    {
-      "id": "b67fd02a214f91e2b5ea",
-      "title": "Anthropic officially files for its public debut",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-26T14:35:22Z",
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-      "date_type": "published"
-    },
-    {
-      "id": "d8e91abdba8c9c3fc581",
-      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-26T14:30:27Z",
-      "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
       "date_type": "published"
     },
     {
@@ -3549,17 +3693,6 @@
       "date_type": "updated"
     },
     {
-      "id": "6f7a1073a8b8ffd9755d",
-      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
-      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T14:00:00Z",
-      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the…",
-      "date_type": "published"
-    },
-    {
       "id": "7d972df501d01ba1f64a",
       "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
@@ -3568,28 +3701,6 @@
       "category": "official",
       "published_at": "2026-10-26T13:45:00Z",
       "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "date_type": "published"
-    },
-    {
-      "id": "8730dc35da783e3d8b16",
-      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T13:32:49Z",
-      "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI…",
-      "date_type": "published"
-    },
-    {
-      "id": "4d610e220c2d6684cb8c",
-      "title": "Can AI help solve the COBOL code crisis?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-26T13:15:00Z",
-      "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th,…",
       "date_type": "published"
     },
     {
@@ -3626,17 +3737,6 @@
       "date_type": "updated"
     },
     {
-      "id": "62bc207b9e95c88439f2",
-      "title": "b11896",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11896",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T10:20:04Z",
-      "summary": "ci : fix race in webgpu memset ( #31162 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59862664 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: U…",
-      "date_type": "updated"
-    },
-    {
       "id": "27334100e818b98514ff",
       "title": "ChatGPT’s expanding world of work",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
@@ -3646,28 +3746,6 @@
       "published_at": "2026-10-26T10:00:00Z",
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "date_type": "published"
-    },
-    {
-      "id": "ac2dba7d51e93c7bd655",
-      "title": "b11895",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T09:57:27Z",
-      "summary": "metal : stop overflow from happening in large matrix output offsets ( #30072 ) Metal : stop overflow from happening in large matrix output offsets Assisted-by: Codex metal : widen batch offsets and MUL_MAT_ID token indices Assisted-by: Codex Co-authored-by: feni6 270037094+feni6…",
-      "date_type": "updated"
-    },
-    {
-      "id": "2ca7d41d10979cb66e73",
-      "title": "b11890",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T08:58:06Z",
-      "summary": "deepseekv4.1: follow-up review fixes ( #31137 ) kv-cache : use ggml_backend_tensor_copy to refill the DSV4 K mirrors llama : move the Engram pad id to llama_hparams and the token map to llama_model The saver no longer needs the deepseek41 model class. deepseek41 : drop the F32 s…",
-      "date_type": "updated"
     },
     {
       "id": "7e73eebe3e909303c4c5",
@@ -3692,30 +3770,6 @@
       "date_type": "published"
     },
     {
-      "id": "23f9cacadf78880c14c8",
-      "title": "新模型：baidu/Unlimited-OCR-2",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-26T03:57:46Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：433",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "54830852e56d08e6bd2c",
-      "title": "新模型：maya-research/maya2-native",
-      "url": "https://huggingface.co/maya-research/maya2-native",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-26T02:58:10Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：122",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "35e334c198740f741663",
       "title": "Introducing GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
@@ -3724,28 +3778,6 @@
       "category": "official",
       "published_at": "2026-10-26T00:00:00Z",
       "summary": "Bringing fast and capable computer use to everyone",
-      "date_type": "published"
-    },
-    {
-      "id": "5f77088f23d78981a7e8",
-      "title": "b11889",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11889",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-25T23:48:14Z",
-      "summary": "cuda : use std::string instead of VLA for archName ( #30463 ) cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension …",
-      "date_type": "updated"
-    },
-    {
-      "id": "08ec5c76056e031d898a",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-25T21:31:16Z",
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
       "date_type": "published"
     },
     {
@@ -4374,39 +4406,6 @@
       "published_at": "2026-09-16T12:00:00Z",
       "summary": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse.",
       "date_type": "published"
-    },
-    {
-      "id": "947e89eaa83a27aef331",
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-09-15T17:05:57Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "970c94673769027aa8a4",
-      "title": "AI for Societal Impact",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-15T16:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "6fff55fdf7cb614f4288",
-      "title": "Building AI to accelerate science and improve lives",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-15T16:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4425,7 +4424,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 15,
+      "count": 14,
       "message": "正常"
     },
     {
@@ -4434,7 +4433,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 13,
+      "count": 10,
       "message": "正常"
     },
     {
@@ -4479,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {
@@ -4533,7 +4532,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "message": "正常"
     },
     {

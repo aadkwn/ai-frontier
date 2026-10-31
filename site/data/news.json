@@ -1,11 +1,33 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-31T05:51:00Z",
-  "last_success_at": "2026-10-31T05:51:00Z",
+  "last_attempt_at": "2026-10-31T12:40:09Z",
+  "last_success_at": "2026-10-31T12:40:09Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "f6a069c556ce55716795",
+      "title": "b12020",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12020",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-31T08:11:45Z",
+      "summary": "opencl: add fwht ( #31434 ) Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62071228 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "109261365670d3352ab7",
+      "title": "v0.33.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-10-31T07:15:45Z",
+      "summary": "[CI][Bugfix] Pin the ColUltraVBERT test checkpoint to the revision vL…",
+      "date_type": "updated"
+    },
     {
       "id": "5b54c8b32918ef98ebf9",
       "title": "b12019",
@@ -2687,7 +2709,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：164",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：180",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3715,28 +3737,6 @@
       "date_type": "updated"
     },
     {
-      "id": "313af67fd8c7e8b6f1c4",
-      "title": "b11902: sycl: add set_tensor_2d for faster tensor-split loading (#30358)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11902",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T14:12:25Z",
-      "summary": "sycl: add set_tensor_2d for faster tensor-split loading Pack host rows into chunks of up to 64 MiB when destination rows are contiguous, avoiding a separate upload call for each row. Keep the existing per-row copy path for non-contiguous destinations. On two Arc Pro B70s with gp…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6748773ad13d989a5282",
-      "title": "b11900",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T14:04:33Z",
-      "summary": "common: pin model resolution on real HF repo layouts ( #30548 ) tests: pin model resolution on real repo listings Extend test-model-resolution with 63 repo listings captured verbatim from the HF API, chosen to cover every file naming pattern found across 1237 GGUF repos of the m…",
-      "date_type": "updated"
-    },
-    {
       "id": "7d972df501d01ba1f64a",
       "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
@@ -4442,7 +4442,7 @@
       "category": "official",
       "url": "https://mistral.ai/news/rss",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "message": "正常"
     },
     {

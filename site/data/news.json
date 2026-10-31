@@ -1,11 +1,33 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-31T12:40:09Z",
-  "last_success_at": "2026-10-31T12:40:09Z",
+  "last_attempt_at": "2026-10-31T17:47:32Z",
+  "last_success_at": "2026-10-31T17:47:32Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "6ec02213d45abe3da587",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-31T16:12:55Z",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "date_type": "published"
+    },
+    {
+      "id": "95235900cc342af4eb02",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-10-31T16:05:00Z",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It …",
+      "date_type": "published"
+    },
     {
       "id": "f6a069c556ce55716795",
       "title": "b12020",
@@ -2709,7 +2731,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：180",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：194",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3385,17 +3407,6 @@
       "date_type": "updated"
     },
     {
-      "id": "77387043f69a853ed6d4",
-      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T13:50:51Z",
-      "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Ke…",
-      "date_type": "published"
-    },
-    {
       "id": "03efaabc91c5a0ac5b1f",
       "title": "b11930",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930",
@@ -3405,17 +3416,6 @@
       "published_at": "2026-10-27T13:46:24Z",
       "summary": "server: add router device memory margin parameter for dynamic unloading ( #21231 ) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory r…",
       "date_type": "updated"
-    },
-    {
-      "id": "80ab2e6673015dce05c7",
-      "title": "Japan internet giant GMO says hackers posted stolen customer data",
-      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T13:32:57Z",
-      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-      "date_type": "published"
     },
     {
       "id": "433c4c8f989e8655527a",

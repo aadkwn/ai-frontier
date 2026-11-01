@@ -1,11 +1,44 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-01T07:39:15Z",
-  "last_success_at": "2026-11-01T07:39:15Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-01T15:14:45Z",
+  "last_success_at": "2026-11-01T15:14:45Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "854a452f65cee3d5c102",
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-01T09:21:10Z",
+      "summary": "vLLM v0.33.0",
+      "date_type": "updated"
+    },
+    {
+      "id": "ead7839c97ed82a0c315",
+      "title": "b12032",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T09:04:46Z",
+      "summary": "sycl: Try PkgConfig for LevelZero includes / libs ( #31076 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62286322 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ee089bed34253d92bb05",
+      "title": "b12031",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T07:45:44Z",
+      "summary": "opencl: add initial iq3 support ( #31338 ) opencl: add iq3_s AOS mv Assisted-by: Codex opencl: add iq3_s SOA mv and tiled mm Assisted-by: Codex opencl: add iq3_s noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add iq3_…",
+      "date_type": "updated"
+    },
     {
       "id": "f222e592011d6aae0495",
       "title": "b12030",
@@ -48,17 +81,6 @@
       "category": "opensource",
       "published_at": "2026-11-01T06:23:23Z",
       "summary": "llama : enable tensor split for LFM3 ( #31431 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62271899 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ee089bed34253d92bb05",
-      "title": "b12031: opencl: add initial iq3 support (#31338)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-01T05:26:47Z",
-      "summary": "opencl: add iq3_s AOS mv Assisted-by: Codex opencl: add iq3_s SOA mv and tiled mm Assisted-by: Codex opencl: add iq3_s noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add iq3_s dp4a for adreno Co-authored-by: Shaofei Q…",
       "date_type": "updated"
     },
     {
@@ -777,6 +799,18 @@
       "date_type": "published"
     },
     {
+      "id": "2789ef84cc119d682457",
+      "title": "新模型：nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-30T17:37:02Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：112",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "235bb524b25e51667400",
       "title": "Google’s first data center satellite is online and writing poetry",
       "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
@@ -962,6 +996,18 @@
       "published_at": "2026-10-30T12:20:30Z",
       "summary": "common : end reasoning budget forcing on an end tag from the prompt ( #31374 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61747133 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS…",
       "date_type": "updated"
+    },
+    {
+      "id": "55ffde0d65a11360909a",
+      "title": "新模型：microsoft/Mage-VL-Cowork",
+      "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-30T12:13:24Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：109",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "99f7c3be6b4c472b0c31",
@@ -2874,7 +2920,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：235",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：267",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2908,7 +2954,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：134",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3142,6 +3188,18 @@
       "published_at": "2026-10-28T08:11:47Z",
       "summary": "chat : stop qwen3-coder reasoning and content before template separat…",
       "date_type": "updated"
+    },
+    {
+      "id": "222e4fed91b3804a0aa2",
+      "title": "新模型：AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-28T04:48:45Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：120",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "9eab77713c3920c6ed1b",
@@ -3628,28 +3686,6 @@
       "date_type": "updated"
     },
     {
-      "id": "36719df94f497b62ddbf",
-      "title": "b11919",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11919",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T07:46:39Z",
-      "summary": "opencl: refine mul mat id -1 index ( #31170 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60266382 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i…",
-      "date_type": "updated"
-    },
-    {
-      "id": "2d74e9cabb70f0951e3c",
-      "title": "b11918",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11918",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T07:25:31Z",
-      "summary": "opencl: initial support for q3_k ( #31172 ) opencl: add q3_k AOS mv opencl: add q3_k SOA mv and tiled mm opencl: add q3_k noshuffle gemm/gemv for adreno opencl: add q3_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: tune q3_k kernels for adre…",
-      "date_type": "updated"
-    },
-    {
       "id": "c417f8e3d39d0b893c07",
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -3661,17 +3697,6 @@
       "date_type": "published"
     },
     {
-      "id": "c410254cd0aaab598566",
-      "title": "b11913",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T00:23:09Z",
-      "summary": "hexagon: add GGML_HEXAGON_VTCM_SIZE ( #31221 ) hexagon: add GGML_HEXAGON_VTCM_MB and GGML_HEXAGON_NTHREADS caps Change-Id: Idffe1613c8db6f96aa842d43d1b2efaed45462a8 hexagon: rename VTCM cap to GGML_HEXAGON_VTCM_SIZE, drop NTHREADS cap Change-Id: If4c5b9ce9fd6b725c3561421c2295d40…",
-      "date_type": "updated"
-    },
-    {
       "id": "c44dc9ed271ff418b14a",
       "title": "How Check Point accelerates vulnerability research with Daybreak",
       "url": "https://openai.com/index/check-point-daybreak",
@@ -3681,28 +3706,6 @@
       "published_at": "2026-10-27T00:00:00Z",
       "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
       "date_type": "published"
-    },
-    {
-      "id": "c39f2a58bf6fb070341b",
-      "title": "v0.40.12-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-26T23:10:42Z",
-      "summary": "llama.cpp: version bump b11901 ( #19311 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "90d359b06e094ba879ad",
-      "title": "b11912",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T22:33:56Z",
-      "summary": "llama : enable moe amax rescaling for laguna ( #31147 ) llama : enable moe amax rescaling for laguna Assisted-by: Devin llama : declare laguna sm tensor support Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60129010 macOS/iOS: macOS …",
-      "date_type": "updated"
     },
     {
       "id": "a9c488820a62ac4adcd9",
@@ -4424,9 +4427,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 14,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

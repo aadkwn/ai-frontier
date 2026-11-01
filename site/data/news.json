@@ -1,11 +1,33 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-10-31T21:40:29Z",
-  "last_success_at": "2026-10-31T21:40:29Z",
+  "last_attempt_at": "2026-11-01T01:15:58Z",
+  "last_success_at": "2026-11-01T01:15:58Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "487491ce55e4cfbc6c7e",
+      "title": "b12025",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12025",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-10-31T22:30:49Z",
+      "summary": "llama : fix rotation of attention tensors in layers with shared KV (#…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d9269f49d95d2fae76a0",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-10-31T21:41:00Z",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "date_type": "published"
+    },
     {
       "id": "473df08063638ec9e75d",
       "title": "b12024",
@@ -2797,7 +2819,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：205",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：211",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3374,17 +3396,6 @@
       "date_type": "published"
     },
     {
-      "id": "5fb7508ef46583473fd1",
-      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
-      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-27T16:00:22Z",
-      "summary": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
-      "date_type": "published"
-    },
-    {
       "id": "fe6c8212a1cce378584e",
       "title": "b11934",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934",
@@ -3701,17 +3712,6 @@
       "category": "opensource",
       "published_at": "2026-10-26T19:12:18Z",
       "summary": "vulkan: rms norm optimization using subgroup reductions ( #29882 ) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarif…",
-      "date_type": "updated"
-    },
-    {
-      "id": "5e742d363152cad5a3c3",
-      "title": "b11904",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T18:49:40Z",
-      "summary": "sycl: template the plain MMVQ launch triples ( #31013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60054506 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram…",
       "date_type": "updated"
     },
     {
@@ -4478,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {

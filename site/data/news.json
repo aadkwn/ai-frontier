@@ -1,11 +1,33 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-01T19:47:10Z",
-  "last_success_at": "2026-11-01T19:47:10Z",
+  "last_attempt_at": "2026-11-01T23:39:18Z",
+  "last_success_at": "2026-11-01T23:39:18Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "944be91cc06a18a89b9b",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-01T21:55:23Z",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "date_type": "published"
+    },
+    {
+      "id": "7a5ce7ed2f78d2842904",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-01T20:57:58Z",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "date_type": "published"
+    },
     {
       "id": "854a452f65cee3d5c102",
       "title": "v0.33.0",
@@ -806,7 +828,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：116",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：118",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1005,7 +1027,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：117",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：121",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2920,7 +2942,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：280",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：296",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2954,7 +2976,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：139",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3197,7 +3219,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T04:48:45Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：137",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：140",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3474,28 +3496,6 @@
       "category": "industry",
       "published_at": "2026-10-27T16:51:22Z",
       "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater ri…",
-      "date_type": "published"
-    },
-    {
-      "id": "18d6fa11580979b971c1",
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T16:30:57Z",
-      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
-      "date_type": "published"
-    },
-    {
-      "id": "991356d9e9385200ab3c",
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T16:14:18Z",
-      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste yo…",
       "date_type": "published"
     },
     {
@@ -4399,17 +4399,6 @@
       "published_at": "2026-09-18T13:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "590df77dc8c3726e2134",
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-17T20:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4437,7 +4426,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "message": "正常"
     },
     {

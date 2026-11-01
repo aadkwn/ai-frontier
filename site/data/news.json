@@ -1,11 +1,66 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-01T01:15:58Z",
-  "last_success_at": "2026-11-01T01:15:58Z",
+  "last_attempt_at": "2026-11-01T07:39:15Z",
+  "last_success_at": "2026-11-01T07:39:15Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "f222e592011d6aae0495",
+      "title": "b12030",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12030",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T07:19:38Z",
+      "summary": "hexagon : fix DMA transfers with strides > 24 bits ( #31442 ) hexagon : fix DMA transfers with strides > 24 bits On v75+ the 2D DMA descriptor stores row_size and strides in 24 bits. dma_queue_push sent oversized strides to fallback_2d, which only splits nrows, so strides of 16 …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4523764d8b03449e5e0a",
+      "title": "b12029",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12029",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T07:00:38Z",
+      "summary": "mtmd : fix InternVL CLS token order ( #30886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62277183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a4cbe3ac092595fda9e3",
+      "title": "b12028",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12028",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T06:45:00Z",
+      "summary": "tests : enable Gemma 4 in test-llama-archs ( #31401 ) tests : enable Gemma 4 in test-llama-archs tests : use GQA for Gemma 4 in test-llama-archs Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62274835 macOS/iOS: macOS Apple Silicon (a…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a8925f4efcefde3be94a",
+      "title": "b12027",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T06:23:23Z",
+      "summary": "llama : enable tensor split for LFM3 ( #31431 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62271899 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ee089bed34253d92bb05",
+      "title": "b12031: opencl: add initial iq3 support (#31338)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-01T05:26:47Z",
+      "summary": "opencl: add iq3_s AOS mv Assisted-by: Codex opencl: add iq3_s SOA mv and tiled mm Assisted-by: Codex opencl: add iq3_s noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add iq3_s dp4a for adreno Co-authored-by: Shaofei Q…",
+      "date_type": "updated"
+    },
     {
       "id": "487491ce55e4cfbc6c7e",
       "title": "b12025",
@@ -2819,7 +2874,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：211",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：235",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2844,6 +2899,18 @@
       "published_at": "2026-10-28T15:41:18Z",
       "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
       "date_type": "published"
+    },
+    {
+      "id": "fed77a35994eb4f6e546",
+      "title": "新模型：sensenova/SenseNova-Loop-9B-Preview",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-28T15:34:40Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：115",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "ae7be6fb4f6d788b6536",
@@ -3649,72 +3716,6 @@
       "date_type": "published"
     },
     {
-      "id": "686ae76031355764883a",
-      "title": "b11910",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T21:23:36Z",
-      "summary": "opencl: write KV-cache views in set_tensor so a state restore is not dropped ( #30471 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60106982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISAB…",
-      "date_type": "updated"
-    },
-    {
-      "id": "67d65f355064243488b6",
-      "title": "b11909",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11909",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T21:04:08Z",
-      "summary": "hexagon: MUL_MAT_ID row skipping optimizations and improvements ( #31169 ) hex-mmid: vectorize skipped row zeroing and added zeroing to fused MM_ID_NX hex-mmid: remove scalar div Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60100504…",
-      "date_type": "updated"
-    },
-    {
-      "id": "84403df1ba879799cb55",
-      "title": "b11908",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T20:49:44Z",
-      "summary": "llama : move no_alloc out of llama_hparams ( #31141 ) llama : move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) cont : clean-up cont : clean-up Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spar…",
-      "date_type": "updated"
-    },
-    {
-      "id": "67c44c74430c7c20f6d9",
-      "title": "b11907",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T20:18:54Z",
-      "summary": "models : replace ggml_tensor** out-params with output structs ( #31142 ) The hyper-connection and DSA graph builders wrote their extra outputs (post / comb gates, carried top-k selections, inject gates) through ggml_tensor** out-params. Return them in a small struct next to the …",
-      "date_type": "updated"
-    },
-    {
-      "id": "da08d56823ef39339614",
-      "title": "b11906",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T19:49:05Z",
-      "summary": "ggml-cpu : rewrite concat as one row kernel for all types ( #31179 ) Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a stri…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1131c79da1510707cee0",
-      "title": "b11905",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-26T19:12:18Z",
-      "summary": "vulkan: rms norm optimization using subgroup reductions ( #29882 ) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarif…",
-      "date_type": "updated"
-    },
-    {
       "id": "b1d7eb2dedce5839f589",
       "title": "Our newest AI Quest: Mapping the human brain",
       "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
@@ -4478,7 +4479,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 29,
+      "count": 28,
       "message": "正常"
     },
     {
@@ -4487,7 +4488,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4514,7 +4515,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 25,
+      "count": 24,
       "message": "正常"
     },
     {

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-01T15:14:45Z",
-  "last_success_at": "2026-11-01T15:14:45Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-01T19:47:10Z",
+  "last_success_at": "2026-11-01T19:47:10Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
     {
@@ -806,7 +806,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：112",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：116",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1005,7 +1005,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：109",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：117",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2920,7 +2920,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：267",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：280",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2954,7 +2954,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：134",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：139",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3197,7 +3197,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T04:48:45Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：120",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：137",
       "item_type": "model",
       "date_type": "created"
     },
@@ -4427,9 +4427,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 14,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4482,7 +4482,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 28,
+      "count": 26,
       "message": "正常"
     },
     {

@@ -1,11 +1,154 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-02T06:15:45Z",
-  "last_success_at": "2026-11-02T06:15:45Z",
+  "last_attempt_at": "2026-11-02T16:15:56Z",
+  "last_success_at": "2026-11-02T16:15:56Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "485ac8c6f2805767257e",
+      "title": "b12048",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12048",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T16:14:28Z",
+      "summary": "sycl : fast ggml_sycl_comm_exchange() on Intel Arc Pro B70s ( #30956 ) Update ggml-sycl.cpp Increases -sm tensor prompt eval t/s by +19% with zero PPL change. Update ggml-sycl.cpp Replace first pair of wait() calls with ext_oneapi_submit_barrier(). The wait() calls was discovere…",
+      "date_type": "updated"
+    },
+    {
+      "id": "17da400e6e393b6aa781",
+      "title": "b12047",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12047",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T15:51:15Z",
+      "summary": "sycl: dmmv code cleanup ( #31325 ) sycl: fold q8_0 reorder dmmv into the generic template sycl: template the dmmv non-K launchers sycl: template the dmmv K-quant launchers Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62707110 macOS/…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5d33ed0c66ace544e65f",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T15:00:00Z",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "date_type": "published"
+    },
+    {
+      "id": "5a201e1426e1fb30b603",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T15:00:00Z",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "date_type": "published"
+    },
+    {
+      "id": "7c51bf37d26d3f6f0ba0",
+      "title": "b12040",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12040",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T14:09:32Z",
+      "summary": "tests : merge identical if branches ( #31523 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62665772 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3e83c93cde50530285ec",
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T14:00:00Z",
+      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "date_type": "published"
+    },
+    {
+      "id": "e732affa3e390d123d46",
+      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T13:57:53Z",
+      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "date_type": "published"
+    },
+    {
+      "id": "dab41a7eb879f0152d06",
+      "title": "b12049: vulkan: avoid redundant scans when zeroing skipped rows (#31266)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12049",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T11:53:27Z",
+      "summary": "vulkan: avoid redundant scans when zeroing skipped rows vulkan: remove unreachable zero-expert fallback",
+      "date_type": "updated"
+    },
+    {
+      "id": "163a040f8e8b302b2b75",
+      "title": "b12038",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12038",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T11:35:16Z",
+      "summary": "ggml : fix clang-cl build with AVX512 BF16 ( #31276 ) Correctly gate immintrin.h inclusion when building with clang-cl and avx512bf16 ggml : explicit vector casts for clang-cl Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62611041 ma…",
+      "date_type": "updated"
+    },
+    {
+      "id": "48d20a6135789dcea5c0",
+      "title": "b12039: jinja : implement map('filter') (#24033)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12039",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T10:45:40Z",
+      "summary": "jinja: implement map('filter') jinja : validate filter keyword arguments Assisted-by: Codex",
+      "date_type": "updated"
+    },
+    {
+      "id": "109261365670d3352ab7",
+      "title": "v0.33.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-02T10:11:34Z",
+      "summary": "v0.33.0 Highlights This release features 927 commits from 389 contributors (122 new)! New models : Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter ( #62074 ), Yandex AliceAI-Foundation-80B-A3B ( #57963 ), Recursive Flint (40B MoE, 2.5B active) ( #62938 ), Mus…",
+      "date_type": "updated"
+    },
+    {
+      "id": "632839f4bb2e8b34b3ff",
+      "title": "b12035",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12035",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T08:34:17Z",
+      "summary": "cmake : add explicit thread linkage ( #31414 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "2c0d25407f7cdc15def3",
+      "title": "b12034",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12034",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T08:06:05Z",
+      "summary": "webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length ( #31422 ) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the cu…",
+      "date_type": "updated"
+    },
     {
       "id": "83fe490d9dc23ecb79c7",
       "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
@@ -1030,17 +1173,6 @@
       "date_type": "updated"
     },
     {
-      "id": "854a452f65cee3d5c102",
-      "title": "v0.33.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-01T09:21:10Z",
-      "summary": "vLLM v0.33.0",
-      "date_type": "updated"
-    },
-    {
       "id": "ead7839c97ed82a0c315",
       "title": "b12032",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032",
@@ -1225,17 +1357,6 @@
       "category": "opensource",
       "published_at": "2026-10-31T08:11:45Z",
       "summary": "opencl: add fwht ( #31434 ) Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62071228 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
-      "date_type": "updated"
-    },
-    {
-      "id": "109261365670d3352ab7",
-      "title": "v0.33.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-10-31T07:15:45Z",
-      "summary": "[CI][Bugfix] Pin the ColUltraVBERT test checkpoint to the revision vL…",
       "date_type": "updated"
     },
     {
@@ -1719,7 +1840,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：122",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：128",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1799,6 +1920,17 @@
       "published_at": "2026-10-30T14:56:37Z",
       "summary": "vendor : update cpp-httplib to 0.64.0 ( #31400 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61801183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L…",
       "date_type": "updated"
+    },
+    {
+      "id": "1b296d8bb115085d301f",
+      "title": "Speeding up planning decisions with AI",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-10-30T14:18:30Z",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "date_type": "published"
     },
     {
       "id": "6d508a898eb83dcd9a25",
@@ -1918,7 +2050,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：125",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：132",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2953,7 +3085,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：325",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：382",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2987,7 +3119,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：150",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：173",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3230,7 +3362,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T04:48:45Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：160",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：179",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3455,17 +3587,6 @@
       "date_type": "published"
     },
     {
-      "id": "b2aff63a03e983b29f98",
-      "title": "VisionQuest is what happens when AI really goes rogue",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T17:30:00Z",
-      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the…",
-      "date_type": "published"
-    },
-    {
       "id": "4c772ea870ef1e2f1377",
       "title": "b11935",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
@@ -3485,28 +3606,6 @@
       "category": "opensource",
       "published_at": "2026-10-27T17:16:52Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "24969064b492b7122a6e",
-      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T17:08:08Z",
-      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-      "date_type": "published"
-    },
-    {
-      "id": "bb9f02a56d8cd14e9863",
-      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T16:51:22Z",
-      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater ri…",
       "date_type": "published"
     },
     {
@@ -3606,83 +3705,6 @@
       "category": "opensource",
       "published_at": "2026-10-27T13:46:24Z",
       "summary": "server: add router device memory margin parameter for dynamic unloading ( #21231 ) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory r…",
-      "date_type": "updated"
-    },
-    {
-      "id": "433c4c8f989e8655527a",
-      "title": "b11929",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11929",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T13:07:50Z",
-      "summary": "common : --model or -hf is required ( #31242 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60378927 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
-      "date_type": "updated"
-    },
-    {
-      "id": "e1a6c815842fc51802b5",
-      "title": "b11928",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T12:33:51Z",
-      "summary": "model: Add MiniCPM-OCR-Jev ( #30980 ) model : add MiniCPM-OCR-Jev support The model is a Qwen3.5-VL trunk with a value head read at the last token: it scores an OCR text against an image rendered from it, it does not generate. Add the openbmb-minicpm-ocr-jev decision type, serve…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6276584e0a9e160276e0",
-      "title": "b11927",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T11:11:14Z",
-      "summary": "metal : add GGML_OP_TOP_K_MASK ( #31230 ) metal : add GGML_OP_TOP_K_MASK Port the fused top-k mask from the CUDA backend: a grid-stride kernel fills the output with -inf, then one threadgroup per row copies the mask values of the kept cells over it. Function constants drop the s…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e0ae721a32ea3a299220",
-      "title": "b11926",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T10:32:27Z",
-      "summary": "glm5-next : QSA without kq_mask (+ DSA) ( #31009 ) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60323739 macOS/iOS: macOS Apple Silic…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1ce9c5a561d19543dbbd",
-      "title": "b11925",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11925",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T09:08:50Z",
-      "summary": "ci : use ccache depend mode for ROCm release builds ( #31231 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60293667 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f6ebe2c120b7f357d957",
-      "title": "b11923",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T08:53:31Z",
-      "summary": "ggml : relax scale to non-contiguous views ( #31146 ) ggml : relax scale to non-contiguous views SCALE requires src0 to be 1D-contiguous. Relax this to dim-0 contiguity with arbitrary row strides (ggml_is_contiguous_rows), same as the unary ops in the Metal backend. ggml: relax …",
-      "date_type": "updated"
-    },
-    {
-      "id": "ce56c2f85b0234485502",
-      "title": "b11922",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T08:21:35Z",
-      "summary": "tests : fix multi-seq split replay and partial-state cases for trained models ( #31216 ) tests : fix multi-seq split replay against trained models The rollback snapshot is captured by the graph that decoded the rolled-back tail, while the reference context decodes the same prefi…",
       "date_type": "updated"
     },
     {
@@ -4377,28 +4399,6 @@
       "published_at": "2026-09-23T15:25:14Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "d92122e53ec9d4f7bc6f",
-      "title": "New experts join Google’s AI & Economy team",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-18T14:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "44ec3a3d6fdc7de7b05f",
-      "title": "Co-creating the future of fashion with Google",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-18T13:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4417,7 +4417,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 14,
+      "count": 15,
       "message": "正常"
     },
     {
@@ -4426,7 +4426,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 9,
+      "count": 7,
       "message": "正常"
     },
     {

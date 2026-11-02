@@ -1,11 +1,253 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-02T16:15:56Z",
-  "last_success_at": "2026-11-02T16:15:56Z",
+  "last_attempt_at": "2026-11-02T23:37:21Z",
+  "last_success_at": "2026-11-02T23:37:21Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "d12853f6724947c696e5",
+      "title": "b12061",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T23:21:48Z",
+      "summary": "mtmd: Pocket tts - support for voices without voice cloning ( #31429 ) feat: support PocketTTS voices with no voice cloning The kyutai/pocket-tts-without-voice-cloning weights ship predefined voices as the backbone KV state after the voice prompt. The converter turns each state …",
+      "date_type": "updated"
+    },
+    {
+      "id": "c8564f3a68709075cd78",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T23:13:53Z",
+      "summary": "The one-year-old startup is now valued at $300 million.",
+      "date_type": "published"
+    },
+    {
+      "id": "c34c1c12b0b44125ca6e",
+      "title": "b12060",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T23:04:17Z",
+      "summary": "model: add Clover support ( #31306 ) model : add AR-only Clover MoE support Add GGUF conversion, model loading, and causal hybrid attention for Clover, reusing shared attention, recurrent-state, MoE, and LoRA helpers. Update tests/test-llama-archs.cpp Co-authored-by: Sigbjørn Sk…",
+      "date_type": "updated"
+    },
+    {
+      "id": "95f6837c3f322fa4e390",
+      "title": "b12059",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12059",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T22:44:44Z",
+      "summary": "llama : flash_attn_ext_rows - more efficient unified kv for multi-seq ( #29510 ) llama : use llm_attn_mask and kv_rows for unified attention Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Co-authored-by: Georgi Gerganov ggerga…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ca204e1c0052a71213a1",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T22:14:50Z",
+      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "date_type": "published"
+    },
+    {
+      "id": "5fc0241e25c90db0d110",
+      "title": "Powering up for a pivotal moment",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-02T19:55:00Z",
+      "summary": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "date_type": "published"
+    },
+    {
+      "id": "f4d75608ed6a6285defc",
+      "title": "b12058",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12058",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T19:33:27Z",
+      "summary": "imatrix : fix --nextn crash ( #31522 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62794269 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4ca5045e7ee7fda1529c",
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T19:25:59Z",
+      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+      "date_type": "published"
+    },
+    {
+      "id": "e7389883fb553bcf4252",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T19:19:17Z",
+      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "date_type": "published"
+    },
+    {
+      "id": "f6ccb3c8a19a05418009",
+      "title": "b12057",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T19:09:40Z",
+      "summary": "context : simplify setters ( #29730 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62784585 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5426dcc4966dc2198453",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-02T18:56:02Z",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will sti…",
+      "date_type": "published"
+    },
+    {
+      "id": "56cf24bb086363d88bd0",
+      "title": "b12054",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12054",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T18:48:29Z",
+      "summary": "ggml-zdnn: share buffers with host ( #31481 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62776552 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DIS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e0d31c17157775e2a5d9",
+      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-02T18:32:21Z",
+      "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+      "date_type": "published"
+    },
+    {
+      "id": "d742fce73aa702c361a6",
+      "title": "b12053",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T18:27:59Z",
+      "summary": "ggml : use vm_allocate instead of posix_memalign on all Apple platforms ( #31437 ) ggml : use vm_allocate instead of posix_memalign on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: https://llama.app Attestations: https://gith…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3f64a695b0aa8d6fd19b",
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-02T18:05:31Z",
+      "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+      "date_type": "published"
+    },
+    {
+      "id": "565e6fad1f4c3724a211",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-02T18:01:30Z",
+      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioner…",
+      "date_type": "published"
+    },
+    {
+      "id": "0b86c010857d521d9160",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-02T17:51:19Z",
+      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the Ne…",
+      "date_type": "published"
+    },
+    {
+      "id": "c45a0b6d7de18ac55a14",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-02T17:45:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "4177dd396b829115cf74",
+      "title": "b12052",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T17:41:20Z",
+      "summary": "opencl: add topk_mask ( #31441 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62750947 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "830fe9b0c5a6869927d6",
+      "title": "b12050",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T16:57:35Z",
+      "summary": "vulkan: improve small-n split-K selection on RDNA3 and RDNA4 ( #30146 ) vulkan: improve small-n split-K selection on RDNA3 and RDNA4 Clean up test cases by removing commented code Removed tests as requested Website: https://llama.app Attestations: https://github.com/ggml-org/lla…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8bfd7590d71c0d95edb1",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T16:30:00Z",
+      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "date_type": "published"
+    },
+    {
+      "id": "fdd130ae0361b6072c93",
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-02T16:23:21Z",
+      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "date_type": "published"
+    },
     {
       "id": "485ac8c6f2805767257e",
       "title": "b12048",
@@ -74,7 +316,7 @@
     },
     {
       "id": "e732affa3e390d123d46",
-      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
       "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -82,6 +324,17 @@
       "published_at": "2026-11-02T13:57:53Z",
       "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
       "date_type": "published"
+    },
+    {
+      "id": "c24e75dbd6cdc0177696",
+      "title": "b12051: vulkan: add tensor-parallel allreduce function (#25051)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12051",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-02T11:57:56Z",
+      "summary": "vulkan: add tensor-parallel all-reduce communication vulkan: require shared semaphores for tensor communication Assisted-by: Codex vulkan: reduce directly from shared host buffers Assisted-by: Codex vulkan: fix ring all-reduce races with 3+ devices Two hazards in the tensor-para…",
+      "date_type": "updated"
     },
     {
       "id": "dab41a7eb879f0152d06",
@@ -128,6 +381,17 @@
       "date_type": "updated"
     },
     {
+      "id": "5a014341bc3fc0f1d8b6",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T09:00:00Z",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "date_type": "published"
+    },
+    {
       "id": "632839f4bb2e8b34b3ff",
       "title": "b12035",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12035",
@@ -148,6 +412,17 @@
       "published_at": "2026-11-02T08:06:05Z",
       "summary": "webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length ( #31422 ) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the cu…",
       "date_type": "updated"
+    },
+    {
+      "id": "981c51fa20c4c252ae3d",
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-02T05:35:00Z",
+      "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+      "date_type": "published"
     },
     {
       "id": "83fe490d9dc23ecb79c7",
@@ -1140,6 +1415,17 @@
       "date_type": "published"
     },
     {
+      "id": "4094d4340f9e66f9e2fc",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "date_type": "published"
+    },
+    {
       "id": "944be91cc06a18a89b9b",
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
@@ -1237,6 +1523,17 @@
       "published_at": "2026-11-01T06:23:23Z",
       "summary": "llama : enable tensor split for LFM3 ( #31431 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62271899 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I…",
       "date_type": "updated"
+    },
+    {
+      "id": "1cf8f670adac64720d77",
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-01T02:22:10Z",
+      "summary": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+      "date_type": "published"
     },
     {
       "id": "487491ce55e4cfbc6c7e",
@@ -1840,7 +2137,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：128",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：134",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2050,7 +2347,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：132",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3085,7 +3382,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：382",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：412",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3119,7 +3416,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：173",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：183",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3234,28 +3531,6 @@
       "date_type": "updated"
     },
     {
-      "id": "3a0e6f223eff99ed1756",
-      "title": "Voters in Texas agree: They hate data centers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-28T12:00:00Z",
-      "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a …",
-      "date_type": "published"
-    },
-    {
-      "id": "3c84bdc9f1b42a292410",
-      "title": "Meta quietly launched an ‘AI pet journal’ app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-28T11:27:30Z",
-      "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal …",
-      "date_type": "published"
-    },
-    {
       "id": "2382ac28ae22d4673ade",
       "title": "b11958: server : support tool calls in /v1/realtime (#31287)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11958",
@@ -3362,20 +3637,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T04:48:45Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：179",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：199",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "9eab77713c3920c6ed1b",
-      "title": "Making machines that can listen",
-      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-28T04:00:00Z",
-      "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
-      "date_type": "published"
     },
     {
       "id": "1a39657ce4fa82382e64",
@@ -3411,17 +3675,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4ba4897dde9b2c1a6b32",
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-28T01:15:28Z",
-      "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
-      "date_type": "published"
-    },
-    {
       "id": "e8c798b49e967c6df945",
       "title": "b11941",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941",
@@ -3455,50 +3708,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4c5627bb695205d19ffc",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T23:34:27Z",
-      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "date_type": "published"
-    },
-    {
-      "id": "5b8f2377809f90dcf69c",
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T22:55:41Z",
-      "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-      "date_type": "published"
-    },
-    {
-      "id": "f45c7980de26dbce15c0",
-      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-27T21:50:04Z",
-      "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-      "date_type": "published"
-    },
-    {
-      "id": "22c376eb4e78466379a2",
-      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T21:44:34Z",
-      "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-      "date_type": "published"
-    },
-    {
       "id": "740c5733ca5094b5da38",
       "title": "v0.40.12",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
@@ -3508,116 +3717,6 @@
       "published_at": "2026-10-27T21:41:00Z",
       "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding l…",
       "date_type": "updated"
-    },
-    {
-      "id": "4f33acf6a2b5045b42df",
-      "title": "Who’s really in charge at Anthropic after the IPO?",
-      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T21:38:28Z",
-      "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-      "date_type": "published"
-    },
-    {
-      "id": "8b2d32a128d5af0502cf",
-      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-27T21:31:14Z",
-      "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
-      "date_type": "published"
-    },
-    {
-      "id": "f6bcb634209c36dece37",
-      "title": "Learner collaborates with MIT peers to develop book of AI insights",
-      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-27T20:55:00Z",
-      "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
-      "date_type": "published"
-    },
-    {
-      "id": "578f4a1cc2a6a4ecc178",
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-27T20:48:58Z",
-      "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing …",
-      "date_type": "published"
-    },
-    {
-      "id": "4501706684331e525ea0",
-      "title": "b11936",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11936",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T20:15:10Z",
-      "summary": "llama : build the k-pool sparse selection independently of the kq_mask shape ( #31243 ) llama : build the k-pool sparse selection independently of the kq_mask shape qwen4exp (QSA) and glm5-next pick cache cells by index and no longer read the kq_mask values, but they still shape…",
-      "date_type": "updated"
-    },
-    {
-      "id": "373a8b625d1496cb7cd5",
-      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
-      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-27T18:55:35Z",
-      "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
-      "date_type": "published"
-    },
-    {
-      "id": "7ded73819dc6701072ad",
-      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
-      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-27T18:49:08Z",
-      "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
-      "date_type": "published"
-    },
-    {
-      "id": "4c772ea870ef1e2f1377",
-      "title": "b11935",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T17:18:49Z",
-      "summary": "rpc : catch std::length_error in recv_msg ( #31204 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60485441 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1c5b51464767c2ad2949",
-      "title": "Build specialized multimodal models with LFM3",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-27T17:16:52Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "1d6c5c59e46e52b936cb",
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-27T16:12:42Z",
-      "summary": "",
-      "date_type": "published"
     },
     {
       "id": "393575ee7d83ff0a65d3",
@@ -3631,39 +3730,6 @@
       "date_type": "published"
     },
     {
-      "id": "fe6c8212a1cce378584e",
-      "title": "b11934",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T15:53:42Z",
-      "summary": "tests : speed up tensor data generation and model saving ( #31145 ) tests : speed up tensor data generation and model saving Refactor save_models to create only the model, not a llama_context, which is not needed for saving. Replace the slow std::normal_distribution draw with a …",
-      "date_type": "updated"
-    },
-    {
-      "id": "25296bd10ebb7ad2c6b8",
-      "title": "v0.40.12-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-27T15:47:18Z",
-      "summary": "mlx: add LFM3 and d1 models ( #19333 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "ba0c41f8addcc99f7231",
-      "title": "b11933",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11933",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T15:31:54Z",
-      "summary": "vulkan: fix CI llvmpipe by allowing dim 3 broadcast in MUL_MAT ( #31239 ) vulkan: allow dim 3 broadcast in MUL_MAT supports_op rejected every MUL_MAT whose src0 and src1 differ in ne3, although mul_mm, mul_mmq and mul_mat_vec already broadcast src0 over dim 3 through broadcast3.…",
-      "date_type": "updated"
-    },
-    {
       "id": "1e3ebf94e41ebe19793b",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
@@ -3673,39 +3739,6 @@
       "published_at": "2026-10-27T15:00:00Z",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "date_type": "published"
-    },
-    {
-      "id": "c1efe94a438c78db4aca",
-      "title": "b11937",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11937",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T14:14:03Z",
-      "summary": "cmake: WASI doesn't support spawning ( #30751 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "a94cf55dda58e660c947",
-      "title": "b11932",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11932",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T14:08:39Z",
-      "summary": "mtmd-cli: Reduced scope of batch pointer ( #31155 ) ( #31165 ) mtmd-cli: Reduced scope of batch pointer ( #31155 ) mtmd-cli: Remove CLI regression test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60401524 macOS/iOS: macOS Apple Sil…",
-      "date_type": "updated"
-    },
-    {
-      "id": "03efaabc91c5a0ac5b1f",
-      "title": "b11930",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-27T13:46:24Z",
-      "summary": "server: add router device memory margin parameter for dynamic unloading ( #21231 ) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory r…",
-      "date_type": "updated"
     },
     {
       "id": "c417f8e3d39d0b893c07",
@@ -4377,28 +4410,6 @@
       "published_at": "2026-09-23T18:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "68ead6b6af2b71441cd0",
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-09-23T16:00:57Z",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "81481aa316e38773fdfe",
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-09-23T15:25:14Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4426,7 +4437,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "message": "正常"
     },
     {
@@ -4471,7 +4482,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 26,
+      "count": 28,
       "message": "正常"
     },
     {
@@ -4507,7 +4518,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 24,
+      "count": 23,
       "message": "正常"
     },
     {

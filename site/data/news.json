@@ -1,11 +1,99 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-02T23:37:21Z",
-  "last_success_at": "2026-11-02T23:37:21Z",
+  "last_attempt_at": "2026-11-03T06:54:19Z",
+  "last_success_at": "2026-11-03T06:54:19Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "b53d42e9c538fd7656ef",
+      "title": "v0.40.14",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-03T06:48:56Z",
+      "summary": "What's Changed ci: pin buildx to workaround deadlock by @dhiltgen in #19373 openai: preserve readable Responses input content by @hoyyeva in #19192 mlx: sort long top-k rows in chunks by @dhiltgen in #19392 app: make ChatGPT disconnect failures retryable by @hoyyeva in #19336 la…",
+      "date_type": "updated"
+    },
+    {
+      "id": "27f1eeea6fb781495e6a",
+      "title": "b12065: kv-cache : never return 0 kv_rows for sequences without cells (#31570)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12065",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T05:51:53Z",
+      "summary": "A cache that shares the cells of another one (f.ex. the gemma4 assistant) can build a graph before its sequences have any cells, f.ex. at the server warmup. get_n_kv_rows() then returned 0, which means that kv_rows are not used, so the graph fell back to the dense KQ mask and th…",
+      "date_type": "updated"
+    },
+    {
+      "id": "419393c3c0a3cbc48abd",
+      "title": "b12064",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T05:45:56Z",
+      "summary": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. Th…",
+      "date_type": "updated"
+    },
+    {
+      "id": "23abe1f1b0a2b246b606",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T03:30:00Z",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "date_type": "published"
+    },
+    {
+      "id": "804d2e2f62a5210f78bc",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T01:49:52Z",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+      "date_type": "published"
+    },
+    {
+      "id": "33e35f149af7ffc4d3be",
+      "title": "b12063",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T01:42:00Z",
+      "summary": "dflash: copy hidden features via device copies ( #31506 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62913415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f3123bdeed841684f4be",
+      "title": "v0.40.14-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-03T00:59:50Z",
+      "summary": "server: decode cloud web search responses ( #19476 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "dfb1d49114f0805e7875",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T00:35:52Z",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "date_type": "published"
+    },
     {
       "id": "d12853f6724947c696e5",
       "title": "b12061",
@@ -183,6 +271,28 @@
       "date_type": "published"
     },
     {
+      "id": "bca108e4c77bd86b238b",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "date_type": "published"
+    },
+    {
+      "id": "0d297090385ad5a72451",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "date_type": "published"
+    },
+    {
       "id": "0b86c010857d521d9160",
       "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
       "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
@@ -269,6 +379,17 @@
       "published_at": "2026-11-02T15:51:15Z",
       "summary": "sycl: dmmv code cleanup ( #31325 ) sycl: fold q8_0 reorder dmmv into the generic template sycl: template the dmmv non-K launchers sycl: template the dmmv K-quant launchers Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62707110 macOS/…",
       "date_type": "updated"
+    },
+    {
+      "id": "277870ffc8d71544c046",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T15:30:00Z",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "date_type": "published"
     },
     {
       "id": "5d33ed0c66ace544e65f",
@@ -1426,6 +1547,17 @@
       "date_type": "published"
     },
     {
+      "id": "945f879ef3a469b4aebe",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "date_type": "published"
+    },
+    {
       "id": "944be91cc06a18a89b9b",
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
@@ -2137,7 +2269,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：134",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：144",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2347,7 +2479,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3382,7 +3514,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:55:17Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：412",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：436",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3416,7 +3548,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T15:34:40Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：183",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：192",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3443,17 +3575,6 @@
       "date_type": "updated"
     },
     {
-      "id": "8fd264d14a343cc6ba12",
-      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-28T15:00:00Z",
-      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
-      "date_type": "published"
-    },
-    {
       "id": "ec733f799e1aaee3d1ac",
       "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
       "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
@@ -3462,17 +3583,6 @@
       "category": "opensource",
       "published_at": "2026-10-28T14:58:17Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "bddebf86268f0d308cda",
-      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-28T14:44:00Z",
-      "summary": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven…",
       "date_type": "published"
     },
     {
@@ -3495,17 +3605,6 @@
       "category": "official",
       "published_at": "2026-10-28T13:15:00Z",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "date_type": "published"
-    },
-    {
-      "id": "3d80486e8e6b07c7d6f8",
-      "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
-      "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-28T13:00:00Z",
-      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
       "date_type": "published"
     },
     {
@@ -3637,7 +3736,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-28T04:48:45Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：199",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：222",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3661,61 +3760,6 @@
       "category": "opensource",
       "published_at": "2026-10-28T01:44:39Z",
       "summary": "model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B ( #31275 ) model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B Assisted-by: Claude Opus 5.5 convert : keep the speech task templates out of the d1 GGUFs Assisted-by: Claude Opus 5.5 small refactoring: no_batching Co-authored-by: …",
-      "date_type": "updated"
-    },
-    {
-      "id": "79326e62ecc4a5d82e44",
-      "title": "b11944",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T01:27:07Z",
-      "summary": "server: expose the reasoning effort levels of the chat template ( #31271 ) server: expose the reasoning effort levels of the chat template The capability probe renders a user turn for each candidate level (minimal, low, medium, high, xhigh, max) and for an unknown level. A level…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e8c798b49e967c6df945",
-      "title": "b11941",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T01:06:31Z",
-      "summary": "model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B ( #31257 ) model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B Co-authored-by: Xuan Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 convert : read the LFM3-Audio config.json as released A transforme…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6747d723bcd58ba07990",
-      "title": "b11940",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T00:35:53Z",
-      "summary": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.githu…",
-      "date_type": "updated"
-    },
-    {
-      "id": "459fa697a2c152c84a58",
-      "title": "b11938",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T00:01:54Z",
-      "summary": "model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B ( #31252 ) model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan-Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 tests : set …",
-      "date_type": "updated"
-    },
-    {
-      "id": "740c5733ca5094b5da38",
-      "title": "v0.40.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-27T21:41:00Z",
-      "summary": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3 : a 1.7B text model with a 256K-token context window lfm3-vl : adds image understanding l…",
       "date_type": "updated"
     },
     {
@@ -4366,50 +4410,6 @@
       "published_at": "2026-09-30T15:03:07Z",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "date_type": "published"
-    },
-    {
-      "id": "db713ef86bd59ea8f7ba",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-28T19:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "597c808f7f546491f0ec",
-      "title": "Hallo, Deutschland!",
-      "url": "https://mistral.ai/news/hallo-deutschland/",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "category": "official",
-      "published_at": "2026-09-28T15:57:59Z",
-      "summary": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry.",
-      "date_type": "published"
-    },
-    {
-      "id": "34692efacd3b982a5758",
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-09-24T16:20:39Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "1ccf342131e2aeec4f4f",
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-09-23T18:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4491,7 +4491,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4500,7 +4500,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4509,7 +4509,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.CV",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {

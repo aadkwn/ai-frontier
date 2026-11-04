@@ -1,11 +1,176 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-04T09:22:21Z",
-  "last_success_at": "2026-11-04T09:22:21Z",
+  "last_attempt_at": "2026-11-04T18:01:38Z",
+  "last_success_at": "2026-11-04T18:01:38Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "f762962d4e70678a6737",
+      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T18:00:00Z",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therap…",
+      "date_type": "published"
+    },
+    {
+      "id": "7e4f7adddfbaac34bb48",
+      "title": "ChatGPT will now make you animated GIFs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T18:00:00Z",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatG…",
+      "date_type": "published"
+    },
+    {
+      "id": "32d4e91d243ef07f0795",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-04T17:50:10Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "ef0e90236814fadb34d7",
+      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T16:51:35Z",
+      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "date_type": "published"
+    },
+    {
+      "id": "dca8692856b1500998d1",
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T16:17:22Z",
+      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "date_type": "published"
+    },
+    {
+      "id": "0beed25ab06a25ff60d2",
+      "title": "Data centers lost the midterms",
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T16:05:39Z",
+      "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI in…",
+      "date_type": "published"
+    },
+    {
+      "id": "eef47e2f46ab6ae8ee70",
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T15:58:45Z",
+      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little hig…",
+      "date_type": "published"
+    },
+    {
+      "id": "2322faed842dfa6f3d15",
+      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T14:46:01Z",
+      "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their com…",
+      "date_type": "published"
+    },
+    {
+      "id": "1be4fdd8e6ca80f0ec01",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-04T14:30:00Z",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "date_type": "published"
+    },
+    {
+      "id": "9b4a16ecc1cff8543c69",
+      "title": "b12111: common : delete common_get_path_from_env() (#31444)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12111",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T13:21:38Z",
+      "summary": "Signed-off-by: Adrien Gallouët angt@huggingface.co",
+      "date_type": "updated"
+    },
+    {
+      "id": "9dccbf755eee5d2d6d84",
+      "title": "v0.9.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T13:09:55Z",
+      "summary": "Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral L…",
+      "date_type": "updated"
+    },
+    {
+      "id": "83abbe2c5d4334fb7921",
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T13:00:00Z",
+      "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "date_type": "published"
+    },
+    {
+      "id": "f7ff1d3af8b569ff53e6",
+      "title": "b12110",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12110",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T12:56:44Z",
+      "summary": "llama.cpp : bump version to 0.9.0 ( #31646 ) llama.cpp : bump version to 0.9.0 authors : update Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63573996 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b7080cb7a26189677c4f",
+      "title": "b12109",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12109",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T12:37:46Z",
+      "summary": "sync : ggml Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63566813 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9a66a9476221031c0ee3",
+      "title": "Google hasn’t figured out how to make AI pay like its search engine",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T12:00:00Z",
+      "summary": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. M…",
+      "date_type": "published"
+    },
     {
       "id": "454857c97df68bcf9df2",
       "title": "b12102",
@@ -49,6 +214,17 @@
       "published_at": "2026-11-04T08:03:02Z",
       "summary": "common : fix -hf tag matching inside longer quant names ( #31620 ) common : fix -hf tag matching inside longer quant names \":F16\" picked a BF16 file when the repo had both, since \"BF16\" contains \"F16\". The same applied to \":Q4_XS\" vs \"IQ4_XS\". The tag now has to start at a token…",
       "date_type": "updated"
+    },
+    {
+      "id": "a3433e936d2c04bfa772",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-04T07:00:00Z",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "date_type": "published"
     },
     {
       "id": "48dc583f433604fd8974",
@@ -2240,17 +2416,6 @@
       "date_type": "published"
     },
     {
-      "id": "0d297090385ad5a72451",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "date_type": "published"
-    },
-    {
       "id": "bca108e4c77bd86b238b",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -2259,6 +2424,17 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "date_type": "published"
+    },
+    {
+      "id": "0d297090385ad5a72451",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "date_type": "published"
     },
     {
@@ -2423,7 +2599,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T13:52:10Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：130",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：155",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2527,17 +2703,6 @@
       "date_type": "published"
     },
     {
-      "id": "4094d4340f9e66f9e2fc",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T00:00:00Z",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "date_type": "published"
-    },
-    {
       "id": "945f879ef3a469b4aebe",
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
@@ -2549,6 +2714,17 @@
       "date_type": "published"
     },
     {
+      "id": "4094d4340f9e66f9e2fc",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "date_type": "published"
+    },
+    {
       "id": "d8f851d0f37a96c04abc",
       "title": "新模型：ccore/Qwen3.5-4B-GLB-3D-Coder",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
@@ -2556,7 +2732,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-01T22:30:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：116",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：143",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2779,6 +2955,18 @@
       "published_at": "2026-10-31T16:05:00Z",
       "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It …",
       "date_type": "published"
+    },
+    {
+      "id": "60751bee6b6e2ca67e68",
+      "title": "新模型：deep-principle/Hydrogen-1.0",
+      "url": "https://huggingface.co/deep-principle/Hydrogen-1.0",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-10-31T15:54:37Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：228",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "f6a069c556ce55716795",
@@ -3052,7 +3240,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：149",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：171",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3262,7 +3450,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：161",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：168",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3531,39 +3719,6 @@
       "date_type": "published"
     },
     {
-      "id": "85248bd11eaa5ccdfaf0",
-      "title": "Trump declares robot imports a national security threat",
-      "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-29T19:07:53Z",
-      "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
-      "date_type": "published"
-    },
-    {
-      "id": "4aa6b4f10322be2ed130",
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-29T18:45:31Z",
-      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on …",
-      "date_type": "published"
-    },
-    {
-      "id": "20776e88d00f35028020",
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T17:54:38Z",
-      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
-      "date_type": "published"
-    },
-    {
       "id": "e772b09d20c0a3885d7d",
       "title": "b11985",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985",
@@ -3586,72 +3741,6 @@
       "date_type": "published"
     },
     {
-      "id": "b138df71b1659a331df5",
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T17:00:00Z",
-      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "date_type": "published"
-    },
-    {
-      "id": "8b38a3a44bca7fc78fa4",
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T16:42:32Z",
-      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-      "date_type": "published"
-    },
-    {
-      "id": "070a8640133333c98e2d",
-      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-29T16:24:55Z",
-      "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
-      "date_type": "published"
-    },
-    {
-      "id": "8dc21525d02f2a412389",
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T16:21:00Z",
-      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
-      "date_type": "published"
-    },
-    {
-      "id": "5f992c32f5756cf3afc3",
-      "title": "Microsoft’s AI future has fewer jobs",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-29T16:00:00Z",
-      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to aro…",
-      "date_type": "published"
-    },
-    {
-      "id": "8d448df3e470faabd24c",
-      "title": "The NYT Cooking app is testing AI recipe modifications",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-29T14:39:37Z",
-      "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredien…",
-      "date_type": "published"
-    },
-    {
       "id": "128755116b8b9c05fe32",
       "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
@@ -3660,28 +3749,6 @@
       "category": "opensource",
       "published_at": "2026-10-29T14:16:58Z",
       "summary": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e508e29ae812fe586e8d",
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-29T13:37:07Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "0603acd173548429c783",
-      "title": "b11982",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11982",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T12:20:22Z",
-      "summary": "hexagon: support for UPSCALE op ( #31331 ) hex-upscale: basic upscale ops (not fully vectorized) hex-upscale: optimize nearest 2x, 4x and bilinear 4x hex-upscale: add support for non-contig rows and dims collapsing hex-upscale: use vgather instead of scalar staging hex-upscale: …",
       "date_type": "updated"
     },
     {
@@ -3696,17 +3763,6 @@
       "date_type": "published"
     },
     {
-      "id": "684555a3270c71ead40b",
-      "title": "b11996",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11996",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T09:28:03Z",
-      "summary": "server : restore the spec checkpoint for drafts longer than n_rs_seq …",
-      "date_type": "updated"
-    },
-    {
       "id": "0f01adb2acab0a67ba71",
       "title": "How we detect frontier model misalignment",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
@@ -3716,39 +3772,6 @@
       "published_at": "2026-10-29T09:00:00Z",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "date_type": "published"
-    },
-    {
-      "id": "bf42268542540e5c5755",
-      "title": "Patch release v5.21.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-29T08:35:02Z",
-      "summary": "Patch release v5.21.1 ** Fix rope_scaling setter for configs that assign it during init ( #50080 ) We broke remote code loading in vllm, this fixes it sorry everyone!",
-      "date_type": "updated"
-    },
-    {
-      "id": "6dca85f696cdb99b504d",
-      "title": "b11981",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11981",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T08:15:57Z",
-      "summary": "hexagon: improve DDR bw utilization in transposed CONCAT ( #31277 ) hex-concat: double row block size for transposed CONCAT hex-concat: double buffer scratchpads hex-concat: chunked src1 rows in transposed concat hex-concat: pad src1 VTCM stride to spread gather lanes hex-vgathe…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e6f05dec0997e5fdc23e",
-      "title": "b11989: HIP/CUDA: enable sparse attn on CDNA (#31259)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11989",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T08:14:11Z",
-      "summary": "HIP/CUDA: enable sparse attn on CDNA Use __ballot for __ballot_sync on old ROCm versions Ignore new large head fattn mma variant",
-      "date_type": "updated"
     },
     {
       "id": "d948735545c20cf30721",
@@ -4387,28 +4410,6 @@
       "published_at": "2026-10-13T19:43:07Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "94cc08977f17740f09c1",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-10-13T16:01:58Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "851107eacfc8ba0f286d",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-10-13T16:01:52Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4517,7 +4518,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 25,
+      "count": 26,
       "message": "正常"
     },
     {

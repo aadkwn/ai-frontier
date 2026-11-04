@@ -1,11 +1,176 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-03T21:06:06Z",
-  "last_success_at": "2026-11-03T21:06:06Z",
+  "last_attempt_at": "2026-11-04T01:26:53Z",
+  "last_success_at": "2026-11-04T01:26:53Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "fcec1b84be933ab3ab35",
+      "title": "b12089",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T01:20:02Z",
+      "summary": "model : Add support for Metis-1.6 models ( #31134 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63378637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
+      "date_type": "updated"
+    },
+    {
+      "id": "ffbb69a7f635e1ce55f6",
+      "title": "b12088",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T00:57:33Z",
+      "summary": "model : enable NVFP4 LFM3 ggufs ( #31608 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63372395 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: …",
+      "date_type": "updated"
+    },
+    {
+      "id": "92c50f67a507db6c8047",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T00:42:10Z",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the pla…",
+      "date_type": "published"
+    },
+    {
+      "id": "b6093e4588ad1d248a54",
+      "title": "b12087",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12087",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T00:34:37Z",
+      "summary": "mtmd : add Nemotron 3.5 Transcribe support ( #31471 ) mtmd : add Nemotron 3.5 Transcribe support Assisted-by: Claude convert : fix vocab of draft models for Nemotron-H targets Assisted-by: Claude convert : reject non-BF16 Transcribe checkpoints Assisted-by: Claude mtmd : make sp…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ab3b2eacabf763a91d44",
+      "title": "b12086",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12086",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T00:16:39Z",
+      "summary": "qwen4exp: write the conv state tail without an intermediate cont ( #31443 ) build_conv_state_at makes a contiguous copy of the conv input tail before writing it into the recurrent state, so every GDN layer issues two device copies per generated token where one is enough. On Qwen…",
+      "date_type": "updated"
+    },
+    {
+      "id": "630c12e7fe19610d4f74",
+      "title": "b12084",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12084",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T23:56:31Z",
+      "summary": "model : record layer inputs in LFM3 for spec dec ( #31598 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63354471 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9d97c8271a19f07f2108",
+      "title": "Please stop asking me when the AI bubble will pop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-03T23:37:45Z",
+      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made m…",
+      "date_type": "published"
+    },
+    {
+      "id": "e154fee02c7c32910ffc",
+      "title": "b12083",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12083",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T23:36:36Z",
+      "summary": "ggml: avoid signed overflow in ggml_roll bounds check ( #30375 ) ggml_roll validated each shift with abs(shift), but abs(INT_MIN) is signed integer overflow UB evaluated before the bounds check runs. Compare with a signed-safe test instead. Website: https://llama.app Attestation…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c2fb38ee8177687467b1",
+      "title": "v0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-03T22:52:31Z",
+      "summary": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in #19433 model: add MiMo V2.6 model support by @dhiltgen in #19400 Full Changelog : v0.40.14...v0.40.15-rc0",
+      "date_type": "updated"
+    },
+    {
+      "id": "f036c36fad00b553f631",
+      "title": "b12081",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12081",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T22:51:32Z",
+      "summary": "cuda: potential fix for Q8_1 correction sum ( #31247 ) cuda: potential fix for Q8_1 correction sum Update ggml/src/ggml-cuda/quantize.cu Co-authored-by: Gaurav Garg gaugarg@nvidia.com addressed review comment to change the quantize_mmq_q8_1 flow as well Co-authored-by: Gaurav Ga…",
+      "date_type": "updated"
+    },
+    {
+      "id": "52eb9ce7b224919af0f3",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T22:41:03Z",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "date_type": "published"
+    },
+    {
+      "id": "1c7922c2bfca155b5510",
+      "title": "b12080",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12080",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T22:25:31Z",
+      "summary": "cuda : gather batched tensor reads into mapped host memory (PR to master) ( #31391 ) cuda: gather batched tensor reads into mapped host memory Assisted-by: Codex add comments Assisted-by: Codex simplify the implementation based on checks that exist earlier in the flow simplify b…",
+      "date_type": "updated"
+    },
+    {
+      "id": "014d0f8ff9b1f411e59e",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T22:19:53Z",
+      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "date_type": "published"
+    },
+    {
+      "id": "9700c07623d0788d5825",
+      "title": "b12079",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T22:03:45Z",
+      "summary": "Add nccl support for multi-node tensor parallelism ( #28967 ) Add a backend interface for collectives across ranks running in separate processes, implement it in the CUDA backend using NCCL, and use it in the RPC server when available. Drop ggml_backend_comm_allreduce_rank_t and…",
+      "date_type": "updated"
+    },
+    {
+      "id": "14409ffa4e7706ac4f45",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-03T21:43:08Z",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "date_type": "published"
+    },
     {
       "id": "81efc47dc4581bdd56ee",
       "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
@@ -14,12 +179,12 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-03T21:05:55Z",
-      "summary": "Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet, retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s because…",
+      "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
       "date_type": "published"
     },
     {
       "id": "8fdb108aaca7ce7da2d4",
-      "title": "Don’t be fooled by the fake hair on these famous baldies",
+      "title": "Those Jeff Bezos hair transplant photos are very fake",
       "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
       "source": "The Verge AI",
       "source_id": "the-verge",
@@ -249,6 +414,17 @@
       "date_type": "published"
     },
     {
+      "id": "f7c11ca5a1337415c145",
+      "title": "b12090",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-03T15:51:07Z",
+      "summary": "ggml-zdnn: fix fattn test failure ( #31583 )",
+      "date_type": "updated"
+    },
+    {
       "id": "7e52a6acfd99b02c3f1f",
       "title": "b12074",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12074",
@@ -316,13 +492,13 @@
     },
     {
       "id": "d683890ef6589f420e1b",
-      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
       "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-03T14:30:00Z",
-      "summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
+      "summary": "On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
       "date_type": "published"
     },
     {
@@ -378,17 +554,6 @@
       "category": "opensource",
       "published_at": "2026-11-03T10:04:30Z",
       "summary": "webgpu: add ARANGE support ( #31455 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63048873 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9700c07623d0788d5825",
-      "title": "b12079: Add nccl support for multi-node tensor parallelism (#28967)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T09:26:19Z",
-      "summary": "Add a backend interface for collectives across ranks running in separate processes, implement it in the CUDA backend using NCCL, and use it in the RPC server when available. Drop ggml_backend_comm_allreduce_rank_t and reuse ggml_backend_comm_allreduce_tensor for per-rank communi…",
       "date_type": "updated"
     },
     {
@@ -1928,7 +2093,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T13:52:10Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：118",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：124",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2252,17 +2417,6 @@
       "date_type": "published"
     },
     {
-      "id": "945f879ef3a469b4aebe",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T00:00:00Z",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "date_type": "published"
-    },
-    {
       "id": "4094d4340f9e66f9e2fc",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -2274,6 +2428,17 @@
       "date_type": "published"
     },
     {
+      "id": "945f879ef3a469b4aebe",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "date_type": "published"
+    },
+    {
       "id": "d8f851d0f37a96c04abc",
       "title": "新模型：ccore/Qwen3.5-4B-GLB-3D-Coder",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
@@ -2281,7 +2446,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-01T22:30:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：112",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：113",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2987,7 +3152,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：153",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：156",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3377,17 +3542,6 @@
       "date_type": "published"
     },
     {
-      "id": "bc01622ffa1cd4de3b05",
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T14:35:26Z",
-      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
-      "date_type": "published"
-    },
-    {
       "id": "128755116b8b9c05fe32",
       "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
@@ -3399,17 +3553,6 @@
       "date_type": "updated"
     },
     {
-      "id": "3a644431de131a7405e5",
-      "title": "Anthropic is asking Wall Street to believe in AGI",
-      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-29T14:00:00Z",
-      "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it co…",
-      "date_type": "published"
-    },
-    {
       "id": "e508e29ae812fe586e8d",
       "title": "Granite Switch 4.1.1 — Update models like you update software",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
@@ -3418,39 +3561,6 @@
       "category": "opensource",
       "published_at": "2026-10-29T13:37:07Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "130656092a266855c3aa",
-      "title": "Anthropic’s business plan: Build God or die trying",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-29T13:30:00Z",
-      "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the bus…",
-      "date_type": "published"
-    },
-    {
-      "id": "3eb958348088c8d06736",
-      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T13:00:00Z",
-      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
-      "date_type": "published"
-    },
-    {
-      "id": "f303d11137ac0122eabd",
-      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T13:00:00Z",
-      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
       "date_type": "published"
     },
     {
@@ -3663,103 +3773,15 @@
       "date_type": "published"
     },
     {
-      "id": "b6b30743068c26272d89",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-29T00:00:00Z",
-      "summary": "",
+      "id": "16681fd606d5f6994d06",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-28T19:40:49Z",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
       "date_type": "published"
-    },
-    {
-      "id": "6394645bd5105adc5435",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-10-29T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "f9fdd453543028293b64",
-      "title": "b11972",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T22:53:53Z",
-      "summary": "common, mtmd: bound control vector layer indices and M-RoPE position loops ( #31336 ) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are c…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4188f17ee65e78dfbd27",
-      "title": "b11971",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11971",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T22:28:26Z",
-      "summary": "opencl: add tiled q4_k GEMM for adreno ( #30412 ) opencl: run the tiled q4_K lm_head through a tiled GEMM at batch > 1 opencl: split tiled dp4a q4_k gemm into its own file and test for dp4a Assisted-by: Codex Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app …",
-      "date_type": "updated"
-    },
-    {
-      "id": "002a48ec774cc7a0f7a7",
-      "title": "v0.40.13-rc1: llama.cpp: workaround Metal unary crash (#19372)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-28T22:20:04Z",
-      "summary": "This temporary patch works around a regression on older versions of MacOS ggml_metal_library_compile_all: failed to build 'unary' library",
-      "date_type": "updated"
-    },
-    {
-      "id": "1e7cf4e0713c1d74c104",
-      "title": "b11970",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T21:33:05Z",
-      "summary": "hexagon: add conv2d support ( #30995 ) hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kern…",
-      "date_type": "updated"
-    },
-    {
-      "id": "39cf0e80e1ec33973930",
-      "title": "b11969",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11969",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T19:12:03Z",
-      "summary": "Speed up IQ4 quant creation with pre-computed halfway points ( #31201 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60965905 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
-      "date_type": "updated"
-    },
-    {
-      "id": "5a94e92ea1729a3634bb",
-      "title": "v0.40.13-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-10-28T17:37:56Z",
-      "summary": "llama.cpp: version bump b11963 ( #19360 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "b006d38b52ac3fe65fe0",
-      "title": "b11968",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T17:34:11Z",
-      "summary": "ggml-cpu: SVE 256 bit implementation of gemm_q6_K_8x8_q8_K kernel ( #27472 ) q6_k GEMM working cleanup review comments review comment addressed - removed pg16_8 incorporated the review comments - replaced switch with if and other points marking q8_k_blocklen UNUSEDto disable war…",
-      "date_type": "updated"
     },
     {
       "id": "e8e0cb1d0e685ced8c0e",
@@ -3771,17 +3793,6 @@
       "published_at": "2026-10-28T17:00:58Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "f04b23208c735a6d0155",
-      "title": "b11966",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11966",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-28T16:52:33Z",
-      "summary": "ci(s390x): switch to Ubuntu 26.04 runners ( #31317 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60911815 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
-      "date_type": "updated"
     },
     {
       "id": "a395c7da350b5086cc15",
@@ -3872,6 +3883,17 @@
       "date_type": "published"
     },
     {
+      "id": "35e334c198740f741663",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-10-26T18:00:00Z",
+      "summary": "Delivering fast and capable computer use at scale",
+      "date_type": "published"
+    },
+    {
       "id": "b1d7eb2dedce5839f589",
       "title": "Our newest AI Quest: Mapping the human brain",
       "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
@@ -3935,17 +3957,6 @@
       "category": "official",
       "published_at": "2026-10-26T07:00:00Z",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "date_type": "published"
-    },
-    {
-      "id": "35e334c198740f741663",
-      "title": "Introducing GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T00:00:00Z",
-      "summary": "Bringing fast and capable computer use to everyone",
       "date_type": "published"
     },
     {
@@ -4396,17 +4407,6 @@
       "source_id": "deepmind",
       "category": "official",
       "published_at": "2026-10-13T16:01:52Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "b6aec8c05cfc3e2f0fe3",
-      "title": "Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-10-07T12:00:00Z",
       "summary": "",
       "date_type": "published"
     }

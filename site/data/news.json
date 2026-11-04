@@ -1,11 +1,198 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-04T18:01:38Z",
-  "last_success_at": "2026-11-04T18:01:38Z",
+  "last_attempt_at": "2026-11-04T23:43:30Z",
+  "last_success_at": "2026-11-04T23:43:30Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "7aa63af445bdd3ac983f",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T22:45:09Z",
+      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "date_type": "published"
+    },
+    {
+      "id": "b531b56f4ce7687d64ce",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T22:42:15Z",
+      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with com…",
+      "date_type": "published"
+    },
+    {
+      "id": "a2784e68c43eebe26714",
+      "title": "b12119",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12119",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T22:37:57Z",
+      "summary": "server : realtime: send an error event instead of crashing on exceptions ( #31632 ) server : realtime: send an error event instead of crashing on exceptions server : route websocket handlers through ex_wrapper, remove the realtime test server : realtime: keep the previous tools …",
+      "date_type": "updated"
+    },
+    {
+      "id": "a2ae22ce36f2f505101d",
+      "title": "b12118",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12118",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T22:17:35Z",
+      "summary": "opencl: improve decode perf with FA ( #31633 ) opencl: use more workgroups for q4_K gate up + GLU Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: handle FA for GQA 2 and 6 with head size 256 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: handle FA for GQA …",
+      "date_type": "updated"
+    },
+    {
+      "id": "c1e93e47438d89a0794e",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T22:13:16Z",
+      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "date_type": "published"
+    },
+    {
+      "id": "32842112ca9593c18d41",
+      "title": "b12116",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T22:01:47Z",
+      "summary": "model, mtmd: drama-3 tts support ( #31613 ) model, mtmd: drama-3 tts support clean up mtmd: drama3 helper stops at the codebook tower limit Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/6…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b314cbc6665b0c27cf4d",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T21:56:01Z",
+      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "date_type": "published"
+    },
+    {
+      "id": "576b3975e72bb4e8a538",
+      "title": "17 better ways Elon Musk could have wasted $446 million",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T21:45:00Z",
+      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the…",
+      "date_type": "published"
+    },
+    {
+      "id": "131fed317e6702dc4e58",
+      "title": "b12114",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12114",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-04T21:37:33Z",
+      "summary": "webgpu: return maxBufferSize from get_max_size and avoid whole-buffer bindings in memset/clear ( #31348 ) Fix get_max_size and improve the memset shader Fix buffer_memset to handle the buffer size more than max binding size. Website: https://llama.app Attestations: https://githu…",
+      "date_type": "updated"
+    },
+    {
+      "id": "bd044bc53c19f14dcbd4",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T21:25:44Z",
+      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "date_type": "published"
+    },
+    {
+      "id": "8d6f6c8bc49c9de3c6ad",
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T21:10:56Z",
+      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "date_type": "published"
+    },
+    {
+      "id": "f3b52b53bfb0f560bf01",
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-04T20:55:50Z",
+      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+      "date_type": "published"
+    },
+    {
+      "id": "97689e4470033f7c3c03",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T20:23:24Z",
+      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your v…",
+      "date_type": "published"
+    },
+    {
+      "id": "5112f3d519822a572a02",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T19:30:04Z",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chines…",
+      "date_type": "published"
+    },
+    {
+      "id": "e582a56b9edebbe87a5f",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T19:29:52Z",
+      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+      "date_type": "published"
+    },
+    {
+      "id": "efff75d2c4af86e8eeae",
+      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-04T18:44:57Z",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chines…",
+      "date_type": "published"
+    },
+    {
+      "id": "56101ee27feec7039fe1",
+      "title": "Nothing teases a screen-free AI device ahead of launch next month",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-04T18:26:07Z",
+      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, on…",
+      "date_type": "published"
+    },
     {
       "id": "f762962d4e70678a6737",
       "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
@@ -214,6 +401,17 @@
       "published_at": "2026-11-04T08:03:02Z",
       "summary": "common : fix -hf tag matching inside longer quant names ( #31620 ) common : fix -hf tag matching inside longer quant names \":F16\" picked a BF16 file when the repo had both, since \"BF16\" contains \"F16\". The same applied to \":Q4_XS\" vs \"IQ4_XS\". The tag now has to start at a token…",
       "date_type": "updated"
+    },
+    {
+      "id": "fbaa86a829ad59fd10c5",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-04T08:00:00Z",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "date_type": "published"
     },
     {
       "id": "a3433e936d2c04bfa772",
@@ -1327,6 +1525,17 @@
       "date_type": "updated"
     },
     {
+      "id": "981785a01550309d0739",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-04T00:00:00Z",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "date_type": "published"
+    },
+    {
       "id": "630c12e7fe19610d4f74",
       "title": "b12084",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12084",
@@ -2416,17 +2625,6 @@
       "date_type": "published"
     },
     {
-      "id": "bca108e4c77bd86b238b",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "date_type": "published"
-    },
-    {
       "id": "0d297090385ad5a72451",
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
@@ -2435,6 +2633,17 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "date_type": "published"
+    },
+    {
+      "id": "bca108e4c77bd86b238b",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "date_type": "published"
     },
     {
@@ -2599,7 +2808,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T13:52:10Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：155",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：159",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2703,17 +2912,6 @@
       "date_type": "published"
     },
     {
-      "id": "945f879ef3a469b4aebe",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T00:00:00Z",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "date_type": "published"
-    },
-    {
       "id": "4094d4340f9e66f9e2fc",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -2725,6 +2923,17 @@
       "date_type": "published"
     },
     {
+      "id": "945f879ef3a469b4aebe",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "date_type": "published"
+    },
+    {
       "id": "d8f851d0f37a96c04abc",
       "title": "新模型：ccore/Qwen3.5-4B-GLB-3D-Coder",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
@@ -2732,7 +2941,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-01T22:30:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：143",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：146",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2757,6 +2966,18 @@
       "published_at": "2026-11-01T20:57:58Z",
       "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "date_type": "published"
+    },
+    {
+      "id": "ba57d55c90215a596969",
+      "title": "新模型：Comfy-Org/Idol",
+      "url": "https://huggingface.co/Comfy-Org/Idol",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-01T19:33:15Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：123",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "142b9f0bc6bb934947bd",
@@ -3240,7 +3461,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：171",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：174",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3355,17 +3576,6 @@
       "date_type": "published"
     },
     {
-      "id": "baf2e8680ec92ea7a5c1",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T13:54:25Z",
-      "summary": "DoorDash said that it is open to working with third-party agent makers.",
-      "date_type": "published"
-    },
-    {
       "id": "b15bec59cff16399bd34",
       "title": "b12007",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007",
@@ -3375,50 +3585,6 @@
       "published_at": "2026-10-30T13:54:18Z",
       "summary": "kv-cache : keep rotation constants on the GPU ( #31073 ) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support…",
       "date_type": "updated"
-    },
-    {
-      "id": "57bd8cae501a4c7803bc",
-      "title": "Silicon Valley wants you to invest in miracles",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T13:11:05Z",
-      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring fo…",
-      "date_type": "published"
-    },
-    {
-      "id": "1c953c6f303dffb252a4",
-      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T13:01:14Z",
-      "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the co…",
-      "date_type": "published"
-    },
-    {
-      "id": "6edb7f80f01baf9f1bee",
-      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
-      "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T13:00:00Z",
-      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
-      "date_type": "published"
-    },
-    {
-      "id": "93ad0842fdd46a0d77b0",
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T13:00:00Z",
-      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-      "date_type": "published"
     },
     {
       "id": "9387a338862cdb9ec5fa",
@@ -3450,7 +3616,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：168",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：175",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3475,17 +3641,6 @@
       "published_at": "2026-10-30T11:04:04Z",
       "summary": "ggml : add batched tensor copy API ( #30881 ) ggml : add generic batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : use batched tensor copy API in context io Assisted-by: pi:llama.cpp/ggml-org/DeepSe…",
       "date_type": "updated"
-    },
-    {
-      "id": "7f7f1671728237403366",
-      "title": "Maine’s data center revolt will decide who controls the Senate",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T11:00:00Z",
-      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brus…",
-      "date_type": "published"
     },
     {
       "id": "71ac64837d9c01fa28c7",
@@ -3554,17 +3709,6 @@
       "date_type": "published"
     },
     {
-      "id": "c096782638d443ac76bd",
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T09:00:00Z",
-      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, i…",
-      "date_type": "published"
-    },
-    {
       "id": "8f6170be809e1dfd3ccf",
       "title": "b12006: memory: refuse rollbacks past the snapshots of the last ubatch (#31368)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12006",
@@ -3598,17 +3742,6 @@
       "date_type": "updated"
     },
     {
-      "id": "c4d34ddeaf925ee45617",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T01:20:48Z",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "date_type": "published"
-    },
-    {
       "id": "d9382542407a53db42bd",
       "title": "b11998",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998",
@@ -3617,17 +3750,6 @@
       "category": "opensource",
       "published_at": "2026-10-30T01:15:06Z",
       "summary": "model: mistral le chonk ( #31376 ) llama: extend DSA and sdpark to new model fix ci Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61557038 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED …",
-      "date_type": "updated"
-    },
-    {
-      "id": "ec5258f1002411eb7a7a",
-      "title": "b11997",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T00:54:56Z",
-      "summary": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISAB…",
       "date_type": "updated"
     },
     {
@@ -3642,94 +3764,6 @@
       "date_type": "published"
     },
     {
-      "id": "772e2e8e8ca4a19f2546",
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T23:42:22Z",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "date_type": "published"
-    },
-    {
-      "id": "4a32d2fe895871688c40",
-      "title": "b11988",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T20:57:09Z",
-      "summary": "model : Support Limite 1B - Violetto ( #29433 ) gguf-py : add Limite arch Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org convert : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org llama : …",
-      "date_type": "updated"
-    },
-    {
-      "id": "123909754bc3a61b0023",
-      "title": "b11986",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T20:19:14Z",
-      "summary": "opencl: initial support for iq2 ( #31267 ) opencl: add iq2_s AOS mv opencl: add iq2_s SOA mv and tiled mm opencl: add iq2_s noshuffle gemm/gemv for adreno opencl: add iq2_s dp4a for adreno opencl: optimize iq2_s adreno decode and narrow batches Co-authored-by: Hongqiang Wang wan…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4a81ec2699fd48445f32",
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T20:08:31Z",
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "date_type": "published"
-    },
-    {
-      "id": "eb97518808c83f5e64fe",
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T20:05:47Z",
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "date_type": "published"
-    },
-    {
-      "id": "c64d19fa0032f9cea190",
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T19:56:19Z",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "date_type": "published"
-    },
-    {
-      "id": "1584446fbcb194380932",
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-29T19:14:36Z",
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
-      "date_type": "published"
-    },
-    {
-      "id": "e772b09d20c0a3885d7d",
-      "title": "b11985",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-29T17:13:28Z",
-      "summary": "metal : faster MXFP4 mat-vec, full threadgroups for unary/binary/GLU ( #31075 ) metal : faster MXFP4 mat-vec kernel Decode the fp4 values with the fp16 bit trick instead of a threadgroup lookup table, and load the packed nibbles as aligned 32-bit words. The kernel no longer uses…",
-      "date_type": "updated"
-    },
-    {
       "id": "9349f418e7bc7ab45091",
       "title": "An updated Model Spec for more capable and beneficial AI",
       "url": "https://openai.com/index/updated-model-spec",
@@ -3739,17 +3773,6 @@
       "published_at": "2026-10-29T17:00:00Z",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "date_type": "published"
-    },
-    {
-      "id": "128755116b8b9c05fe32",
-      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-10-29T14:16:58Z",
-      "summary": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained…",
-      "date_type": "updated"
     },
     {
       "id": "bd03e4a483646b8532a8",
@@ -4387,28 +4410,6 @@
       "category": "official",
       "published_at": "2026-10-14T02:00:14Z",
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "date_type": "published"
-    },
-    {
-      "id": "200a5d3dd39c6bfb7a20",
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-14T00:00:00Z",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "date_type": "published"
-    },
-    {
-      "id": "8b1ab1df41ac00d8450a",
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-10-13T19:43:07Z",
-      "summary": "",
       "date_type": "published"
     }
   ],

@@ -1,11 +1,143 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-05T06:55:06Z",
-  "last_success_at": "2026-11-05T06:55:06Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-05T15:32:24Z",
+  "last_success_at": "2026-11-05T15:32:24Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "9c6e67cc65141fc07bcb",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-05T15:19:05Z",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "date_type": "published"
+    },
+    {
+      "id": "6167ca4f496ea89584cf",
+      "title": "The hidden supply chain costs of the AI boom",
+      "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-05T15:00:00Z",
+      "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder g…",
+      "date_type": "published"
+    },
+    {
+      "id": "5c6fd66a42c8ea494afd",
+      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-05T15:00:00Z",
+      "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part…",
+      "date_type": "published"
+    },
+    {
+      "id": "e79288c48dc9eade2335",
+      "title": "Aina’s smart ring has a screen, a joystick and a mic so you can talk to AI agents",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-05T14:42:00Z",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "date_type": "published"
+    },
+    {
+      "id": "686daebd7e65234561ed",
+      "title": "b12128",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12128",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T14:07:39Z",
+      "summary": "tests: fix CI flakes of TOPK_MOE caused by near ties ( #31426 ) tests: fix CI flakes of TOPK_MOE caused by near ties With uniform random logits, two experts sometimes land within one f32 ulp of each other at a routing boundary, mostly with sqrt_softplus gating whose output range…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f5a829f9a8eba31c4c25",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-05T14:00:00Z",
+      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "date_type": "published"
+    },
+    {
+      "id": "44f488c59aa9e3a6dd20",
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-05T13:00:00Z",
+      "summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "date_type": "published"
+    },
+    {
+      "id": "9db55803402ec47c3ec5",
+      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-05T12:00:41Z",
+      "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+      "date_type": "published"
+    },
+    {
+      "id": "86c146bd7f606cc4b783",
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-05T12:00:00Z",
+      "summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "date_type": "published"
+    },
+    {
+      "id": "788aca0b86fe44b26f68",
+      "title": "Big Tech’s big AI buildout will not end until someone stops it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-05T10:45:00Z",
+      "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised retur…",
+      "date_type": "published"
+    },
+    {
+      "id": "41c2fe1f57c665f0c0b5",
+      "title": "b12125",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T07:32:28Z",
+      "summary": "opencl: enable f32 and q5_k multi column GEMV by default for Adreno X2 ( #31694 ) opencl: use the small-N f32 GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: use the q5_K multi-column verify GEMV by default on X2E As…",
+      "date_type": "updated"
+    },
+    {
+      "id": "46c49f823fed439561e6",
+      "title": "b12124",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12124",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T07:12:25Z",
+      "summary": "opencl: support non-contig sigmoid ( #31687 ) Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63927117 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA…",
+      "date_type": "updated"
+    },
     {
       "id": "e486f2b8d7b9e9f496a2",
       "title": "b12123",
@@ -18,6 +150,28 @@
       "date_type": "updated"
     },
     {
+      "id": "8ac57ef1710543415afd",
+      "title": "b12129",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12129",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T06:40:39Z",
+      "summary": "vulkan: Re-enable large coopmat matmul configuration on AMD proprieta…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d4f098cfc94de0dc19df",
+      "title": "b12127: metal: keep fusable node groups inside one command buffer (#31688)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T06:21:13Z",
+      "summary": "The first command buffer takes the first 10% of the graph nodes and the rest is split evenly between the extra command buffers. A fusion cannot span two command buffers, so a boundary that falls inside a fusable group runs that group unfused, and the output then depends on the n…",
+      "date_type": "updated"
+    },
+    {
       "id": "790aa0147c130bb6e5c9",
       "title": "b12122",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12122",
@@ -26,6 +180,17 @@
       "category": "opensource",
       "published_at": "2026-11-05T06:19:16Z",
       "summary": "Title: CUDA: fuse NVFP4 gate/up matmuls and GLU in MMQ ( #31296 ) cuda: fuse NVFP4 gate/up and GLU in MMQ cuda: honor the requested src1 precision in fused gate/up MMQ cuda: share NVFP4 scale checks, skip unused fused FP4 kernels cuda: test NVFP4 fused MMQ at W4A8 without scales…",
+      "date_type": "updated"
+    },
+    {
+      "id": "498ac4c49c7505e652f3",
+      "title": "b12126: qwen2 : add nvfp4 scales to build_ffn (#31657)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12126",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-05T05:29:50Z",
+      "summary": "This commit adds nvfp4 scales to qwen2's build_ffn call which are currently passed as NULL. The motivation for this is that a model converted to NVFP4 will currently crash because the scales are loaded but never applied in the FFN: llama-completion: llama.cpp/src/llama-sampler.c…",
       "date_type": "updated"
     },
     {
@@ -1041,17 +1206,6 @@
       "date_type": "updated"
     },
     {
-      "id": "46c49f823fed439561e6",
-      "title": "b12124: opencl: support non-contig sigmoid (#31687)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12124",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T03:18:24Z",
-      "summary": "Co-authored-by: Li He lih@qti.qualcomm.com",
-      "date_type": "updated"
-    },
-    {
       "id": "09e3cea0c582801caee0",
       "title": "b12121",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12121",
@@ -1061,6 +1215,17 @@
       "published_at": "2026-11-05T03:03:33Z",
       "summary": "llama : fix on-device state copy sizes for quantized KV caches ( #30541 ) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quanti…",
       "date_type": "updated"
+    },
+    {
+      "id": "25fa4dd18ec78a48a923",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-05T02:00:00Z",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "date_type": "published"
     },
     {
       "id": "ad1030df5ce46710e212",
@@ -1082,6 +1247,17 @@
       "category": "industry",
       "published_at": "2026-11-05T01:02:14Z",
       "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "date_type": "published"
+    },
+    {
+      "id": "c65c7708e93995ca4541",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-05T00:00:00Z",
+      "summary": "",
       "date_type": "published"
     },
     {
@@ -1785,7 +1961,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：208",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2615,6 +2791,18 @@
       "date_type": "published"
     },
     {
+      "id": "b8b568c8c47845d884c7",
+      "title": "新模型：RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+      "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-02T22:12:58Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：103",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "5fc0241e25c90db0d110",
       "title": "Powering up for a pivotal moment",
       "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
@@ -2736,17 +2924,6 @@
       "date_type": "published"
     },
     {
-      "id": "0d297090385ad5a72451",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "date_type": "published"
-    },
-    {
       "id": "bca108e4c77bd86b238b",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -2755,6 +2932,17 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "date_type": "published"
+    },
+    {
+      "id": "0d297090385ad5a72451",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "date_type": "published"
     },
     {
@@ -2919,7 +3107,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T13:52:10Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：163",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：169",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3023,17 +3211,6 @@
       "date_type": "published"
     },
     {
-      "id": "945f879ef3a469b4aebe",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T00:00:00Z",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "date_type": "published"
-    },
-    {
       "id": "4094d4340f9e66f9e2fc",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -3045,6 +3222,17 @@
       "date_type": "published"
     },
     {
+      "id": "945f879ef3a469b4aebe",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "date_type": "published"
+    },
+    {
       "id": "d8f851d0f37a96c04abc",
       "title": "新模型：ccore/Qwen3.5-4B-GLB-3D-Coder",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
@@ -3052,7 +3240,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-01T22:30:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：152",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：165",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3086,7 +3274,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-01T19:33:15Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：125",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：128",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3477,50 +3665,6 @@
       "date_type": "updated"
     },
     {
-      "id": "d42b8e56046bc19f14b3",
-      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-30T20:15:00Z",
-      "summary": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "1692dbfc7287ca8b688d",
-      "title": "Basically no one is using AI agents for their DoorDash orders",
-      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-30T19:30:52Z",
-      "summary": "But it's still early days for the relatively new e-commerce use case.",
-      "date_type": "published"
-    },
-    {
-      "id": "3dbc47c31caae53214cc",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-10-30T19:00:00Z",
-      "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "date_type": "published"
-    },
-    {
-      "id": "b9ee8bb30716fa37b159",
-      "title": "Google’s satellite AI server transmits its first response to Earth",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T18:21:38Z",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku ab…",
-      "date_type": "published"
-    },
-    {
       "id": "037154e824aaff256e14",
       "title": "nemotron-halloween",
       "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
@@ -3532,39 +3676,6 @@
       "date_type": "published"
     },
     {
-      "id": "4d0843b360d077cf4f8e",
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T17:47:12Z",
-      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
-      "date_type": "published"
-    },
-    {
-      "id": "0371ff9250f932ad40ce",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-30T17:38:19Z",
-      "summary": "Low costs and offline security mean magnetic tape still has a job.",
-      "date_type": "published"
-    },
-    {
-      "id": "8789b25f4f928a029c45",
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-10-30T17:38:04Z",
-      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present pe…",
-      "date_type": "published"
-    },
-    {
       "id": "2789ef84cc119d682457",
       "title": "新模型：nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
       "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
@@ -3572,31 +3683,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-10-30T17:37:02Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：177",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：181",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "235bb524b25e51667400",
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-10-30T17:00:00Z",
-      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-      "date_type": "published"
-    },
-    {
-      "id": "77395d8493e28ae35c2b",
-      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
-      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-10-30T16:53:49Z",
-      "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
-      "date_type": "published"
     },
     {
       "id": "46b9646d17c03bf417e3",
@@ -3662,84 +3751,6 @@
       "category": "opensource",
       "published_at": "2026-10-30T13:54:18Z",
       "summary": "kv-cache : keep rotation constants on the GPU ( #31073 ) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9387a338862cdb9ec5fa",
-      "title": "b12005",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12005",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T12:48:32Z",
-      "summary": "opencl: add initial q2_0 support ( #31340 ) opencl: add q2_0 AOS mv Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 SOA mv and tiled mm Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add q2_0 noshuffle gemm/ge…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e09f788c41d9c0e95bca",
-      "title": "b12004",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T12:20:30Z",
-      "summary": "common : end reasoning budget forcing on an end tag from the prompt ( #31374 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61747133 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS…",
-      "date_type": "updated"
-    },
-    {
-      "id": "55ffde0d65a11360909a",
-      "title": "新模型：microsoft/Mage-VL-Cowork",
-      "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-10-30T12:13:24Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：182",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "99f7c3be6b4c472b0c31",
-      "title": "b12003",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12003",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T11:49:50Z",
-      "summary": "sycl: FLASH_ATTN_EXT failures ( #30761 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61738062 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1683f2ccf0f83b826782",
-      "title": "b12002",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T11:04:04Z",
-      "summary": "ggml : add batched tensor copy API ( #30881 ) ggml : add generic batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : use batched tensor copy API in context io Assisted-by: pi:llama.cpp/ggml-org/DeepSe…",
-      "date_type": "updated"
-    },
-    {
-      "id": "71ac64837d9c01fa28c7",
-      "title": "b12013: quant : allow quantization for LFM3-Audio codec decoder (#31386)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12013",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T10:52:59Z",
-      "summary": "quantize : quantize the LFM3-Audio codec decoder, it is Q4_0 QAT quantize : drop the QAT note from the LFM3-Audio comment",
-      "date_type": "updated"
-    },
-    {
-      "id": "c4e7f4822788cff1eac8",
-      "title": "b12010: cmake : embed an app manifest in all Windows exes (#31329)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12010",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-10-30T09:56:53Z",
-      "summary": "cmake : embed an app manifest in all Windows exes Signed-off-by: Adrien Gallouët angt@huggingface.co Remove LLAMA_WIN_APP_CMAKE Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co",
       "date_type": "updated"
     },
     {
@@ -4401,17 +4412,6 @@
       "published_at": "2026-10-14T07:00:00Z",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "date_type": "published"
-    },
-    {
-      "id": "94ee28b93f9d2d830319",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-14T07:00:00Z",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4429,9 +4429,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 16,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4484,7 +4484,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {
@@ -4520,7 +4520,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 26,
+      "count": 27,
       "message": "正常"
     },
     {

@@ -1,11 +1,253 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-06T10:59:25Z",
-  "last_success_at": "2026-11-06T10:59:25Z",
+  "last_attempt_at": "2026-11-06T18:02:35Z",
+  "last_success_at": "2026-11-06T18:02:35Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "562d9908327b6d6fb5d6",
+      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-06T17:43:02Z",
+      "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+      "date_type": "published"
+    },
+    {
+      "id": "b7e06d2c4d9dada94045",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T17:23:52Z",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even…",
+      "date_type": "published"
+    },
+    {
+      "id": "dd1266c7ee42e16d36eb",
+      "title": "b12177",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T17:13:20Z",
+      "summary": "cli : fix crash on invalid UTF-8 in prompt or files ( #31563 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64587236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "84e924c4ab2b73c17e2d",
+      "title": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T17:00:00Z",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. …",
+      "date_type": "published"
+    },
+    {
+      "id": "b313e079c92ff6736cd4",
+      "title": "b12176",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T16:43:44Z",
+      "summary": "tests : qualify isnan and signbit with std:: ( #31791 ) tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the …",
+      "date_type": "updated"
+    },
+    {
+      "id": "f659f2b84ee7c4315b2e",
+      "title": "Big Tech lost big in the 2026 election",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T16:38:02Z",
+      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode o…",
+      "date_type": "published"
+    },
+    {
+      "id": "51872e89890c6332b9ad",
+      "title": "How Akai and Moog are embracing vibe-coded mods",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T16:34:39Z",
+      "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings o…",
+      "date_type": "published"
+    },
+    {
+      "id": "9e40c95d4da9e2b44ee7",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-06T16:19:12Z",
+      "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+      "date_type": "published"
+    },
+    {
+      "id": "0b0e7840be3e83c66ec3",
+      "title": "b12175",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T16:11:07Z",
+      "summary": "tests : override hardware_concurrency in CI ( #31797 ) The self-hosted CPU runners are containers with 8 CPUs, but std::thread::hardware_concurrency reports the cores of the host. The table mode of test-llama-context sizes its pool from that count, so it runs 4 models x 8 thread…",
+      "date_type": "updated"
+    },
+    {
+      "id": "291e476bb8671d5a13bf",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T15:54:47Z",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "date_type": "published"
+    },
+    {
+      "id": "ae36f1e272fb7ba5a8b9",
+      "title": "b12174",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T15:50:01Z",
+      "summary": "cmake : generate RC file directly without win-app.rc.in ( #31718 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64553678 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "878fd3793321c4bbb74a",
+      "title": "Patch release v5.22.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-11-06T15:43:27Z",
+      "summary": "Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits 🤗 [Distributed] Set device_id only for NCCL ( #50281 ) by @michaelbenayoun and @3outeille Harden our Jinja sandboxing ( #50431 ) by @Rocketknight1 Full Changelog : v5.22.1...…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b2c0e929055c03a01dd9",
+      "title": "b12173",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T15:13:47Z",
+      "summary": "opencl: support repeat for f16, i32, i16, bf16 ( #31782 ) opencl: add f16 repeat Assisted-by: Codex opencl: support repeat for i32, i16, bf16 Assisted-by: Codex opencl: update ops Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/a…",
+      "date_type": "updated"
+    },
+    {
+      "id": "dfaac0a0a5b4884c8486",
+      "title": "b12172",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T14:54:23Z",
+      "summary": "webgpu: add batched tensor API ( get_tensor_n and set_tensor_n ) ( #31473 ) add set_tensor_n and get_tensor_n fix for editor-config checker remove the outdated comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64533296 macOS/iOS:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "516fb7bbef5404ab5588",
+      "title": "b12171",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12171",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T14:23:02Z",
+      "summary": "vulkan: detect ReBAR support, avoid BAR allocations if unavailable ( #31658 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64522096 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "d40f9466337f4802b130",
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T14:10:00Z",
+      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "date_type": "published"
+    },
+    {
+      "id": "5a90caffb2c87d2e6e8e",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-06T14:00:48Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "58fc9a0b8ae1b3286a1e",
+      "title": "Amazon will let you text Alexa your shopping list",
+      "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T14:00:00Z",
+      "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching resu…",
+      "date_type": "published"
+    },
+    {
+      "id": "52eea199a12f8937c8ca",
+      "title": "b12170",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T13:55:04Z",
+      "summary": "moe-cache : LRFU/MQ-like hybrid cache, ClassLRU ( #31233 ) moe-cache : LRFU/MQ-inspired hybrid cache make the clock advance by N tokens: use the real token count (ne[1] is always 1, ids have n_expert_used entries per token) sel is a RESHAPE node, the orig input is in src[0], so …",
+      "date_type": "updated"
+    },
+    {
+      "id": "76d77f901fa0710485d8",
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T13:02:16Z",
+      "summary": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "date_type": "published"
+    },
+    {
+      "id": "a3dde5726f36f95f4123",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T13:00:00Z",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "date_type": "published"
+    },
+    {
+      "id": "980a934d66b53cbb48d9",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T11:55:19Z",
+      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports t…",
+      "date_type": "published"
+    },
     {
       "id": "2b604a4bd61a879a025a",
       "title": "b12167",
@@ -2533,7 +2775,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：299",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：316",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3370,7 +3612,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T22:12:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：111",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3452,17 +3694,6 @@
       "date_type": "updated"
     },
     {
-      "id": "e0d31c17157775e2a5d9",
-      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
-      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-02T18:32:21Z",
-      "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
-      "date_type": "published"
-    },
-    {
       "id": "d742fce73aa702c361a6",
       "title": "b12053",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053",
@@ -3472,28 +3703,6 @@
       "published_at": "2026-11-02T18:27:59Z",
       "summary": "ggml : use vm_allocate instead of posix_memalign on all Apple platforms ( #31437 ) ggml : use vm_allocate instead of posix_memalign on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: https://llama.app Attestations: https://gith…",
       "date_type": "updated"
-    },
-    {
-      "id": "3f64a695b0aa8d6fd19b",
-      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-02T18:05:31Z",
-      "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
-      "date_type": "published"
-    },
-    {
-      "id": "565e6fad1f4c3724a211",
-      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-02T18:01:30Z",
-      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioner…",
-      "date_type": "published"
     },
     {
       "id": "bca108e4c77bd86b238b",
@@ -3515,17 +3724,6 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "0b86c010857d521d9160",
-      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-02T17:51:19Z",
-      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the Ne…",
       "date_type": "published"
     },
     {
@@ -3562,28 +3760,6 @@
       "date_type": "updated"
     },
     {
-      "id": "8bfd7590d71c0d95edb1",
-      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T16:30:00Z",
-      "summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-      "date_type": "published"
-    },
-    {
-      "id": "fdd130ae0361b6072c93",
-      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T16:23:21Z",
-      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
-      "date_type": "published"
-    },
-    {
       "id": "485ac8c6f2805767257e",
       "title": "b12048",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12048",
@@ -3592,17 +3768,6 @@
       "category": "opensource",
       "published_at": "2026-11-02T16:14:28Z",
       "summary": "sycl : fast ggml_sycl_comm_exchange() on Intel Arc Pro B70s ( #30956 ) Update ggml-sycl.cpp Increases -sm tensor prompt eval t/s by +19% with zero PPL change. Update ggml-sycl.cpp Replace first pair of wait() calls with ext_oneapi_submit_barrier(). The wait() calls was discovere…",
-      "date_type": "updated"
-    },
-    {
-      "id": "17da400e6e393b6aa781",
-      "title": "b12047",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12047",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T15:51:15Z",
-      "summary": "sycl: dmmv code cleanup ( #31325 ) sycl: fold q8_0 reorder dmmv into the generic template sycl: template the dmmv non-K launchers sycl: template the dmmv K-quant launchers Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62707110 macOS/…",
       "date_type": "updated"
     },
     {
@@ -3628,117 +3793,6 @@
       "date_type": "published"
     },
     {
-      "id": "5a201e1426e1fb30b603",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T15:00:00Z",
-      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-      "date_type": "published"
-    },
-    {
-      "id": "7c51bf37d26d3f6f0ba0",
-      "title": "b12040",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12040",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T14:09:32Z",
-      "summary": "tests : merge identical if branches ( #31523 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62665772 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3e83c93cde50530285ec",
-      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
-      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T14:00:00Z",
-      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
-      "date_type": "published"
-    },
-    {
-      "id": "e732affa3e390d123d46",
-      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T13:57:53Z",
-      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
-      "date_type": "published"
-    },
-    {
-      "id": "1e16ff946ce1b0192559",
-      "title": "新模型：ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-02T13:52:10Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：175",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "c24e75dbd6cdc0177696",
-      "title": "b12051: vulkan: add tensor-parallel allreduce function (#25051)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12051",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T11:57:56Z",
-      "summary": "vulkan: add tensor-parallel all-reduce communication vulkan: require shared semaphores for tensor communication Assisted-by: Codex vulkan: reduce directly from shared host buffers Assisted-by: Codex vulkan: fix ring all-reduce races with 3+ devices Two hazards in the tensor-para…",
-      "date_type": "updated"
-    },
-    {
-      "id": "dab41a7eb879f0152d06",
-      "title": "b12049: vulkan: avoid redundant scans when zeroing skipped rows (#31266)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12049",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T11:53:27Z",
-      "summary": "vulkan: avoid redundant scans when zeroing skipped rows vulkan: remove unreachable zero-expert fallback",
-      "date_type": "updated"
-    },
-    {
-      "id": "163a040f8e8b302b2b75",
-      "title": "b12038",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12038",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T11:35:16Z",
-      "summary": "ggml : fix clang-cl build with AVX512 BF16 ( #31276 ) Correctly gate immintrin.h inclusion when building with clang-cl and avx512bf16 ggml : explicit vector casts for clang-cl Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62611041 ma…",
-      "date_type": "updated"
-    },
-    {
-      "id": "48d20a6135789dcea5c0",
-      "title": "b12039: jinja : implement map('filter') (#24033)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12039",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T10:45:40Z",
-      "summary": "jinja: implement map('filter') jinja : validate filter keyword arguments Assisted-by: Codex",
-      "date_type": "updated"
-    },
-    {
-      "id": "109261365670d3352ab7",
-      "title": "v0.33.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-02T10:11:34Z",
-      "summary": "v0.33.0 Highlights This release features 927 commits from 389 contributors (122 new)! New models : Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter ( #62074 ), Yandex AliceAI-Foundation-80B-A3B ( #57963 ), Recursive Flint (40B MoE, 2.5B active) ( #62938 ), Mus…",
-      "date_type": "updated"
-    },
-    {
       "id": "5a014341bc3fc0f1d8b6",
       "title": "LifeVal",
       "url": "https://openai.com/index/lifeval",
@@ -3747,39 +3801,6 @@
       "category": "official",
       "published_at": "2026-11-02T09:00:00Z",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "date_type": "published"
-    },
-    {
-      "id": "632839f4bb2e8b34b3ff",
-      "title": "b12035",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12035",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T08:34:17Z",
-      "summary": "cmake : add explicit thread linkage ( #31414 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "2c0d25407f7cdc15def3",
-      "title": "b12034",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12034",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T08:06:05Z",
-      "summary": "webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length ( #31422 ) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the cu…",
-      "date_type": "updated"
-    },
-    {
-      "id": "981c51fa20c4c252ae3d",
-      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-02T05:35:00Z",
-      "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
       "date_type": "published"
     },
     {
@@ -3802,28 +3823,6 @@
       "category": "official",
       "published_at": "2026-11-02T00:00:00Z",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "date_type": "published"
-    },
-    {
-      "id": "944be91cc06a18a89b9b",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-01T21:55:23Z",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
-      "date_type": "published"
-    },
-    {
-      "id": "7a5ce7ed2f78d2842904",
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-01T20:57:58Z",
-      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "date_type": "published"
     },
     {
@@ -4516,7 +4515,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "message": "正常"
     },
     {
@@ -4534,7 +4533,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "message": "正常"
     },
     {

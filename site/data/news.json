@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-06T18:02:35Z",
-  "last_success_at": "2026-11-06T18:02:35Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-06T23:13:38Z",
+  "last_success_at": "2026-11-06T23:13:38Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "a7e1415152c9585b8d71",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T23:00:44Z",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push…",
+      "date_type": "published"
+    },
+    {
+      "id": "b19a52adc818672926aa",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T22:53:46Z",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "date_type": "published"
+    },
+    {
+      "id": "e1833b6ba9cd6bab261d",
+      "title": "b12180: model: add Kimi-K3.1-Pro text model (#31779)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T22:42:46Z",
+      "summary": "model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer resi…",
+      "date_type": "updated"
+    },
+    {
+      "id": "291f6c31a7cabb41f26f",
+      "title": "b12179",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T20:47:14Z",
+      "summary": "hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tile…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f8fe21ba7f368ed10ce0",
+      "title": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T20:02:22Z",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and t…",
+      "date_type": "published"
+    },
+    {
+      "id": "0bb49f96544d94ecd80e",
+      "title": "How to predict the behavior of molecules from scant data",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-06T19:00:00Z",
+      "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "date_type": "published"
+    },
+    {
+      "id": "c262b9961ff71dc31ad1",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T18:44:38Z",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "date_type": "published"
+    },
+    {
+      "id": "2d23850120e57d6c5e32",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T18:44:20Z",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "date_type": "published"
+    },
+    {
+      "id": "9aeac73058ac351bd96e",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T18:10:10Z",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse …",
+      "date_type": "published"
+    },
+    {
+      "id": "98f2cdcbd9596f7ba529",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-06T18:00:00Z",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even…",
+      "date_type": "published"
+    },
     {
       "id": "562d9908327b6d6fb5d6",
       "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
@@ -269,6 +379,17 @@
       "published_at": "2026-11-06T08:52:47Z",
       "summary": "ci : bump CUDA 13 release builds to 13.5 docker : bump cuda13 images to 13.5.0",
       "date_type": "updated"
+    },
+    {
+      "id": "a0a44ed09dc9a1089b4e",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-06T08:00:00Z",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "date_type": "published"
     },
     {
       "id": "c822924fc1f280c7bb5c",
@@ -1346,6 +1467,17 @@
       "category": "industry",
       "published_at": "2026-11-06T00:06:12Z",
       "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or sch…",
+      "date_type": "published"
+    },
+    {
+      "id": "5f721228af3682c2417b",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-06T00:00:00Z",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "date_type": "published"
     },
     {
@@ -2775,7 +2907,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：316",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：328",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3473,17 +3605,6 @@
       "date_type": "published"
     },
     {
-      "id": "804d2e2f62a5210f78bc",
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T01:49:52Z",
-      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
-      "date_type": "published"
-    },
-    {
       "id": "33e35f149af7ffc4d3be",
       "title": "b12063",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063",
@@ -3504,17 +3625,6 @@
       "published_at": "2026-11-03T00:59:50Z",
       "summary": "server: decode cloud web search responses ( #19476 )",
       "date_type": "updated"
-    },
-    {
-      "id": "dfb1d49114f0805e7875",
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T00:35:52Z",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-      "date_type": "published"
     },
     {
       "id": "019edb616369c3322f4c",
@@ -3561,17 +3671,6 @@
       "date_type": "updated"
     },
     {
-      "id": "c8564f3a68709075cd78",
-      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T23:13:53Z",
-      "summary": "The one-year-old startup is now valued at $300 million.",
-      "date_type": "published"
-    },
-    {
       "id": "c34c1c12b0b44125ca6e",
       "title": "b12060",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060",
@@ -3594,17 +3693,6 @@
       "date_type": "updated"
     },
     {
-      "id": "ca204e1c0052a71213a1",
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T22:14:50Z",
-      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-      "date_type": "published"
-    },
-    {
       "id": "b8b568c8c47845d884c7",
       "title": "新模型：RikiyaT/Qwen3.5-0.8B-weight-space-programming",
       "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
@@ -3615,17 +3703,6 @@
       "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：111",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "5fc0241e25c90db0d110",
-      "title": "Powering up for a pivotal moment",
-      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-02T19:55:00Z",
-      "summary": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
-      "date_type": "published"
     },
     {
       "id": "f4d75608ed6a6285defc",
@@ -3639,28 +3716,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4ca5045e7ee7fda1529c",
-      "title": "Web host Squarespace lays off 19% of its employees",
-      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T19:25:59Z",
-      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
-      "date_type": "published"
-    },
-    {
-      "id": "e7389883fb553bcf4252",
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-02T19:19:17Z",
-      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-      "date_type": "published"
-    },
-    {
       "id": "f6ccb3c8a19a05418009",
       "title": "b12057",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057",
@@ -3670,17 +3725,6 @@
       "published_at": "2026-11-02T19:09:40Z",
       "summary": "context : simplify setters ( #29730 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62784585 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt…",
       "date_type": "updated"
-    },
-    {
-      "id": "5426dcc4966dc2198453",
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-02T18:56:02Z",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will sti…",
-      "date_type": "published"
     },
     {
       "id": "56cf24bb086363d88bd0",
@@ -3705,17 +3749,6 @@
       "date_type": "updated"
     },
     {
-      "id": "bca108e4c77bd86b238b",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "date_type": "published"
-    },
-    {
       "id": "0d297090385ad5a72451",
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
@@ -3724,6 +3757,17 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "date_type": "published"
+    },
+    {
+      "id": "bca108e4c77bd86b238b",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "date_type": "published"
     },
     {
@@ -3746,28 +3790,6 @@
       "category": "opensource",
       "published_at": "2026-11-02T17:41:20Z",
       "summary": "opencl: add topk_mask ( #31441 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62750947 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64…",
-      "date_type": "updated"
-    },
-    {
-      "id": "830fe9b0c5a6869927d6",
-      "title": "b12050",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T16:57:35Z",
-      "summary": "vulkan: improve small-n split-K selection on RDNA3 and RDNA4 ( #30146 ) vulkan: improve small-n split-K selection on RDNA3 and RDNA4 Clean up test cases by removing commented code Removed tests as requested Website: https://llama.app Attestations: https://github.com/ggml-org/lla…",
-      "date_type": "updated"
-    },
-    {
-      "id": "485ac8c6f2805767257e",
-      "title": "b12048",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12048",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T16:14:28Z",
-      "summary": "sycl : fast ggml_sycl_comm_exchange() on Intel Arc Pro B70s ( #30956 ) Update ggml-sycl.cpp Increases -sm tensor prompt eval t/s by +19% with zero PPL change. Update ggml-sycl.cpp Replace first pair of wait() calls with ext_oneapi_submit_barrier(). The wait() calls was discovere…",
       "date_type": "updated"
     },
     {
@@ -3804,17 +3826,6 @@
       "date_type": "published"
     },
     {
-      "id": "4094d4340f9e66f9e2fc",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T00:00:00Z",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "date_type": "published"
-    },
-    {
       "id": "945f879ef3a469b4aebe",
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
@@ -3823,6 +3834,17 @@
       "category": "official",
       "published_at": "2026-11-02T00:00:00Z",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "date_type": "published"
+    },
+    {
+      "id": "4094d4340f9e66f9e2fc",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T00:00:00Z",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "date_type": "published"
     },
     {
@@ -4385,28 +4407,6 @@
       "published_at": "2026-10-16T19:00:00Z",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "date_type": "published"
-    },
-    {
-      "id": "9e63539289a31c8631b6",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "date_type": "published"
-    },
-    {
-      "id": "b6756c0a180ee554226c",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-16T00:00:00Z",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4424,9 +4424,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 17,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

@@ -1,11 +1,22 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-07T16:51:59Z",
-  "last_success_at": "2026-11-07T16:51:59Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-07T20:56:11Z",
+  "last_success_at": "2026-11-07T20:56:11Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "15811ccb0e51d72e4df4",
+      "title": "b12191: llama_moe_cache: run missed experts on CPU, add tuning script (#30966)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T16:20:58Z",
+      "summary": "moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert FFN twice: on the device from the cache slots, where the misses left to th…",
+      "date_type": "updated"
+    },
     {
       "id": "1ab28dde47a3074f5d54",
       "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
@@ -245,7 +256,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：169",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：188",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2182,7 +2193,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：81",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3107,7 +3118,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：361",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：366",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3736,17 +3747,6 @@
       "category": "opensource",
       "published_at": "2026-11-03T05:45:56Z",
       "summary": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. Th…",
-      "date_type": "updated"
-    },
-    {
-      "id": "33e35f149af7ffc4d3be",
-      "title": "b12063",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T01:42:00Z",
-      "summary": "dflash: copy hidden features via device copies ( #31506 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62913415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
       "date_type": "updated"
     },
     {
@@ -4425,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 15,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4435,7 +4435,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "message": "正常"
     },
     {

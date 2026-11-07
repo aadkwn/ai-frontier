@@ -1,11 +1,55 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-06T23:13:38Z",
-  "last_success_at": "2026-11-06T23:13:38Z",
+  "last_attempt_at": "2026-11-07T02:53:10Z",
+  "last_success_at": "2026-11-07T02:53:10Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "ec2480d446f6212cddc5",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-07T01:40:28Z",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "date_type": "published"
+    },
+    {
+      "id": "8f05831adbeaff87e304",
+      "title": "b12181: hexagon: fuse post-norm residual add into RMS_NORM_MUL (#31822)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12181",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T00:06:59Z",
+      "summary": "hexagon: fuse post-norm residual add into RMS_NORM_MUL hex-fusion: refactor RMS_NORM fusion and add dedicated RMS_NORM_MUL_ADD opcode Improves performance by keeping things in HVX registers. Also simplifies overall fusion logic and logging. Co-authored-by: Max Krasnyansky maxk@q…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6c7191a9daddd0328837",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-06T23:46:18Z",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion…",
+      "date_type": "published"
+    },
+    {
+      "id": "e1833b6ba9cd6bab261d",
+      "title": "b12180",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-06T23:24:23Z",
+      "summary": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and…",
+      "date_type": "updated"
+    },
     {
       "id": "a7e1415152c9585b8d71",
       "title": "China reportedly recruited AI exec to spy on Jensen Huang",
@@ -29,17 +73,6 @@
       "date_type": "published"
     },
     {
-      "id": "e1833b6ba9cd6bab261d",
-      "title": "b12180: model: add Kimi-K3.1-Pro text model (#31779)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T22:42:46Z",
-      "summary": "model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer resi…",
-      "date_type": "updated"
-    },
-    {
       "id": "291f6c31a7cabb41f26f",
       "title": "b12179",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
@@ -60,6 +93,18 @@
       "published_at": "2026-11-06T20:02:22Z",
       "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and t…",
       "date_type": "published"
+    },
+    {
+      "id": "f4e8ce6220df06e6c19b",
+      "title": "新模型：NousResearch/Arete-27B",
+      "url": "https://huggingface.co/NousResearch/Arete-27B",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-06T19:31:28Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "0bb49f96544d94ecd80e",
@@ -2907,7 +2952,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：328",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：334",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3539,17 +3584,6 @@
       "date_type": "updated"
     },
     {
-      "id": "aafb2d2c8fa2107938d3",
-      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T07:20:00Z",
-      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
-      "date_type": "published"
-    },
-    {
       "id": "b53d42e9c538fd7656ef",
       "title": "v0.40.14",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
@@ -3592,17 +3626,6 @@
       "published_at": "2026-11-03T05:45:56Z",
       "summary": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. Th…",
       "date_type": "updated"
-    },
-    {
-      "id": "23abe1f1b0a2b246b606",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T03:30:00Z",
-      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-      "date_type": "published"
     },
     {
       "id": "33e35f149af7ffc4d3be",
@@ -3700,7 +3723,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-02T22:12:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：111",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：113",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3738,17 +3761,6 @@
       "date_type": "updated"
     },
     {
-      "id": "d742fce73aa702c361a6",
-      "title": "b12053",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T18:27:59Z",
-      "summary": "ggml : use vm_allocate instead of posix_memalign on all Apple platforms ( #31437 ) ggml : use vm_allocate instead of posix_memalign on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: https://llama.app Attestations: https://gith…",
-      "date_type": "updated"
-    },
-    {
       "id": "0d297090385ad5a72451",
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
@@ -3780,17 +3792,6 @@
       "published_at": "2026-11-02T17:45:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "4177dd396b829115cf74",
-      "title": "b12052",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T17:41:20Z",
-      "summary": "opencl: add topk_mask ( #31441 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62750947 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64…",
-      "date_type": "updated"
     },
     {
       "id": "277870ffc8d71544c046",
@@ -4515,7 +4516,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 27,
+      "count": 26,
       "message": "正常"
     },
     {

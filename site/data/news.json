@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-07T10:19:25Z",
-  "last_success_at": "2026-11-07T10:19:25Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-07T16:51:59Z",
+  "last_success_at": "2026-11-07T16:51:59Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "1ab28dde47a3074f5d54",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-07T15:50:00Z",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usua…",
+      "date_type": "published"
+    },
+    {
+      "id": "b521172828d62613029c",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-07T15:43:45Z",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its off…",
+      "date_type": "published"
+    },
+    {
+      "id": "4b429bd7582936e31a06",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-07T15:00:00Z",
+      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so …",
+      "date_type": "published"
+    },
+    {
+      "id": "90a7eabbf5e1b72897e0",
+      "title": "b12190",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12190",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T14:02:58Z",
+      "summary": "sycl: add f16 support for SWIGLU_OAI ( #30857 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "eecad6fef1daea32eacd",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-07T12:30:00Z",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety…",
+      "date_type": "published"
+    },
+    {
+      "id": "6fe71b143c8b4bc49841",
+      "title": "b12189",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12189",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T12:19:19Z",
+      "summary": "metal : fix GROUP_NORM for ne03 > 1 and non-contiguous inputs ( #31852 ) The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1)…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a0ad5cd24fa018ee6ebd",
+      "title": "b12188",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12188",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T12:02:12Z",
+      "summary": "server: visit parent slots before child slots ( #30779 ) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its …",
+      "date_type": "updated"
+    },
+    {
+      "id": "a1446be86e0a821ce9f9",
+      "title": "b12187",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12187",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T11:45:49Z",
+      "summary": "webgpu : Implement group norm kernel ( #31490 ) Only run webgpu CI on my fork Add webgpu only workflow Add WebGPU group_norm kernel clean up resolve merge conflicts parameterize data type; clean up cmake changes add nullptr check clean up webkit experiments more cleanup more cle…",
+      "date_type": "updated"
+    },
+    {
+      "id": "20016e67a5bee634ee1c",
+      "title": "b12186",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12186",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T11:15:26Z",
+      "summary": "vulkan: Add 'readonly' to decodeBuf declarations. ( #31833 ) In a future driver version I hope to be able to get some perf gain out of this. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64826498 macOS/iOS: macOS Apple Silicon (arm64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6cbc2f330377945c63cc",
+      "title": "b12185",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T10:56:16Z",
+      "summary": "CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64823958 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int…",
+      "date_type": "updated"
+    },
     {
       "id": "bf2f0bd38fa9eab72b04",
       "title": "b12184",
@@ -26,17 +136,6 @@
       "category": "opensource",
       "published_at": "2026-11-07T09:21:25Z",
       "summary": "opencl: add arange ( #31829 ) Assisted-by: Claude Opus 5.5 Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64811217 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
-      "date_type": "updated"
-    },
-    {
-      "id": "6cbc2f330377945c63cc",
-      "title": "b12185",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T07:59:26Z",
-      "summary": "CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 )",
       "date_type": "updated"
     },
     {
@@ -146,7 +245,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：126",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：169",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2076,6 +2175,18 @@
       "date_type": "published"
     },
     {
+      "id": "7a37eda9cecdb6581a55",
+      "title": "新模型：Comfy-Org/RelayVSR",
+      "url": "https://huggingface.co/Comfy-Org/RelayVSR",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-05T11:54:26Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：81",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "788aca0b86fe44b26f68",
       "title": "Big Tech’s big AI buildout will not end until someone stops it",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
@@ -2996,7 +3107,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：348",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：361",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3463,17 +3574,6 @@
       "date_type": "published"
     },
     {
-      "id": "03ad66ba1fba6125878e",
-      "title": "Apple is all in on AI — its own and everyone else’s",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T15:24:51Z",
-      "summary": "Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued t…",
-      "date_type": "published"
-    },
-    {
       "id": "f45cdd5f95812c0b2860",
       "title": "b12073",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073",
@@ -3505,39 +3605,6 @@
       "published_at": "2026-11-03T15:03:32Z",
       "summary": "llama : drop the redundant cnv from llm_attn_mask ( #31558 ) The dspark block mask is now derived at input-fill time: llm_attn_mask::block_uniform fills every token of a sequence with the mask row of its first token, so the graph-level reshape/repeat in dflash is gone and cnv al…",
       "date_type": "updated"
-    },
-    {
-      "id": "e2d2bf508ced1caa0845",
-      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T15:00:44Z",
-      "summary": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, righ…",
-      "date_type": "published"
-    },
-    {
-      "id": "d683890ef6589f420e1b",
-      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
-      "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T14:30:00Z",
-      "summary": "On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
-      "date_type": "published"
-    },
-    {
-      "id": "9963b02b6cee4dcd7893",
-      "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
-      "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T14:00:00Z",
-      "summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",
-      "date_type": "published"
     },
     {
       "id": "25493a43cba550c7fe81",
@@ -3683,17 +3750,6 @@
       "date_type": "updated"
     },
     {
-      "id": "f3123bdeed841684f4be",
-      "title": "v0.40.14-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-03T00:59:50Z",
-      "summary": "server: decode cloud web search responses ( #19476 )",
-      "date_type": "updated"
-    },
-    {
       "id": "019edb616369c3322f4c",
       "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
@@ -3703,61 +3759,6 @@
       "published_at": "2026-11-03T00:00:00Z",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "date_type": "published"
-    },
-    {
-      "id": "63945bc794809749828f",
-      "title": "CWE-bench v2: More coverage, quality, and transparency",
-      "url": "https://huggingface.co/blog/cwe-bench",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-03T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "a6f54d325d31634f8916",
-      "title": "Transformers Model Integration Contracts",
-      "url": "https://huggingface.co/blog/transformers-mic",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-03T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "d12853f6724947c696e5",
-      "title": "b12061",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T23:21:48Z",
-      "summary": "mtmd: Pocket tts - support for voices without voice cloning ( #31429 ) feat: support PocketTTS voices with no voice cloning The kyutai/pocket-tts-without-voice-cloning weights ship predefined voices as the backbone KV state after the voice prompt. The converter turns each state …",
-      "date_type": "updated"
-    },
-    {
-      "id": "c34c1c12b0b44125ca6e",
-      "title": "b12060",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T23:04:17Z",
-      "summary": "model: add Clover support ( #31306 ) model : add AR-only Clover MoE support Add GGUF conversion, model loading, and causal hybrid attention for Clover, reusing shared attention, recurrent-state, MoE, and LoRA helpers. Update tests/test-llama-archs.cpp Co-authored-by: Sigbjørn Sk…",
-      "date_type": "updated"
-    },
-    {
-      "id": "95f6837c3f322fa4e390",
-      "title": "b12059",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12059",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T22:44:44Z",
-      "summary": "llama : flash_attn_ext_rows - more efficient unified kv for multi-seq ( #29510 ) llama : use llm_attn_mask and kv_rows for unified attention Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Co-authored-by: Georgi Gerganov ggerga…",
-      "date_type": "updated"
     },
     {
       "id": "0d297090385ad5a72451",
@@ -4424,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 17,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

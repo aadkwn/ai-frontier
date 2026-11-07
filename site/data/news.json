@@ -1,11 +1,55 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-07T02:53:10Z",
-  "last_success_at": "2026-11-07T02:53:10Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-07T10:19:25Z",
+  "last_success_at": "2026-11-07T10:19:25Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "bf2f0bd38fa9eab72b04",
+      "title": "b12184",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12184",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T09:50:10Z",
+      "summary": "llama : add missing link to pthread ( #31785 ) llama : add missing link to pthread Signed-off-by: Adrien Gallouët angt@huggingface.co Link Threads::Threads privately Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co Website: ht…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7c7c9a66192dd2459a23",
+      "title": "b12183",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12183",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T09:21:25Z",
+      "summary": "opencl: add arange ( #31829 ) Assisted-by: Claude Opus 5.5 Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64811217 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
+      "date_type": "updated"
+    },
+    {
+      "id": "6cbc2f330377945c63cc",
+      "title": "b12185",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T07:59:26Z",
+      "summary": "CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "be9ad6039ce240215d11",
+      "title": "b12182",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T03:35:00Z",
+      "summary": "meta : raise the compute view limit for buffers with few tensors ( #31447 ) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: https://llama.app At…",
+      "date_type": "updated"
+    },
     {
       "id": "ec2480d446f6212cddc5",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
@@ -102,7 +146,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：126",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2952,7 +2996,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：334",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：348",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3716,51 +3760,6 @@
       "date_type": "updated"
     },
     {
-      "id": "b8b568c8c47845d884c7",
-      "title": "新模型：RikiyaT/Qwen3.5-0.8B-weight-space-programming",
-      "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-02T22:12:58Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：113",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "f4d75608ed6a6285defc",
-      "title": "b12058",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12058",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T19:33:27Z",
-      "summary": "imatrix : fix --nextn crash ( #31522 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62794269 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f6ccb3c8a19a05418009",
-      "title": "b12057",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T19:09:40Z",
-      "summary": "context : simplify setters ( #29730 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62784585 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt…",
-      "date_type": "updated"
-    },
-    {
-      "id": "56cf24bb086363d88bd0",
-      "title": "b12054",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12054",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-02T18:48:29Z",
-      "summary": "ggml-zdnn: share buffers with host ( #31481 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62776552 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DIS…",
-      "date_type": "updated"
-    },
-    {
       "id": "0d297090385ad5a72451",
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
@@ -4425,9 +4424,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 17,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4480,7 +4479,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 27,
+      "count": 26,
       "message": "正常"
     },
     {
@@ -4489,7 +4488,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4498,7 +4497,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4507,7 +4506,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.CV",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {

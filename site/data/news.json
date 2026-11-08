@@ -1,11 +1,88 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-08T00:42:51Z",
-  "last_success_at": "2026-11-08T00:42:51Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-08T07:26:43Z",
+  "last_success_at": "2026-11-08T07:26:43Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "8a7d33bfc7c40711ee68",
+      "title": "b12201",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T07:01:23Z",
+      "summary": "speculative : do not apply the MoE cache to the draft model ( #31497 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65005103 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0b717a320f4e841d61c0",
+      "title": "b12200",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12200",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T06:43:53Z",
+      "summary": "opencl: improve q8_0 and MoE small-n verification for spec ( #31831 ) opencl: add kernel_gemv_noshuffle_q8_0_f32_mc Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: small-n MoE GEMV for …",
+      "date_type": "updated"
+    },
+    {
+      "id": "f36bb13f76af3d64c63e",
+      "title": "b12199",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12199",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T04:48:16Z",
+      "summary": "common : sanitize invalid UTF-8 in PEG tool call arguments ( #31861 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64987982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8ca6bbe58167b7d04105",
+      "title": "b12198",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12198",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T02:09:08Z",
+      "summary": "server : downgrade per-request proxy logs to trace ( #31859 ) Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64965303 macOS/iOS: macOS Apple Silicon …",
+      "date_type": "updated"
+    },
+    {
+      "id": "6aa0f58ff14d93d9220b",
+      "title": "b12197",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12197",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T01:49:14Z",
+      "summary": "hexagon: support for automatic loading of libhtp without legacy env vars ( #31781 ) hexagon: use absolute skel path hexagon: support non-ascii dir and long path in skel-abs path hex-libdir: add support for FASTRPC_MANAGE_DSP_LIBRARY_PATH and GGML_HEXAGON_LIBHTP_DIR on all platfo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8f227afc491351ba0e6a",
+      "title": "b12196",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12196",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T01:32:39Z",
+      "summary": "sycl: exact rounding in CPY to Q4_1, Q5_1 and Q8_0 ( #31465 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64960076 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "9beb6b9c7fb267839659",
+      "title": "b12195",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T01:15:46Z",
+      "summary": "sycl: refuse device buffers that would exceed VRAM ( #31285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64957626 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
+      "date_type": "updated"
+    },
     {
       "id": "b7fe5da87014d3d0bc4a",
       "title": "b12194",
@@ -26,17 +103,6 @@
       "category": "opensource",
       "published_at": "2026-11-07T23:48:56Z",
       "summary": "mtmd: move log-mel computation to cgraph ( #31808 ) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9beb6b9c7fb267839659",
-      "title": "b12195",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T23:13:04Z",
-      "summary": "sycl: refuse device buffers that would exceed VRAM ( #31285 )",
       "date_type": "updated"
     },
     {
@@ -322,7 +388,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：206",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：237",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2259,7 +2325,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：90",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：99",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3184,7 +3250,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：369",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：378",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3651,17 +3717,6 @@
       "date_type": "updated"
     },
     {
-      "id": "8a2f9a05df6cb8f2bec8",
-      "title": "b12072",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T15:03:32Z",
-      "summary": "llama : drop the redundant cnv from llm_attn_mask ( #31558 ) The dspark block mask is now derived at input-fill time: llm_attn_mask::block_uniform fills every token of a sequence with the mask row of its first token, so the graph-level reshape/repeat in dflash is gone and cnv al…",
-      "date_type": "updated"
-    },
-    {
       "id": "25493a43cba550c7fe81",
       "title": "Accelerating engineering for the physical world",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -3671,50 +3726,6 @@
       "published_at": "2026-11-03T12:00:00Z",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "date_type": "published"
-    },
-    {
-      "id": "9d60608adcc69645ba38",
-      "title": "b12069",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12069",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T11:23:28Z",
-      "summary": "opencl: add initial iq4_xs support ( #31339 ) opencl: add iq4_xs AOS mv Assisted-by: Codex opencl: add iq4_xs SOA mv and tiled mm Assisted-by: Codex opencl: add iq4_xs noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: ad…",
-      "date_type": "updated"
-    },
-    {
-      "id": "160020b13b699e77cf42",
-      "title": "b12068",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12068",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T10:48:00Z",
-      "summary": "chat : allow constraint type after gpt-oss final channel ( #31556 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63065963 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4b8e636b930102c6b3e4",
-      "title": "b12066",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12066",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T10:04:30Z",
-      "summary": "webgpu: add ARANGE support ( #31455 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63048873 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt…",
-      "date_type": "updated"
-    },
-    {
-      "id": "27f1eeea6fb781495e6a",
-      "title": "b12065",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12065",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T08:12:51Z",
-      "summary": "kv-cache : never return 0 kv_rows for sequences without cells ( #31570 ) A cache that shares the cells of another one (f.ex. the gemma4 assistant) can build a graph before its sequences have any cells, f.ex. at the server warmup. get_n_kv_rows() then returned 0, which means that…",
-      "date_type": "updated"
     },
     {
       "id": "34e7d62615202d0de65f",
@@ -3737,17 +3748,6 @@
       "published_at": "2026-11-03T08:00:00Z",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "date_type": "published"
-    },
-    {
-      "id": "2c40d50c479c727a8f8e",
-      "title": "b12075",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12075",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T07:53:04Z",
-      "summary": "vulkan: skip maxStorageBufferRange pre-check for non-compute tensors …",
-      "date_type": "updated"
     },
     {
       "id": "019edb616369c3322f4c",
@@ -4425,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 15,
+      "message": "正常"
     },
     {
       "id": "google-ai",

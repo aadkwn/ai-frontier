@@ -1,11 +1,88 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-08T07:26:43Z",
-  "last_success_at": "2026-11-08T07:26:43Z",
+  "last_attempt_at": "2026-11-08T15:18:01Z",
+  "last_success_at": "2026-11-08T15:18:01Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "3a23f7f560d629a2629a",
+      "title": "b12208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T14:42:57Z",
+      "summary": "ggml : update CUDA/Metal radix Top-K to make tied selections determin…",
+      "date_type": "updated"
+    },
+    {
+      "id": "cbc7205436091f5445b5",
+      "title": "b12207",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T14:24:56Z",
+      "summary": "ggml-cuda : add d_state=64 fast path to SSM_SCAN kernel ( #31818 ) Zamba2 and similar architectures use a state size of 64 in their recurrent-scan step, which fell outside the GPU kernel's existing fast paths (96, 128, 256). Every scan step was falling back to CPU, bottlenecking…",
+      "date_type": "updated"
+    },
+    {
+      "id": "13cd00d76df5acec5f77",
+      "title": "b12206",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T14:04:15Z",
+      "summary": "moe-cache : ensure CPU part does not wait for the cached experts ( #31888 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65056209 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In…",
+      "date_type": "updated"
+    },
+    {
+      "id": "25e9cd1f4fb4d09dac60",
+      "title": "b12205: webgpu : add COUNT_EQUAL support (#31578)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12205",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T09:50:09Z",
+      "summary": "webgpu : add COUNT_EQUAL support Assisted-by: Codex webgpu : reduce small COUNT_EQUAL inputs in one dispatch Assisted-by: Codex webgpu : simplify COUNT_EQUAL and reuse existing tests webgpu : move COUNT_EQUAL pipeline cache declaration Update ggml/src/ggml-webgpu/ggml-webgpu.cpp…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4978d21247862747aac1",
+      "title": "b12204: ci: move runners to Ubuntu 26.04 (#31529)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12204",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T09:47:29Z",
+      "summary": "ci: update to ubuntu26.04 Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: bring back toolchain workaround Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: remove workaround completely Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: more switching to ubuntu 26.04 Signed-off-by: Aa…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a27835272556018e8978",
+      "title": "b12203: ggml : switch to F32 src1 in the CPU backend (#31854)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12203",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T09:44:00Z",
+      "summary": "ggml : switch to F32 src1 in the CPU backend Change the default computation for GGML_TYPE_F16 to use F32 for src1 data in matrix multiplications: vec_dot_type(F16) is now F32 and the dot product goes through the new ggml_vec_dot_f16_f32 (x = F16 src0, y = F32 src1), so src1 is n…",
+      "date_type": "updated"
+    },
+    {
+      "id": "43c01c269a5f9df068ec",
+      "title": "b12202",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T08:14:24Z",
+      "summary": "llama, mtmd: follow the reference precision of ggml_prec_set_acc calls ( #31851 ) llama, mtmd: follow the reference precision of ggml_prec_set_acc calls Requests that the reference implementation does not keep in F32 move to GGML_PREC_BF16: the GLM4 family down and output projec…",
+      "date_type": "updated"
+    },
     {
       "id": "8a7d33bfc7c40711ee68",
       "title": "b12201",
@@ -388,7 +465,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：237",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：263",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2325,7 +2402,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：99",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：102",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3250,7 +3327,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：378",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：386",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3596,28 +3673,6 @@
       "date_type": "published"
     },
     {
-      "id": "7442731f0202b0d381df",
-      "title": "b12076",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12076",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T17:26:47Z",
-      "summary": "metal : fix cpy kernel for dst non-contiguous in dim 0 ( #31581 ) kernel_cpy_t_t indexed the dst innermost dim with an implicit element-size stride instead of args.nb0, so cpy into a permuted view (nb0 != type size) wrote the wrong addresses. caught by the new test-backend-ops c…",
-      "date_type": "updated"
-    },
-    {
-      "id": "8d86676710497099b109",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-03T17:15:21Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "89158d68bf9594ef8ca8",
       "title": "Anthropic is still grappling with the economics of compute",
       "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
@@ -3651,17 +3706,6 @@
       "date_type": "published"
     },
     {
-      "id": "4d3938441f216409a8f1",
-      "title": "Palette: teaching a small model to build decks in your design language",
-      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-03T16:35:36Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "0a382aa136fca6d9cc4d",
       "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
       "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
@@ -3671,50 +3715,6 @@
       "published_at": "2026-11-03T16:30:34Z",
       "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
       "date_type": "published"
-    },
-    {
-      "id": "f7c11ca5a1337415c145",
-      "title": "b12090",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T15:51:07Z",
-      "summary": "ggml-zdnn: fix fattn test failure ( #31583 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "7e52a6acfd99b02c3f1f",
-      "title": "b12074",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12074",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T15:43:51Z",
-      "summary": "delta_net_base: refactor conv state ( #30878 ) delta_net: access conv state via views fix sm tensor delta_net: fill the conv slot index on the host The rollback slot index of the conv windows is a constant per graph shape. It is now an I32 input of the recurrent memory filled on…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f45cdd5f95812c0b2860",
-      "title": "b12073",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T15:21:17Z",
-      "summary": "vulkan: fix out-of-bounds NVFP4 UE4M3 scale lookup ( #31079 ) vulkan : fix out-of-bounds NVFP4 UE4M3 scale lookup On the non-OCP path, ue4m3_fp32_lut has 128 entries and is indexed with the raw scale byte. ggml_validate_row_data accepts every byte and ggml_ue4m3_to_fp32 ignores …",
-      "date_type": "updated"
-    },
-    {
-      "id": "c2fb38ee8177687467b1",
-      "title": "v0.40.15-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-03T15:09:06Z",
-      "summary": "model: add MiMo V2.6 renderer for Qwen3.5 ( #19400 )",
-      "date_type": "updated"
     },
     {
       "id": "25493a43cba550c7fe81",

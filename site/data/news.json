@@ -1,20 +1,86 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-07T20:56:11Z",
-  "last_success_at": "2026-11-07T20:56:11Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-08T00:42:51Z",
+  "last_success_at": "2026-11-08T00:42:51Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
     {
+      "id": "b7fe5da87014d3d0bc4a",
+      "title": "b12194",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T00:23:00Z",
+      "summary": "hexagon: n_hvx and n_threads cleanup ( #31857 ) hex-nhvx: apply nhvx updates to the latest master hex-nhvx: set N_HVX and N_THREADS based on the arch to avoid overallocation hex-build: add support for enabling HTP_DEBUG via build.py hex-trace: move tracing state/helpers into new…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0dd6e4939a52b5966b66",
+      "title": "b12193",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T23:48:56Z",
+      "summary": "mtmd: move log-mel computation to cgraph ( #31808 ) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9beb6b9c7fb267839659",
+      "title": "b12195",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T23:13:04Z",
+      "summary": "sycl: refuse device buffers that would exceed VRAM ( #31285 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "757379c07d1179f77b31",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-07T22:07:22Z",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "date_type": "published"
+    },
+    {
+      "id": "d7b816006b5bc16a0dfe",
+      "title": "b12192",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-07T21:31:27Z",
+      "summary": "mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4e392e0aaa878514344f",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-07T21:17:08Z",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "date_type": "published"
+    },
+    {
       "id": "15811ccb0e51d72e4df4",
-      "title": "b12191: llama_moe_cache: run missed experts on CPU, add tuning script (#30966)",
+      "title": "b12191",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-07T16:20:58Z",
-      "summary": "moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert FFN twice: on the device from the cache slots, where the misses left to th…",
+      "published_at": "2026-11-07T21:14:29Z",
+      "summary": "llama_moe_cache: run missed experts on CPU, add tuning script ( #30966 ) moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert F…",
       "date_type": "updated"
     },
     {
@@ -256,7 +322,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：188",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：206",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2193,7 +2259,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：90",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3118,7 +3184,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：366",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：369",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3541,17 +3607,6 @@
       "date_type": "published"
     },
     {
-      "id": "5fb7488de8910ebe9bc3",
-      "title": "Midterm elections 2026: all the news",
-      "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T15:58:39Z",
-      "summary": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability i…",
-      "date_type": "published"
-    },
-    {
       "id": "f7c11ca5a1337415c145",
       "title": "b12090",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090",
@@ -3572,17 +3627,6 @@
       "published_at": "2026-11-03T15:43:51Z",
       "summary": "delta_net_base: refactor conv state ( #30878 ) delta_net: access conv state via views fix sm tensor delta_net: fill the conv slot index on the host The rollback slot index of the conv windows is a constant per graph shape. It is now an I32 input of the recurrent memory filled on…",
       "date_type": "updated"
-    },
-    {
-      "id": "5eba943719a0061f995f",
-      "title": "Apple restricts dating apps and AI companions to users 18 and up",
-      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T15:38:27Z",
-      "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
-      "date_type": "published"
     },
     {
       "id": "f45cdd5f95812c0b2860",
@@ -3703,50 +3747,6 @@
       "category": "opensource",
       "published_at": "2026-11-03T07:53:04Z",
       "summary": "vulkan: skip maxStorageBufferRange pre-check for non-compute tensors …",
-      "date_type": "updated"
-    },
-    {
-      "id": "b53d42e9c538fd7656ef",
-      "title": "v0.40.14",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-03T06:57:31Z",
-      "summary": "What's Changed ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on /api/chat are now decoded correctly, including compressed responses OpenAI-compatible endpoints n…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4fdaae4f267f78b814f1",
-      "title": "b12071",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12071",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T06:08:42Z",
-      "summary": "dsv4.1: fix llama-context tests with partial offload ( #31292 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "4134fd06b8a32f78399e",
-      "title": "b12070: cuda : prevent premature eviction of graphs about to be used (#30662)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12070",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T06:06:03Z",
-      "summary": "cuda : prevent premature eviction of graphs about to be used add last_graph_use_time for entire cuda graph map and testcase for cuda graph Assisted-by: Codex delete the test",
-      "date_type": "updated"
-    },
-    {
-      "id": "419393c3c0a3cbc48abd",
-      "title": "b12064",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T05:45:56Z",
-      "summary": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. Th…",
       "date_type": "updated"
     },
     {
@@ -4425,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 15,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4480,7 +4480,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 26,
+      "count": 25,
       "message": "正常"
     },
     {

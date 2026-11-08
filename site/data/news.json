@@ -1,11 +1,77 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-08T15:18:01Z",
-  "last_success_at": "2026-11-08T15:18:01Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-08T20:31:13Z",
+  "last_success_at": "2026-11-08T20:31:13Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "54c06e97d6e0a2b71c0f",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-08T20:22:39Z",
+      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads:…",
+      "date_type": "published"
+    },
+    {
+      "id": "b9c0dd474c98ba84113b",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-08T19:18:19Z",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly sh…",
+      "date_type": "published"
+    },
+    {
+      "id": "c08233254ab556923442",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-08T17:23:19Z",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Pre…",
+      "date_type": "published"
+    },
+    {
+      "id": "feda129748a8f5951e36",
+      "title": "b12211",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T16:53:06Z",
+      "summary": "mtmd: refactoring: remove clip.h, consolidate code into mtmd ( #31865 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65083165 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
+      "date_type": "updated"
+    },
+    {
+      "id": "236591bf2d70335444a2",
+      "title": "b12210",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12210",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T16:18:43Z",
+      "summary": "cpu: enable SpacemiT IME2 MXFP4 dense repack ( #31776 ) Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65077268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "dd62241e50583cf67634",
+      "title": "b12209",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-08T16:04:13Z",
+      "summary": "llamafile: impl bf16 and q8_0 vxe ( #31866 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65074455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA…",
+      "date_type": "updated"
+    },
     {
       "id": "3a23f7f560d629a2629a",
       "title": "b12208",
@@ -13,8 +79,8 @@
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-08T14:42:57Z",
-      "summary": "ggml : update CUDA/Metal radix Top-K to make tied selections determin…",
+      "published_at": "2026-11-08T15:50:22Z",
+      "summary": "ggml : update CUDA/Metal radix Top-K to make tied selections deterministic ( #31084 ) ggml : fix for the radix TOP_K thread timing bug make the key an ordered 64-bit pair a rewrite without shift-skip logic fix casts warp-contiguous layout reduce the scope removing vulkan+metal c…",
       "date_type": "updated"
     },
     {
@@ -260,6 +326,18 @@
       "date_type": "published"
     },
     {
+      "id": "a64346d6b971f202146e",
+      "title": "新模型：tencent/Qwen3.8-27B-DSpine-b16",
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-07T14:20:29Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：81",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "90a7eabbf5e1b72897e0",
       "title": "b12190",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12190",
@@ -465,7 +543,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：263",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：274",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2402,7 +2480,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：102",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：106",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3327,7 +3405,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：386",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：396",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3486,17 +3564,6 @@
       "date_type": "published"
     },
     {
-      "id": "9700c07623d0788d5825",
-      "title": "b12079",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T22:03:45Z",
-      "summary": "Add nccl support for multi-node tensor parallelism ( #28967 ) Add a backend interface for collectives across ranks running in separate processes, implement it in the CUDA backend using NCCL, and use it in the RPC server when available. Drop ggml_backend_comm_allreduce_rank_t and…",
-      "date_type": "updated"
-    },
-    {
       "id": "14409ffa4e7706ac4f45",
       "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
       "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
@@ -3607,28 +3674,6 @@
       "date_type": "published"
     },
     {
-      "id": "9c3d074f77fc20b6b761",
-      "title": "b12095",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12095",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T18:30:37Z",
-      "summary": "gemma4: graph optimizations (massive gains on pp for E2B and E4B) ( #3 …",
-      "date_type": "updated"
-    },
-    {
-      "id": "9d2b5d14cfa7c1e97288",
-      "title": "b12078",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12078",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T18:28:19Z",
-      "summary": "tools : reject mismatched shards in GGUF split merge ( #31579 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63239877 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iO…",
-      "date_type": "updated"
-    },
-    {
       "id": "62ed14364f0e88ad623d",
       "title": "Indie games are missing launch dates because Steam is backed up",
       "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
@@ -3651,17 +3696,6 @@
       "date_type": "published"
     },
     {
-      "id": "8ea075c86dbcdcf840ca",
-      "title": "b12077",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T17:55:36Z",
-      "summary": "meta: support GLM-5.3 next sm tensor ( #30499 ) meta: support GLM-5.3 next sm tensor glm5-next : cont q_absorbed for -sm tensor with non-unified KV meta : keep GGML_OP_ARANGE in ggml.h order glm5-next : split MLA heads in pairs for -sm tensor The MLA cache has a single KV head, …",
-      "date_type": "updated"
-    },
-    {
       "id": "f395370b6033a8887bd4",
       "title": "Google will let schools skip AI tools, but they have to give up search, too",
       "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
@@ -3673,17 +3707,6 @@
       "date_type": "published"
     },
     {
-      "id": "89158d68bf9594ef8ca8",
-      "title": "Anthropic is still grappling with the economics of compute",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T17:07:01Z",
-      "summary": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
-      "date_type": "published"
-    },
-    {
       "id": "da38bc697163569b3434",
       "title": "Agentic cheminformatics with Google Antigravity",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
@@ -3692,28 +3715,6 @@
       "category": "official",
       "published_at": "2026-11-03T17:01:49Z",
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "date_type": "published"
-    },
-    {
-      "id": "c01265aacc1a10af6e56",
-      "title": "Google is entirely disabling Search in schools that don’t want AI",
-      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T17:00:04Z",
-      "summary": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and…",
-      "date_type": "published"
-    },
-    {
-      "id": "0a382aa136fca6d9cc4d",
-      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
-      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T16:30:34Z",
-      "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
       "date_type": "published"
     },
     {
@@ -4425,9 +4426,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 15,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

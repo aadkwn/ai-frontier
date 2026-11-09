@@ -1,14 +1,300 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-09T08:01:52Z",
-  "last_success_at": "2026-11-09T08:01:52Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-09T18:51:27Z",
+  "last_success_at": "2026-11-09T18:51:27Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
     {
+      "id": "cfd5d9b75dc8bfdeb2bd",
+      "title": "b12233: feat: external PLE file loading (#31185)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T18:41:01Z",
+      "summary": "model : allow loading external PLE files Assisted-by: Codex convert : add separate PLE exports Assisted-by: Codex tests : fix PLE export test lint Assisted-by: Codex model : make --ple an alias of --shard, allow multiple shard locations Reuse the multi-shard loading path for ext…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c3e714b03075093f4990",
+      "title": "b12232: Windows unbuffered model load (#26014)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12232",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T18:22:08Z",
+      "summary": "Windows unbuffered io Fix read len calculation Add test and model load timing chunked fallback read + removing filepointer semantic divergence between linux and windows tests : remove unused mmap test arguments Assisted-by: Codex remove timing, set file pointer after chunk read,…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e85e3f3ffe1e843f80b8",
+      "title": "v0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-09T18:21:19Z",
+      "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e5d7409756abf44b4d0a",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T18:09:52Z",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "date_type": "published"
+    },
+    {
+      "id": "cf2829ad74c8e9e2273e",
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T18:07:23Z",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatb…",
+      "date_type": "published"
+    },
+    {
+      "id": "730323ba6c06bee9681a",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T18:00:00Z",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "date_type": "published"
+    },
+    {
+      "id": "3a3ea27b30526f5b6846",
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T17:36:08Z",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around …",
+      "date_type": "published"
+    },
+    {
+      "id": "84f3b5d3194b1b5f1050",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-09T17:24:26Z",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "date_type": "published"
+    },
+    {
+      "id": "c08eb761a64ea2a85d6e",
+      "title": "b12230",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12230",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T17:06:40Z",
+      "summary": "ggml-zdnn: accept non-zdnn tensors, invalidate compute tensors after every op ( #31824 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65448274 macOS/iOS: macOS Apple Silicon (arm64) macOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "2f05eab281f5e9f67b4e",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T16:56:54Z",
+      "summary": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "date_type": "published"
+    },
+    {
+      "id": "5bcbb602a5dce00ac99e",
+      "title": "b12229",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12229",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T16:46:18Z",
+      "summary": "server : fix response_format json_schema when schema is not nested in the json_schema wrapper ( #28697 ) server : accept top-level schema in response_format with type json_schema The OpenAI-compatible chat completions endpoint only applied the schema when it was nested inside re…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3b1d5ce5ab684c5cd44a",
+      "title": "b12228",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12228",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T16:26:55Z",
+      "summary": "ggml : implement the backward pass for TRI ( #30712 ) ggml: implement the backward pass for TRI GGML_OP_TRI had no case in the backward switch, so a trainable graph containing it aborted with \"unsupported ggml op for backward pass: TRI\". The op is linear, so its gradient is mask…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4d2c1dac08712af8587b",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T16:12:28Z",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "date_type": "published"
+    },
+    {
+      "id": "5ef96bda92f480d3b9a6",
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T15:50:38Z",
+      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situati…",
+      "date_type": "published"
+    },
+    {
+      "id": "a1d6a1e656f4ce844a1d",
+      "title": "Disney and Adobe are building generative AI tools together",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T15:38:56Z",
+      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to…",
+      "date_type": "published"
+    },
+    {
+      "id": "717aea7cb5bba68cb04d",
+      "title": "Hold up — I had a great time talking to the RIAA guy",
+      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T15:30:00Z",
+      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a …",
+      "date_type": "published"
+    },
+    {
+      "id": "637cc51b2facce74ae46",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-09T15:23:20Z",
+      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "date_type": "published"
+    },
+    {
+      "id": "ac8f18750241a65f1eaf",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-09T15:05:57Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "d8ba4af02850aa5ef5b5",
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T14:30:00Z",
+      "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former…",
+      "date_type": "published"
+    },
+    {
+      "id": "fdb2f84630d3508ec46a",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T14:00:00Z",
+      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "date_type": "published"
+    },
+    {
+      "id": "d777aa3a0b01afdcbec0",
+      "title": "b12224",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12224",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T13:56:43Z",
+      "summary": "ggml-backend: don't upload inputs that are not read ( #31419 ) stop uploading inputs nothing reads Address nitpicks Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65373769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
+      "date_type": "updated"
+    },
+    {
+      "id": "aecd57586d6d2fc7d706",
+      "title": "b12223",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T12:55:36Z",
+      "summary": "models : Attach Granite NVFP4 weight scales ( #31449 ) models : Attach Granite NVFP4 weight scales feat: Pass nvfp4 scales through build_ffn for all granite architectures Branch: granite-nvfp4-moe-scales AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b4d8f0d95858a10823b3",
+      "title": "b12227: tests : keep dummy ffn.act scales away from zero (#31940)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12227",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T12:54:27Z",
+      "summary": "The dummy-model generator fills every tensor from a plain normal pool. blk.N.ffn.act.scales is a divisor in the mpt graph, so with seed 1224489258 it draws |v| ~ 1e-6, and ffn_act = gelu(...) / scales reaches 2.7e5. Metal stages both operands of kernel_mul_mm_f32_f32 as half, so…",
+      "date_type": "updated"
+    },
+    {
+      "id": "75800b260204e03a7915",
+      "title": "b12226",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12226",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T12:52:32Z",
+      "summary": "mtp: read the target hidden states from a device buffer ( #31927 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "55d059b88c6c576a2f3d",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-09T12:34:29Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "62cba07321a0571c6902",
+      "title": "b12221",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12221",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T12:31:33Z",
+      "summary": "metal : prevent out-of-bounds writes to the Metal FA output buffer ( #31662 ) Co-authored-by: Zhuomin Chen moanachen@Mac.attlocal.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65341937 macOS/iOS: macOS Apple Silicon (arm64) macOS…",
+      "date_type": "updated"
+    },
+    {
       "id": "e120b878a12761b045e2",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
       "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -1053,7 +1339,7 @@
     },
     {
       "id": "54c06e97d6e0a2b71c0f",
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
       "source": "The Verge AI",
       "source_id": "the-verge",
@@ -1378,7 +1664,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：111",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1480,6 +1766,29 @@
       "published_at": "2026-11-07T09:21:25Z",
       "summary": "opencl: add arange ( #31829 ) Assisted-by: Claude Opus 5.5 Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64811217 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
       "date_type": "updated"
+    },
+    {
+      "id": "94cf68497441ab838611",
+      "title": "新模型：mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+      "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-07T05:50:30Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：82",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
+      "id": "e0820bf841f4174fb17a",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-07T04:16:43Z",
+      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "date_type": "published"
     },
     {
       "id": "be9ad6039ce240215d11",
@@ -1588,7 +1897,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：313",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：345",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2469,7 +2778,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T19:01:53Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：82",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：90",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2767,7 +3076,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：122",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3300,17 +3609,6 @@
       "date_type": "updated"
     },
     {
-      "id": "83abbe2c5d4334fb7921",
-      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
-      "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T13:00:00Z",
-      "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
-      "date_type": "published"
-    },
-    {
       "id": "f7ff1d3af8b569ff53e6",
       "title": "b12110",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12110",
@@ -3331,17 +3629,6 @@
       "published_at": "2026-11-04T12:37:46Z",
       "summary": "sync : ggml Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63566813 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (…",
       "date_type": "updated"
-    },
-    {
-      "id": "9a66a9476221031c0ee3",
-      "title": "Google hasn’t figured out how to make AI pay like its search engine",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T12:00:00Z",
-      "summary": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. M…",
-      "date_type": "published"
     },
     {
       "id": "454857c97df68bcf9df2",
@@ -3377,17 +3664,6 @@
       "date_type": "updated"
     },
     {
-      "id": "0063dd3333becdad1ac0",
-      "title": "b12100",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12100",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T08:03:02Z",
-      "summary": "common : fix -hf tag matching inside longer quant names ( #31620 ) common : fix -hf tag matching inside longer quant names \":F16\" picked a BF16 file when the repo had both, since \"BF16\" contains \"F16\". The same applied to \":Q4_XS\" vs \"IQ4_XS\". The tag now has to start at a token…",
-      "date_type": "updated"
-    },
-    {
       "id": "fbaa86a829ad59fd10c5",
       "title": "A thousand fewer paths to root",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
@@ -3410,128 +3686,6 @@
       "date_type": "published"
     },
     {
-      "id": "48dc583f433604fd8974",
-      "title": "b12099",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12099",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T05:50:37Z",
-      "summary": "hexagon: add LIGHTNING_INDEXER support ( #31289 ) hexagon: initial support for LIGHTNING_INDEXER op hex-lght-idxr: hmx for prefill hex-lght-idxr: q8_0 decode gather transpose, two-block decode compute hex-lght-idxr: pipelined hmx path for decode and prefill hex-lid: add support …",
-      "date_type": "updated"
-    },
-    {
-      "id": "cb4758c6f0704aed47f8",
-      "title": "b12098",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12098",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T03:53:56Z",
-      "summary": "mtmd: accurate support for qwen3-vl video prompt format ( #31619 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63416358 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)…",
-      "date_type": "updated"
-    },
-    {
-      "id": "10974bd60c0660980926",
-      "title": "b12097",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12097",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T03:32:16Z",
-      "summary": "model, mtmd: add chatterbox TTS support ( #30993 ) add chatterbox TTS support Co-authored-by: Pascal admin@serveurperso.com add built-in voice support rm redundant code clean up clean up 2 Apply batched suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjae…",
-      "date_type": "updated"
-    },
-    {
-      "id": "d296a1f29c757ffe7bd8",
-      "title": "b12096",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12096",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T03:16:39Z",
-      "summary": "hexagon: add TOP_K_MASK op ( #31552 ) hexagon: add TOP_K_MASK op Simplify Hexagon TOP_K_MASK kernel and do not duplicate host configuration Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63407530 macOS/iOS: macOS Apple Silicon (arm64)…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6371c9c0ccef63e7d957",
-      "title": "b12094",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12094",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T02:44:12Z",
-      "summary": "hexagon: faster TOP_K for the backend sampler ( #31279 ) hexagon: faster TOP_K for the backend sampler (skip tiles, then block scan) Skip the bitonic sort for tiles whose max cannot reach the running k-th best value, then replace the tile sort with top_k_scan(): reject 256-float…",
-      "date_type": "updated"
-    },
-    {
-      "id": "2442dea1774d00452b6f",
-      "title": "新模型：ricursiveAI/Ripple-65B-Preview",
-      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：418",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "fcec1b84be933ab3ab35",
-      "title": "b12089",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T01:20:02Z",
-      "summary": "model : Add support for Metis-1.6 models ( #31134 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63378637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
-      "date_type": "updated"
-    },
-    {
-      "id": "ffbb69a7f635e1ce55f6",
-      "title": "b12088",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T00:57:33Z",
-      "summary": "model : enable NVFP4 LFM3 ggufs ( #31608 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63372395 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: …",
-      "date_type": "updated"
-    },
-    {
-      "id": "92c50f67a507db6c8047",
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
-      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T00:42:10Z",
-      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the pla…",
-      "date_type": "published"
-    },
-    {
-      "id": "b6093e4588ad1d248a54",
-      "title": "b12087",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12087",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T00:34:37Z",
-      "summary": "mtmd : add Nemotron 3.5 Transcribe support ( #31471 ) mtmd : add Nemotron 3.5 Transcribe support Assisted-by: Claude convert : fix vocab of draft models for Nemotron-H targets Assisted-by: Claude convert : reject non-BF16 Transcribe checkpoints Assisted-by: Claude mtmd : make sp…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ab3b2eacabf763a91d44",
-      "title": "b12086",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12086",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T00:16:39Z",
-      "summary": "qwen4exp: write the conv state tail without an intermediate cont ( #31443 ) build_conv_state_at makes a contiguous copy of the conv input tail before writing it into the recurrent state, so every GDN layer issues two device copies per generated token where one is enough. On Qwen…",
-      "date_type": "updated"
-    },
-    {
       "id": "295354ff422b0d4db922",
       "title": "Introducing Images 2.6",
       "url": "https://openai.com/index/introducing-images-2-6",
@@ -3551,160 +3705,6 @@
       "category": "official",
       "published_at": "2026-11-04T00:00:00Z",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "date_type": "published"
-    },
-    {
-      "id": "630c12e7fe19610d4f74",
-      "title": "b12084",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12084",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T23:56:31Z",
-      "summary": "model : record layer inputs in LFM3 for spec dec ( #31598 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63354471 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9d97c8271a19f07f2108",
-      "title": "Please stop asking me when the AI bubble will pop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T23:37:45Z",
-      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made m…",
-      "date_type": "published"
-    },
-    {
-      "id": "e154fee02c7c32910ffc",
-      "title": "b12083",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12083",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T23:36:36Z",
-      "summary": "ggml: avoid signed overflow in ggml_roll bounds check ( #30375 ) ggml_roll validated each shift with abs(shift), but abs(INT_MIN) is signed integer overflow UB evaluated before the bounds check runs. Compare with a signed-safe test instead. Website: https://llama.app Attestation…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f036c36fad00b553f631",
-      "title": "b12081",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12081",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-03T22:51:32Z",
-      "summary": "cuda: potential fix for Q8_1 correction sum ( #31247 ) cuda: potential fix for Q8_1 correction sum Update ggml/src/ggml-cuda/quantize.cu Co-authored-by: Gaurav Garg gaugarg@nvidia.com addressed review comment to change the quantize_mmq_q8_1 flow as well Co-authored-by: Gaurav Ga…",
-      "date_type": "updated"
-    },
-    {
-      "id": "52eb9ce7b224919af0f3",
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T22:41:03Z",
-      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "date_type": "published"
-    },
-    {
-      "id": "014d0f8ff9b1f411e59e",
-      "title": "Data centers are turning to old jet engines as the wait for power grows",
-      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T22:19:53Z",
-      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
-      "date_type": "published"
-    },
-    {
-      "id": "14409ffa4e7706ac4f45",
-      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T21:43:08Z",
-      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-      "date_type": "published"
-    },
-    {
-      "id": "81efc47dc4581bdd56ee",
-      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T21:05:55Z",
-      "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
-      "date_type": "published"
-    },
-    {
-      "id": "8fdb108aaca7ce7da2d4",
-      "title": "Those Jeff Bezos hair transplant photos are very fake",
-      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T21:01:07Z",
-      "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they bot…",
-      "date_type": "published"
-    },
-    {
-      "id": "c172670df3bbada115fa",
-      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-03T20:39:55Z",
-      "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
-      "date_type": "published"
-    },
-    {
-      "id": "ec51e351ec2747a241f3",
-      "title": "Apple starts giving Siri AI access to third-party apps",
-      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T20:16:17Z",
-      "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, proces…",
-      "date_type": "published"
-    },
-    {
-      "id": "05d1a3678a8eb5027224",
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T19:34:43Z",
-      "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
-      "date_type": "published"
-    },
-    {
-      "id": "dd1d9cb4e66e85b0eb6a",
-      "title": "Building connections across the research infrastructure",
-      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-03T19:30:00Z",
-      "summary": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
-      "date_type": "published"
-    },
-    {
-      "id": "90ff5ab634ecc941280f",
-      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-03T18:42:16Z",
-      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
       "date_type": "published"
     },
     {
@@ -4427,9 +4427,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 14,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4518,7 +4518,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 26,
+      "count": 27,
       "message": "正常"
     },
     {

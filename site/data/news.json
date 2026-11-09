@@ -1,11 +1,33 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-08T20:31:13Z",
-  "last_success_at": "2026-11-08T20:31:13Z",
+  "last_attempt_at": "2026-11-09T00:56:51Z",
+  "last_success_at": "2026-11-09T00:56:51Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "f0be6325bfc4dec9fdd9",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-08T22:54:50Z",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees ack…",
+      "date_type": "published"
+    },
+    {
+      "id": "ab3c0090fa33621fad65",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-08T21:00:11Z",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "date_type": "published"
+    },
     {
       "id": "54c06e97d6e0a2b71c0f",
       "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
@@ -333,7 +355,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：81",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：95",
       "item_type": "model",
       "date_type": "created"
     },
@@ -543,7 +565,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：274",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：292",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2480,7 +2502,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：106",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：108",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3405,7 +3427,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-04T02:41:21Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：396",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：403",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3682,28 +3704,6 @@
       "category": "industry",
       "published_at": "2026-11-03T18:14:50Z",
       "summary": "Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an upcom…",
-      "date_type": "published"
-    },
-    {
-      "id": "c968c83100b75a67cad3",
-      "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-03T18:00:00Z",
-      "summary": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or…",
-      "date_type": "published"
-    },
-    {
-      "id": "f395370b6033a8887bd4",
-      "title": "Google will let schools skip AI tools, but they have to give up search, too",
-      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-03T17:54:43Z",
-      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
       "date_type": "published"
     },
     {

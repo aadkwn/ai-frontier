@@ -1,21 +1,252 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-09T18:51:27Z",
-  "last_success_at": "2026-11-09T18:51:27Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-10T02:11:23Z",
+  "last_success_at": "2026-11-10T02:11:23Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
     {
+      "id": "1c41e3aea7e41ea137ea",
+      "title": "b12242",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12242",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T02:04:48Z",
+      "summary": "chat : don't use lazy grammar when response_format is set with tools ( #31956 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65619172 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macO…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1f5965246ab60eaf1af6",
+      "title": "b12241",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12241",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T01:47:57Z",
+      "summary": "hexagon: fix 64-bit FastRPC handle truncation on close ( #30952 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65614982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
+      "date_type": "updated"
+    },
+    {
+      "id": "8a35af252b32001f777c",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T01:27:12Z",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "date_type": "published"
+    },
+    {
+      "id": "bb82ada884c5f2aabff4",
+      "title": "b12240",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T01:23:59Z",
+      "summary": "server: responses api: support conversion of text.format.json_schema to completions ( #26145 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65608759 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled…",
+      "date_type": "updated"
+    },
+    {
+      "id": "198f6dafafe934973466",
+      "title": "b12239",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12239",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T00:52:44Z",
+      "summary": "server : use common_chat_input in realtime api ( #31978 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65600616 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
+      "date_type": "updated"
+    },
+    {
+      "id": "05e31abb81030e94daf9",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-10T00:28:49Z",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at product…",
+      "date_type": "published"
+    },
+    {
+      "id": "041c60470c72b33d5a20",
+      "title": "b12238",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T00:27:42Z",
+      "summary": "server: add oai-compat /v1/audio/speech endpoint ( #31763 ) server: add oai-compat /v1/audio/speech endpoint add e2e pytest server: share the s16 rounding, type speech form fields The WAV writer of the audio helper truncates while pcm_f32_to_s16 rounds, so wav and pcm differ by …",
+      "date_type": "updated"
+    },
+    {
+      "id": "44bb6093a440b817c078",
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T23:51:58Z",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range…",
+      "date_type": "published"
+    },
+    {
+      "id": "cd027b24b17aebafb49f",
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T23:47:46Z",
+      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened…",
+      "date_type": "published"
+    },
+    {
+      "id": "83634d874acf4ccd1864",
+      "title": "b12237",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T23:47:33Z",
+      "summary": "mtmd: support gemma 4 input audio stream ( #31965 ) mtmd: support gemma 4 input audio stream use 480ms step server: enable realtime embeddings only for audio generation The realtime slot forced embeddings on, which marks every row of a batch as an output. Only a model that gener…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9e6aebddb26b309846fc",
+      "title": "v0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-09T23:45:36Z",
+      "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected mode…",
+      "date_type": "updated"
+    },
+    {
+      "id": "cbe54f11b05c0e59be5a",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T23:28:37Z",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "date_type": "published"
+    },
+    {
+      "id": "38ea5b66d259522356b1",
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T23:07:59Z",
+      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Hua…",
+      "date_type": "published"
+    },
+    {
+      "id": "ee9aab4d1d8b4a89ef6a",
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T22:46:09Z",
+      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "date_type": "published"
+    },
+    {
+      "id": "1181fc08955c170d41e5",
+      "title": "b12236",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12236",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-09T22:43:58Z",
+      "summary": "mtmd: add mtmd_helper_resampler ( #31964 ) mtmd: add mtmd_helper_resampler update docs add test MA_MAX_FILTER_ORDER Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65560925 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
+      "date_type": "updated"
+    },
+    {
+      "id": "38b3fce4c5431b80a163",
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T22:23:42Z",
+      "summary": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "date_type": "published"
+    },
+    {
+      "id": "fc6d536179e6162c05e0",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T20:09:06Z",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "date_type": "published"
+    },
+    {
+      "id": "58580c03fbdd25528547",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-09T19:24:51Z",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "date_type": "published"
+    },
+    {
       "id": "cfd5d9b75dc8bfdeb2bd",
-      "title": "b12233: feat: external PLE file loading (#31185)",
+      "title": "b12233",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233",
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-09T18:41:01Z",
-      "summary": "model : allow loading external PLE files Assisted-by: Codex convert : add separate PLE exports Assisted-by: Codex tests : fix PLE export test lint Assisted-by: Codex model : make --ple an alias of --shard, allow multiple shard locations Reuse the multi-shard loading path for ext…",
+      "published_at": "2026-11-09T19:20:05Z",
+      "summary": "feat: external PLE file loading ( #31185 ) model : allow loading external PLE files Assisted-by: Codex convert : add separate PLE exports Assisted-by: Codex tests : fix PLE export test lint Assisted-by: Codex model : make --ple an alias of --shard, allow multiple shard locations…",
       "date_type": "updated"
+    },
+    {
+      "id": "5ef93d9981a0db1c3c84",
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T19:09:58Z",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant …",
+      "date_type": "published"
+    },
+    {
+      "id": "caa9073cefb43725f1a5",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-09T19:00:00Z",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "date_type": "published"
+    },
+    {
+      "id": "ea9e2270122931419f9b",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T19:00:00Z",
+      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than…",
+      "date_type": "published"
     },
     {
       "id": "c3e714b03075093f4990",
@@ -26,17 +257,6 @@
       "category": "opensource",
       "published_at": "2026-11-09T18:22:08Z",
       "summary": "Windows unbuffered io Fix read len calculation Add test and model load timing chunked fallback read + removing filepointer semantic divergence between linux and windows tests : remove unused mmap test arguments Assisted-by: Codex remove timing, set file pointer after chunk read,…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e85e3f3ffe1e843f80b8",
-      "title": "v0.40.16",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-09T18:21:19Z",
-      "summary": "What's Changed openai: forward truncation option in responses requests by @marlonferreira1800-hue in #19501 openai: return an empty array for /v1/models when no models are installed by @liangliang205 in #19539 llama.cpp: version bump b12177 by @dhiltgen in #19576 README: add Quo…",
       "date_type": "updated"
     },
     {
@@ -113,7 +333,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-09T16:56:54Z",
-      "summary": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
       "date_type": "published"
     },
     {
@@ -238,6 +458,17 @@
       "date_type": "updated"
     },
     {
+      "id": "952d2516af2e905436ad",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-09T13:00:00Z",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "date_type": "published"
+    },
+    {
       "id": "aecd57586d6d2fc7d706",
       "title": "b12223",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
@@ -291,6 +522,28 @@
       "published_at": "2026-11-09T12:31:33Z",
       "summary": "metal : prevent out-of-bounds writes to the Metal FA output buffer ( #31662 ) Co-authored-by: Zhuomin Chen moanachen@Mac.attlocal.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65341937 macOS/iOS: macOS Apple Silicon (arm64) macOS…",
       "date_type": "updated"
+    },
+    {
+      "id": "02e9abf47eaf3fa01f98",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-09T08:00:00Z",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "date_type": "published"
+    },
+    {
+      "id": "2e34e84f0999c607fcd0",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-09T08:00:00Z",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "date_type": "published"
     },
     {
       "id": "e120b878a12761b045e2",
@@ -1360,6 +1613,17 @@
       "date_type": "published"
     },
     {
+      "id": "3007fcee676fa59fcd87",
+      "title": "v0.34.0rc0: [Transformers backend] Migrate Gemma and StableLM (#66393)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-08T18:38:57Z",
+      "summary": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
+      "date_type": "updated"
+    },
+    {
       "id": "c08233254ab556923442",
       "title": "Elvis and Eminem rights holders are suing Suno",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
@@ -1558,6 +1822,17 @@
       "date_type": "updated"
     },
     {
+      "id": "e85e3f3ffe1e843f80b8",
+      "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-08T00:36:53Z",
+      "summary": "Add the Ripple model, renderer, parser and import registration. Support per-layer NoPE in DFlash drafts. Fuse MLP activation, value blending and attention gating. Add reference fixtures and model/runner regression tests.",
+      "date_type": "updated"
+    },
+    {
       "id": "b7fe5da87014d3d0bc4a",
       "title": "b12194",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
@@ -1664,7 +1939,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1775,7 +2050,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：82",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：108",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1897,7 +2172,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：345",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：366",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2778,7 +3053,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T19:01:53Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：90",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：101",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3076,7 +3351,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：122",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：124",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3389,17 +3664,6 @@
       "date_type": "published"
     },
     {
-      "id": "131fed317e6702dc4e58",
-      "title": "b12114",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12114",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T21:37:33Z",
-      "summary": "webgpu: return maxBufferSize from get_max_size and avoid whole-buffer bindings in memset/clear ( #31348 ) Fix get_max_size and improve the memset shader Fix buffer_memset to handle the buffer size more than max binding size. Website: https://llama.app Attestations: https://githu…",
-      "date_type": "updated"
-    },
-    {
       "id": "bd044bc53c19f14dcbd4",
       "title": "OpenAI is already trying to shape the 2028 election",
       "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
@@ -3433,149 +3697,6 @@
       "date_type": "published"
     },
     {
-      "id": "97689e4470033f7c3c03",
-      "title": "Gemini for Home now plugs into AT&T’s smart security system",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T20:23:24Z",
-      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your v…",
-      "date_type": "published"
-    },
-    {
-      "id": "5112f3d519822a572a02",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T19:30:04Z",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chines…",
-      "date_type": "published"
-    },
-    {
-      "id": "e582a56b9edebbe87a5f",
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T19:29:52Z",
-      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "date_type": "published"
-    },
-    {
-      "id": "efff75d2c4af86e8eeae",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T18:44:57Z",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chines…",
-      "date_type": "published"
-    },
-    {
-      "id": "56101ee27feec7039fe1",
-      "title": "Nothing teases a screen-free AI device ahead of launch next month",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T18:26:07Z",
-      "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, on…",
-      "date_type": "published"
-    },
-    {
-      "id": "f762962d4e70678a6737",
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T18:00:00Z",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therap…",
-      "date_type": "published"
-    },
-    {
-      "id": "7e4f7adddfbaac34bb48",
-      "title": "ChatGPT will now make you animated GIFs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T18:00:00Z",
-      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatG…",
-      "date_type": "published"
-    },
-    {
-      "id": "32d4e91d243ef07f0795",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-04T17:50:10Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "ef0e90236814fadb34d7",
-      "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T16:51:35Z",
-      "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
-      "date_type": "published"
-    },
-    {
-      "id": "dca8692856b1500998d1",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T16:17:22Z",
-      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "date_type": "published"
-    },
-    {
-      "id": "0beed25ab06a25ff60d2",
-      "title": "Data centers lost the midterms",
-      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T16:05:39Z",
-      "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI in…",
-      "date_type": "published"
-    },
-    {
-      "id": "eef47e2f46ab6ae8ee70",
-      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T15:58:45Z",
-      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little hig…",
-      "date_type": "published"
-    },
-    {
-      "id": "2322faed842dfa6f3d15",
-      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T14:46:01Z",
-      "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their com…",
-      "date_type": "published"
-    },
-    {
       "id": "1be4fdd8e6ca80f0ec01",
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
@@ -3585,83 +3706,6 @@
       "published_at": "2026-11-04T14:30:00Z",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "date_type": "published"
-    },
-    {
-      "id": "9b4a16ecc1cff8543c69",
-      "title": "b12111: common : delete common_get_path_from_env() (#31444)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12111",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T13:21:38Z",
-      "summary": "Signed-off-by: Adrien Gallouët angt@huggingface.co",
-      "date_type": "updated"
-    },
-    {
-      "id": "9dccbf755eee5d2d6d84",
-      "title": "v0.9.0",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T13:09:55Z",
-      "summary": "Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral L…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f7ff1d3af8b569ff53e6",
-      "title": "b12110",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12110",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T12:56:44Z",
-      "summary": "llama.cpp : bump version to 0.9.0 ( #31646 ) llama.cpp : bump version to 0.9.0 authors : update Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63573996 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b7080cb7a26189677c4f",
-      "title": "b12109",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12109",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T12:37:46Z",
-      "summary": "sync : ggml Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63566813 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (…",
-      "date_type": "updated"
-    },
-    {
-      "id": "454857c97df68bcf9df2",
-      "title": "b12102",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12102",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T09:16:00Z",
-      "summary": "ggml: bound views by the bytes their strides reach ( #31584 ) ggml: bound views by the bytes their strides reach A view was checked against its source with the size of a contiguous tensor of the same shape, computed before its strides were set. Views whose rows overlap failed th…",
-      "date_type": "updated"
-    },
-    {
-      "id": "215d7b2106130be3c701",
-      "title": "b12101",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12101",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T08:37:24Z",
-      "summary": "ggml : write host-buffer tensor data directly in gguf writer ( #31144 ) The gguf writer staged each tensor into a temporary vector before writing it. For host-buffer tensors the data pointer is directly writable, so skip the staging copy and write it straight to the file. This a…",
-      "date_type": "updated"
-    },
-    {
-      "id": "db3e3ee01d055b7fa3e2",
-      "title": "b12103: opencl: improve q2_0 GEMV for Adreno (#31577)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12103",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-04T08:07:14Z",
-      "summary": "opencl: improve q2_0 decoding and small f32 matmuls Assisted-by: Codex opencl: optimize small f32 matmuls on Adreno 8xx Assisted-by: Codex",
-      "date_type": "updated"
     },
     {
       "id": "fbaa86a829ad59fd10c5",
@@ -3763,17 +3807,6 @@
       "date_type": "published"
     },
     {
-      "id": "0d297090385ad5a72451",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "date_type": "published"
-    },
-    {
       "id": "bca108e4c77bd86b238b",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -3782,6 +3815,17 @@
       "category": "official",
       "published_at": "2026-11-02T18:00:00Z",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "date_type": "published"
+    },
+    {
+      "id": "0d297090385ad5a72451",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-02T18:00:00Z",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "date_type": "published"
     },
     {
@@ -4366,50 +4410,6 @@
       "published_at": "2026-10-20T10:00:00Z",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "date_type": "published"
-    },
-    {
-      "id": "aa8847d44cbae3328f3c",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-20T07:00:00Z",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "date_type": "published"
-    },
-    {
-      "id": "1cfb6291fa158d05a5ba",
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "date_type": "published"
-    },
-    {
-      "id": "1dbe22633003a2af4fdd",
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-19T12:00:00Z",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "date_type": "published"
-    },
-    {
-      "id": "9732b2763df5a67ab945",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-16T19:00:00Z",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4427,9 +4427,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 14,
+      "message": "正常"
     },
     {
       "id": "google-ai",

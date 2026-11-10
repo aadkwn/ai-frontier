@@ -1,11 +1,286 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-10T09:56:16Z",
-  "last_success_at": "2026-11-10T09:56:16Z",
+  "last_attempt_at": "2026-11-10T17:54:15Z",
+  "last_success_at": "2026-11-10T17:54:15Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "c0148d18638aab682651",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T17:30:00Z",
+      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+      "date_type": "published"
+    },
+    {
+      "id": "dac6751e4b3871feec9d",
+      "title": "b12250",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T17:17:04Z",
+      "summary": "vulkan: add tiled-transpose concat shader for Qwen models ( #30591 ) vulkan: tiled transpose for dim-0 concat with a transposed source The delta-net conv-state path does ggml_transpose() straight into a dim-0 ggml_concat(), so the generic concat kernel reads src1 with the transp…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9f7428ee17be8abb8526",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T17:04:19Z",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "9e92f6476e72e227c759",
+      "title": "b12249",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12249",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T17:01:41Z",
+      "summary": "ggml-rpc : fail gracefully on unreachable endpoints and failed handshakes ( #30415 ) ggml-rpc: fail gracefully on unreachable endpoints and failed handshakes rpc_dispatcher::start() aborted the whole process (GGML_ABORT -> SIGABRT) when the endpoint could not be parsed, the tran…",
+      "date_type": "updated"
+    },
+    {
+      "id": "49e1167239304c3927d8",
+      "title": "b12248",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12248",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T16:12:47Z",
+      "summary": "vulkan: Divide GROUP_NORM workgroup to 2D to avoid maxComputeWorkGroupCount limit ( #31930 ) Divide workgroup to 2D to workaround maxComputeWorkGroupCount limit Replaced with existing macro Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestatio…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6d8eb3bcd497222db158",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-10T16:03:47Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "4ea7969a421c523902f6",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T15:54:08Z",
+      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "date_type": "published"
+    },
+    {
+      "id": "679acb5039d281a572b7",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T15:29:30Z",
+      "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+      "date_type": "published"
+    },
+    {
+      "id": "728eb75070a008e94d1c",
+      "title": "b12247",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12247",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T15:05:02Z",
+      "summary": "vulkan: Fix out of bounds reads/writes on MoltenVK ( #31890 ) Fix test-backend-ops sentinel mismatch errors on MoltenVK Set disable_robustness for norm_f32, l2_norm_f32, and sum_rows_f32's pipelines Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/a…",
+      "date_type": "updated"
+    },
+    {
+      "id": "76165dd7fb3fabecc283",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-10T15:00:39Z",
+      "summary": "The new model is up to twice as successful at some tasks.",
+      "date_type": "published"
+    },
+    {
+      "id": "c039564e4f55eeeec804",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-10T14:06:54Z",
+      "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the New York…",
+      "date_type": "published"
+    },
+    {
+      "id": "5ac8836f0ba144b39fd6",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T14:05:10Z",
+      "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+      "date_type": "published"
+    },
+    {
+      "id": "1a56c99530ddc4c22fe1",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T14:01:39Z",
+      "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "date_type": "published"
+    },
+    {
+      "id": "59a8a5dd3afc5312ddae",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-10T14:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "3739b5b6833681c55fbe",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T14:00:00Z",
+      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "date_type": "published"
+    },
+    {
+      "id": "90450c1293322385f7d9",
+      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T14:00:00Z",
+      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "date_type": "published"
+    },
+    {
+      "id": "499cff9552f92642d8da",
+      "title": "Adobe is going all in on agentic AI",
+      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-10T14:00:00Z",
+      "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include …",
+      "date_type": "published"
+    },
+    {
+      "id": "e313ab2892aad27b24de",
+      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-10T14:00:00Z",
+      "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishe…",
+      "date_type": "published"
+    },
+    {
+      "id": "1d8889c9661cfe547bb2",
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-10T13:30:00Z",
+      "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years …",
+      "date_type": "published"
+    },
+    {
+      "id": "772c2ab05d6efdca6105",
+      "title": "b12246",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T13:14:30Z",
+      "summary": "vulkan: cap scalar flash attention at 8 rows for large heads on Qualcomm ( #30829 ) With head sizes above 128 and KV >= 1024, scalar flash attention uses 16 rows per workgroup. On the Qualcomm Adreno driver this variant spills registers to scratch memory (264 bytes per invocatio…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ef83b8dc18b1604dec2e",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-10T13:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "697debda975c187536f8",
+      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T13:00:00Z",
+      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+      "date_type": "published"
+    },
+    {
+      "id": "94172b3b33d907838393",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-10T12:15:32Z",
+      "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+      "date_type": "published"
+    },
+    {
+      "id": "f321c904268bcef29356",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-10T12:02:28Z",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "date_type": "published"
+    },
+    {
+      "id": "0f0020abcf733229d29f",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-10T12:00:00Z",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "date_type": "published"
+    },
     {
       "id": "69d4d9d74efa01629a6c",
       "title": "Closing the AI guidance gap in education",
@@ -14,8 +289,30 @@
       "source_id": "openai",
       "category": "official",
       "published_at": "2026-11-10T09:00:00Z",
-      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "date_type": "published"
+    },
+    {
+      "id": "44e868de1087e91d5a55",
+      "title": "b12252",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12252",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T07:42:58Z",
+      "summary": "cann: fail early when checking if buffer type is supported ( #31270 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "6d99531d45b580bdaecc",
+      "title": "b12251: sycl: Add device-side MoE scheduler (#30156)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12251",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-10T07:42:25Z",
+      "summary": "sycl: Add device-side MoE scheduler Assisted-by: Codex Add width-heuristic override bit and Q2_K and Q3_K types Assisted-by: Codex tests: cover skipped MUL_MAT_ID slots on the device MoE schedule Assisted-by: Claude Opus 5.5 sycl: keep graphs on for lazily reordered MUL_MAT and …",
+      "date_type": "updated"
     },
     {
       "id": "d646da872e9561cd891c",
@@ -29,15 +326,15 @@
       "date_type": "updated"
     },
     {
-      "id": "772c2ab05d6efdca6105",
-      "title": "b12246",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T07:00:55Z",
-      "summary": "vulkan: cap scalar flash attention at 8 rows for large heads on Qualc…",
-      "date_type": "updated"
+      "id": "f3fc54cd1d78c100d666",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-10T07:00:00Z",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "date_type": "published"
     },
     {
       "id": "775ac0a390011ca0c2cf",
@@ -1151,6 +1448,28 @@
       "date_type": "updated"
     },
     {
+      "id": "cb93d68b445c05b0e3dc",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-10T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "5f3963726dbe36e6ccf9",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-10T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
       "id": "44bb6093a440b817c078",
       "title": "What could China get from Jensen Huang?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
@@ -1250,6 +1569,17 @@
       "date_type": "published"
     },
     {
+      "id": "79ac4b66951afb869c2b",
+      "title": "The global pledge to use AI for climate good is a cruel joke",
+      "url": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-09T21:13:16Z",
+      "summary": "At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I'm suspicious from the onset. How can this be good? But I love beer and our planet enough to give it a whirl - and hey, why not…",
+      "date_type": "published"
+    },
+    {
       "id": "fc6d536179e6162c05e0",
       "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
       "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
@@ -1258,6 +1588,17 @@
       "category": "industry",
       "published_at": "2026-11-09T20:09:06Z",
       "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "date_type": "published"
+    },
+    {
+      "id": "8827aad4505e69ef98eb",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-09T19:51:47Z",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
       "date_type": "published"
     },
     {
@@ -2236,7 +2577,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：154",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：161",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2347,7 +2688,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：171",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2372,6 +2713,18 @@
       "published_at": "2026-11-07T03:35:00Z",
       "summary": "meta : raise the compute view limit for buffers with few tensors ( #31447 ) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: https://llama.app At…",
       "date_type": "updated"
+    },
+    {
+      "id": "a5b5b4e52d94f84e3445",
+      "title": "新模型：adventists-ai/Sophon-Realtime-v1",
+      "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-07T03:06:25Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：80",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "ec2480d446f6212cddc5",
@@ -2469,7 +2822,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：378",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：385",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3130,7 +3483,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T19:01:53Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：114",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：127",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3278,28 +3631,6 @@
       "date_type": "published"
     },
     {
-      "id": "5c6fd66a42c8ea494afd",
-      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-05T15:00:00Z",
-      "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part…",
-      "date_type": "published"
-    },
-    {
-      "id": "e79288c48dc9eade2335",
-      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T14:42:00Z",
-      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "date_type": "published"
-    },
-    {
       "id": "6512eeef7312d9df2524",
       "title": "b12154",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12154",
@@ -3344,28 +3675,6 @@
       "date_type": "updated"
     },
     {
-      "id": "f5a829f9a8eba31c4c25",
-      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
-      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T14:00:00Z",
-      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
-      "date_type": "published"
-    },
-    {
-      "id": "44f488c59aa9e3a6dd20",
-      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
-      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T13:00:00Z",
-      "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
-      "date_type": "published"
-    },
-    {
       "id": "7adf93211ed7d4e663a2",
       "title": "b12151: ggml-cuda: sanitize post-bias NaNs in MoE selection (#31005)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12151",
@@ -3388,17 +3697,6 @@
       "date_type": "updated"
     },
     {
-      "id": "9db55803402ec47c3ec5",
-      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-05T12:00:41Z",
-      "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-      "date_type": "published"
-    },
-    {
       "id": "850ffbfc56c1fbbd5e04",
       "title": "Le Chonk brings the brains. Studio puts it to work.",
       "url": "https://mistral.ai/news/build-with-studio/",
@@ -3410,17 +3708,6 @@
       "date_type": "published"
     },
     {
-      "id": "86c146bd7f606cc4b783",
-      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T12:00:00Z",
-      "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
-      "date_type": "published"
-    },
-    {
       "id": "7a37eda9cecdb6581a55",
       "title": "新模型：Comfy-Org/RelayVSR",
       "url": "https://huggingface.co/Comfy-Org/RelayVSR",
@@ -3428,20 +3715,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-05T11:54:26Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：126",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：130",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "788aca0b86fe44b26f68",
-      "title": "Big Tech’s big AI buildout will not end until someone stops it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-05T10:45:00Z",
-      "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised retur…",
-      "date_type": "published"
     },
     {
       "id": "878e1cc56fba298bd962",
@@ -3466,17 +3742,6 @@
       "date_type": "published"
     },
     {
-      "id": "ceac84bcd934c70b9c87",
-      "title": "b12134",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12134",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T08:28:03Z",
-      "summary": "graph: store the MTP conv snapshots of every recurrent model in one s…",
-      "date_type": "updated"
-    },
-    {
       "id": "db9792e954d447010915",
       "title": "Merge builds product and business tools with OpenAI technology",
       "url": "https://openai.com/index/merge-builds-with-openai",
@@ -3488,94 +3753,6 @@
       "date_type": "published"
     },
     {
-      "id": "41c2fe1f57c665f0c0b5",
-      "title": "b12125",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T07:32:28Z",
-      "summary": "opencl: enable f32 and q5_k multi column GEMV by default for Adreno X2 ( #31694 ) opencl: use the small-N f32 GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: use the q5_K multi-column verify GEMV by default on X2E As…",
-      "date_type": "updated"
-    },
-    {
-      "id": "46c49f823fed439561e6",
-      "title": "b12124",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12124",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T07:12:25Z",
-      "summary": "opencl: support non-contig sigmoid ( #31687 ) Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63927117 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e486f2b8d7b9e9f496a2",
-      "title": "b12123",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12123",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T06:46:54Z",
-      "summary": "opencl: add DSV4_HC_PRE and DSV4_HC_POST ( #31623 ) opencl: add DSV4_HC_PRE and DSV4_HC_POST Co-authored-by: Shafei Qi shaoqi@qti.qualcomm.com opencl: improve dsv4_hc_post Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Li He lih@qti.qualcomm.com Website: http…",
-      "date_type": "updated"
-    },
-    {
-      "id": "d4f098cfc94de0dc19df",
-      "title": "b12127: metal: keep fusable node groups inside one command buffer (#31688)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T06:21:13Z",
-      "summary": "The first command buffer takes the first 10% of the graph nodes and the rest is split evenly between the extra command buffers. A fusion cannot span two command buffers, so a boundary that falls inside a fusable group runs that group unfused, and the output then depends on the n…",
-      "date_type": "updated"
-    },
-    {
-      "id": "790aa0147c130bb6e5c9",
-      "title": "b12122",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12122",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T06:19:16Z",
-      "summary": "Title: CUDA: fuse NVFP4 gate/up matmuls and GLU in MMQ ( #31296 ) cuda: fuse NVFP4 gate/up and GLU in MMQ cuda: honor the requested src1 precision in fused gate/up MMQ cuda: share NVFP4 scale checks, skip unused fused FP4 kernels cuda: test NVFP4 fused MMQ at W4A8 without scales…",
-      "date_type": "updated"
-    },
-    {
-      "id": "498ac4c49c7505e652f3",
-      "title": "b12126: qwen2 : add nvfp4 scales to build_ffn (#31657)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12126",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T05:29:50Z",
-      "summary": "This commit adds nvfp4 scales to qwen2's build_ffn call which are currently passed as NULL. The motivation for this is that a model converted to NVFP4 will currently crash because the scales are loaded but never applied in the FFN: llama-completion: llama.cpp/src/llama-sampler.c…",
-      "date_type": "updated"
-    },
-    {
-      "id": "87631feae5b67cf18cdc",
-      "title": "Clearing up a robot’s fuzzy memory",
-      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-05T05:00:00Z",
-      "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
-      "date_type": "published"
-    },
-    {
-      "id": "09e3cea0c582801caee0",
-      "title": "b12121",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12121",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T03:03:33Z",
-      "summary": "llama : fix on-device state copy sizes for quantized KV caches ( #30541 ) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quanti…",
-      "date_type": "updated"
-    },
-    {
       "id": "25fa4dd18ec78a48a923",
       "title": "Setting a new standard for responsible AI infrastructure",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -3584,39 +3761,6 @@
       "category": "official",
       "published_at": "2026-11-05T02:00:00Z",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "date_type": "published"
-    },
-    {
-      "id": "964c13ba54cd144f6787",
-      "title": "v0.40.15-rc1: llama.cpp: version bump b12111 (#19530)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-05T01:31:38Z",
-      "summary": "Drop 002-metal-unary-cast-constexpr.patch: superseded by upstream fix",
-      "date_type": "updated"
-    },
-    {
-      "id": "ad1030df5ce46710e212",
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T01:26:22Z",
-      "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
-      "date_type": "published"
-    },
-    {
-      "id": "0ee5115bb8658d796c95",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T01:02:14Z",
-      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
       "date_type": "published"
     },
     {
@@ -3639,72 +3783,6 @@
       "category": "official",
       "published_at": "2026-11-05T00:00:00Z",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "date_type": "published"
-    },
-    {
-      "id": "7aa63af445bdd3ac983f",
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T22:45:09Z",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
-      "date_type": "published"
-    },
-    {
-      "id": "b531b56f4ce7687d64ce",
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T22:42:15Z",
-      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with com…",
-      "date_type": "published"
-    },
-    {
-      "id": "c1e93e47438d89a0794e",
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T22:13:16Z",
-      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "date_type": "published"
-    },
-    {
-      "id": "b314cbc6665b0c27cf4d",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T21:56:01Z",
-      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
-      "date_type": "published"
-    },
-    {
-      "id": "576b3975e72bb4e8a538",
-      "title": "17 better ways Elon Musk could have wasted $446 million",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-04T21:45:00Z",
-      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the…",
-      "date_type": "published"
-    },
-    {
-      "id": "bd044bc53c19f14dcbd4",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-04T21:25:44Z",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
       "date_type": "published"
     },
     {
@@ -4333,83 +4411,6 @@
       "published_at": "2026-10-21T12:00:00Z",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "date_type": "published"
-    },
-    {
-      "id": "de9db6f384cbc7887755",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-21T07:00:00Z",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "date_type": "published"
-    },
-    {
-      "id": "ea92da5c121ecb452702",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-21T07:00:00Z",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "date_type": "published"
-    },
-    {
-      "id": "64ddfb139fec8a1cb459",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-21T04:50:00Z",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "date_type": "published"
-    },
-    {
-      "id": "c7c1db1d24f97b169309",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-10-21T04:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "3fe372fb2e8166f0e814",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-21T00:00:00Z",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "date_type": "published"
-    },
-    {
-      "id": "e270f5ba4688033de075",
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-21T00:00:00Z",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "date_type": "published"
-    },
-    {
-      "id": "cb0bf0e1617ea81085ee",
-      "title": "Voxtral 3",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "category": "official",
-      "published_at": "2026-10-20T12:00:22Z",
-      "summary": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages, accurate transcription, emotional TTS, deep tool use.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4428,7 +4429,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 14,
+      "count": 17,
       "message": "正常"
     },
     {
@@ -4437,7 +4438,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 8,
+      "count": 10,
       "message": "正常"
     },
     {
@@ -4518,7 +4519,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 27,
+      "count": 29,
       "message": "正常"
     },
     {

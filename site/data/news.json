@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-11T06:33:16Z",
-  "last_success_at": "2026-11-11T06:33:16Z",
+  "last_attempt_at": "2026-11-11T15:18:31Z",
+  "last_success_at": "2026-11-11T15:18:31Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
@@ -18,6 +18,94 @@
       "date_type": "published"
     },
     {
+      "id": "833534b672b8daa32ace",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-11T15:00:15Z",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "date_type": "published"
+    },
+    {
+      "id": "943bd9ebdd36c5629d76",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-11T15:00:00Z",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way t…",
+      "date_type": "published"
+    },
+    {
+      "id": "b5b225f8da047fd6d2e7",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-11T14:08:57Z",
+      "summary": "The four-week project hints that AI could make formal verification far more practical.",
+      "date_type": "published"
+    },
+    {
+      "id": "274edf310d65fc26118a",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-11T14:00:00Z",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+      "date_type": "published"
+    },
+    {
+      "id": "1251f00274bede43be17",
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-11T14:00:00Z",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talkin…",
+      "date_type": "published"
+    },
+    {
+      "id": "b021b1fd455a0df8f939",
+      "title": "b12284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12284",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-11T13:16:42Z",
+      "summary": "CUDA: Add OCP FP8 support ( #28413 ) Initial CUDA WIP version Use fp8 intrinsics Do W8A16 for FP8 in GEMV case (base) osimons@ub-osimons:~/lcpp_fp8.git$ ./build-x64-linux-gcc-reldbg/bin/llama-bench -m /mnt/share/gguf/nvidia/Qwen3.6-27B-NVFP4/Qwen3.6-27B-NVFP4_fp8.gguf -p 8196 -u…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8e8e851f9ac38a1986e4",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-11T09:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "05064262ca929f3c6421",
+      "title": "b12285: cuda : fattn mma head sizes 40 72 (#30285)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12285",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-11T08:45:01Z",
+      "summary": "cuda : add MMA FlashAttention support for head sizes 40 and 72 Head sizes 40 and 72 (used e.g. in vision towers of Gemma 3/4 and Qwen3-VL) were excluded from every tensor-core dispatch branch and fell back to the tile kernel. The fp16 MMA fragment covers 16 halfs in the head dir…",
+      "date_type": "updated"
+    },
+    {
       "id": "ac94b61a25ade5edbf71",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -26,6 +114,17 @@
       "category": "official",
       "published_at": "2026-11-11T08:00:00Z",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "date_type": "published"
+    },
+    {
+      "id": "d1951b7785beef233efa",
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-11T07:30:51Z",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
       "date_type": "published"
     },
     {
@@ -1118,6 +1217,17 @@
       "date_type": "updated"
     },
     {
+      "id": "11568aa8dfcf9a3c0750",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-11T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
       "id": "99f6aeac949b58917f97",
       "title": "b12262",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12262",
@@ -1709,6 +1819,17 @@
       "category": "official",
       "published_at": "2026-11-10T09:00:00Z",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "date_type": "published"
+    },
+    {
+      "id": "9092d5eb66f29547408d",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-10T08:00:00Z",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "date_type": "published"
     },
     {
@@ -2621,7 +2742,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：121",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2723,6 +2844,18 @@
       "published_at": "2026-11-08T16:53:06Z",
       "summary": "mtmd: refactoring: remove clip.h, consolidate code into mtmd ( #31865 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65083165 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
       "date_type": "updated"
+    },
+    {
+      "id": "00b89b74ca093e9d8b37",
+      "title": "新模型：ConceptCountry/qwen-concept-27b",
+      "url": "https://huggingface.co/ConceptCountry/qwen-concept-27b",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-08T16:39:43Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：82",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "236591bf2d70335444a2",
@@ -3018,7 +3151,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：170",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：177",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3129,7 +3262,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：186",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：197",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3163,7 +3296,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T03:06:25Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：86",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：92",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3263,7 +3396,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：413",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：419",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3554,17 +3687,6 @@
       "date_type": "published"
     },
     {
-      "id": "980a934d66b53cbb48d9",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T11:55:19Z",
-      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports t…",
-      "date_type": "published"
-    },
-    {
       "id": "2b604a4bd61a879a025a",
       "title": "b12167",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12167",
@@ -3595,17 +3717,6 @@
       "category": "official",
       "published_at": "2026-11-06T08:00:00Z",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "c822924fc1f280c7bb5c",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-06T06:28:32Z",
-      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
       "date_type": "published"
     },
     {
@@ -3653,39 +3764,6 @@
       "date_type": "updated"
     },
     {
-      "id": "cd1c20ddb9bf6bb62e2f",
-      "title": "b12140",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12140",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T01:14:37Z",
-      "summary": "ggml : support truncate=false for YaRN ( #30206 ) ggml : support truncate=false for YaRN YaRN calculates correction intervals to switch frequency interpolation methods, but the setting to not round the boundaries of these intervals to integers ( truncate=false ) was not supporte…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ad929875c5a71925cbce",
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T00:37:56Z",
-      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public …",
-      "date_type": "published"
-    },
-    {
-      "id": "8b33f1382f19de19bb66",
-      "title": "Airbnb is working on an AI travel agent",
-      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T00:06:12Z",
-      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or sch…",
-      "date_type": "published"
-    },
-    {
       "id": "5f721228af3682c2417b",
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
@@ -3695,50 +3773,6 @@
       "published_at": "2026-11-06T00:00:00Z",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "date_type": "published"
-    },
-    {
-      "id": "13e4c95dcbaa6d34090e",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-06T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "17b57e4655701f14b981",
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-05T22:40:55Z",
-      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "date_type": "published"
-    },
-    {
-      "id": "2fcc08164988cd2284a8",
-      "title": "b12138",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12138",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T22:12:12Z",
-      "summary": "metal : use mul_mm for 32 <= K < 64 ( #30982 ) metal : use mul_mm for 32 <= K < 64 metal : add bf16 x bf16 mul mat kernel Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64248274 macO…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e6276a951fd4cf5fa69b",
-      "title": "b12137",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12137",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-05T21:53:09Z",
-      "summary": "server : reject non-object session updates ( #31714 ) Prevent malformed realtime session updates from throwing an uncaught exception and terminating the server Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org…",
-      "date_type": "updated"
     },
     {
       "id": "bbd492caba72ca544b8b",
@@ -4377,39 +4411,6 @@
       "published_at": "2026-10-22T19:00:00Z",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "date_type": "published"
-    },
-    {
-      "id": "301925b8adfcebab105a",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-10-22T14:30:24Z",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "date_type": "published"
-    },
-    {
-      "id": "6400feb681472530a689",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-22T06:00:00Z",
-      "summary": "What forward deployed engineering means at OpenAI",
-      "date_type": "published"
-    },
-    {
-      "id": "eda525050cea8fce4b13",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-22T00:00:00Z",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4428,7 +4429,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 17,
+      "count": 18,
       "message": "正常"
     },
     {
@@ -4437,7 +4438,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 11,
+      "count": 12,
       "message": "正常"
     },
     {

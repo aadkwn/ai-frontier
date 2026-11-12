@@ -1,11 +1,66 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-11T22:44:01Z",
-  "last_success_at": "2026-11-11T22:44:01Z",
+  "last_attempt_at": "2026-11-12T03:50:44Z",
+  "last_success_at": "2026-11-12T03:50:44Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "e86320a8813bf8b24362",
+      "title": "b12306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T03:50:19Z",
+      "summary": "vulkan: support batched tensor copy API ( #31418 ) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66530328 macOS/iOS: macOS Apple Si…",
+      "date_type": "updated"
+    },
+    {
+      "id": "fbcf4a4810c3f155950d",
+      "title": "b12304",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T03:22:26Z",
+      "summary": "llama : reuse graph result instances across scheduler reserves ( #32089 ) Allocate gf_res_reserve and both gf_res_prev entries once in the llama_context constructor. Add llm_graph_result::set_max_nodes() and reset the existing instances in sched_reserve() instead of recreating t…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a552875406bb3160c613",
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T03:13:10Z",
+      "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+      "date_type": "published"
+    },
+    {
+      "id": "9ba9aacff7fcbd298df7",
+      "title": "b12303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T02:59:05Z",
+      "summary": "jinja : support chained comparisons and argument unpacking ( #32072 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66518918 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e68459d0678d211187c2",
+      "title": "b12302",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T02:26:37Z",
+      "summary": "chat: allow TTS model to provide custom text normalizer via jinja ( #32053 ) chat: allow TTS model to provide custom text normalizer via jinja rm tts_norm_is_reserved_name Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66510183 macOS/…",
+      "date_type": "updated"
+    },
     {
       "id": "65b96c238445cdedc96b",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -15,6 +70,50 @@
       "category": "official",
       "published_at": "2026-11-12T00:00:00Z",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "date_type": "published"
+    },
+    {
+      "id": "2c1c14009b34ac8bb9e2",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-11T23:50:00Z",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "c80b16c4f3bf86c6aa9f",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-11T23:28:45Z",
+      "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+      "date_type": "published"
+    },
+    {
+      "id": "b908c072a557d814cedf",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-11T23:17:05Z",
+      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+      "date_type": "published"
+    },
+    {
+      "id": "a6547f8cea67f8f6609b",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-11T22:44:36Z",
+      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second a…",
       "date_type": "published"
     },
     {
@@ -73,6 +172,17 @@
       "date_type": "published"
     },
     {
+      "id": "3782b7dce7469680137b",
+      "title": "b12307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-11T20:02:06Z",
+      "summary": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 )",
+      "date_type": "updated"
+    },
+    {
       "id": "e78ec32e40cf6daa5db9",
       "title": "b12291",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12291",
@@ -91,7 +201,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-11T19:54:00Z",
-      "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+      "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
       "date_type": "published"
     },
     {
@@ -1745,17 +1855,6 @@
       "date_type": "published"
     },
     {
-      "id": "c0148d18638aab682651",
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T17:30:00Z",
-      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-      "date_type": "published"
-    },
-    {
       "id": "25de9b307d30f91026df",
       "title": "Anthropic has its own AI-powered office suite now",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
@@ -1764,6 +1863,17 @@
       "category": "industry",
       "published_at": "2026-11-10T17:30:00Z",
       "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particul…",
+      "date_type": "published"
+    },
+    {
+      "id": "c0148d18638aab682651",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-10T17:30:00Z",
+      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
       "date_type": "published"
     },
     {
@@ -3017,7 +3127,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：161",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：180",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3128,7 +3238,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：117",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3426,7 +3536,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：193",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：197",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3537,7 +3647,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：212",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：219",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3571,7 +3681,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T03:06:25Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：124",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3631,17 +3741,6 @@
       "date_type": "published"
     },
     {
-      "id": "b19a52adc818672926aa",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-06T22:53:46Z",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "date_type": "published"
-    },
-    {
       "id": "291f6c31a7cabb41f26f",
       "title": "b12179",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
@@ -3653,17 +3752,6 @@
       "date_type": "updated"
     },
     {
-      "id": "f8fe21ba7f368ed10ce0",
-      "title": "All the latest updates on AI data centers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T20:02:22Z",
-      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and t…",
-      "date_type": "published"
-    },
-    {
       "id": "f4e8ce6220df06e6c19b",
       "title": "新模型：NousResearch/Arete-27B",
       "url": "https://huggingface.co/NousResearch/Arete-27B",
@@ -3671,42 +3759,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：431",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：440",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "0bb49f96544d94ecd80e",
-      "title": "How to predict the behavior of molecules from scant data",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-06T19:00:00Z",
-      "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
-      "date_type": "published"
-    },
-    {
-      "id": "c262b9961ff71dc31ad1",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-06T18:44:38Z",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "date_type": "published"
-    },
-    {
-      "id": "2d23850120e57d6c5e32",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-06T18:44:20Z",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "date_type": "published"
     },
     {
       "id": "dd1266c7ee42e16d36eb",
@@ -3728,61 +3783,6 @@
       "category": "opensource",
       "published_at": "2026-11-06T16:43:44Z",
       "summary": "tests : qualify isnan and signbit with std:: ( #31791 ) tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the …",
-      "date_type": "updated"
-    },
-    {
-      "id": "0b0e7840be3e83c66ec3",
-      "title": "b12175",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T16:11:07Z",
-      "summary": "tests : override hardware_concurrency in CI ( #31797 ) The self-hosted CPU runners are containers with 8 CPUs, but std::thread::hardware_concurrency reports the cores of the host. The table mode of test-llama-context sizes its pool from that count, so it runs 4 models x 8 thread…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ae36f1e272fb7ba5a8b9",
-      "title": "b12174",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T15:50:01Z",
-      "summary": "cmake : generate RC file directly without win-app.rc.in ( #31718 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64553678 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (…",
-      "date_type": "updated"
-    },
-    {
-      "id": "878fd3793321c4bbb74a",
-      "title": "Patch release v5.22.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2",
-      "source": "GitHub · Transformers",
-      "source_id": "github-transformers",
-      "category": "opensource",
-      "published_at": "2026-11-06T15:43:27Z",
-      "summary": "Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits 🤗 [Distributed] Set device_id only for NCCL ( #50281 ) by @michaelbenayoun and @3outeille Harden our Jinja sandboxing ( #50431 ) by @Rocketknight1 Full Changelog : v5.22.1...…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b2c0e929055c03a01dd9",
-      "title": "b12173",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T15:13:47Z",
-      "summary": "opencl: support repeat for f16, i32, i16, bf16 ( #31782 ) opencl: add f16 repeat Assisted-by: Codex opencl: support repeat for i32, i16, bf16 Assisted-by: Codex opencl: update ops Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/a…",
-      "date_type": "updated"
-    },
-    {
-      "id": "dfaac0a0a5b4884c8486",
-      "title": "b12172",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T14:54:23Z",
-      "summary": "webgpu: add batched tensor API ( get_tensor_n and set_tensor_n ) ( #31473 ) add set_tensor_n and get_tensor_n fix for editor-config checker remove the outdated comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64533296 macOS/iOS:…",
       "date_type": "updated"
     },
     {

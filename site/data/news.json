@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-12T03:50:44Z",
-  "last_success_at": "2026-11-12T03:50:44Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-12T12:48:51Z",
+  "last_success_at": "2026-11-12T12:48:51Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "1a5562cc7b1dbfd1aee1",
+      "title": "b12318",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T11:39:31Z",
+      "summary": "CUDA: add cuda debug buffer pool ( #31919 ) CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66668638 macOS/iOS: macOS Apple Silicon (arm64) m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4922ca6fb0dd92994c34",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-12T09:30:00Z",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "date_type": "published"
+    },
+    {
+      "id": "b66712bf9359025c88a3",
+      "title": "b12317",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T07:02:04Z",
+      "summary": "opencl: add bin kernel kernel_gemm_noshuffle_q4_0_f32_32b_trans_ila_a7_bin ( #30947 ) opencl: add A7 Q4_0 non-MoE binary kernel opencl: refactor Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations…",
+      "date_type": "updated"
+    },
+    {
+      "id": "18e5accf6b65985fe25b",
+      "title": "b12316",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T06:29:07Z",
+      "summary": "CUDA: skip empty MoE tiles in MMQ stream-k fixup ( #32067 ) CUDA: skip empty MoE tiles in MMQ stream-k fixup mul_mat_q_stream_k_fixup loads ids_dst[col_low + j] for all j < J before checking j_sup. mul_mat_q returns early on col_low == col_high, the fixup kernel did not. mm_ids_…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e303c0d1aac8c0b88b55",
+      "title": "v0.34.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc2",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-12T06:21:02Z",
+      "summary": "[Doc][Tests] Stop setting gpu_memory_utilization in most extensible…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c9f5f3a02381584b240e",
+      "title": "b12314",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T05:27:01Z",
+      "summary": "opencl: add decomposed FA for Adreno ( #32046 ) opencl: add decomposed FA Assisted-by: Claude Opus 5.5 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: build FA MQ kernel on first FA call so allows warmup to early b…",
+      "date_type": "updated"
+    },
+    {
+      "id": "87a3878007143ca4caf9",
+      "title": "b12311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T05:06:19Z",
+      "summary": "ui: keep downloads in Discover during search and fix their progress with a draft ( #31467 ) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos pub…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d652bf4e1f2db5615f13",
+      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
+      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-12T05:00:00Z",
+      "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+      "date_type": "published"
+    },
+    {
+      "id": "af12aa70388a5d91d638",
+      "title": "b12308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T04:35:45Z",
+      "summary": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3782b7dce7469680137b",
+      "title": "b12307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T04:13:33Z",
+      "summary": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66535500 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)…",
+      "date_type": "updated"
+    },
     {
       "id": "e86320a8813bf8b24362",
       "title": "b12306",
@@ -62,6 +172,17 @@
       "date_type": "updated"
     },
     {
+      "id": "d7c1da8cb7dc41da688b",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-12T00:00:00Z",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "date_type": "published"
+    },
+    {
       "id": "65b96c238445cdedc96b",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -113,7 +234,7 @@
       "source_id": "the-verge",
       "category": "industry",
       "published_at": "2026-11-11T22:44:36Z",
-      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second a…",
+      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second a…",
       "date_type": "published"
     },
     {
@@ -170,17 +291,6 @@
       "published_at": "2026-11-11T20:02:14Z",
       "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may n…",
       "date_type": "published"
-    },
-    {
-      "id": "3782b7dce7469680137b",
-      "title": "b12307",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T20:02:06Z",
-      "summary": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 )",
-      "date_type": "updated"
     },
     {
       "id": "e78ec32e40cf6daa5db9",
@@ -3127,7 +3237,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：180",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：209",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3238,7 +3348,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：173",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3536,7 +3646,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：197",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：207",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3647,7 +3757,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：219",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：233",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3674,18 +3784,6 @@
       "date_type": "updated"
     },
     {
-      "id": "a5b5b4e52d94f84e3445",
-      "title": "新模型：adventists-ai/Sophon-Realtime-v1",
-      "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-07T03:06:25Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：148",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "ec2480d446f6212cddc5",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
@@ -3697,17 +3795,6 @@
       "date_type": "published"
     },
     {
-      "id": "8f05831adbeaff87e304",
-      "title": "b12181: hexagon: fuse post-norm residual add into RMS_NORM_MUL (#31822)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12181",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T00:06:59Z",
-      "summary": "hexagon: fuse post-norm residual add into RMS_NORM_MUL hex-fusion: refactor RMS_NORM fusion and add dedicated RMS_NORM_MUL_ADD opcode Improves performance by keeping things in HVX registers. Also simplifies overall fusion logic and logging. Co-authored-by: Max Krasnyansky maxk@q…",
-      "date_type": "updated"
-    },
-    {
       "id": "6c7191a9daddd0328837",
       "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
@@ -3717,73 +3804,6 @@
       "published_at": "2026-11-06T23:46:18Z",
       "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion…",
       "date_type": "published"
-    },
-    {
-      "id": "e1833b6ba9cd6bab261d",
-      "title": "b12180",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T23:24:23Z",
-      "summary": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a7e1415152c9585b8d71",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T23:00:44Z",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push…",
-      "date_type": "published"
-    },
-    {
-      "id": "291f6c31a7cabb41f26f",
-      "title": "b12179",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T20:47:14Z",
-      "summary": "hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tile…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f4e8ce6220df06e6c19b",
-      "title": "新模型：NousResearch/Arete-27B",
-      "url": "https://huggingface.co/NousResearch/Arete-27B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-06T19:31:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：440",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "dd1266c7ee42e16d36eb",
-      "title": "b12177",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T17:13:20Z",
-      "summary": "cli : fix crash on invalid UTF-8 in prompt or files ( #31563 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64587236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b313e079c92ff6736cd4",
-      "title": "b12176",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-06T16:43:44Z",
-      "summary": "tests : qualify isnan and signbit with std:: ( #31791 ) tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the …",
-      "date_type": "updated"
     },
     {
       "id": "a0a44ed09dc9a1089b4e",
@@ -4389,28 +4409,6 @@
       "published_at": "2026-10-26T07:00:00Z",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "date_type": "published"
-    },
-    {
-      "id": "ee4c22366ef7e7abd786",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-23T17:00:00Z",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "date_type": "published"
-    },
-    {
-      "id": "f8c156dba7886826388b",
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-23T10:00:00Z",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4428,9 +4426,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 18,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4492,7 +4490,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4501,7 +4499,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4510,7 +4508,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.CV",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {

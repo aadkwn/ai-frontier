@@ -1,11 +1,418 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-12T12:48:51Z",
-  "last_success_at": "2026-11-12T12:48:51Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-12T20:51:42Z",
+  "last_success_at": "2026-11-12T20:51:42Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "ff447842ecb2519b4676",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T20:26:47Z",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "date_type": "published"
+    },
+    {
+      "id": "f6e9a3b13d6f1fdcbd96",
+      "title": "b12323",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12323",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T20:05:54Z",
+      "summary": "chat : refactor gemma4 to build loose schema rules and clean up ( #31915 ) chat : build a schema-shaped PEG parser for Gemma 4 tool arguments chat : enforce only the key structure of Gemma 4 tool arguments chat : remove old gemma4 workarounds cont : add node.as<>() to simplify s…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a491aa90d650ab2bf91e",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-12T20:00:00Z",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "date_type": "published"
+    },
+    {
+      "id": "d4774d28d264a29f63d7",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-12T19:59:59Z",
+      "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+      "date_type": "published"
+    },
+    {
+      "id": "76f0f9d265ce6e4d1e1f",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T19:27:45Z",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "date_type": "published"
+    },
+    {
+      "id": "6efd6e806be9c0a705d4",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-12T19:23:03Z",
+      "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "date_type": "published"
+    },
+    {
+      "id": "5e287749a052919098f3",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T19:11:00Z",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "date_type": "published"
+    },
+    {
+      "id": "84ec87286cb35a64f463",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-12T19:07:35Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "7b9f63f2b0ab42a718e6",
+      "title": "b12322",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12322",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T19:03:31Z",
+      "summary": "llama : avoid touching unused graph metadata pages ( #32043 ) Each graph result reserves metadata for max_nodes, but many graphs use only a fraction of that capacity. The vector resize initializes the whole reserve and makes otherwise unused pages resident. Allocate the reserve …",
+      "date_type": "updated"
+    },
+    {
+      "id": "bcd74023a99fbd1f22df",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-12T18:57:45Z",
+      "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+      "date_type": "published"
+    },
+    {
+      "id": "bd79903a17a4b8df7ffd",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T18:39:23Z",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "date_type": "published"
+    },
+    {
+      "id": "04ce7d8114ff91aaec50",
+      "title": "b12321",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12321",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T18:21:31Z",
+      "summary": "sycl: make oneDNN FA cache thread-safe and memoize runtime failures ( #31138 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66830789 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "648ab3e5a06f7ebf2df3",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T18:06:54Z",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vib…",
+      "date_type": "published"
+    },
+    {
+      "id": "f19cddd04797ae7d9ed5",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-12T18:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "0e4894e65e90d0a39d88",
+      "title": "b12320",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12320",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T17:49:17Z",
+      "summary": "sycl : fix AOT for more than 4GB ( #31873 ) fix aot for >4g garbage output issue; add --aot in build script correct the aot flag support no-xmx build, update the code for no-xmx building, rename nossl to no-ssl Website: https://llama.app Attestations: https://github.com/ggml-org…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ce1eab2bbb5c79a9e4f6",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T17:44:33Z",
+      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has …",
+      "date_type": "published"
+    },
+    {
+      "id": "cf8aede2b245e7bec292",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T17:36:40Z",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "date_type": "published"
+    },
+    {
+      "id": "0544f18fda8e32325663",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T17:17:58Z",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "date_type": "published"
+    },
+    {
+      "id": "0039716ebb4ac156c62a",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T17:00:52Z",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "date_type": "published"
+    },
+    {
+      "id": "62853baff9e5dea322e4",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T17:00:00Z",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "date_type": "published"
+    },
+    {
+      "id": "64a6f20ebcc4dac132a4",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T17:00:00Z",
+      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity …",
+      "date_type": "published"
+    },
+    {
+      "id": "889dda614b5244142fc7",
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T17:00:00Z",
+      "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025…",
+      "date_type": "published"
+    },
+    {
+      "id": "1c6e913a4c75ac8479a4",
+      "title": "b12319",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12319",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T16:38:47Z",
+      "summary": "sycl : use cached device-id in set_main_device ( #32013 ) ggml_sycl_set_main_device() runs at the start of every graph compute. Its early-return check called dpct::get_current_device_id(), which locks the device manager mutex and looks up the thread-to-device map. Use the thread…",
+      "date_type": "updated"
+    },
+    {
+      "id": "548fe94a79cba56aecf8",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T16:36:37Z",
+      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "date_type": "published"
+    },
+    {
+      "id": "c32c9bb4ff06b22c4534",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T16:32:33Z",
+      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "date_type": "published"
+    },
+    {
+      "id": "d533790e4d2bd7ed50cf",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T16:30:00Z",
+      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with…",
+      "date_type": "published"
+    },
+    {
+      "id": "17107c7279fd1016c5b3",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T16:12:44Z",
+      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "date_type": "published"
+    },
+    {
+      "id": "4c2abdf66c9c702a8d7d",
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T15:48:12Z",
+      "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair …",
+      "date_type": "published"
+    },
+    {
+      "id": "b2e35daf8642042c5639",
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T15:37:29Z",
+      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "date_type": "published"
+    },
+    {
+      "id": "7c091be54b73fa0eb62a",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T15:18:14Z",
+      "summary": "This is the investment firm's largest fund to date.",
+      "date_type": "published"
+    },
+    {
+      "id": "3d14e9acb8c155627b9d",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T15:02:28Z",
+      "summary": "This is Fireworks' second data breach in as many months.",
+      "date_type": "published"
+    },
+    {
+      "id": "38ea5b66d259522356b1",
+      "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T15:01:31Z",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affai…",
+      "date_type": "published"
+    },
+    {
+      "id": "f890f008ac13960a0c72",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-12T14:50:17Z",
+      "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "date_type": "published"
+    },
+    {
+      "id": "07a62a8bb6b160cd51f5",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T14:30:01Z",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "412fd95eff74cad8ca5c",
+      "title": "I reviewed the Apple HomeView, ask me anything",
+      "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T14:10:00Z",
+      "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen …",
+      "date_type": "published"
+    },
+    {
+      "id": "40490d91d164baaf14f4",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T13:53:16Z",
+      "summary": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, th…",
+      "date_type": "published"
+    },
+    {
+      "id": "49ac9311c7b4233f04bc",
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T13:26:25Z",
+      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
+      "date_type": "published"
+    },
     {
       "id": "1a5562cc7b1dbfd1aee1",
       "title": "b12318",
@@ -27,6 +434,28 @@
       "published_at": "2026-11-12T09:30:00Z",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "date_type": "published"
+    },
+    {
+      "id": "4260969ab2bce236d4b0",
+      "title": "b12327: ggml : dispatch SpacemiT Q4_1 32x256 through the HP kernel (#31929)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T08:59:09Z",
+      "summary": "The 32x256 pack already keeps a separate uint8 zero point. Complete the M1 path and use the same HP kernel as Q4_0. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang yangwang@iscas.ac.cn",
+      "date_type": "updated"
+    },
+    {
+      "id": "6c6cde720116becdfe9e",
+      "title": "b12324",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12324",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T08:34:16Z",
+      "summary": "server: when --tools-runtime is specified, ignore x-tool-runtime ( #32 …",
+      "date_type": "updated"
     },
     {
       "id": "b66712bf9359025c88a3",
@@ -194,14 +623,14 @@
       "date_type": "published"
     },
     {
-      "id": "2c1c14009b34ac8bb9e2",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-11T23:50:00Z",
-      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "id": "cbda9238a3684b28e47a",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-12T00:00:00Z",
+      "summary": "",
       "date_type": "published"
     },
     {
@@ -2790,17 +3219,6 @@
       "date_type": "published"
     },
     {
-      "id": "38ea5b66d259522356b1",
-      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T23:07:59Z",
-      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Hua…",
-      "date_type": "published"
-    },
-    {
       "id": "ee9aab4d1d8b4a89ef6a",
       "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
       "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
@@ -2966,28 +3384,6 @@
       "date_type": "published"
     },
     {
-      "id": "3a3ea27b30526f5b6846",
-      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T17:36:08Z",
-      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around …",
-      "date_type": "published"
-    },
-    {
-      "id": "84f3b5d3194b1b5f1050",
-      "title": "Claude Code is accidentally exposing secrets all over GitHub",
-      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-09T17:24:26Z",
-      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-      "date_type": "published"
-    },
-    {
       "id": "c08eb761a64ea2a85d6e",
       "title": "b12230",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12230",
@@ -2997,17 +3393,6 @@
       "published_at": "2026-11-09T17:06:40Z",
       "summary": "ggml-zdnn: accept non-zdnn tensors, invalidate compute tensors after every op ( #31824 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65448274 macOS/iOS: macOS Apple Silicon (arm64) macOS …",
       "date_type": "updated"
-    },
-    {
-      "id": "2f05eab281f5e9f67b4e",
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T16:56:54Z",
-      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-      "date_type": "published"
     },
     {
       "id": "5bcbb602a5dce00ac99e",
@@ -3032,61 +3417,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4d2c1dac08712af8587b",
-      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T16:12:28Z",
-      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-      "date_type": "published"
-    },
-    {
-      "id": "5ef96bda92f480d3b9a6",
-      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T15:50:38Z",
-      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situati…",
-      "date_type": "published"
-    },
-    {
-      "id": "a1d6a1e656f4ce844a1d",
-      "title": "Disney and Adobe are building generative AI tools together",
-      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T15:38:56Z",
-      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to…",
-      "date_type": "published"
-    },
-    {
-      "id": "717aea7cb5bba68cb04d",
-      "title": "Hold up — I had a great time talking to the RIAA guy",
-      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T15:30:00Z",
-      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a …",
-      "date_type": "published"
-    },
-    {
-      "id": "637cc51b2facce74ae46",
-      "title": "Nvidia CEO's affair becomes a national security problem",
-      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-09T15:23:20Z",
-      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
-      "date_type": "published"
-    },
-    {
       "id": "ac8f18750241a65f1eaf",
       "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
@@ -3095,28 +3425,6 @@
       "category": "opensource",
       "published_at": "2026-11-09T15:05:57Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "d8ba4af02850aa5ef5b5",
-      "title": "Jonathan Kanter is using AI to take on Big Tech",
-      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T14:30:00Z",
-      "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former…",
-      "date_type": "published"
-    },
-    {
-      "id": "fdb2f84630d3508ec46a",
-      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
-      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T14:00:00Z",
-      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
       "date_type": "published"
     },
     {
@@ -3219,17 +3527,6 @@
       "date_type": "published"
     },
     {
-      "id": "e120b878a12761b045e2",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
-      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T05:26:29Z",
-      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-      "date_type": "published"
-    },
-    {
       "id": "25b629867bd0af670f65",
       "title": "新模型：Zyphra/ZONOS3-Mini",
       "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
@@ -3237,75 +3534,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：209",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "6fbb9cbc09ce7eb4c3ad",
-      "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
-      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-09T05:00:00Z",
-      "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
-      "date_type": "published"
-    },
-    {
-      "id": "f2b130fea883df692eb4",
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-09T05:00:00Z",
-      "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
-      "date_type": "published"
-    },
-    {
-      "id": "f0be6325bfc4dec9fdd9",
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-08T22:54:50Z",
-      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees ack…",
-      "date_type": "published"
-    },
-    {
-      "id": "ab3c0090fa33621fad65",
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-08T21:00:11Z",
-      "summary": "In a memo to the company, Huang admitted that he had an affair.",
-      "date_type": "published"
-    },
-    {
-      "id": "54c06e97d6e0a2b71c0f",
-      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-08T20:22:39Z",
-      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads:…",
-      "date_type": "published"
-    },
-    {
-      "id": "b9c0dd474c98ba84113b",
-      "title": "Apple is racing to make Siri more agentic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-08T19:18:19Z",
-      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly sh…",
-      "date_type": "published"
     },
     {
       "id": "3007fcee676fa59fcd87",
@@ -3317,17 +3548,6 @@
       "published_at": "2026-11-08T18:38:57Z",
       "summary": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
       "date_type": "updated"
-    },
-    {
-      "id": "c08233254ab556923442",
-      "title": "Elvis and Eminem rights holders are suing Suno",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-08T17:23:19Z",
-      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Pre…",
-      "date_type": "published"
     },
     {
       "id": "feda129748a8f5951e36",
@@ -3348,7 +3568,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：173",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：174",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3562,17 +3782,6 @@
       "date_type": "updated"
     },
     {
-      "id": "757379c07d1179f77b31",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-07T22:07:22Z",
-      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
-      "date_type": "published"
-    },
-    {
       "id": "d7b816006b5bc16a0dfe",
       "title": "b12192",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
@@ -3584,17 +3793,6 @@
       "date_type": "updated"
     },
     {
-      "id": "4e392e0aaa878514344f",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-07T21:17:08Z",
-      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "date_type": "published"
-    },
-    {
       "id": "15811ccb0e51d72e4df4",
       "title": "b12191",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
@@ -3604,39 +3802,6 @@
       "published_at": "2026-11-07T21:14:29Z",
       "summary": "llama_moe_cache: run missed experts on CPU, add tuning script ( #30966 ) moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert F…",
       "date_type": "updated"
-    },
-    {
-      "id": "1ab28dde47a3074f5d54",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-07T15:50:00Z",
-      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usua…",
-      "date_type": "published"
-    },
-    {
-      "id": "b521172828d62613029c",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-07T15:43:45Z",
-      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its off…",
-      "date_type": "published"
-    },
-    {
-      "id": "4b429bd7582936e31a06",
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-07T15:00:00Z",
-      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so …",
-      "date_type": "published"
     },
     {
       "id": "a64346d6b971f202146e",
@@ -3660,150 +3825,6 @@
       "published_at": "2026-11-07T14:02:58Z",
       "summary": "sycl: add f16 support for SWIGLU_OAI ( #30857 )",
       "date_type": "updated"
-    },
-    {
-      "id": "eecad6fef1daea32eacd",
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-07T12:30:00Z",
-      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety…",
-      "date_type": "published"
-    },
-    {
-      "id": "6fe71b143c8b4bc49841",
-      "title": "b12189",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12189",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T12:19:19Z",
-      "summary": "metal : fix GROUP_NORM for ne03 > 1 and non-contiguous inputs ( #31852 ) The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpig gs, (tgpig+1)…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a0ad5cd24fa018ee6ebd",
-      "title": "b12188",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12188",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T12:02:12Z",
-      "summary": "server: visit parent slots before child slots ( #30779 ) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its …",
-      "date_type": "updated"
-    },
-    {
-      "id": "a1446be86e0a821ce9f9",
-      "title": "b12187",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12187",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T11:45:49Z",
-      "summary": "webgpu : Implement group norm kernel ( #31490 ) Only run webgpu CI on my fork Add webgpu only workflow Add WebGPU group_norm kernel clean up resolve merge conflicts parameterize data type; clean up cmake changes add nullptr check clean up webkit experiments more cleanup more cle…",
-      "date_type": "updated"
-    },
-    {
-      "id": "20016e67a5bee634ee1c",
-      "title": "b12186",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12186",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T11:15:26Z",
-      "summary": "vulkan: Add 'readonly' to decodeBuf declarations. ( #31833 ) In a future driver version I hope to be able to get some perf gain out of this. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64826498 macOS/iOS: macOS Apple Silicon (arm64…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6cbc2f330377945c63cc",
-      "title": "b12185",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T10:56:16Z",
-      "summary": "CUDA: fix shared memory bank conflicts in the lightning indexer ( #31803 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64823958 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int…",
-      "date_type": "updated"
-    },
-    {
-      "id": "bf2f0bd38fa9eab72b04",
-      "title": "b12184",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12184",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T09:50:10Z",
-      "summary": "llama : add missing link to pthread ( #31785 ) llama : add missing link to pthread Signed-off-by: Adrien Gallouët angt@huggingface.co Link Threads::Threads privately Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co Website: ht…",
-      "date_type": "updated"
-    },
-    {
-      "id": "7c7c9a66192dd2459a23",
-      "title": "b12183",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12183",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T09:21:25Z",
-      "summary": "opencl: add arange ( #31829 ) Assisted-by: Claude Opus 5.5 Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64811217 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
-      "date_type": "updated"
-    },
-    {
-      "id": "94cf68497441ab838611",
-      "title": "新模型：mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
-      "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-07T05:50:30Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：233",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "e0820bf841f4174fb17a",
-      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
-      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-07T04:16:43Z",
-      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
-      "date_type": "published"
-    },
-    {
-      "id": "be9ad6039ce240215d11",
-      "title": "b12182",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T03:35:00Z",
-      "summary": "meta : raise the compute view limit for buffers with few tensors ( #31447 ) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: https://llama.app At…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ec2480d446f6212cddc5",
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-07T01:40:28Z",
-      "summary": "The deal highlights the challenges of developing massive AI data centers.",
-      "date_type": "published"
-    },
-    {
-      "id": "6c7191a9daddd0328837",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-06T23:46:18Z",
-      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion…",
-      "date_type": "published"
     },
     {
       "id": "a0a44ed09dc9a1089b4e",
@@ -4387,28 +4408,6 @@
       "published_at": "2026-10-26T10:00:00Z",
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "date_type": "published"
-    },
-    {
-      "id": "7e73eebe3e909303c4c5",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T07:00:00Z",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "date_type": "published"
-    },
-    {
-      "id": "742d30efdc4090c11a97",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T07:00:00Z",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4426,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 18,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4445,7 +4444,7 @@
       "category": "official",
       "url": "https://mistral.ai/news/rss",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "message": "正常"
     },
     {
@@ -4481,7 +4480,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "message": "正常"
     },
     {

@@ -1,11 +1,231 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-13T09:37:31Z",
-  "last_success_at": "2026-11-13T09:37:31Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-13T17:47:32Z",
+  "last_success_at": "2026-11-13T17:47:32Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "4b4e88316cc177ddab1d",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-13T17:25:45Z",
+      "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+      "date_type": "published"
+    },
+    {
+      "id": "96c7f67bef86f8316048",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-13T17:02:35Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "32515e2427644c4357d3",
+      "title": "b12361",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12361",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T16:44:29Z",
+      "summary": "llama: move moe-cache code out of llama-graph ( #32157 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67254818 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra…",
+      "date_type": "updated"
+    },
+    {
+      "id": "cd336cbdb7962f39cc94",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T16:00:12Z",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "date_type": "published"
+    },
+    {
+      "id": "73b823aa24f5b8c88ebe",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T15:58:00Z",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "7d4d71d056da02862d0b",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-13T15:00:00Z",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "date_type": "published"
+    },
+    {
+      "id": "4815b0b06c4331032395",
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-13T14:47:16Z",
+      "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, …",
+      "date_type": "published"
+    },
+    {
+      "id": "69a4be7aab7399d4f500",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T14:44:48Z",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "date_type": "published"
+    },
+    {
+      "id": "a1c4ce12170e4f18f3a7",
+      "title": "Release v5.23.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-11-13T14:10:57Z",
+      "summary": "Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its langua…",
+      "date_type": "updated"
+    },
+    {
+      "id": "bb4deecac7ca31683d3e",
+      "title": "v1.0.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T14:08:10Z",
+      "summary": "Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of exter…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6841e619fcd7e8d93702",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-13T14:05:22Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "0acc674430dfd202ca5a",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-13T14:00:00Z",
+      "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's …",
+      "date_type": "published"
+    },
+    {
+      "id": "cea0e000c38dfa2e2978",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T12:52:19Z",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "date_type": "published"
+    },
+    {
+      "id": "4cfa741e559e9c755d88",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T12:28:23Z",
+      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "date_type": "published"
+    },
+    {
+      "id": "b790ef257fc3d1721f2b",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-13T12:00:00Z",
+      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approach…",
+      "date_type": "published"
+    },
+    {
+      "id": "382e0ae87406bb5911a4",
+      "title": "b12362: grammar : optimize matching with left factoring (#29557)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12362",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T11:52:21Z",
+      "summary": "grammar : limit the number of alternatives grammar : introduce an AST for grammar parsing grammar : revert AST refactor and alternatives limit This reverts commits: 84f3b57 393a707 grammar: optimize big grammar matching by using left-factorization grammar : preserve character cl…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f795016d9dcfed5854c5",
+      "title": "b12359",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12359",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T10:24:22Z",
+      "summary": "examples : remove explict version from test-cmake ( #32191 ) This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions. Website: https://llama.app At…",
+      "date_type": "updated"
+    },
+    {
+      "id": "780153f65f1136384f43",
+      "title": "b12360",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12360",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T10:05:49Z",
+      "summary": "CUDA: split the PAD_REFLECT_1D grid to stay within the HIP grid limit ( #32179 ) The kernel launches one block per row and 256-wide tile, so the {2, 16777217} test case asks for 16777217 blocks of 256 threads. HIP refuses a grid dimension above 2^32 threads and the ROCm jobs fai…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1a51f6d11fbb39a9a064",
+      "title": "b12347",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T09:47:34Z",
+      "summary": "llama : prune ( #30565 ) llama : remove deprecated llama_set_warmup Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) llama : remove remaining deprecated API Drop the APIs marked DEPRECATED in llama.h, the deprecated llama_context_pa…",
+      "date_type": "updated"
+    },
+    {
+      "id": "444e1273f6138273dbd4",
+      "title": "v1.0.0-b12359-b1b770d: examples : remove explict version from test-cmake (#32191)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T09:09:55Z",
+      "summary": "This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.",
+      "date_type": "updated"
+    },
     {
       "id": "ae24a77e8b7ecf07eadf",
       "title": "b12345",
@@ -1151,17 +1371,6 @@
       "date_type": "published"
     },
     {
-      "id": "07a62a8bb6b160cd51f5",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-12T21:35:00Z",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "date_type": "published"
-    },
-    {
       "id": "9f9ef1f7c9cc007bd125",
       "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
       "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
@@ -1313,17 +1522,6 @@
       "category": "opensource",
       "published_at": "2026-11-12T19:03:31Z",
       "summary": "llama : avoid touching unused graph metadata pages ( #32043 ) Each graph result reserves metadata for max_nodes, but many graphs use only a fraction of that capacity. The vector resize initializes the whole reserve and makes otherwise unused pages resident. Allocate the reserve …",
-      "date_type": "updated"
-    },
-    {
-      "id": "1a51f6d11fbb39a9a064",
-      "title": "b12347: llama : prune (#30565)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T18:59:09Z",
-      "summary": "llama : remove deprecated llama_set_warmup Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) llama : remove remaining deprecated API Drop the APIs marked DEPRECATED in llama.h, the deprecated llama_context_params::defrag_thold field …",
       "date_type": "updated"
     },
     {
@@ -1655,6 +1853,18 @@
       "published_at": "2026-11-12T11:39:31Z",
       "summary": "CUDA: add cuda debug buffer pool ( #31919 ) CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66668638 macOS/iOS: macOS Apple Silicon (arm64) m…",
       "date_type": "updated"
+    },
+    {
+      "id": "5419a8b213cd4f4a2461",
+      "title": "新模型：higurashi-ai/Haru-4B",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-12T11:05:59Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：112",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "ffb21679c900a5eaf797",
@@ -3274,17 +3484,6 @@
       "date_type": "published"
     },
     {
-      "id": "775ac0a390011ca0c2cf",
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T07:00:00Z",
-      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
-      "date_type": "published"
-    },
-    {
       "id": "48736fbb40628ce34844",
       "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245",
@@ -3305,17 +3504,6 @@
       "published_at": "2026-11-10T06:52:20Z",
       "summary": "sycl: un-gate oneDNN fused SDPA for Alchemist at head_dim=64 ( #31574 ) Co-authored-by: Titaniumtown titaniumtown@proton.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65688285 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil…",
       "date_type": "updated"
-    },
-    {
-      "id": "ec52a02e1b50c5bf7b9e",
-      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-10T05:00:00Z",
-      "summary": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-      "date_type": "published"
     },
     {
       "id": "1c41e3aea7e41ea137ea",
@@ -3340,17 +3528,6 @@
       "date_type": "updated"
     },
     {
-      "id": "8a35af252b32001f777c",
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T01:27:12Z",
-      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
-      "date_type": "published"
-    },
-    {
       "id": "bb82ada884c5f2aabff4",
       "title": "b12240",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240",
@@ -3371,17 +3548,6 @@
       "published_at": "2026-11-10T00:52:44Z",
       "summary": "server : use common_chat_input in realtime api ( #31978 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65600616 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
       "date_type": "updated"
-    },
-    {
-      "id": "05e31abb81030e94daf9",
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T00:28:49Z",
-      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at product…",
-      "date_type": "published"
     },
     {
       "id": "041c60470c72b33d5a20",
@@ -3428,28 +3594,6 @@
       "date_type": "published"
     },
     {
-      "id": "44bb6093a440b817c078",
-      "title": "What could China get from Jensen Huang?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T23:51:58Z",
-      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range…",
-      "date_type": "published"
-    },
-    {
-      "id": "cd027b24b17aebafb49f",
-      "title": "Here’s what Trump said he knew about Jensen Huang",
-      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T23:47:46Z",
-      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened…",
-      "date_type": "published"
-    },
-    {
       "id": "83634d874acf4ccd1864",
       "title": "b12237",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237",
@@ -3470,28 +3614,6 @@
       "published_at": "2026-11-09T23:45:36Z",
       "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected mode…",
       "date_type": "updated"
-    },
-    {
-      "id": "cbe54f11b05c0e59be5a",
-      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T23:28:37Z",
-      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
-      "date_type": "published"
-    },
-    {
-      "id": "ee9aab4d1d8b4a89ef6a",
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T22:46:09Z",
-      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
-      "date_type": "published"
     },
     {
       "id": "1181fc08955c170d41e5",
@@ -3699,7 +3821,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：252",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：265",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3733,119 +3855,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：175",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：177",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "236591bf2d70335444a2",
-      "title": "b12210",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12210",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T16:18:43Z",
-      "summary": "cpu: enable SpacemiT IME2 MXFP4 dense repack ( #31776 ) Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65077268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (…",
-      "date_type": "updated"
-    },
-    {
-      "id": "dd62241e50583cf67634",
-      "title": "b12209",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T16:04:13Z",
-      "summary": "llamafile: impl bf16 and q8_0 vxe ( #31866 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65074455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3a23f7f560d629a2629a",
-      "title": "b12208",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T15:50:22Z",
-      "summary": "ggml : update CUDA/Metal radix Top-K to make tied selections deterministic ( #31084 ) ggml : fix for the radix TOP_K thread timing bug make the key an ordered 64-bit pair a rewrite without shift-skip logic fix casts warp-contiguous layout reduce the scope removing vulkan+metal c…",
-      "date_type": "updated"
-    },
-    {
-      "id": "cbc7205436091f5445b5",
-      "title": "b12207",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T14:24:56Z",
-      "summary": "ggml-cuda : add d_state=64 fast path to SSM_SCAN kernel ( #31818 ) Zamba2 and similar architectures use a state size of 64 in their recurrent-scan step, which fell outside the GPU kernel's existing fast paths (96, 128, 256). Every scan step was falling back to CPU, bottlenecking…",
-      "date_type": "updated"
-    },
-    {
-      "id": "13cd00d76df5acec5f77",
-      "title": "b12206",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T14:04:15Z",
-      "summary": "moe-cache : ensure CPU part does not wait for the cached experts ( #31888 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65056209 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In…",
-      "date_type": "updated"
-    },
-    {
-      "id": "25e9cd1f4fb4d09dac60",
-      "title": "b12205: webgpu : add COUNT_EQUAL support (#31578)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12205",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T09:50:09Z",
-      "summary": "webgpu : add COUNT_EQUAL support Assisted-by: Codex webgpu : reduce small COUNT_EQUAL inputs in one dispatch Assisted-by: Codex webgpu : simplify COUNT_EQUAL and reuse existing tests webgpu : move COUNT_EQUAL pipeline cache declaration Update ggml/src/ggml-webgpu/ggml-webgpu.cpp…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4978d21247862747aac1",
-      "title": "b12204: ci: move runners to Ubuntu 26.04 (#31529)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12204",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T09:47:29Z",
-      "summary": "ci: update to ubuntu26.04 Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: bring back toolchain workaround Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: remove workaround completely Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: more switching to ubuntu 26.04 Signed-off-by: Aa…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a27835272556018e8978",
-      "title": "b12203: ggml : switch to F32 src1 in the CPU backend (#31854)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12203",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T09:44:00Z",
-      "summary": "ggml : switch to F32 src1 in the CPU backend Change the default computation for GGML_TYPE_F16 to use F32 for src1 data in matrix multiplications: vec_dot_type(F16) is now F32 and the dot product goes through the new ggml_vec_dot_f16_f32 (x = F16 src0, y = F32 src1), so src1 is n…",
-      "date_type": "updated"
-    },
-    {
-      "id": "43c01c269a5f9df068ec",
-      "title": "b12202",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T08:14:24Z",
-      "summary": "llama, mtmd: follow the reference precision of ggml_prec_set_acc calls ( #31851 ) llama, mtmd: follow the reference precision of ggml_prec_set_acc calls Requests that the reference implementation does not keep in F32 move to GGML_PREC_BF16: the GLM4 family down and output projec…",
-      "date_type": "updated"
-    },
-    {
-      "id": "8a7d33bfc7c40711ee68",
-      "title": "b12201",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T07:01:23Z",
-      "summary": "speculative : do not apply the MoE cache to the draft model ( #31497 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65005103 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
-      "date_type": "updated"
     },
     {
       "id": "a0a44ed09dc9a1089b4e",
@@ -4396,17 +4408,6 @@
       "published_at": "2026-10-26T16:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "8eb6001a836a6e50b8fb",
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T14:30:00Z",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4424,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 19,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4479,7 +4480,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 29,
+      "count": 28,
       "message": "正常"
     },
     {
@@ -4533,7 +4534,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 8,
+      "count": 9,
       "message": "正常"
     },
     {

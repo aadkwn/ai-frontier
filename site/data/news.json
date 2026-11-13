@@ -1,11 +1,176 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-13T17:47:32Z",
-  "last_success_at": "2026-11-13T17:47:32Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-13T23:37:13Z",
+  "last_success_at": "2026-11-13T23:37:13Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "4ddb39c4e5cd32844435",
+      "title": "b12373",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12373",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T23:17:18Z",
+      "summary": "hexagon: add support for SSM_SCAN op ( #31921 ) hexagon: add SSM_SCAN Op support hex-ssm-scan: fix multi-device spliting hex-ssm-scan: remove redundant checks and make kernel use host config hex-ssm-scan: remove direct ddr access hex-ssm-scan: remove DMA ordering hex-ops: update…",
+      "date_type": "updated"
+    },
+    {
+      "id": "24af44a01ab954fad24e",
+      "title": "b12370",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12370",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T23:02:31Z",
+      "summary": "ggml-cuda: hip: tune GCN MMQ configs ( #30021 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67382766 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a9838c3aa51b7e9223fa",
+      "title": "v0.34.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc3",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-13T22:52:29Z",
+      "summary": "[KVConnector] Allocate the extensible KV cache exportable for EXPORTS…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a53b6d6797d1d8cee9d0",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T22:43:00Z",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "date_type": "published"
+    },
+    {
+      "id": "7064518bd21d7e8516fc",
+      "title": "b12368",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12368",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T21:58:25Z",
+      "summary": "hexagon: improve buffer allocations and mappings (mmap stacking) ( #32144 ) hex-bufs: combine queue and fence buffers hex-bufs: use n_threads for queue sizing hex-mmap: optimize buffer stacking at the host to avoid iova fragmentation hex-mmap: add simply retry for spurios mmap f…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5154b0334f22fef07781",
+      "title": "b12367",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12367",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T21:44:28Z",
+      "summary": "CUDA: add SM103 SASS to non-native builds ( #30099 ) Signed-off-by: ynankani ynankani@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67359208 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d594c39e97738b7d880c",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-13T21:20:47Z",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "date_type": "published"
+    },
+    {
+      "id": "754f24889ed9e00a6da8",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-13T20:45:10Z",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, C…",
+      "date_type": "published"
+    },
+    {
+      "id": "b96c8f1ce3eaba55d8f9",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T19:37:57Z",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "date_type": "published"
+    },
+    {
+      "id": "bed21a3061bf02f6f804",
+      "title": "b12366",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12366",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T19:33:24Z",
+      "summary": "ggml : add BF16 support to RMS_NORM (CPU, CUDA) ( #32135 ) ggml : add BF16 support to RMS_NORM (CPU, CUDA) cuda : use one helper for the F32/BF16 RMS_NORM launches Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67316539 macOS/iOS: mac…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7f27431530e73d34fe68",
+      "title": "b12365",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12365",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T19:15:47Z",
+      "summary": "vulkan: add TOP_K_MASK ( #31544 ) vulkan: add TOP_K_MASK Assisted-by: Claude Opus 5.5 vulkan: fix the TOP_K_MASK barrier and use the common offset helper Assisted-by: Claude Opus 5.5 vulkan: declare ggml_vk_top_k_mask in the common header Assisted-by: Claude Opus 5.5 Website: ht…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1e72703cecbee0815c0b",
+      "title": "b12364",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12364",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T18:57:06Z",
+      "summary": "spec : Warn when --spec-draft-p-min is used with probabilistic draft sampling ( #31294 ) spec : skip p_min for sampled MTP and DFlash2 drafts Under rejection sampling the acceptance at a position is 1 - TV(p, q), which the draft's top probability does not tell, so the p_min cuto…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6669a4d19d8d97224289",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-13T18:40:30Z",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "date_type": "published"
+    },
+    {
+      "id": "f3780d07bc0e4092ca1d",
+      "title": "b12363",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12363",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T18:20:07Z",
+      "summary": "ggml-vulkan: add optional device keepalive ( #29267 ) ggml-vulkan: add optional device keepalive simplify implementation, move ownership to backend, change env var to seconds Co-authored-by: Acmmi acmmi@Acmmis-MacBook-Air.local Co-authored-by: Ruben Ortlam rortlam@redhat.com Web…",
+      "date_type": "updated"
+    },
+    {
+      "id": "cdc8eef67bc55a0d0fa5",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-13T18:00:39Z",
+      "summary": "",
+      "date_type": "published"
+    },
     {
       "id": "4b4e88316cc177ddab1d",
       "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
@@ -1327,17 +1492,6 @@
       "date_type": "published"
     },
     {
-      "id": "fcb6b3d907aba6d2e38a",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-12T22:28:47Z",
-      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "date_type": "published"
-    },
-    {
       "id": "479fbc38c33364d1ec83",
       "title": "b12329",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12329",
@@ -1862,7 +2016,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：112",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3319,28 +3473,6 @@
       "date_type": "published"
     },
     {
-      "id": "c7148a5c2c31f47ef041",
-      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-      "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T13:30:00Z",
-      "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
-      "date_type": "published"
-    },
-    {
-      "id": "1d8889c9661cfe547bb2",
-      "title": "Hands-on with Ring’s new AI drone camera for your home",
-      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T13:30:00Z",
-      "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years …",
-      "date_type": "published"
-    },
-    {
       "id": "772c2ab05d6efdca6105",
       "title": "b12246",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
@@ -3363,28 +3495,6 @@
       "date_type": "published"
     },
     {
-      "id": "697debda975c187536f8",
-      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
-      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T13:00:00Z",
-      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
-      "date_type": "published"
-    },
-    {
-      "id": "94172b3b33d907838393",
-      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
-      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-10T12:15:32Z",
-      "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
-      "date_type": "published"
-    },
-    {
       "id": "f321c904268bcef29356",
       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
@@ -3404,6 +3514,17 @@
       "category": "official",
       "published_at": "2026-11-10T12:00:00Z",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "date_type": "published"
+    },
+    {
+      "id": "d0f9bf46fa9dba7cc8ef",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-10T11:13:04Z",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
       "date_type": "published"
     },
     {
@@ -3715,17 +3836,6 @@
       "date_type": "published"
     },
     {
-      "id": "d777aa3a0b01afdcbec0",
-      "title": "b12224",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12224",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T13:56:43Z",
-      "summary": "ggml-backend: don't upload inputs that are not read ( #31419 ) stop uploading inputs nothing reads Address nitpicks Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65373769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
-      "date_type": "updated"
-    },
-    {
       "id": "952d2516af2e905436ad",
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "url": "https://openai.com/index/control-room",
@@ -3735,61 +3845,6 @@
       "published_at": "2026-11-09T13:00:00Z",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "date_type": "published"
-    },
-    {
-      "id": "aecd57586d6d2fc7d706",
-      "title": "b12223",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T12:55:36Z",
-      "summary": "models : Attach Granite NVFP4 weight scales ( #31449 ) models : Attach Granite NVFP4 weight scales feat: Pass nvfp4 scales through build_ffn for all granite architectures Branch: granite-nvfp4-moe-scales AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b4d8f0d95858a10823b3",
-      "title": "b12227: tests : keep dummy ffn.act scales away from zero (#31940)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12227",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T12:54:27Z",
-      "summary": "The dummy-model generator fills every tensor from a plain normal pool. blk.N.ffn.act.scales is a divisor in the mpt graph, so with seed 1224489258 it draws |v| ~ 1e-6, and ffn_act = gelu(...) / scales reaches 2.7e5. Metal stages both operands of kernel_mul_mm_f32_f32 as half, so…",
-      "date_type": "updated"
-    },
-    {
-      "id": "75800b260204e03a7915",
-      "title": "b12226",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12226",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T12:52:32Z",
-      "summary": "mtp: read the target hidden states from a device buffer ( #31927 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "55d059b88c6c576a2f3d",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-09T12:34:29Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "62cba07321a0571c6902",
-      "title": "b12221",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12221",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T12:31:33Z",
-      "summary": "metal : prevent out-of-bounds writes to the Metal FA output buffer ( #31662 ) Co-authored-by: Zhuomin Chen moanachen@Mac.attlocal.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65341937 macOS/iOS: macOS Apple Silicon (arm64) macOS…",
-      "date_type": "updated"
     },
     {
       "id": "02e9abf47eaf3fa01f98",
@@ -3812,52 +3867,6 @@
       "published_at": "2026-11-09T08:00:00Z",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "date_type": "published"
-    },
-    {
-      "id": "25b629867bd0af670f65",
-      "title": "新模型：Zyphra/ZONOS3-Mini",
-      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：265",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "3007fcee676fa59fcd87",
-      "title": "v0.34.0rc0: [Transformers backend] Migrate Gemma and StableLM (#66393)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-08T18:38:57Z",
-      "summary": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
-      "date_type": "updated"
-    },
-    {
-      "id": "feda129748a8f5951e36",
-      "title": "b12211",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T16:53:06Z",
-      "summary": "mtmd: refactoring: remove clip.h, consolidate code into mtmd ( #31865 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65083165 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
-      "date_type": "updated"
-    },
-    {
-      "id": "00b89b74ca093e9d8b37",
-      "title": "新模型：ConceptCountry/qwen-concept-27b",
-      "url": "https://huggingface.co/ConceptCountry/qwen-concept-27b",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：177",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "a0a44ed09dc9a1089b4e",
@@ -4397,17 +4406,6 @@
       "published_at": "2026-10-26T18:00:00Z",
       "summary": "Delivering fast and capable computer use at scale",
       "date_type": "published"
-    },
-    {
-      "id": "b1d7eb2dedce5839f589",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-10-26T16:00:00Z",
-      "summary": "",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4425,9 +4423,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 20,
+      "message": "正常"
     },
     {
       "id": "google-ai",

@@ -1,11 +1,143 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-12T20:51:42Z",
-  "last_success_at": "2026-11-12T20:51:42Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-13T01:52:16Z",
+  "last_success_at": "2026-11-13T01:52:16Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "71df4556246b41e32026",
+      "title": "b12340",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12340",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T01:16:58Z",
+      "summary": "server: fix SSRF for CORS proxy and media URLs ( #32115 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66974653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
+      "date_type": "updated"
+    },
+    {
+      "id": "8e799f91ef274be06adc",
+      "title": "b12336",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12336",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-13T00:38:20Z",
+      "summary": "mtmd: require an F32 position embedding for HunyuanVL ( #32131 ) HunyuanVL resamples its position embedding on the host into a float buffer sized for F32, then reads ggml_nbytes() of the tensor into it. The graph never uses the tensor, so any type loads, and an F64 tensor overfl…",
+      "date_type": "updated"
+    },
+    {
+      "id": "32df4f7d6cd40e27c8a7",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T22:42:51Z",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "date_type": "published"
+    },
+    {
+      "id": "fcb6b3d907aba6d2e38a",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-12T22:28:47Z",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "date_type": "published"
+    },
+    {
+      "id": "479fbc38c33364d1ec83",
+      "title": "b12329",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12329",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T22:26:10Z",
+      "summary": "CUDA: Optimize prefil via fuse of w_s scale in epilogue MMQ for nvfp4 checkpoints ( #26048 ) ggml-cuda: Apply NVFP4 weight scale in MMQ write-back ggml-cuda: Fuse mul_mat(_id) + scale into MMQ ggml-cuda: Tests for the fused scale ggml-cuda: reuse existing graph to test fusion in…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ca2f28331a6de25aeb30",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T22:22:28Z",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "date_type": "published"
+    },
+    {
+      "id": "a3e1afb4a33deb1bb631",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T21:55:32Z",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. I…",
+      "date_type": "published"
+    },
+    {
+      "id": "07a62a8bb6b160cd51f5",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T21:35:00Z",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "date_type": "published"
+    },
+    {
+      "id": "9f9ef1f7c9cc007bd125",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-12T21:27:10Z",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "date_type": "published"
+    },
+    {
+      "id": "d97c9ce2ae1eb5e86758",
+      "title": "b12328",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12328",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T21:24:43Z",
+      "summary": "ggml-backend : prefetch only inputs computed by earlier splits ( #32100 ) ggml-backend : prefetch only inputs computed by earlier splits The copy callback of a split runs after the prefetch and can write tensors that a later split reads, e.g. the MoE cache uploads missed experts…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f661cd1e2d45b72e814b",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-12T21:15:00Z",
+      "summary": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "date_type": "published"
+    },
+    {
+      "id": "4260969ab2bce236d4b0",
+      "title": "b12327",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T21:03:27Z",
+      "summary": "ggml : dispatch SpacemiT Q4_1 32x256 through the HP kernel ( #31929 ) The 32x256 pack already keeps a separate uint8 zero point. Complete the M1 path and use the same HP kernel as Q4_0. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang yangwa…",
+      "date_type": "updated"
+    },
     {
       "id": "ff447842ecb2519b4676",
       "title": "Jensen Huang was having a third affair, Reuters reports",
@@ -29,9 +161,9 @@
       "date_type": "updated"
     },
     {
-      "id": "a491aa90d650ab2bf91e",
+      "id": "67672a694e389b29af55",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/index/amplitude",
+      "url": "https://openai.com/business/customer-stories/amplitude",
       "source": "OpenAI",
       "source_id": "openai",
       "category": "official",
@@ -48,6 +180,17 @@
       "category": "industry",
       "published_at": "2026-11-12T19:59:59Z",
       "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+      "date_type": "published"
+    },
+    {
+      "id": "a20d1e6a0e529bc1715f",
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-12T19:42:40Z",
+      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incid…",
       "date_type": "published"
     },
     {
@@ -147,6 +290,17 @@
       "category": "industry",
       "published_at": "2026-11-12T18:06:54Z",
       "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vib…",
+      "date_type": "published"
+    },
+    {
+      "id": "c7a410ad3b8628097c72",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-12T18:00:50Z",
+      "summary": "",
       "date_type": "published"
     },
     {
@@ -370,17 +524,6 @@
       "date_type": "published"
     },
     {
-      "id": "07a62a8bb6b160cd51f5",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-12T14:30:01Z",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "date_type": "published"
-    },
-    {
       "id": "412fd95eff74cad8ca5c",
       "title": "I reviewed the Apple HomeView, ask me anything",
       "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
@@ -414,6 +557,28 @@
       "date_type": "published"
     },
     {
+      "id": "fb47e4e25c67806c88cc",
+      "title": "b12342: Title: CUDA: few-row MMQ for BS 2-24 (#31533)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12342",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T13:12:45Z",
+      "summary": "CUDA: few-row MMQ for 2-24 src1 columns New int8 MMA kernel for quantized mat-muls with 2-24 src1 columns, e.g. speculative decoding verify passes. Supports Q8_0, Q3_K, Q4_K, Q5_K, Q6_K, IQ3_S, IQ4_NL and IQ4_XS on NVIDIA GPUs from Ampere on. nit fixes CUDA-only guard for few-ro…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b9840fd67063a36a400d",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-12T12:00:00Z",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "date_type": "published"
+    },
+    {
       "id": "1a5562cc7b1dbfd1aee1",
       "title": "b12318",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318",
@@ -422,6 +587,39 @@
       "category": "opensource",
       "published_at": "2026-11-12T11:39:31Z",
       "summary": "CUDA: add cuda debug buffer pool ( #31919 ) CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66668638 macOS/iOS: macOS Apple Silicon (arm64) m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ffb21679c900a5eaf797",
+      "title": "b12332: ggml : route GATED_DELTA_NET to the SpacemiT RVV kernel (#31897)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12332",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T10:20:25Z",
+      "summary": "The SpacemiT compute case was commented out, so the op stayed on the scalar CPU path. Type dispatch stays with the other ops, and use_ref keeps the reference path on the generic CPU kernel. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang ya…",
+      "date_type": "updated"
+    },
+    {
+      "id": "131ef63629fca6a81278",
+      "title": "b12331: vulkan : Intel FA kernel for prefill. (#29357)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12331",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T10:19:17Z",
+      "summary": "vulkan : Intel customized FA shader for prefill usage vulkan : adding check of max_bias/logit_softcap for Intel FA kernel path vulkan : add m16n16k16/SIMD32 support for Xe FA prefill shader vulkan : Intel FA shader and host refinement, with accuracy issues fixes vulkan : Limit t…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5d9cdcd85d81f9fa4aa3",
+      "title": "b12330: ggml-cpu: use the 4x4 simd_gemm tile on ARM NEON (#32128)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12330",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-12T10:13:59Z",
+      "summary": "Assisted-by: Claude Fable 5.2",
       "date_type": "updated"
     },
     {
@@ -434,17 +632,6 @@
       "published_at": "2026-11-12T09:30:00Z",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "date_type": "published"
-    },
-    {
-      "id": "4260969ab2bce236d4b0",
-      "title": "b12327: ggml : dispatch SpacemiT Q4_1 32x256 through the HP kernel (#31929)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T08:59:09Z",
-      "summary": "The 32x256 pack already keeps a separate uint8 zero point. Complete the M1 path and use the same HP kernel as Q4_0. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang yangwang@iscas.ac.cn",
-      "date_type": "updated"
     },
     {
       "id": "6c6cde720116becdfe9e",
@@ -3263,17 +3450,6 @@
       "date_type": "published"
     },
     {
-      "id": "fc6d536179e6162c05e0",
-      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T20:09:06Z",
-      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
-      "date_type": "published"
-    },
-    {
       "id": "8827aad4505e69ef98eb",
       "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
@@ -3282,17 +3458,6 @@
       "category": "official",
       "published_at": "2026-11-09T19:51:47Z",
       "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-      "date_type": "published"
-    },
-    {
-      "id": "58580c03fbdd25528547",
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T19:24:51Z",
-      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
       "date_type": "published"
     },
     {
@@ -3307,17 +3472,6 @@
       "date_type": "updated"
     },
     {
-      "id": "5ef93d9981a0db1c3c84",
-      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T19:09:58Z",
-      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant …",
-      "date_type": "published"
-    },
-    {
       "id": "caa9073cefb43725f1a5",
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -3326,17 +3480,6 @@
       "category": "official",
       "published_at": "2026-11-09T19:00:00Z",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "date_type": "published"
-    },
-    {
-      "id": "ea9e2270122931419f9b",
-      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T19:00:00Z",
-      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than…",
       "date_type": "published"
     },
     {
@@ -3349,39 +3492,6 @@
       "published_at": "2026-11-09T18:22:08Z",
       "summary": "Windows unbuffered io Fix read len calculation Add test and model load timing chunked fallback read + removing filepointer semantic divergence between linux and windows tests : remove unused mmap test arguments Assisted-by: Codex remove timing, set file pointer after chunk read,…",
       "date_type": "updated"
-    },
-    {
-      "id": "e5d7409756abf44b4d0a",
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T18:09:52Z",
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "date_type": "published"
-    },
-    {
-      "id": "cf2829ad74c8e9e2273e",
-      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
-      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-09T18:07:23Z",
-      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatb…",
-      "date_type": "published"
-    },
-    {
-      "id": "730323ba6c06bee9681a",
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-09T18:00:00Z",
-      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-      "date_type": "published"
     },
     {
       "id": "c08eb761a64ea2a85d6e",
@@ -3534,7 +3644,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-09T05:03:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：229",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3568,7 +3678,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-08T16:39:43Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：174",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：175",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3735,95 +3845,6 @@
       "category": "opensource",
       "published_at": "2026-11-08T01:32:39Z",
       "summary": "sycl: exact rounding in CPY to Q4_1, Q5_1 and Q8_0 ( #31465 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64960076 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "9beb6b9c7fb267839659",
-      "title": "b12195",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T01:15:46Z",
-      "summary": "sycl: refuse device buffers that would exceed VRAM ( #31285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64957626 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "e85e3f3ffe1e843f80b8",
-      "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-08T00:36:53Z",
-      "summary": "Add the Ripple model, renderer, parser and import registration. Support per-layer NoPE in DFlash drafts. Fuse MLP activation, value blending and attention gating. Add reference fixtures and model/runner regression tests.",
-      "date_type": "updated"
-    },
-    {
-      "id": "b7fe5da87014d3d0bc4a",
-      "title": "b12194",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-08T00:23:00Z",
-      "summary": "hexagon: n_hvx and n_threads cleanup ( #31857 ) hex-nhvx: apply nhvx updates to the latest master hex-nhvx: set N_HVX and N_THREADS based on the arch to avoid overallocation hex-build: add support for enabling HTP_DEBUG via build.py hex-trace: move tracing state/helpers into new…",
-      "date_type": "updated"
-    },
-    {
-      "id": "0dd6e4939a52b5966b66",
-      "title": "b12193",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T23:48:56Z",
-      "summary": "mtmd: move log-mel computation to cgraph ( #31808 ) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat…",
-      "date_type": "updated"
-    },
-    {
-      "id": "d7b816006b5bc16a0dfe",
-      "title": "b12192",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T21:31:27Z",
-      "summary": "mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now …",
-      "date_type": "updated"
-    },
-    {
-      "id": "15811ccb0e51d72e4df4",
-      "title": "b12191",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T21:14:29Z",
-      "summary": "llama_moe_cache: run missed experts on CPU, add tuning script ( #30966 ) moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert F…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a64346d6b971f202146e",
-      "title": "新模型：tencent/Qwen3.8-27B-DSpine-b16",
-      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-07T14:20:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：207",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "90a7eabbf5e1b72897e0",
-      "title": "b12190",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12190",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-07T14:02:58Z",
-      "summary": "sycl: add f16 support for SWIGLU_OAI ( #30857 )",
       "date_type": "updated"
     },
     {
@@ -4386,28 +4407,6 @@
       "published_at": "2026-10-26T14:30:00Z",
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "date_type": "published"
-    },
-    {
-      "id": "7d972df501d01ba1f64a",
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T13:45:00Z",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "date_type": "published"
-    },
-    {
-      "id": "27334100e818b98514ff",
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T10:00:00Z",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4425,9 +4424,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 19,
+      "message": "正常"
     },
     {
       "id": "google-ai",

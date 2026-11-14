@@ -1,11 +1,99 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-14T06:32:04Z",
-  "last_success_at": "2026-11-14T06:32:04Z",
+  "last_attempt_at": "2026-11-14T14:12:51Z",
+  "last_success_at": "2026-11-14T14:12:51Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "234bcedb4309680679f0",
+      "title": "b12380",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12380",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T14:01:21Z",
+      "summary": "mtmd : allow custom video decoder ( #32188 ) mtmd : allow custom video decoder also adapt to wllama requirements clean up add test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67549…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7fe26efb3f9e7d26bec6",
+      "title": "b12381",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12381",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T13:57:21Z",
+      "summary": "mtmd: fix video pixel aspect ratio and video rotation ( #32267 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "09c7b6b14931c3c4f4df",
+      "title": "b12379",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12379",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T13:47:57Z",
+      "summary": "jinja : reduce template rendering overhead ( #32023 ) jinja : reduce value allocation and lookup overhead Assisted-by: GPT-6 Astra jinja : address rendering review feedback Assisted-by: GPT-6 Astra jinja : test multipart strings and simplify lookup Assisted-by: GPT-6 Astra fix \"…",
+      "date_type": "updated"
+    },
+    {
+      "id": "99ff09176d48752fa9a1",
+      "title": "b12378",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12378",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T13:14:08Z",
+      "summary": "mtmd : avoid padding-only Whisper audio chunks ( #30403 ) Assisted-by: Claude Opus 5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67541156 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f88fcfa12fe4eda6caa6",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-14T12:00:00Z",
+      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his ent…",
+      "date_type": "published"
+    },
+    {
+      "id": "3aea742a475a7fa8c082",
+      "title": "v0.34.0rc4",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc4",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-14T10:15:55Z",
+      "summary": "[Release][Tests] Give the #67296 warmup-gate test runner num_speculat…",
+      "date_type": "updated"
+    },
+    {
+      "id": "370391250b6c53cb3f79",
+      "title": "b12377",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12377",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T09:51:07Z",
+      "summary": "spec + model: refactor DFlash based speculative decoding methods ( #32016 ) dflash : move the DSpark markov head and backbone graphs to dspark.cpp Move-only: build_dspark_markov_head, graph_dsv4, graph_dsv41 and graph_mistral_large4 move verbatim. build_inp_target_features and b…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e93f703b823ecc24b44e",
+      "title": "b12376",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12376",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T08:46:11Z",
+      "summary": "Hexagon: add support for IQ2_XXS and NVFP4 ( #31954 ) ggml-hexagon: IQ2_XXS and NVFP4 tiled repack layouts ggml-hexagon: IQ2_XXS HVX matmul kernel ggml-hexagon: NVFP4 HVX matmul kernel ggml-hexagon: NVFP4 per-tensor scale ggml-hexagon: HMX paths for IQ2_XXS and NVFP4 ggml-hexago…",
+      "date_type": "updated"
+    },
     {
       "id": "87c810ff304f1480f5f9",
       "title": "b12375",
@@ -2060,7 +2148,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：183",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：209",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3495,17 +3583,6 @@
       "date_type": "published"
     },
     {
-      "id": "499cff9552f92642d8da",
-      "title": "Adobe is going all in on agentic AI",
-      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T14:00:00Z",
-      "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include …",
-      "date_type": "published"
-    },
-    {
       "id": "772c2ab05d6efdca6105",
       "title": "b12246",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
@@ -3748,39 +3825,6 @@
       "date_type": "published"
     },
     {
-      "id": "83634d874acf4ccd1864",
-      "title": "b12237",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T23:47:33Z",
-      "summary": "mtmd: support gemma 4 input audio stream ( #31965 ) mtmd: support gemma 4 input audio stream use 480ms step server: enable realtime embeddings only for audio generation The realtime slot forced embeddings on, which marks every row of a batch as an output. Only a model that gener…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9e6aebddb26b309846fc",
-      "title": "v0.40.16",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-09T23:45:36Z",
-      "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected mode…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1181fc08955c170d41e5",
-      "title": "b12236",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12236",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T22:43:58Z",
-      "summary": "mtmd: add mtmd_helper_resampler ( #31964 ) mtmd: add mtmd_helper_resampler update docs add test MA_MAX_FILTER_ORDER Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65560925 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
-      "date_type": "updated"
-    },
-    {
       "id": "8827aad4505e69ef98eb",
       "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
@@ -3792,17 +3836,6 @@
       "date_type": "published"
     },
     {
-      "id": "cfd5d9b75dc8bfdeb2bd",
-      "title": "b12233",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12233",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T19:20:05Z",
-      "summary": "feat: external PLE file loading ( #31185 ) model : allow loading external PLE files Assisted-by: Codex convert : add separate PLE exports Assisted-by: Codex tests : fix PLE export test lint Assisted-by: Codex model : make --ple an alias of --shard, allow multiple shard locations…",
-      "date_type": "updated"
-    },
-    {
       "id": "caa9073cefb43725f1a5",
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -3812,39 +3845,6 @@
       "published_at": "2026-11-09T19:00:00Z",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "date_type": "published"
-    },
-    {
-      "id": "c3e714b03075093f4990",
-      "title": "b12232: Windows unbuffered model load (#26014)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12232",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T18:22:08Z",
-      "summary": "Windows unbuffered io Fix read len calculation Add test and model load timing chunked fallback read + removing filepointer semantic divergence between linux and windows tests : remove unused mmap test arguments Assisted-by: Codex remove timing, set file pointer after chunk read,…",
-      "date_type": "updated"
-    },
-    {
-      "id": "c08eb761a64ea2a85d6e",
-      "title": "b12230",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12230",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T17:06:40Z",
-      "summary": "ggml-zdnn: accept non-zdnn tensors, invalidate compute tensors after every op ( #31824 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65448274 macOS/iOS: macOS Apple Silicon (arm64) macOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "5bcbb602a5dce00ac99e",
-      "title": "b12229",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12229",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T16:46:18Z",
-      "summary": "server : fix response_format json_schema when schema is not nested in the json_schema wrapper ( #28697 ) server : accept top-level schema in response_format with type json_schema The OpenAI-compatible chat completions endpoint only applied the schema when it was nested inside re…",
-      "date_type": "updated"
     },
     {
       "id": "952d2516af2e905436ad",

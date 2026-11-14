@@ -1,11 +1,44 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-13T23:37:13Z",
-  "last_success_at": "2026-11-13T23:37:13Z",
+  "last_attempt_at": "2026-11-14T06:32:04Z",
+  "last_success_at": "2026-11-14T06:32:04Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "87c810ff304f1480f5f9",
+      "title": "b12375",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12375",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T04:18:14Z",
+      "summary": "chat : remove mistral workaround ( #32230 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67449481 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ffe340fabfacc017f80d",
+      "title": "b12374",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12374",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T00:12:20Z",
+      "summary": "metal : fix mul_mv destination offset overflow ( #32221 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67398456 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
+      "date_type": "updated"
+    },
+    {
+      "id": "96048276e5de0ccf8cbe",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-13T23:49:11Z",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less lik…",
+      "date_type": "published"
+    },
     {
       "id": "4ddb39c4e5cd32844435",
       "title": "b12373",
@@ -390,6 +423,17 @@
       "published_at": "2026-11-13T09:09:55Z",
       "summary": "This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.",
       "date_type": "updated"
+    },
+    {
+      "id": "a99dfdd20d85acbbb850",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-13T08:00:00Z",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "date_type": "published"
     },
     {
       "id": "ae24a77e8b7ecf07eadf",
@@ -2016,7 +2060,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：183",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3462,17 +3506,6 @@
       "date_type": "published"
     },
     {
-      "id": "e313ab2892aad27b24de",
-      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-      "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T14:00:00Z",
-      "summary": "Adobe is expanding its Creative Cloud apps and Firefly AI platform with new capabilities that aim to make design and editing projects faster and less complicated. Some of the announcements from Adobe's Max event today include features for automatically removing objects, blemishe…",
-      "date_type": "published"
-    },
-    {
       "id": "772c2ab05d6efdca6105",
       "title": "b12246",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
@@ -3812,28 +3845,6 @@
       "published_at": "2026-11-09T16:46:18Z",
       "summary": "server : fix response_format json_schema when schema is not nested in the json_schema wrapper ( #28697 ) server : accept top-level schema in response_format with type json_schema The OpenAI-compatible chat completions endpoint only applied the schema when it was nested inside re…",
       "date_type": "updated"
-    },
-    {
-      "id": "3b1d5ce5ab684c5cd44a",
-      "title": "b12228",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12228",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-09T16:26:55Z",
-      "summary": "ggml : implement the backward pass for TRI ( #30712 ) ggml: implement the backward pass for TRI GGML_OP_TRI had no case in the backward switch, so a trainable graph containing it aborted with \"unsupported ggml op for backward pass: TRI\". The op is linear, so its gradient is mask…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ac8f18750241a65f1eaf",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-09T15:05:57Z",
-      "summary": "",
-      "date_type": "published"
     },
     {
       "id": "952d2516af2e905436ad",
@@ -4395,17 +4406,6 @@
       "published_at": "2026-10-26T22:00:00Z",
       "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
       "date_type": "published"
-    },
-    {
-      "id": "35e334c198740f741663",
-      "title": "Introducing GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T18:00:00Z",
-      "summary": "Delivering fast and capable computer use at scale",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4478,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "message": "正常"
     },
     {
@@ -4487,7 +4487,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4496,7 +4496,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4505,7 +4505,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.CV",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {

@@ -1,20 +1,86 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-14T14:12:51Z",
-  "last_success_at": "2026-11-14T14:12:51Z",
+  "last_attempt_at": "2026-11-14T19:13:28Z",
+  "last_success_at": "2026-11-14T19:13:28Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
     {
-      "id": "234bcedb4309680679f0",
-      "title": "b12380",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12380",
+      "id": "d34b418885403b50c796",
+      "title": "b12386",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12386",
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-14T14:01:21Z",
-      "summary": "mtmd : allow custom video decoder ( #32188 ) mtmd : allow custom video decoder also adapt to wllama requirements clean up add test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67549…",
+      "published_at": "2026-11-14T19:11:31Z",
+      "summary": "hexagon: fix fa no-mask tail ( #32243 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67606900 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu…",
+      "date_type": "updated"
+    },
+    {
+      "id": "57fe5263f2b1e3a2a599",
+      "title": "b12385",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12385",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T18:52:59Z",
+      "summary": "qwen2vl : apply FFN weight scales ( #32241 ) The qwen2vl graph passed NULL for the ffn_up/gate/down scales, so the per-tensor NVFP4 scales loaded by the generic pass were never applied and the model produced garbage (PPL ~1e6 on CUDA, NaN on CPU). Pass the scales to build_ffn li…",
+      "date_type": "updated"
+    },
+    {
+      "id": "57b75d7a14ce204a8b53",
+      "title": "b12387",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12387",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T18:06:52Z",
+      "summary": "Fix ctz64 on 32bit ( #32273 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "0dac5bc8bd77a78df126",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-14T17:30:00Z",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "date_type": "published"
+    },
+    {
+      "id": "8097820885cc543d9fc0",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-14T16:34:15Z",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "date_type": "published"
+    },
+    {
+      "id": "6c2539c06ead4df20530",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-14T15:00:00Z",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is p…",
+      "date_type": "published"
+    },
+    {
+      "id": "9a53397f0506346ac910",
+      "title": "b12383",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12383",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T14:47:39Z",
+      "summary": "ggml-backend : start a new split at an incompatible weight in a split without inputs ( #31775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67557548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
       "date_type": "updated"
     },
     {
@@ -24,8 +90,19 @@
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-14T13:57:21Z",
-      "summary": "mtmd: fix video pixel aspect ratio and video rotation ( #32267 )",
+      "published_at": "2026-11-14T14:28:46Z",
+      "summary": "mtmd: fix video pixel aspect ratio and video rotation ( #32267 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67553720 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i…",
+      "date_type": "updated"
+    },
+    {
+      "id": "234bcedb4309680679f0",
+      "title": "b12380",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12380",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T14:01:21Z",
+      "summary": "mtmd : allow custom video decoder ( #32188 ) mtmd : allow custom video decoder also adapt to wllama requirements clean up add test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67549…",
       "date_type": "updated"
     },
     {
@@ -2148,7 +2225,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：209",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：221",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3539,17 +3616,6 @@
       "date_type": "published"
     },
     {
-      "id": "1a56c99530ddc4c22fe1",
-      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T14:01:39Z",
-      "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
-      "date_type": "published"
-    },
-    {
       "id": "59a8a5dd3afc5312ddae",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -3558,28 +3624,6 @@
       "category": "official",
       "published_at": "2026-11-10T14:00:00Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "3739b5b6833681c55fbe",
-      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T14:00:00Z",
-      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-      "date_type": "published"
-    },
-    {
-      "id": "90450c1293322385f7d9",
-      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
-      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T14:00:00Z",
-      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
       "date_type": "published"
     },
     {
@@ -3770,28 +3814,6 @@
       "date_type": "updated"
     },
     {
-      "id": "198f6dafafe934973466",
-      "title": "b12239",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12239",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T00:52:44Z",
-      "summary": "server : use common_chat_input in realtime api ( #31978 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65600616 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
-      "date_type": "updated"
-    },
-    {
-      "id": "041c60470c72b33d5a20",
-      "title": "b12238",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T00:27:42Z",
-      "summary": "server: add oai-compat /v1/audio/speech endpoint ( #31763 ) server: add oai-compat /v1/audio/speech endpoint add e2e pytest server: share the s16 rounding, type speech form fields The WAV writer of the audio helper truncates while pcm_f32_to_s16 rounds, so wav and pcm differ by …",
-      "date_type": "updated"
-    },
-    {
       "id": "37e4452e64c861cffe83",
       "title": "Cogent and OpenAI build cyber defense factories for enterprises",
       "url": "https://openai.com/index/cogent-security",
@@ -3800,28 +3822,6 @@
       "category": "official",
       "published_at": "2026-11-10T00:00:00Z",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "date_type": "published"
-    },
-    {
-      "id": "cb93d68b445c05b0e3dc",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-10T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "5f3963726dbe36e6ccf9",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-10T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -4424,7 +4424,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 20,
+      "count": 19,
       "message": "正常"
     },
     {
@@ -4532,7 +4532,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "message": "正常"
     },
     {

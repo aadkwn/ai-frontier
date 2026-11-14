@@ -1,11 +1,44 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-14T19:13:28Z",
-  "last_success_at": "2026-11-14T19:13:28Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-14T23:02:11Z",
+  "last_success_at": "2026-11-14T23:02:11Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "466c1914d1235393f293",
+      "title": "b12388: chat : allow Gemma4 tool call during thought (#32232)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12388",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T22:32:19Z",
+      "summary": "The thought channel is normally closed with <channel|>, but the model may open it and go straight to a tool call without closing it. Stop the reasoning at <channel|> OR <|tool_call>, so an unclosed thought does not swallow the following tool call. Fixes: #32231 Assisted-by: Qwen…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e86112d5f8734949cf99",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-14T21:41:22Z",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "date_type": "published"
+    },
+    {
+      "id": "57b75d7a14ce204a8b53",
+      "title": "b12387",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12387",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-14T19:29:35Z",
+      "summary": "Fix ctz64 on 32bit ( #32273 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67610352 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C…",
+      "date_type": "updated"
+    },
     {
       "id": "d34b418885403b50c796",
       "title": "b12386",
@@ -26,17 +59,6 @@
       "category": "opensource",
       "published_at": "2026-11-14T18:52:59Z",
       "summary": "qwen2vl : apply FFN weight scales ( #32241 ) The qwen2vl graph passed NULL for the ffn_up/gate/down scales, so the per-tensor NVFP4 scales loaded by the generic pass were never applied and the model produced garbage (PPL ~1e6 on CUDA, NaN on CPU). Pass the scales to build_ffn li…",
-      "date_type": "updated"
-    },
-    {
-      "id": "57b75d7a14ce204a8b53",
-      "title": "b12387",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12387",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T18:06:52Z",
-      "summary": "Fix ctz64 on 32bit ( #32273 )",
       "date_type": "updated"
     },
     {
@@ -2225,7 +2247,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：221",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：229",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3605,17 +3627,6 @@
       "date_type": "published"
     },
     {
-      "id": "5ac8836f0ba144b39fd6",
-      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T14:05:10Z",
-      "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
-      "date_type": "published"
-    },
-    {
       "id": "59a8a5dd3afc5312ddae",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -3800,17 +3811,6 @@
       "category": "opensource",
       "published_at": "2026-11-10T01:47:57Z",
       "summary": "hexagon: fix 64-bit FastRPC handle truncation on close ( #30952 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65614982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
-      "date_type": "updated"
-    },
-    {
-      "id": "bb82ada884c5f2aabff4",
-      "title": "b12240",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T01:23:59Z",
-      "summary": "server: responses api: support conversion of text.format.json_schema to completions ( #26145 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65608759 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled…",
       "date_type": "updated"
     },
     {
@@ -4423,9 +4423,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 19,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4478,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 27,
+      "count": 25,
       "message": "正常"
     },
     {

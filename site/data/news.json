@@ -1,11 +1,132 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-15T17:46:07Z",
-  "last_success_at": "2026-11-15T17:46:07Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-15T22:53:42Z",
+  "last_success_at": "2026-11-15T22:53:42Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "2e8f421d2ee2a3dfd36b",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-15T22:00:01Z",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "date_type": "published"
+    },
+    {
+      "id": "33b95c2112c46efd0955",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-15T22:00:00Z",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "date_type": "published"
+    },
+    {
+      "id": "9bfb2ab667837ec0affd",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-15T21:56:35Z",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "date_type": "published"
+    },
+    {
+      "id": "945180e094f8cb96aded",
+      "title": "b12426",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T21:09:00Z",
+      "summary": "mtmd: support higgs v3 STT and vibevoice-ASR ( #32329 ) mtmd: support higgs v3 and vibevoice-ASR use proper mapping address review comment nits rm hacky get_audio_length, add mtmd_helper_get_media_meta Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cp…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7310523931ec31d7ed58",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-15T20:43:49Z",
+      "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might…",
+      "date_type": "published"
+    },
+    {
+      "id": "855a448e2acdcbb2d657",
+      "title": "b12425",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T20:26:37Z",
+      "summary": "model : read qwen3vl output head size from the tensor ( #32349 ) Allows Qwen3-ForcedAligner, whose output head (5000 timestamp classes) is smaller than the vocab. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67872415 macOS/iOS: macO…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e13a4bd95b8b6ac7a528",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-15T20:20:57Z",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "date_type": "published"
+    },
+    {
+      "id": "0c6540c722ae53b1e1b3",
+      "title": "b12424",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T20:11:50Z",
+      "summary": "mtmd: add zonos3-mini TTS model ( #32020 ) zonos3 init add audio gen pipeline fix string_format add default voice as gguf metadata better ref support voice clone add delivery params optimize speed nits nits 2 add text normalization nits Website: https://llama.app Attestations: h…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a3688622e36a4d17c2e3",
+      "title": "b12423",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12423",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T19:58:54Z",
+      "summary": "Revert \"jinja: add 4 missing features\" This reverts commit a681a53 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67866816 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0036110339d67454672f",
+      "title": "b12422",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T19:33:50Z",
+      "summary": "jinja: add 4 missing features Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67861908 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6c2c64409dfbba0f00e1",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-15T19:15:43Z",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules…",
+      "date_type": "published"
+    },
     {
       "id": "6dbca9e88271ca48fdfb",
       "title": "b12421",
@@ -13,8 +134,8 @@
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-15T17:35:27Z",
-      "summary": "docs: move per-model TTS to /docs, refer it from other pages ( #32304 )",
+      "published_at": "2026-11-15T18:18:23Z",
+      "summary": "docs: move per-model TTS to /docs, refer it from other pages ( #32304 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67845852 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
       "date_type": "updated"
     },
     {
@@ -2489,7 +2610,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：286",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：302",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3418,39 +3539,6 @@
       "date_type": "updated"
     },
     {
-      "id": "11d63a5fcfe6a2e6a2af",
-      "title": "b12271",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12271",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T02:18:12Z",
-      "summary": "llama : reuse backend scheduler when sched_params are compatible ( #32009 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66094783 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In…",
-      "date_type": "updated"
-    },
-    {
-      "id": "50358ef2855380adeed7",
-      "title": "b12270",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12270",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T01:59:56Z",
-      "summary": "ggml : add MUL_MAT src1 precision tests and gating ( #31896 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66090173 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "70514c376f7a48d99868",
-      "title": "b12263",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12263",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T01:29:41Z",
-      "summary": "cuda : halve VMM pool reservation size and retry on cuMemAddressReserve failure ( #30542 ) cuda : Lowering VMM pool reservation size to 8 GB on GPUs with combined memory due to CUDA out of memory errors Assisted-by: Gemini Argon cuda : Halve VMM pool reservation size and retry o…",
-      "date_type": "updated"
-    },
-    {
       "id": "55ff14dc4213127df72a",
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
@@ -3460,28 +3548,6 @@
       "published_at": "2026-11-11T00:00:00Z",
       "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "date_type": "published"
-    },
-    {
-      "id": "11568aa8dfcf9a3c0750",
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-11T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "99f6aeac949b58917f97",
-      "title": "b12262",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12262",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T23:08:01Z",
-      "summary": "CUDA: skip graph compat check when graph is being reused ( #32004 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66042335 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64…",
-      "date_type": "updated"
     },
     {
       "id": "d949e6f92cd9d4166d37",
@@ -3660,17 +3726,6 @@
       "date_type": "published"
     },
     {
-      "id": "de59f40c4070218b9f64",
-      "title": "eBay appears to have shut the door on third-party AI agents",
-      "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T16:20:30Z",
-      "summary": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for sale on platforms li…",
-      "date_type": "published"
-    },
-    {
       "id": "6d8eb3bcd497222db158",
       "title": "Gemini 4 Carbon is now available",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -3679,39 +3734,6 @@
       "category": "official",
       "published_at": "2026-11-10T16:03:47Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "8658a0744e2cda3c83ed",
-      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T16:00:00Z",
-      "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropi…",
-      "date_type": "published"
-    },
-    {
-      "id": "4ea7969a421c523902f6",
-      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T15:54:08Z",
-      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
-      "date_type": "published"
-    },
-    {
-      "id": "679acb5039d281a572b7",
-      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
-      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T15:29:30Z",
-      "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
       "date_type": "published"
     },
     {
@@ -4384,28 +4406,6 @@
       "published_at": "2026-10-27T07:00:00Z",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "date_type": "published"
-    },
-    {
-      "id": "c44dc9ed271ff418b14a",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-27T00:00:00Z",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "date_type": "published"
-    },
-    {
-      "id": "a9c488820a62ac4adcd9",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-10-26T22:00:00Z",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4423,9 +4423,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 18,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

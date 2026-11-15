@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-15T02:44:01Z",
-  "last_success_at": "2026-11-15T02:44:01Z",
+  "last_attempt_at": "2026-11-15T11:02:02Z",
+  "last_success_at": "2026-11-15T11:02:02Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "9e80738c65b218fbe0b9",
+      "title": "b12409",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12409",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T11:00:15Z",
+      "summary": "tests: Fail test-backend-ops and exit with error status 1 when missing and/or unsupported types and/or unsupported backends are provided in the command line ( #30279 ) Fail tests on missing or unsupported type Fix output Remove whitespace Fail if no tests ran regardless of backe…",
+      "date_type": "updated"
+    },
+    {
+      "id": "43ab29f4d5cb61500101",
+      "title": "b12408",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12408",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T10:47:15Z",
+      "summary": "opencl: add A7 Q6_K non-MoE binary kernel ( #30949 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67767467 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "536fdced49760cdbb51a",
+      "title": "b12407",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T10:07:48Z",
+      "summary": "model : metal : workaround fusion for LFM3 ( #32296 ) lfm3 : put the normed tensor first in residual adds to enable norm fusion Assisted-by: Claude Opus 5.5 tests : update Metal fusion baseline for lfm3 Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "126d0d6b192e43dc2a89",
+      "title": "b12406",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T09:32:05Z",
+      "summary": "feat: add Inkling 2 support (text + vision) ( #32217 ) convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex conversion : dequantize packed Inkling2 exper…",
+      "date_type": "updated"
+    },
+    {
+      "id": "54f22941f753b29474a9",
+      "title": "b12410",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12410",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T08:05:10Z",
+      "summary": "server : clear slot cache when the global lora config changes ( #30367 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "5b6ed7cf5ccde51fd78d",
+      "title": "b12405",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12405",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T08:00:17Z",
+      "summary": "common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) ( #31478 ) common : reject out-of-range grammar_triggers type instead of aborting ( #30835 ) tests : remove the invalid grammar trigger type regression test ( #30835 ) Website: https://llama.app At…",
+      "date_type": "updated"
+    },
+    {
+      "id": "fec0cf88335f98e96318",
+      "title": "b12404",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12404",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T07:47:41Z",
+      "summary": "server : Fix connection reuse after streamed responses ( #30492 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67738614 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED…",
+      "date_type": "updated"
+    },
+    {
+      "id": "dee8097ea3705e2f42b6",
+      "title": "b12403",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12403",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T07:27:40Z",
+      "summary": "hexagon: add TIMESTEP_EMBEDDING HVX kernel ( #32228 ) hexagon: add TIMESTEP_EMBEDDING HVX kernel hex-timestep: add dma, improve kparams, and work-splits, and tracing timestep: add testcases that cover WAN2.2 hex-timestep: relax the gates to cont_rows Co-authored-by: Max Krasnyan…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c33a388fd0cc6244185b",
+      "title": "b12402",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12402",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T07:17:14Z",
+      "summary": "memory : fix non-consecutive position warning for M-RoPE ( #32287 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67733627 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5a9f6004e4772c7525c1",
+      "title": "b12401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12401",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T07:02:25Z",
+      "summary": "llamafile: introduce more Q0 quant support for s390x ( #32203 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67731204 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kle…",
+      "date_type": "updated"
+    },
     {
       "id": "a8381ccf0f4a6c267593",
       "title": "Where was Nvidia’s security team?",
@@ -2258,7 +2368,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：237",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：259",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3550,17 +3660,6 @@
       "date_type": "published"
     },
     {
-      "id": "49e1167239304c3927d8",
-      "title": "b12248",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12248",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T16:12:47Z",
-      "summary": "vulkan: Divide GROUP_NORM workgroup to 2D to avoid maxComputeWorkGroupCount limit ( #31930 ) Divide workgroup to 2D to workaround maxComputeWorkGroupCount limit Replaced with existing macro Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestatio…",
-      "date_type": "updated"
-    },
-    {
       "id": "6d8eb3bcd497222db158",
       "title": "Gemini 4 Carbon is now available",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -3605,17 +3704,6 @@
       "date_type": "published"
     },
     {
-      "id": "728eb75070a008e94d1c",
-      "title": "b12247",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12247",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T15:05:02Z",
-      "summary": "vulkan: Fix out of bounds reads/writes on MoltenVK ( #31890 ) Fix test-backend-ops sentinel mismatch errors on MoltenVK Set disable_robustness for norm_f32, l2_norm_f32, and sum_rows_f32's pipelines Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/a…",
-      "date_type": "updated"
-    },
-    {
       "id": "76165dd7fb3fabecc283",
       "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
       "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
@@ -3636,17 +3724,6 @@
       "published_at": "2026-11-10T14:00:00Z",
       "summary": "",
       "date_type": "published"
-    },
-    {
-      "id": "772c2ab05d6efdca6105",
-      "title": "b12246",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T13:14:30Z",
-      "summary": "vulkan: cap scalar flash attention at 8 rows for large heads on Qualcomm ( #30829 ) With head sizes above 128 and KV >= 1024, scalar flash attention uses 16 rows per workgroup. On the Qualcomm Adreno driver this variant spills registers to scratch memory (264 bytes per invocatio…",
-      "date_type": "updated"
     },
     {
       "id": "ef83b8dc18b1604dec2e",
@@ -3693,17 +3770,6 @@
       "date_type": "published"
     },
     {
-      "id": "c43f1d8c9336e615579d",
-      "title": "b12260",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12260",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T10:35:30Z",
-      "summary": "server: fix output lang for realtime api ( #31982 )",
-      "date_type": "updated"
-    },
-    {
       "id": "991ad48e8559b2fefa9f",
       "title": "Introducing Businesses in ChatGPT",
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
@@ -3737,28 +3803,6 @@
       "date_type": "published"
     },
     {
-      "id": "6d99531d45b580bdaecc",
-      "title": "b12251: sycl: Add device-side MoE scheduler (#30156)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12251",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T07:42:25Z",
-      "summary": "sycl: Add device-side MoE scheduler Assisted-by: Codex Add width-heuristic override bit and Q2_K and Q3_K types Assisted-by: Codex tests: cover skipped MUL_MAT_ID slots on the device MoE schedule Assisted-by: Claude Opus 5.5 sycl: keep graphs on for lazily reordered MUL_MAT and …",
-      "date_type": "updated"
-    },
-    {
-      "id": "d646da872e9561cd891c",
-      "title": "b12244",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12244",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T07:28:33Z",
-      "summary": "ci: update oneAPI 2026.2, oneDNN 2026.1 and Level Zero SDK 1.34.0 ( #31540 ) Co-authored-by: Neo Zhang zhang.jianyu@outlook.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65697404 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple…",
-      "date_type": "updated"
-    },
-    {
       "id": "f3fc54cd1d78c100d666",
       "title": "Work at the Frontier: AI’s effect on freelance work",
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
@@ -3768,50 +3812,6 @@
       "published_at": "2026-11-10T07:00:00Z",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "date_type": "published"
-    },
-    {
-      "id": "48736fbb40628ce34844",
-      "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T06:55:46Z",
-      "summary": "On a device without mmap support, --lazy-mode auto resolved to off even with --load-mode mmap, so llama_prefetch_rows never ran and the rows of the large tensors faulted in one page at a time. Resolve it to off only when mmap is off; the default iGPU load path is unchanged. Fixe…",
-      "date_type": "updated"
-    },
-    {
-      "id": "06617ae742f7cff7ed3d",
-      "title": "b12243",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12243",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T06:52:20Z",
-      "summary": "sycl: un-gate oneDNN fused SDPA for Alchemist at head_dim=64 ( #31574 ) Co-authored-by: Titaniumtown titaniumtown@proton.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65688285 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1c41e3aea7e41ea137ea",
-      "title": "b12242",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12242",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T02:04:48Z",
-      "summary": "chat : don't use lazy grammar when response_format is set with tools ( #31956 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65619172 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macO…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1f5965246ab60eaf1af6",
-      "title": "b12241",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12241",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T01:47:57Z",
-      "summary": "hexagon: fix 64-bit FastRPC handle truncation on close ( #30952 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65614982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
-      "date_type": "updated"
     },
     {
       "id": "37e4452e64c861cffe83",

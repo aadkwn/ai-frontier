@@ -1,11 +1,132 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-15T11:02:02Z",
-  "last_success_at": "2026-11-15T11:02:02Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-15T17:46:07Z",
+  "last_success_at": "2026-11-15T17:46:07Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "6dbca9e88271ca48fdfb",
+      "title": "b12421",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12421",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T17:35:27Z",
+      "summary": "docs: move per-model TTS to /docs, refer it from other pages ( #32304 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "d4dd293567378d2d33d6",
+      "title": "b12420",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12420",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T17:29:12Z",
+      "summary": "model: support MiniMax-M3.1 ( #32301 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67835100 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun…",
+      "date_type": "updated"
+    },
+    {
+      "id": "bc999bebf3ec50960421",
+      "title": "b12419",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12419",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T17:12:42Z",
+      "summary": "server : ignore empty stop strings ( #32093 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67831897 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linu…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1ff848dff5136fe198f4",
+      "title": "b12418",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12418",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T15:56:56Z",
+      "summary": "ggml-cpu: add x86 VNNI Q2_0 dot product ( #26348 ) ggml-cpu: use VNNI for Q2_0 dot products Keep the upstream AVX2 unpacking, accumulation, and fallback. Use VNNI for the integer dot product on supported x86 CPUs. Assisted-by: Codex ggml-cpu: use VBMI for Q2_0 unpacking Use mult…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a96426a983f65bf22bed",
+      "title": "b12416",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12416",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T15:43:36Z",
+      "summary": "Support DFLASH2 for Recursive Ripple-65B-Preview ( #31904 ) fixed support for DFlash2 for Ripple 65B spec: Add NoPE handling to DFlash (cherry picked from commit 89ea8e3 ) spec: Fix NoPE not being picked up by DFlash (cherry picked from commit 43393b9 ) Co-authored-by: James Pic…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0e0c418dc1251a5fe35d",
+      "title": "b12415",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12415",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T15:22:29Z",
+      "summary": "server : fix output_config.effort being dropped in /v1/messages ( #32321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67811958 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ce5013197147c8660b0f",
+      "title": "b12414",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12414",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T15:01:15Z",
+      "summary": "CUDA/HIP: Refactor the use of _sync warp primitives ( #31617 ) Uses the rocm-native primitives, increases the rocm version requirement to 6.3 and makes top-k selectable warp. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67807900 mac…",
+      "date_type": "updated"
+    },
+    {
+      "id": "13482003797f2776b71c",
+      "title": "An overview of Jensen Huang’s messy days",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-15T13:00:00Z",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET.…",
+      "date_type": "published"
+    },
+    {
+      "id": "dec28e7e21f35774df84",
+      "title": "b12413",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12413",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T12:42:16Z",
+      "summary": "chat: fix inkling 2 begin/end of image tokens placement ( #32294 ) chat: fix inkling 2 begin/end of image tokens placement add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67785832 macOS/iOS: macOS Apple Silicon (arm64) macOS A…",
+      "date_type": "updated"
+    },
+    {
+      "id": "1cbc833d0e4d154b9e7f",
+      "title": "b12412",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12412",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T11:56:54Z",
+      "summary": "vendor: sync stb_image ( #32305 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67778693 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x6…",
+      "date_type": "updated"
+    },
+    {
+      "id": "831f4d5eb09bd985959e",
+      "title": "b12411",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12411",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T11:33:44Z",
+      "summary": "server: refactor, add server_slot_sched, prompt running hash ( #32154 ) server: refactor, add server_slot_sched, prompt running hash use sha256 hash Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67775141 macOS/iOS: macOS Apple Silico…",
+      "date_type": "updated"
+    },
     {
       "id": "9e80738c65b218fbe0b9",
       "title": "b12409",
@@ -2368,7 +2489,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：259",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：286",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3363,17 +3484,6 @@
       "date_type": "updated"
     },
     {
-      "id": "06d352acd60d86478ae9",
-      "title": "b12261",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12261",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T22:53:12Z",
-      "summary": "mtmd: share compute buffer among subcontext ( #31945 ) shared compute buffer add load-time alloc for audio gen Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66037540 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, …",
-      "date_type": "updated"
-    },
-    {
       "id": "d949e6f92cd9d4166d37",
       "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
       "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
@@ -3383,39 +3493,6 @@
       "published_at": "2026-11-10T22:35:01Z",
       "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
       "date_type": "published"
-    },
-    {
-      "id": "60786b016c122ab8631c",
-      "title": "v0.40.17",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-10T22:25:00Z",
-      "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
-      "date_type": "updated"
-    },
-    {
-      "id": "06caa1015b4111713a15",
-      "title": "b12259",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12259",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T22:16:04Z",
-      "summary": "mtmd: add kimi K3.1 vision ( #31980 ) mtmd: support kimi k3.1 vision fix preproc (both k2.5 and k3.1) and projector mlp small renaming Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66024758 macOS/iOS: macOS Apple Silicon (arm64) macO…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f0e35a5b9983adee52f8",
-      "title": "b12257",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12257",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T21:58:27Z",
-      "summary": "CUDA: move graph and concurrent stream state out of common.cuh ( #32001 ) ggml_cuda_graph, ggml_cuda_concurrent_event and ggml_cuda_stream_context are only used by ggml-cuda.cu, but keeping them in common.cuh meant any change to them rebuilt every CUDA translation unit. Move the…",
-      "date_type": "updated"
     },
     {
       "id": "43aaed4810007cc23f8f",
@@ -3484,17 +3561,6 @@
       "date_type": "published"
     },
     {
-      "id": "57a41162ec1b7dc97179",
-      "title": "b12255",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12255",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T19:16:00Z",
-      "summary": "model : stop renaming the recurrent cache tensors in plamo2 ( #31984 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65957268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
-      "date_type": "updated"
-    },
-    {
       "id": "38f7683430bac08520af",
       "title": "The US is winning the AI race. Jensen Huang could have blown it",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
@@ -3528,17 +3594,6 @@
       "date_type": "published"
     },
     {
-      "id": "5ea8bad62f62ec5ec2ec",
-      "title": "b12254",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12254",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T18:59:04Z",
-      "summary": "common/json-schema : fix allOf with plain types (e.g. integer) generating an empty object grammar ( #31834 ) common/json-schema : fix allOf with plain types (e.g. integer) generating an empty object grammar Fix empty range error and incorporated bot review feedback Website: http…",
-      "date_type": "updated"
-    },
-    {
       "id": "583dee252be92f18cc57",
       "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
       "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
@@ -3548,28 +3603,6 @@
       "published_at": "2026-11-10T18:49:52Z",
       "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
       "date_type": "published"
-    },
-    {
-      "id": "cce7cf307f9148a10183",
-      "title": "b12253",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12253",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T18:40:45Z",
-      "summary": "common : escape control characters in tool argument strings ( #31937 ) normalize_quotes_to_json copies raw control characters verbatim while converting pythonic tool arguments to JSON, so calls like python(code='ab') produce invalid JSON in the arguments returned to clients; rep…",
-      "date_type": "updated"
-    },
-    {
-      "id": "44e868de1087e91d5a55",
-      "title": "b12252",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12252",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T18:19:38Z",
-      "summary": "cann: fail early when checking if buffer type is supported ( #31270 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65935630 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
-      "date_type": "updated"
     },
     {
       "id": "3ec8add99452b3402317",
@@ -3616,17 +3649,6 @@
       "date_type": "published"
     },
     {
-      "id": "dac6751e4b3871feec9d",
-      "title": "b12250",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12250",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T17:17:04Z",
-      "summary": "vulkan: add tiled-transpose concat shader for Qwen models ( #30591 ) vulkan: tiled transpose for dim-0 concat with a transposed source The delta-net conv-state path does ggml_transpose() straight into a dim-0 ggml_concat(), so the generic concat kernel reads src1 with the transp…",
-      "date_type": "updated"
-    },
-    {
       "id": "9f7428ee17be8abb8526",
       "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
       "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
@@ -3636,17 +3658,6 @@
       "published_at": "2026-11-10T17:04:19Z",
       "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
       "date_type": "published"
-    },
-    {
-      "id": "9e92f6476e72e227c759",
-      "title": "b12249",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12249",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-10T17:01:41Z",
-      "summary": "ggml-rpc : fail gracefully on unreachable endpoints and failed handshakes ( #30415 ) ggml-rpc: fail gracefully on unreachable endpoints and failed handshakes rpc_dispatcher::start() aborted the whole process (GGML_ABORT -> SIGABRT) when the endpoint could not be parsed, the tran…",
-      "date_type": "updated"
     },
     {
       "id": "de59f40c4070218b9f64",
@@ -3701,17 +3712,6 @@
       "category": "industry",
       "published_at": "2026-11-10T15:29:30Z",
       "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
-      "date_type": "published"
-    },
-    {
-      "id": "76165dd7fb3fabecc283",
-      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-10T15:00:39Z",
-      "summary": "The new model is up to twice as successful at some tasks.",
       "date_type": "published"
     },
     {
@@ -4423,9 +4423,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 18,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4478,7 +4478,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 25,
+      "count": 24,
       "message": "正常"
     },
     {
@@ -4532,7 +4532,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "message": "正常"
     },
     {

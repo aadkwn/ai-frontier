@@ -1,11 +1,22 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-14T23:02:11Z",
-  "last_success_at": "2026-11-14T23:02:11Z",
+  "last_attempt_at": "2026-11-15T02:44:01Z",
+  "last_success_at": "2026-11-15T02:44:01Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "a8381ccf0f4a6c267593",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-15T00:08:07Z",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday …",
+      "date_type": "published"
+    },
     {
       "id": "466c1914d1235393f293",
       "title": "b12388: chat : allow Gemma4 tool call during thought (#32232)",
@@ -2247,7 +2258,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：229",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：237",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3616,17 +3627,6 @@
       "date_type": "published"
     },
     {
-      "id": "c039564e4f55eeeec804",
-      "title": "Anthropic targets $1.4 trillion IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T14:06:54Z",
-      "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New …",
-      "date_type": "published"
-    },
-    {
       "id": "59a8a5dd3afc5312ddae",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -4514,7 +4514,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {

@@ -1,11 +1,66 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-15T22:53:42Z",
-  "last_success_at": "2026-11-15T22:53:42Z",
+  "last_attempt_at": "2026-11-16T02:47:24Z",
+  "last_success_at": "2026-11-16T02:47:24Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "a22318abd9f9f9471832",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-16T01:30:00Z",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "date_type": "published"
+    },
+    {
+      "id": "c57d5fdb338c13ebb499",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-16T01:26:56Z",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical A…",
+      "date_type": "published"
+    },
+    {
+      "id": "322b635678d5442ac7e3",
+      "title": "b12428",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-16T00:17:10Z",
+      "summary": "jinja: add 4 missing features ( #32352 ) jinja: add 4 missing features apply suggestion Co-authored-by: Aldehir Rojas hello@alde.dev fix error msg Co-authored-by: Aldehir Rojas hello@alde.dev Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat…",
+      "date_type": "updated"
+    },
+    {
+      "id": "04196bef9b67627d8cc9",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-15T23:30:00Z",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "date_type": "published"
+    },
+    {
+      "id": "abfd04562e9d50fb9c81",
+      "title": "b12427",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-15T23:27:19Z",
+      "summary": "server : skip MCP discovery for router children ( #32359 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67907593 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF…",
+      "date_type": "updated"
+    },
     {
       "id": "2e8f421d2ee2a3dfd36b",
       "title": "A step toward defining the Standard Model on a lattice",
@@ -2610,7 +2665,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：302",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：312",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3517,28 +3572,6 @@
       "date_type": "updated"
     },
     {
-      "id": "d6c970fd1c8aa78c5332",
-      "title": "b12274",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12274",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T02:57:08Z",
-      "summary": "llama : Add FP8 KV-cache support ( #28392 ) Add FP8 KV-cache support Add tests for scaled, FP8 KV-cache to test-backend-ops Fix get_*_scale mapping and dequnatize FP8 also before rope shift Normalizes cache-scale names independently of projection layout. While fused KQV is curre…",
-      "date_type": "updated"
-    },
-    {
-      "id": "c81e44450db08e2c26dc",
-      "title": "b12273",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12273",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-11T02:38:08Z",
-      "summary": "Merge pull request #32015 from ggml-org/gg/fix-sampling-output-aliasing Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66100460 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
-      "date_type": "updated"
-    },
-    {
       "id": "55ff14dc4213127df72a",
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
@@ -3690,39 +3723,6 @@
       "category": "industry",
       "published_at": "2026-11-10T17:32:47Z",
       "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI in the \"final stret…",
-      "date_type": "published"
-    },
-    {
-      "id": "25de9b307d30f91026df",
-      "title": "Anthropic has its own AI-powered office suite now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-10T17:30:00Z",
-      "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particul…",
-      "date_type": "published"
-    },
-    {
-      "id": "c0148d18638aab682651",
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T17:30:00Z",
-      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-      "date_type": "published"
-    },
-    {
-      "id": "9f7428ee17be8abb8526",
-      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-10T17:04:19Z",
-      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
       "date_type": "published"
     },
     {

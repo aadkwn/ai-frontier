@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-16T22:11:48Z",
-  "last_success_at": "2026-11-16T22:11:48Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-17T04:33:22Z",
+  "last_success_at": "2026-11-17T04:33:22Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "db09ed93754679a1c660",
+      "title": "b12453",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12453",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T04:19:53Z",
+      "summary": "MMVQ: Tune ne11 Gate for RDNA3_5 ( #32308 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68453642 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "07ad340d516d5c74cf11",
+      "title": "b12464",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12464",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T04:15:56Z",
+      "summary": "opencl: add A7 Q8_0 non-MoE binary kernel ( #31003 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "ab5bb7f913814fd758cd",
+      "title": "b12452",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12452",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T04:03:02Z",
+      "summary": "mtmd: support fish audio s2 ( #32330 ) add fisk-audio-s2 support add voice cloning cont merge master nits nits clean up nits use new batch api Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68449752 macOS/iOS: macOS Apple Silicon (arm…",
+      "date_type": "updated"
+    },
+    {
+      "id": "496033c2e7e0cae01f5d",
+      "title": "b12451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T03:38:36Z",
+      "summary": "ui: move the web UI to ui/apps/chat and call it Llama Chat ( #32032 ) ui: move tools/ui to ui/apps/chat The chat app moves to its own root folder, ui/apps/chat, as the first step of splitting the UI into one library (ui/lib) and the apps built on it (ui/apps). The code is unchan…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3da80bd5f3881c7099bf",
+      "title": "b12449",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12449",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T03:16:32Z",
+      "summary": "arg : allow up to llama_max_devices() configs for --tensor-split and --fit-target ( #13293 ) ( #31435 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68437859 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA…",
+      "date_type": "updated"
+    },
+    {
+      "id": "41bd99c275642dbe333e",
+      "title": "b12448",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12448",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-17T03:03:55Z",
+      "summary": "jinja: impl scope-chain key lookup ( #32396 ) jinja: impl scope-chain key lookup add test for call_statement lambda Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68434767 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c876496118766282bf93",
+      "title": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-16T23:50:15Z",
+      "summary": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models ge…",
+      "date_type": "updated"
+    },
+    {
+      "id": "24baf68da2c147d6568a",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-16T23:32:32Z",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "date_type": "published"
+    },
+    {
+      "id": "ae3d9685f670ac125fb3",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-16T23:17:34Z",
+      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the …",
+      "date_type": "published"
+    },
+    {
+      "id": "5672c177889c4ac2f213",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-16T22:58:27Z",
+      "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+      "date_type": "published"
+    },
     {
       "id": "4f20b6480ffff64be135",
       "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
@@ -14,7 +124,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-16T22:03:02Z",
-      "summary": "Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
       "date_type": "published"
     },
     {
@@ -36,7 +146,7 @@
       "source_id": "the-verge",
       "category": "industry",
       "published_at": "2026-11-16T20:46:01Z",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous produ…",
+      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous pr…",
       "date_type": "published"
     },
     {
@@ -80,7 +190,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-16T20:07:13Z",
-      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
       "date_type": "published"
     },
     {
@@ -150,6 +260,17 @@
       "date_type": "updated"
     },
     {
+      "id": "ba3017b268cc58fb5960",
+      "title": "b12455",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12455",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-16T18:48:24Z",
+      "summary": "chat : implement inkling parser ( #32381 )",
+      "date_type": "updated"
+    },
+    {
       "id": "f43b098f1551916a0e0f",
       "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
       "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
@@ -162,7 +283,7 @@
     },
     {
       "id": "5a338c56f325da9cb400",
-      "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
       "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -1503,17 +1624,6 @@
       "date_type": "published"
     },
     {
-      "id": "c876496118766282bf93",
-      "title": "v0.34.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-16T04:27:15Z",
-      "summary": "v0.34.0",
-      "date_type": "updated"
-    },
-    {
       "id": "a22318abd9f9f9471832",
       "title": "Apple launches new app to study how people use AI for health",
       "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
@@ -2060,7 +2170,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-14T15:46:27Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：176",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：193",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2897,7 +3007,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-13T02:45:33Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：80",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：130",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3470,7 +3580,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-12T11:05:59Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：411",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：440",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3541,50 +3651,6 @@
       "date_type": "updated"
     },
     {
-      "id": "18e5accf6b65985fe25b",
-      "title": "b12316",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T06:29:07Z",
-      "summary": "CUDA: skip empty MoE tiles in MMQ stream-k fixup ( #32067 ) CUDA: skip empty MoE tiles in MMQ stream-k fixup mul_mat_q_stream_k_fixup loads ids_dst[col_low + j] for all j < J before checking j_sup. mul_mat_q returns early on col_low == col_high, the fixup kernel did not. mm_ids_…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e303c0d1aac8c0b88b55",
-      "title": "v0.34.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc2",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-12T06:21:02Z",
-      "summary": "[Doc][Tests] Stop setting gpu_memory_utilization in most extensible…",
-      "date_type": "updated"
-    },
-    {
-      "id": "c9f5f3a02381584b240e",
-      "title": "b12314",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T05:27:01Z",
-      "summary": "opencl: add decomposed FA for Adreno ( #32046 ) opencl: add decomposed FA Assisted-by: Claude Opus 5.5 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: build FA MQ kernel on first FA call so allows warmup to early b…",
-      "date_type": "updated"
-    },
-    {
-      "id": "87a3878007143ca4caf9",
-      "title": "b12311",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T05:06:19Z",
-      "summary": "ui: keep downloads in Discover during search and fix their progress with a draft ( #31467 ) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos pub…",
-      "date_type": "updated"
-    },
-    {
       "id": "d652bf4e1f2db5615f13",
       "title": "New research could lead to faster, trustworthy AI models for climate prediction",
       "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
@@ -3594,39 +3660,6 @@
       "published_at": "2026-11-12T05:00:00Z",
       "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
       "date_type": "published"
-    },
-    {
-      "id": "af12aa70388a5d91d638",
-      "title": "b12308",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T04:35:45Z",
-      "summary": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3782b7dce7469680137b",
-      "title": "b12307",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T04:13:33Z",
-      "summary": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66535500 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e86320a8813bf8b24362",
-      "title": "b12306",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-12T03:50:19Z",
-      "summary": "vulkan: support batched tensor copy API ( #31418 ) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66530328 macOS/iOS: macOS Apple Si…",
-      "date_type": "updated"
     },
     {
       "id": "a552875406bb3160c613",
@@ -3725,39 +3758,6 @@
       "category": "industry",
       "published_at": "2026-11-11T20:12:01Z",
       "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
-      "date_type": "published"
-    },
-    {
-      "id": "fe5a008bd23712d19711",
-      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-11T20:02:14Z",
-      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may n…",
-      "date_type": "published"
-    },
-    {
-      "id": "e4e9565de9f6f7976285",
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-11T19:54:00Z",
-      "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-      "date_type": "published"
-    },
-    {
-      "id": "22d6799f13a3486d4568",
-      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-11T19:34:55Z",
-      "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
       "date_type": "published"
     },
     {
@@ -4425,9 +4425,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 18,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4480,7 +4480,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 24,
+      "count": 23,
       "message": "正常"
     },
     {

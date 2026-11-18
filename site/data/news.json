@@ -1,11 +1,341 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-18T14:06:21Z",
-  "last_success_at": "2026-11-18T14:06:21Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-18T22:00:20Z",
+  "last_success_at": "2026-11-18T22:00:20Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "80bdab190c6dbdb4d3d9",
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T21:57:40Z",
+      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+      "date_type": "published"
+    },
+    {
+      "id": "95da0fde7d56c751139e",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-18T21:35:43Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "734339654a32d098c3ae",
+      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T21:34:13Z",
+      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+      "date_type": "published"
+    },
+    {
+      "id": "4546d2f009c0f33e9f2b",
+      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T21:31:21Z",
+      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+      "date_type": "published"
+    },
+    {
+      "id": "c876496118766282bf93",
+      "title": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "source": "GitHub · vLLM",
+      "source_id": "github-vllm",
+      "category": "opensource",
+      "published_at": "2026-11-18T21:02:33Z",
+      "summary": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models ge…",
+      "date_type": "updated"
+    },
+    {
+      "id": "901555786a5628fa4c01",
+      "title": "b12525: ggml, ci : use llvm 22.1.8 (#32548)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12525",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T20:10:23Z",
+      "summary": "ggml, ci : use llvm 22.1.8 Signed-off-by: Adrien Gallouët angt@huggingface.co Update build-cpu.yml too Signed-off-by: Adrien Gallouët angt@huggingface.co Fix clang 22 Signed-off-by: Adrien Gallouët angt@huggingface.co Fix release.yml (arm64 with vulkan) Signed-off-by: Adrien Gal…",
+      "date_type": "updated"
+    },
+    {
+      "id": "388adedcc584c5bf9c69",
+      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T20:07:01Z",
+      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+      "date_type": "published"
+    },
+    {
+      "id": "53453b71f99b11c73bbd",
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T19:56:39Z",
+      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+      "date_type": "published"
+    },
+    {
+      "id": "f0b81ce3c14612880642",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-18T19:54:56Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "d023ba6fde32bc2f03d6",
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T19:40:36Z",
+      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump ra…",
+      "date_type": "published"
+    },
+    {
+      "id": "ddb45fad21371efcf8bd",
+      "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T19:30:00Z",
+      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary foun…",
+      "date_type": "published"
+    },
+    {
+      "id": "77b871659814b03471b2",
+      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+      "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-18T19:19:33Z",
+      "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+      "date_type": "published"
+    },
+    {
+      "id": "b99d3925f7eef8109c06",
+      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T19:07:29Z",
+      "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted …",
+      "date_type": "published"
+    },
+    {
+      "id": "f4d5cc76792a20c67ba4",
+      "title": "This featherweight, flying robot carries its own sensors and computers",
+      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-18T19:00:00Z",
+      "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
+      "date_type": "published"
+    },
+    {
+      "id": "e55c8f2df06c07ffc92b",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-18T18:53:43Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "7132415e461f71d94422",
+      "title": "What is Nvidia without AI’s sugar daddy in charge?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T18:34:15Z",
+      "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the tru…",
+      "date_type": "published"
+    },
+    {
+      "id": "cac57b5217ba2caa29c8",
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-18T18:13:42Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "d25de4f029966643c107",
+      "title": "Will Wright's next simulation will use AI to mine content from your memories",
+      "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-18T18:10:33Z",
+      "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+      "date_type": "published"
+    },
+    {
+      "id": "13feb5a0d5b21e6a122b",
+      "title": "Google’s AI feature in Search gets its own incognito mode",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T18:04:05Z",
+      "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+      "date_type": "published"
+    },
+    {
+      "id": "120da5d8476ca5b48f81",
+      "title": "Disney’s new Star Wars animatronics interact with guests using AI",
+      "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T17:50:57Z",
+      "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney I…",
+      "date_type": "published"
+    },
+    {
+      "id": "663072a237570232a4ec",
+      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T17:32:10Z",
+      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+      "date_type": "published"
+    },
+    {
+      "id": "9b6c0cf2a5e205e7659f",
+      "title": "b12522",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12522",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T17:29:56Z",
+      "summary": "[CUDA] : Add SKU-aware FP16/BF16 accumulation precision gating for NV…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6c53b3f8ec307738391a",
+      "title": "b12521",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12521",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T17:15:37Z",
+      "summary": "webgpu: (fix CI) allow the FA mask to be broadcast over the Q batch ( #32535 ) allow the mask batch to be broadcast over the Q batch use Q_ne3 for blk_batch_count of get_alloc_size function Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestatio…",
+      "date_type": "updated"
+    },
+    {
+      "id": "00a064e6720eae62fd0b",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-18T17:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "d83fee4011ac317b0a62",
+      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T16:59:00Z",
+      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+      "date_type": "published"
+    },
+    {
+      "id": "eaeb1e564c509a5a9ad3",
+      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T16:14:09Z",
+      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+      "date_type": "published"
+    },
+    {
+      "id": "4270e297502a029b32d7",
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T15:44:02Z",
+      "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slo…",
+      "date_type": "published"
+    },
+    {
+      "id": "80aa973eaf9dc1545fe5",
+      "title": "b12520",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12520",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T15:39:30Z",
+      "summary": "ggml-cpu : use all threads for large GET_ROWS ( #32514 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "aef632472a5e3af7f91b",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-18T15:00:23Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "ddf152f6d3b592a40ce9",
+      "title": "Will Wright’s next game uses AI to map your memories",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T14:00:00Z",
+      "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to expl…",
+      "date_type": "published"
+    },
     {
       "id": "fcf93c416202eb38a45d",
       "title": "Nvidia isn’t selling any more AI chips to China",
@@ -14,12 +344,12 @@
       "source_id": "the-verge",
       "category": "industry",
       "published_at": "2026-11-18T13:01:05Z",
-      "summary": "Nvidia has stopped sending its advanced AI chips to China, despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the comp…",
+      "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the compa…",
       "date_type": "published"
     },
     {
       "id": "92c4470851babd486be2",
-      "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
+      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
       "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -52,13 +382,13 @@
     },
     {
       "id": "7910f56b348bc37fcbcc",
-      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
       "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-18T11:30:00Z",
-      "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
       "date_type": "published"
     },
     {
@@ -128,6 +458,17 @@
       "date_type": "updated"
     },
     {
+      "id": "184d931227f2504de1a3",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T10:00:00Z",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "date_type": "published"
+    },
+    {
       "id": "1ccc29d38673204814fb",
       "title": "b12503",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
@@ -161,6 +502,17 @@
       "date_type": "updated"
     },
     {
+      "id": "67952d9a918d2536a7bf",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "date_type": "published"
+    },
+    {
       "id": "9bcde726b893dcb45457",
       "title": "b12500",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
@@ -170,6 +522,17 @@
       "published_at": "2026-11-18T07:08:23Z",
       "summary": "cuda: decode the conv2d patch indices with fastdiv ( #32492 ) The implicit GEMM conv2d kernel recovers the channel and the kernel position of each reduction index with three integer divisions by runtime divisors, once per loaded row of every tile. Outside the 3x3 and 1x1 special…",
       "date_type": "updated"
+    },
+    {
+      "id": "99be0c0a7e074380d1a5",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T06:00:00Z",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "date_type": "published"
     },
     {
       "id": "55cafb7085284a534355",
@@ -1327,6 +1690,39 @@
       "date_type": "published"
     },
     {
+      "id": "68ddb817fe4001c0fc7b",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "date_type": "published"
+    },
+    {
+      "id": "ec56b5eff9affb1c339e",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "5b89a2db7f60ae9099b7",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
       "id": "d34ce25785fdf87b116d",
       "title": "Satya Nadella says he’s AGI-pilled now",
       "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
@@ -1851,7 +2247,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-17T10:16:41Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：302",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：326",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2239,17 +2635,6 @@
       "published_at": "2026-11-17T00:00:00Z",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "date_type": "published"
-    },
-    {
-      "id": "c876496118766282bf93",
-      "title": "v0.34.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-16T23:50:15Z",
-      "summary": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models ge…",
-      "date_type": "updated"
     },
     {
       "id": "24baf68da2c147d6568a",
@@ -2787,7 +3172,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-16T06:52:31Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：300",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：382",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2803,17 +3188,6 @@
       "date_type": "updated"
     },
     {
-      "id": "21b4758ab52123ac78ff",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-16T06:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "21e886491b30cfff0403",
       "title": "More ways to move care forward with ChatGPT for Healthcare",
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
@@ -2822,6 +3196,17 @@
       "category": "official",
       "published_at": "2026-11-16T06:00:00Z",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "date_type": "published"
+    },
+    {
+      "id": "21b4758ab52123ac78ff",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-16T06:00:00Z",
+      "summary": "",
       "date_type": "published"
     },
     {
@@ -3371,20 +3756,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-14T15:46:27Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：268",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：285",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "6c2539c06ead4df20530",
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-14T15:00:00Z",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is p…",
-      "date_type": "published"
     },
     {
       "id": "9a53397f0506346ac910",
@@ -3442,17 +3816,6 @@
       "date_type": "updated"
     },
     {
-      "id": "f88fcfa12fe4eda6caa6",
-      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-14T12:00:00Z",
-      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his ent…",
-      "date_type": "published"
-    },
-    {
       "id": "9de1bbe70d1b58e1abc6",
       "title": "新模型：KORMo-VL/KORMo-Web-11B",
       "url": "https://huggingface.co/KORMo-VL/KORMo-Web-11B",
@@ -3460,208 +3823,9 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-14T11:23:13Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：99",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：105",
       "item_type": "model",
       "date_type": "created"
-    },
-    {
-      "id": "3aea742a475a7fa8c082",
-      "title": "v0.34.0rc4",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc4",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-14T10:15:55Z",
-      "summary": "[Release][Tests] Give the #67296 warmup-gate test runner num_speculat…",
-      "date_type": "updated"
-    },
-    {
-      "id": "370391250b6c53cb3f79",
-      "title": "b12377",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12377",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T09:51:07Z",
-      "summary": "spec + model: refactor DFlash based speculative decoding methods ( #32016 ) dflash : move the DSpark markov head and backbone graphs to dspark.cpp Move-only: build_dspark_markov_head, graph_dsv4, graph_dsv41 and graph_mistral_large4 move verbatim. build_inp_target_features and b…",
-      "date_type": "updated"
-    },
-    {
-      "id": "e93f703b823ecc24b44e",
-      "title": "b12376",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12376",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T08:46:11Z",
-      "summary": "Hexagon: add support for IQ2_XXS and NVFP4 ( #31954 ) ggml-hexagon: IQ2_XXS and NVFP4 tiled repack layouts ggml-hexagon: IQ2_XXS HVX matmul kernel ggml-hexagon: NVFP4 HVX matmul kernel ggml-hexagon: NVFP4 per-tensor scale ggml-hexagon: HMX paths for IQ2_XXS and NVFP4 ggml-hexago…",
-      "date_type": "updated"
-    },
-    {
-      "id": "66299d1a323bc81caa34",
-      "title": "新模型：vyrekai/minimax-h3-image-comfyui-workflows",
-      "url": "https://huggingface.co/vyrekai/minimax-h3-image-comfyui-workflows",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-14T06:11:15Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：74",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "87c810ff304f1480f5f9",
-      "title": "b12375",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12375",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T04:18:14Z",
-      "summary": "chat : remove mistral workaround ( #32230 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67449481 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:…",
-      "date_type": "updated"
-    },
-    {
-      "id": "ffe340fabfacc017f80d",
-      "title": "b12374",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12374",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T00:12:20Z",
-      "summary": "metal : fix mul_mv destination offset overflow ( #32221 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67398456 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr…",
-      "date_type": "updated"
-    },
-    {
-      "id": "96048276e5de0ccf8cbe",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-13T23:49:11Z",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less lik…",
-      "date_type": "published"
-    },
-    {
-      "id": "4ddb39c4e5cd32844435",
-      "title": "b12373",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12373",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-13T23:17:18Z",
-      "summary": "hexagon: add support for SSM_SCAN op ( #31921 ) hexagon: add SSM_SCAN Op support hex-ssm-scan: fix multi-device spliting hex-ssm-scan: remove redundant checks and make kernel use host config hex-ssm-scan: remove direct ddr access hex-ssm-scan: remove DMA ordering hex-ops: update…",
-      "date_type": "updated"
-    },
-    {
-      "id": "24af44a01ab954fad24e",
-      "title": "b12370",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12370",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-13T23:02:31Z",
-      "summary": "ggml-cuda: hip: tune GCN MMQ configs ( #30021 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67382766 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a9838c3aa51b7e9223fa",
-      "title": "v0.34.0rc3",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc3",
-      "source": "GitHub · vLLM",
-      "source_id": "github-vllm",
-      "category": "opensource",
-      "published_at": "2026-11-13T22:52:29Z",
-      "summary": "[KVConnector] Allocate the extensible KV cache exportable for EXPORTS…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a53b6d6797d1d8cee9d0",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T22:43:00Z",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "date_type": "published"
-    },
-    {
-      "id": "d594c39e97738b7d880c",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-13T21:20:47Z",
-      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "date_type": "published"
-    },
-    {
-      "id": "754f24889ed9e00a6da8",
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-13T20:45:10Z",
-      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, C…",
-      "date_type": "published"
-    },
-    {
-      "id": "b96c8f1ce3eaba55d8f9",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T19:37:57Z",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "date_type": "published"
-    },
-    {
-      "id": "6669a4d19d8d97224289",
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T18:40:30Z",
-      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-      "date_type": "published"
-    },
-    {
-      "id": "4b4e88316cc177ddab1d",
-      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-13T17:25:45Z",
-      "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-      "date_type": "published"
-    },
-    {
-      "id": "cd336cbdb7962f39cc94",
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T16:00:12Z",
-      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "date_type": "published"
-    },
-    {
-      "id": "73b823aa24f5b8c88ebe",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T15:58:00Z",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "date_type": "published"
     },
     {
       "id": "7d4d71d056da02862d0b",
@@ -3675,72 +3839,6 @@
       "date_type": "published"
     },
     {
-      "id": "4815b0b06c4331032395",
-      "title": "What’s really at stake in the Jensen Huang saga",
-      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-13T14:47:16Z",
-      "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, …",
-      "date_type": "published"
-    },
-    {
-      "id": "69a4be7aab7399d4f500",
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T14:44:48Z",
-      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "date_type": "published"
-    },
-    {
-      "id": "0acc674430dfd202ca5a",
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-13T14:00:00Z",
-      "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's …",
-      "date_type": "published"
-    },
-    {
-      "id": "cea0e000c38dfa2e2978",
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T12:52:19Z",
-      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-      "date_type": "published"
-    },
-    {
-      "id": "4cfa741e559e9c755d88",
-      "title": "Jensen Huang didn’t show confidence in his successor, report says",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-13T12:28:23Z",
-      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-      "date_type": "published"
-    },
-    {
-      "id": "b790ef257fc3d1721f2b",
-      "title": "Let’s talk about Jensen Huang’s many affairs!",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-13T12:00:00Z",
-      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approach…",
-      "date_type": "published"
-    },
-    {
       "id": "a99dfdd20d85acbbb850",
       "title": "Shield helps technicians hand off legacy portal work with OpenAI",
       "url": "https://openai.com/business/customer-stories/shield",
@@ -3749,28 +3847,6 @@
       "category": "official",
       "published_at": "2026-11-13T08:00:00Z",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "date_type": "published"
-    },
-    {
-      "id": "babb1d695637283d5ca3",
-      "title": "New AI “copilot” helps engineers design better structures",
-      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-13T05:00:00Z",
-      "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
-      "date_type": "published"
-    },
-    {
-      "id": "e07fedf840f05ba0c75f",
-      "title": "Helping robots fit into the human workplace",
-      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-13T05:00:00Z",
-      "summary": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
       "date_type": "published"
     },
     {
@@ -4333,83 +4409,6 @@
       "published_at": "2026-11-03T08:00:00Z",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "date_type": "published"
-    },
-    {
-      "id": "019edb616369c3322f4c",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-03T00:00:00Z",
-      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "date_type": "published"
-    },
-    {
-      "id": "bca108e4c77bd86b238b",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "date_type": "published"
-    },
-    {
-      "id": "0d297090385ad5a72451",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T18:00:00Z",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "c45a0b6d7de18ac55a14",
-      "title": "The latest AI news we announced in October 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "source": "Google AI",
-      "source_id": "google-ai",
-      "category": "official",
-      "published_at": "2026-11-02T17:45:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "277870ffc8d71544c046",
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T15:30:00Z",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "date_type": "published"
-    },
-    {
-      "id": "5d33ed0c66ace544e65f",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T15:00:00Z",
-      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "date_type": "published"
-    },
-    {
-      "id": "5a014341bc3fc0f1d8b6",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-02T09:00:00Z",
-      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4427,9 +4426,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 20,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4437,7 +4436,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 15,
+      "count": 16,
       "message": "正常"
     },
     {
@@ -4518,7 +4517,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 29,
+      "count": 30,
       "message": "正常"
     },
     {
@@ -4536,7 +4535,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "message": "正常"
     },
     {

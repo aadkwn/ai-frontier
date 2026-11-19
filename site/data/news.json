@@ -1,11 +1,143 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-18T22:00:20Z",
-  "last_success_at": "2026-11-18T22:00:20Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-19T03:34:36Z",
+  "last_success_at": "2026-11-19T03:34:36Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "d28a5871994982fa35b2",
+      "title": "b12531",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T02:23:51Z",
+      "summary": "mtmd: support voxcpm2 ( #32443 ) mtmd: support voxcpm speed up a bit various fixes Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69455423 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "66c66d66acf0b3386c96",
+      "title": "b12530",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T01:13:35Z",
+      "summary": "ggml : WASM Relaxed SIMD Enhancement ( #19590 ) add relaxed simd fix indentation remove comments and whitespace wasm: fix relaxed SIMD kernels and add q3_K/q6_K support rm trailing space Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: …",
+      "date_type": "updated"
+    },
+    {
+      "id": "108d95f376814446edb6",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-19T00:42:56Z",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "date_type": "published"
+    },
+    {
+      "id": "9c92539b0dc61c42b2de",
+      "title": "b12529",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T00:15:20Z",
+      "summary": "llama : fix sticky NaN in recurrent state ( #31913 ) Co-authored-by: Alexey Kopytko alexey@kopytko.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69418514 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI…",
+      "date_type": "updated"
+    },
+    {
+      "id": "afb1f8fc849417dafc40",
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T23:45:00Z",
+      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "date_type": "published"
+    },
+    {
+      "id": "0261bc915f3e3290ced8",
+      "title": "b12528",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T23:42:30Z",
+      "summary": "server: fix sleep state for v1/realtime ( #32567 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69408923 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e78487095dd3723203c4",
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T23:25:17Z",
+      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+      "date_type": "published"
+    },
+    {
+      "id": "d8ba4398191c3d4681c9",
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-18T23:18:35Z",
+      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-power…",
+      "date_type": "published"
+    },
+    {
+      "id": "d442346cc5e57a267403",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T23:17:28Z",
+      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+      "date_type": "published"
+    },
+    {
+      "id": "bfd65a217923bb7b5a06",
+      "title": "b12527",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-18T22:59:51Z",
+      "summary": "model : limite: reject mudd configs that index past mudd_tap_idx on load ( #32562 ) n_mudd_taps comes from limite.mudd.tap_count, a scalar read separately from the length-checked tap_indices array. mudd_tap_idx is a fixed std::array<int32_t, 512> indexed at [i*n_taps] in both th…",
+      "date_type": "updated"
+    },
+    {
+      "id": "49ff21afd78ef9de5ec7",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T22:58:11Z",
+      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+      "date_type": "published"
+    },
+    {
+      "id": "aed3ea0dfc61854d1cd6",
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-18T22:11:15Z",
+      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+      "date_type": "published"
+    },
     {
       "id": "80bdab190c6dbdb4d3d9",
       "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
@@ -118,7 +250,7 @@
     },
     {
       "id": "ddb45fad21371efcf8bd",
-      "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
+      "title": "Nvidia’s rise, visualized",
       "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
       "source": "The Verge AI",
       "source_id": "the-verge",
@@ -502,6 +634,28 @@
       "date_type": "updated"
     },
     {
+      "id": "58da586369f33999eb92",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "date_type": "published"
+    },
+    {
+      "id": "53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "date_type": "published"
+    },
+    {
       "id": "67952d9a918d2536a7bf",
       "title": "Inside the Codex sandbox",
       "url": "https://openai.com/index/inside-the-codex-sandbox",
@@ -533,6 +687,18 @@
       "published_at": "2026-11-18T06:00:00Z",
       "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
       "date_type": "published"
+    },
+    {
+      "id": "ba6df33853b09a0c1734",
+      "title": "新模型：RadixArk/DaisyRose-27B",
+      "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-18T05:31:35Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：55",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "55cafb7085284a534355",
@@ -2247,7 +2413,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-17T10:16:41Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：326",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：330",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3172,7 +3338,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-16T06:52:31Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：382",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：429",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3375,17 +3541,6 @@
       "date_type": "updated"
     },
     {
-      "id": "e13a4bd95b8b6ac7a528",
-      "title": "‘SNL’ gathers all the tech tycoons for a lesson in dating and spycraft",
-      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-15T20:20:57Z",
-      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
-      "date_type": "published"
-    },
-    {
       "id": "0c6540c722ae53b1e1b3",
       "title": "b12424",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424",
@@ -3417,17 +3572,6 @@
       "published_at": "2026-11-15T19:33:50Z",
       "summary": "jinja: add 4 missing features Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67861908 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C…",
       "date_type": "updated"
-    },
-    {
-      "id": "6c2c64409dfbba0f00e1",
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-15T19:15:43Z",
-      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules…",
-      "date_type": "published"
     },
     {
       "id": "6dbca9e88271ca48fdfb",
@@ -3505,17 +3649,6 @@
       "published_at": "2026-11-15T15:01:15Z",
       "summary": "CUDA/HIP: Refactor the use of _sync warp primitives ( #31617 ) Uses the rocm-native primitives, increases the rocm version requirement to 6.3 and makes top-k selectable warp. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67807900 mac…",
       "date_type": "updated"
-    },
-    {
-      "id": "13482003797f2776b71c",
-      "title": "An overview of Jensen Huang’s messy days",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-15T13:00:00Z",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET.…",
-      "date_type": "published"
     },
     {
       "id": "dec28e7e21f35774df84",
@@ -3661,17 +3794,6 @@
       "date_type": "updated"
     },
     {
-      "id": "a8381ccf0f4a6c267593",
-      "title": "Where was Nvidia’s security team?",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-15T00:08:07Z",
-      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday …",
-      "date_type": "published"
-    },
-    {
       "id": "466c1914d1235393f293",
       "title": "b12388: chat : allow Gemma4 tool call during thought (#32232)",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12388",
@@ -3681,17 +3803,6 @@
       "published_at": "2026-11-14T22:32:19Z",
       "summary": "The thought channel is normally closed with <channel|>, but the model may open it and go straight to a tool call without closing it. Stop the reasoning at <channel|> OR <|tool_call>, so an unclosed thought does not swallow the following tool call. Fixes: #32231 Assisted-by: Qwen…",
       "date_type": "updated"
-    },
-    {
-      "id": "e86112d5f8734949cf99",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-14T21:41:22Z",
-      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "date_type": "published"
     },
     {
       "id": "57b75d7a14ce204a8b53",
@@ -3727,28 +3838,6 @@
       "date_type": "updated"
     },
     {
-      "id": "0dac5bc8bd77a78df126",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-14T17:30:00Z",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "date_type": "published"
-    },
-    {
-      "id": "8097820885cc543d9fc0",
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-14T16:34:15Z",
-      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "date_type": "published"
-    },
-    {
       "id": "aa761416b31101fe82ff",
       "title": "新模型：n4ze3m/tiny-voca",
       "url": "https://huggingface.co/n4ze3m/tiny-voca",
@@ -3756,74 +3845,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-14T15:46:27Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：285",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "9a53397f0506346ac910",
-      "title": "b12383",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12383",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T14:47:39Z",
-      "summary": "ggml-backend : start a new split at an incompatible weight in a split without inputs ( #31775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67557548 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable…",
-      "date_type": "updated"
-    },
-    {
-      "id": "7fe26efb3f9e7d26bec6",
-      "title": "b12381",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12381",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T14:28:46Z",
-      "summary": "mtmd: fix video pixel aspect ratio and video rotation ( #32267 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67553720 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) i…",
-      "date_type": "updated"
-    },
-    {
-      "id": "234bcedb4309680679f0",
-      "title": "b12380",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12380",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T14:01:21Z",
-      "summary": "mtmd : allow custom video decoder ( #32188 ) mtmd : allow custom video decoder also adapt to wllama requirements clean up add test Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67549…",
-      "date_type": "updated"
-    },
-    {
-      "id": "09c7b6b14931c3c4f4df",
-      "title": "b12379",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12379",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T13:47:57Z",
-      "summary": "jinja : reduce template rendering overhead ( #32023 ) jinja : reduce value allocation and lookup overhead Assisted-by: GPT-6 Astra jinja : address rendering review feedback Assisted-by: GPT-6 Astra jinja : test multipart strings and simplify lookup Assisted-by: GPT-6 Astra fix \"…",
-      "date_type": "updated"
-    },
-    {
-      "id": "99ff09176d48752fa9a1",
-      "title": "b12378",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12378",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-14T13:14:08Z",
-      "summary": "mtmd : avoid padding-only Whisper audio chunks ( #30403 ) Assisted-by: Claude Opus 5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67541156 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9de1bbe70d1b58e1abc6",
-      "title": "新模型：KORMo-VL/KORMo-Web-11B",
-      "url": "https://huggingface.co/KORMo-VL/KORMo-Web-11B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-14T11:23:13Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：105",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：291",
       "item_type": "model",
       "date_type": "created"
     },
@@ -4387,28 +4409,6 @@
       "published_at": "2026-11-03T12:00:00Z",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "date_type": "published"
-    },
-    {
-      "id": "34e7d62615202d0de65f",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-03T08:00:00Z",
-      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "date_type": "published"
-    },
-    {
-      "id": "fc87a45dcfbf03d41725",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-03T08:00:00Z",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4426,9 +4426,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 20,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

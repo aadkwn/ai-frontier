@@ -1,11 +1,110 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-19T22:12:02Z",
-  "last_success_at": "2026-11-19T22:12:02Z",
+  "last_attempt_at": "2026-11-20T03:24:17Z",
+  "last_success_at": "2026-11-20T03:24:17Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "8288c457eabd2464774e",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-20T00:56:01Z",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "date_type": "published"
+    },
+    {
+      "id": "327354b7a28e2854b8fd",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-20T00:43:50Z",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "date_type": "published"
+    },
+    {
+      "id": "18ac63b52f1497df4f08",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-20T00:25:30Z",
+      "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "41eccff704a78b7fc963",
+      "title": "b12556",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12556",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T23:17:27Z",
+      "summary": "model : hrm : do not compute slot count as uint32_t ( #32601 ) load_arch_hparams multiplies n_hrm_layers_per_stack, n_hrm_h_cycles and (n_hrm_l_cycles + 1) into a uint32_t, then asserts the product equals block_count. Any factors whose true product is block_count + k*2^32 still …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4a63f2e64b368a7beefe",
+      "title": "b12555",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12555",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T22:59:01Z",
+      "summary": "opencl: support dp4a for KQ mm in decomposed FA ( #32577 ) opencl: support int8 KQ for DK = 512 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Assisted-by: Codex opencl: allow query chunk up to 96 for int8 KQ Co-authored-…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f8133dc16aac0ad50d90",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-19T22:31:41Z",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the cr…",
+      "date_type": "published"
+    },
+    {
+      "id": "f082d9f511b634fc1fda",
+      "title": "b12554",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12554",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T22:23:11Z",
+      "summary": "ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) ( #32387 ) ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) cuda : SET_ROWS from BF16 into quantized types and F8_E4M3 cuda : fuse BF16 rope into a BF16 cache tests : trim the BF16 rope cases to one per code path W…",
+      "date_type": "updated"
+    },
+    {
+      "id": "53831803923e354ae931",
+      "title": "b12557: CUDA: implement support for duplicate expert IDs (#32505)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12557",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-19T22:21:24Z",
+      "summary": "implement support for duplicate expert IDs",
+      "date_type": "updated"
+    },
+    {
+      "id": "c842cebd4bd1f2ab5a8a",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-19T22:15:00Z",
+      "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+      "date_type": "published"
+    },
     {
       "id": "97b1870af3035f4549bc",
       "title": "b12553",
@@ -148,17 +247,6 @@
       "published_at": "2026-11-19T18:21:13Z",
       "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, maki…",
       "date_type": "published"
-    },
-    {
-      "id": "f082d9f511b634fc1fda",
-      "title": "b12554: ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) (#32387)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12554",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T18:13:55Z",
-      "summary": "ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) cuda : SET_ROWS from BF16 into quantized types and F8_E4M3 cuda : fuse BF16 rope into a BF16 cache tests : trim the BF16 rope cases to one per code path",
-      "date_type": "updated"
     },
     {
       "id": "3a850c903b02169f2b98",
@@ -1525,6 +1613,50 @@
       "date_type": "updated"
     },
     {
+      "id": "a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "date_type": "published"
+    },
+    {
+      "id": "17b7a2b39f098895a220",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "date_type": "published"
+    },
+    {
+      "id": "82fe289fe466dcc1d4f7",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "date_type": "published"
+    },
+    {
+      "id": "da30645137037f0052cd",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "date_type": "published"
+    },
+    {
       "id": "afb1f8fc849417dafc40",
       "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
       "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
@@ -1873,7 +2005,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：67",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：69",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2120,17 +2252,6 @@
       "date_type": "updated"
     },
     {
-      "id": "53d809d7420a3923e8ba",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-18T08:00:00Z",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "date_type": "published"
-    },
-    {
       "id": "58da586369f33999eb92",
       "title": "Research acceleration: The jagged frontier",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
@@ -2139,6 +2260,17 @@
       "category": "official",
       "published_at": "2026-11-18T08:00:00Z",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "date_type": "published"
+    },
+    {
+      "id": "53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "date_type": "published"
     },
     {
@@ -2182,7 +2314,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：175",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：190",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2561,17 +2693,6 @@
       "date_type": "published"
     },
     {
-      "id": "a1de396d3910fa2e0f79",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-18T00:00:00Z",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "date_type": "published"
-    },
-    {
       "id": "68ddb817fe4001c0fc7b",
       "title": "Advancing chip design with OpenAI models",
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
@@ -2580,6 +2701,17 @@
       "category": "official",
       "published_at": "2026-11-18T00:00:00Z",
       "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "date_type": "published"
+    },
+    {
+      "id": "a1de396d3910fa2e0f79",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "date_type": "published"
     },
     {
@@ -3129,7 +3261,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-17T10:16:41Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：385",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：390",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3376,50 +3508,6 @@
       "date_type": "published"
     },
     {
-      "id": "ea2b45bbfe30aab1308f",
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-16T20:29:37Z",
-      "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, …",
-      "date_type": "published"
-    },
-    {
-      "id": "616d362bf0f56a202faa",
-      "title": "US data centers now burn more electricity than a midsized country",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-16T20:27:58Z",
-      "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of green…",
-      "date_type": "published"
-    },
-    {
-      "id": "57cc1ea3d3bbd2bf5791",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-16T20:07:13Z",
-      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-      "date_type": "published"
-    },
-    {
-      "id": "c358f6a12927d5b0c7a2",
-      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-16T19:24:40Z",
-      "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unli…",
-      "date_type": "published"
-    },
-    {
       "id": "06b77d408489d463550b",
       "title": "b12444",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12444",
@@ -3428,17 +3516,6 @@
       "category": "opensource",
       "published_at": "2026-11-16T19:10:26Z",
       "summary": "HIP/CUDA: enable GDN mma kernel on CDNA ( #31327 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68276309 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework…",
-      "date_type": "updated"
-    },
-    {
-      "id": "66c26f89d499749cc55b",
-      "title": "v0.40.17",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-16T19:02:48Z",
-      "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
       "date_type": "updated"
     },
     {
@@ -3495,6 +3572,17 @@
       "published_at": "2026-11-16T17:00:00Z",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "date_type": "published"
+    },
+    {
+      "id": "66c26f89d499749cc55b",
+      "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-16T16:43:54Z",
+      "summary": "mlxrunner: batch speculative verification Keep drafting active for concurrent generation by sharing target verification while preserving per-request sampling and cache rollback. Learn draft depth for each concurrent workload separately from isolated requests, and preserve probes…",
+      "date_type": "updated"
     },
     {
       "id": "f32591813a96388e9853",
@@ -3671,7 +3759,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-16T06:52:31Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：731",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：747",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3838,50 +3926,6 @@
       "category": "opensource",
       "published_at": "2026-11-15T19:58:54Z",
       "summary": "Revert \"jinja: add 4 missing features\" This reverts commit a681a53 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67866816 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6…",
-      "date_type": "updated"
-    },
-    {
-      "id": "0036110339d67454672f",
-      "title": "b12422",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-15T19:33:50Z",
-      "summary": "jinja: add 4 missing features Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67861908 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6dbca9e88271ca48fdfb",
-      "title": "b12421",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12421",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-15T18:18:23Z",
-      "summary": "docs: move per-model TTS to /docs, refer it from other pages ( #32304 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67845852 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
-      "date_type": "updated"
-    },
-    {
-      "id": "d4dd293567378d2d33d6",
-      "title": "b12420",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12420",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-15T17:29:12Z",
-      "summary": "model: support MiniMax-M3.1 ( #32301 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67835100 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun…",
-      "date_type": "updated"
-    },
-    {
-      "id": "bc999bebf3ec50960421",
-      "title": "b12419",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12419",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-15T17:12:42Z",
-      "summary": "server : ignore empty stop strings ( #32093 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67831897 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linu…",
       "date_type": "updated"
     },
     {
@@ -4367,50 +4411,6 @@
       "published_at": "2026-11-05T00:00:00Z",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "date_type": "published"
-    },
-    {
-      "id": "1be4fdd8e6ca80f0ec01",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-04T14:30:00Z",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "date_type": "published"
-    },
-    {
-      "id": "fbaa86a829ad59fd10c5",
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-04T08:00:00Z",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "date_type": "published"
-    },
-    {
-      "id": "a3433e936d2c04bfa772",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-04T07:00:00Z",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "date_type": "published"
-    },
-    {
-      "id": "295354ff422b0d4db922",
-      "title": "Introducing Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-04T00:00:00Z",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4483,7 +4483,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 28,
+      "count": 29,
       "message": "正常"
     },
     {

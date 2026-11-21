@@ -1,20 +1,86 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-21T11:13:31Z",
-  "last_success_at": "2026-11-21T11:13:31Z",
+  "last_attempt_at": "2026-11-21T18:02:08Z",
+  "last_success_at": "2026-11-21T18:02:08Z",
   "status": "partial",
   "successful_sources": 16,
   "total_sources": 17,
   "items": [
     {
+      "id": "d15566b2aef3b460300b",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-21T17:00:00Z",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "date_type": "published"
+    },
+    {
       "id": "0a40b9c8bdaa515359b7",
-      "title": "b12608: ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 (#32659)",
+      "title": "b12608",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-21T10:58:49Z",
-      "summary": "Fixes #31680 The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed n_aligned to be 4. Consequently, the tiled path could b…",
+      "published_at": "2026-11-21T16:08:46Z",
+      "summary": "ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 ( #32659 ) Fixes #31680 The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed…",
+      "date_type": "updated"
+    },
+    {
+      "id": "53e893a48ca02ab22929",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-21T16:00:00Z",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "date_type": "published"
+    },
+    {
+      "id": "3298713995b153167b47",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-21T15:00:00Z",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that impo…",
+      "date_type": "published"
+    },
+    {
+      "id": "0a3e8c674a4c46f69d72",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-21T14:00:00Z",
+      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word.…",
+      "date_type": "published"
+    },
+    {
+      "id": "4bdb6d39f683fd871529",
+      "title": "Release v5.24.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-11-21T12:43:39Z",
+      "summary": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48,…",
+      "date_type": "updated"
+    },
+    {
+      "id": "44b9176363d30caf2df1",
+      "title": "b12609: ggml-zdnn: fix ztensor load race condition (#32279)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12609",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-21T11:05:23Z",
+      "summary": "Signed-off-by: Aaron Teo aaron.teo1@ibm.com",
       "date_type": "updated"
     },
     {
@@ -469,6 +535,18 @@
       "date_type": "updated"
     },
     {
+      "id": "3ca19c118887a26e4d81",
+      "title": "新模型：OpenUncensored/Inkling-2-Mini-Uncensored",
+      "url": "https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-20T22:34:28Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：99",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "ae5a204aaba705d52a51",
       "title": "Google rolls out new search homepage with AI chat history and no search button",
       "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
@@ -511,6 +589,18 @@
       "published_at": "2026-11-20T20:59:08Z",
       "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
       "date_type": "published"
+    },
+    {
+      "id": "d4687905ee9aa3455e6f",
+      "title": "新模型：AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-20T20:42:23Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：141",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "b2926e8e7f4e634ac812",
@@ -740,7 +830,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：375",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：502",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2798,7 +2888,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：179",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：125",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3107,7 +3197,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：283",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：256",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3618,50 +3708,6 @@
       "date_type": "published"
     },
     {
-      "id": "6fbd9862eca578a21577",
-      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T16:44:15Z",
-      "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
-      "date_type": "published"
-    },
-    {
-      "id": "1cdd7a082303f93b19f5",
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T16:32:55Z",
-      "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
-      "date_type": "published"
-    },
-    {
-      "id": "825618225fbb1ec86e2f",
-      "title": "The DOJ says it’s investigating Megaspeed",
-      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-17T16:19:03Z",
-      "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically c…",
-      "date_type": "published"
-    },
-    {
-      "id": "327034ed1b49f420bffe",
-      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-17T16:09:57Z",
-      "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, in…",
-      "date_type": "published"
-    },
-    {
       "id": "5f851ae16c0d6a9b34f3",
       "title": "b12477",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12477",
@@ -3715,51 +3761,6 @@
       "published_at": "2026-11-17T13:09:34Z",
       "summary": "cuda : raise shared mem limit only for the launched kernel ( #32392 ) This commit removes a call of the CUDA_SET_SHARED_MEMORY_LIMIT macro as the fallback decision was moved out of launch_mul_mat_q. launch_mul_mat_q now has the fallback template parameter which was added in Comm…",
       "date_type": "updated"
-    },
-    {
-      "id": "8298cf05911590583644",
-      "title": "b12470",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12470",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T11:00:01Z",
-      "summary": "sycl : Fix FA mkl issue: a mask broadcast over heads or batches ( #31536 ) fix the SYCL fa with mkl error of a mask broadcast over heads or batches; add argument cache-ram to start-svr.sh add argument cache-ram to win-start-svr.bat fix format issue, remove --cache-ram in script:…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1abd8cdfe1078e331f23",
-      "title": "b12469",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12469",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T10:32:38Z",
-      "summary": "metal : add implicit GEMM kernel for CONV_2D ( #28069 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68567861 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram…",
-      "date_type": "updated"
-    },
-    {
-      "id": "16dee00cdaaa92c0fc00",
-      "title": "b12468",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12468",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T10:17:18Z",
-      "summary": "webgpu : Implement timestep embedding ( #31695 ) Only run webgpu CI on my fork Add webgpu only workflow resolve merge conflicts save state save kernel add kernel back in fix merge issues with kernels updates update tests change invocation count and workgroup to be u32 clang form…",
-      "date_type": "updated"
-    },
-    {
-      "id": "25449032934427cabb8e",
-      "title": "新模型：sensenova/SenseNova-Loop-9B",
-      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-17T10:16:41Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：425",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "3047d7657748ea760feb",
@@ -4425,7 +4426,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 18,
+      "count": 17,
       "message": "正常"
     },
     {
@@ -4524,7 +4525,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "message": "正常"
     },
     {

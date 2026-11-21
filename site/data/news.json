@@ -1,11 +1,99 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-20T21:11:24Z",
-  "last_success_at": "2026-11-20T21:11:24Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-21T02:22:40Z",
+  "last_success_at": "2026-11-21T02:22:40Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "c558cb54b4c1334c6653",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-20T23:39:14Z",
+      "summary": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores…",
+      "date_type": "updated"
+    },
+    {
+      "id": "7f3a8fa0661bf306496b",
+      "title": "b12600",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-20T23:34:17Z",
+      "summary": "model : Inkling 2 Mini ( #32694 ) Conversion Separate model_type Add gate_rank to allow building from metadata while testing Base model Loop graph Support the new is_varloop attribute Adopt naming scheme from #32588 Rename to varying Website: https://llama.app Attestations: http…",
+      "date_type": "updated"
+    },
+    {
+      "id": "602490eb844731e9b156",
+      "title": "b12599",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12599",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-20T23:16:58Z",
+      "summary": "hip: add RDNA1 MMVQ parameter table (1 warp per block for ncols=1) ( #32389 ) hip: add RDNA1 MMVQ parameter table (1 warp per block for ncols=1) hip: write the RDNA1 MMVQ values explicitly instead of recursing into the generic table hip: list the RDNA1 MMVQ table before RDNA2 in…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f6f0e6d2cf56e8de8e34",
+      "title": "b12597",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12597",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-20T23:00:52Z",
+      "summary": "convert: qwen3-asr: put \"language ...\" output into thinking block ( #32571 ) convert: qwen3-asr: put \"language ...\" output into thinking block convert: qwen3-asr: read the chat template from models/templates The converter embedded its own copy of Qwen3-ASR.jinja. Read the bundle…",
+      "date_type": "updated"
+    },
+    {
+      "id": "43021bcadccac2477e40",
+      "title": "b12596",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12596",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-20T22:48:28Z",
+      "summary": "metal : allow the norm chain in either operand of the fused MUL/ADD ( #32300 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70363012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kle…",
+      "date_type": "updated"
+    },
+    {
+      "id": "05214cf0f5cef0971bb4",
+      "title": "b12591",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-20T22:34:30Z",
+      "summary": "ggml : major version bump reminders + deprecate ggml_ftype ( #32647 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70359245 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ae5a204aaba705d52a51",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-20T21:58:29Z",
+      "summary": "Google search is making it even easier to access AI tools on the search page.",
+      "date_type": "published"
+    },
+    {
+      "id": "85d0c5a4a983edfbbc04",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-20T21:47:10Z",
+      "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+      "date_type": "published"
+    },
     {
       "id": "35c2239500f319c9d3b7",
       "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
@@ -19,7 +107,7 @@
     },
     {
       "id": "cc88c546d1214b6505b4",
-      "title": "A leaky AI supply chain is exposing secret user data at an alarming rate",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "source": "Ars Technica AI",
       "source_id": "ars-technica",
@@ -29,15 +117,15 @@
       "date_type": "published"
     },
     {
-      "id": "b01afd6d4fc556922097",
-      "title": "v0.40.17",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-20T20:46:13Z",
-      "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
-      "date_type": "updated"
+      "id": "b2926e8e7f4e634ac812",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-20T20:00:00Z",
+      "summary": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+      "date_type": "published"
     },
     {
       "id": "05d06a2ae37185a1550d",
@@ -52,7 +140,7 @@
     },
     {
       "id": "81e856d23e6ca9408619",
-      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "source": "TechCrunch AI",
       "source_id": "techcrunch",
@@ -84,6 +172,17 @@
       "date_type": "published"
     },
     {
+      "id": "b01afd6d4fc556922097",
+      "title": "v0.40.17-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-20T18:37:07Z",
+      "summary": "mlxrunner: add Inkling 2 Mini",
+      "date_type": "updated"
+    },
+    {
       "id": "22fcd52b6890e94b0dc3",
       "title": "b12589",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12589",
@@ -104,17 +203,6 @@
       "published_at": "2026-11-20T17:40:01Z",
       "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
       "date_type": "published"
-    },
-    {
-      "id": "05214cf0f5cef0971bb4",
-      "title": "b12591",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T17:36:42Z",
-      "summary": "ggml : major version bump reminders + deprecate ggml_ftype ( #32647 )",
-      "date_type": "updated"
     },
     {
       "id": "7d532e0dd41c3aee3acc",
@@ -256,7 +344,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：50",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：222",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2655,7 +2743,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：135",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：168",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2964,7 +3052,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：272",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3519,17 +3607,6 @@
       "date_type": "published"
     },
     {
-      "id": "d4774d28d264a29f63d7",
-      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-17T15:28:59Z",
-      "summary": "Ars Live discussion is happening today, November 17, at 1 pm Eastern Time.",
-      "date_type": "published"
-    },
-    {
       "id": "5f851ae16c0d6a9b34f3",
       "title": "b12477",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12477",
@@ -3539,28 +3616,6 @@
       "published_at": "2026-11-17T15:14:09Z",
       "summary": "Rotate K/V read order for better L2 cache hit rates ( #32407 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68676458 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS…",
       "date_type": "updated"
-    },
-    {
-      "id": "4ec6ed4a696566010a8a",
-      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
-      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T15:00:00Z",
-      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
-      "date_type": "published"
-    },
-    {
-      "id": "c4b7e80cb7863d47f187",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T14:50:58Z",
-      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
-      "date_type": "published"
     },
     {
       "id": "41cc800b24b8f3f9c246",
@@ -3647,7 +3702,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-17T10:16:41Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：439",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：450",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3729,51 +3784,6 @@
       "date_type": "updated"
     },
     {
-      "id": "496033c2e7e0cae01f5d",
-      "title": "b12451",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T03:38:36Z",
-      "summary": "ui: move the web UI to ui/apps/chat and call it Llama Chat ( #32032 ) ui: move tools/ui to ui/apps/chat The chat app moves to its own root folder, ui/apps/chat, as the first step of splitting the UI into one library (ui/lib) and the apps built on it (ui/apps). The code is unchan…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3da80bd5f3881c7099bf",
-      "title": "b12449",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12449",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T03:16:32Z",
-      "summary": "arg : allow up to llama_max_devices() configs for --tensor-split and --fit-target ( #13293 ) ( #31435 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68437859 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA…",
-      "date_type": "updated"
-    },
-    {
-      "id": "41bd99c275642dbe333e",
-      "title": "b12448",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12448",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T03:03:55Z",
-      "summary": "jinja: impl scope-chain key lookup ( #32396 ) jinja: impl scope-chain key lookup add test for call_statement lambda Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68434767 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar…",
-      "date_type": "updated"
-    },
-    {
-      "id": "1e52228e1c5c3f802d92",
-      "title": "新模型：thinkingmachines/Inkling-2-Mini",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-17T00:26:57Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：120",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "0e7f690aa4ff229bd2e8",
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
@@ -3805,17 +3815,6 @@
       "published_at": "2026-11-17T00:00:00Z",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "date_type": "published"
-    },
-    {
-      "id": "ae7d7f2d28f88874fb12",
-      "title": "b12445",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-16T20:48:05Z",
-      "summary": "vulkan: Support split_k for conv3d. ( #29929 ) This tries to use the 256x128 shape (coopmat2-only) with split_k when it appears profitable. It reuses the mul_mat split_k reduce shader. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68…",
-      "date_type": "updated"
     },
     {
       "id": "2d7a5d6b20fff3cd431e",
@@ -4427,9 +4426,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 19,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-21T23:23:36Z",
-  "last_success_at": "2026-11-21T23:23:36Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-22T06:57:04Z",
+  "last_success_at": "2026-11-22T06:57:04Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "eb74362db99329f92296",
+      "title": "b12628",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T06:57:03Z",
+      "summary": "vulkan : support non-contiguous src in SCALE ( #32735 ) Assisted-By: Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70699278 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS …",
+      "date_type": "updated"
+    },
+    {
+      "id": "15e6d235b75159628986",
+      "title": "b12627",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T03:55:22Z",
+      "summary": "server : fit non-causal batches in one ubatch ( #32713 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70673562 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra…",
+      "date_type": "updated"
+    },
+    {
+      "id": "62b21afb7b381756d859",
+      "title": "b12626",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T02:23:30Z",
+      "summary": "vulkan : fix memset for unaligned ranges for non-UMA devices ( #32725 ) See #32574 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70660507 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9dc988c26293515c48d2",
+      "title": "b12625",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T02:04:45Z",
+      "summary": "model: fix no_realloc for clef and vllm-decision2 ( #32754 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70657345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9bacb595644171201831",
+      "title": "b12624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T01:51:17Z",
+      "summary": "chat : pass reasoning_effort = none if supported ( #32763 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70655398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f97e605e3c5a815e777f",
+      "title": "b12623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T01:14:37Z",
+      "summary": "mtmd : merge Parakeet rel-pos views to avoid OOB ( #32722 ) Assisted-by: Grok Bot Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70649736 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma…",
+      "date_type": "updated"
+    },
+    {
+      "id": "db58e57ac1a29e1fcafc",
+      "title": "b12622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T00:54:30Z",
+      "summary": "model: apply .scale tensors automatically + fix correctness ( #32669 ) model: apply .scale tensors automatically rm build_moe_ffn \"_s\" overload use llama_prec_policy fix ci build_lora_mm_id: rm w_s Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/at…",
+      "date_type": "updated"
+    },
+    {
+      "id": "608d90eff2268f0dbe57",
+      "title": "b12621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T00:40:54Z",
+      "summary": "sycl: bound CONV_TRANSPOSE_1D input iteration ( #31109 ) Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i s0 <= idx < i s0 + K, in the same ascending order as before. Arc Pro B70, oneAPI 2026.1, test-backend-ops perf,…",
+      "date_type": "updated"
+    },
+    {
+      "id": "55b2e6f1e7198c785d19",
+      "title": "b12620",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12620",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T00:19:37Z",
+      "summary": "ggml : improvements to the memory access pattern in ggml_compute_forward_mul_mat_one_chunk ( #30846 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70641771 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
+      "date_type": "updated"
+    },
+    {
+      "id": "930d60961dbf5db30555",
+      "title": "b12619",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-21T23:50:00Z",
+      "summary": "mtmd: support kyutai/hibiki realtime full-duplex ( #32491 ) mtmd: support hibiki realtime duplex fix and clean up fix long session quality fix ci tests : add the moshi fusion baseline for Metal The Metal fusion check found 5 RMS_NORM+MUL fusions in the new moshi arch and no base…",
+      "date_type": "updated"
+    },
     {
       "id": "831db0e1f1f965145500",
       "title": "b12617",
@@ -652,7 +762,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：134",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：164",
       "item_type": "model",
       "date_type": "created"
     },
@@ -708,7 +818,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：223",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：291",
       "item_type": "model",
       "date_type": "created"
     },
@@ -940,7 +1050,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：595",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：691",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2998,7 +3108,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：171",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：191",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3319,7 +3429,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：268",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：279",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3390,17 +3500,6 @@
       "date_type": "updated"
     },
     {
-      "id": "c2af7cd3e7b9a963ae50",
-      "title": "b12492",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12492",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T02:04:56Z",
-      "summary": "opencl: add A7 Q5_K non-MoE binary kernel ( #31002 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68914827 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo…",
-      "date_type": "updated"
-    },
-    {
       "id": "b330164a6f0ccccf3341",
       "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
       "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
@@ -3410,50 +3509,6 @@
       "published_at": "2026-11-18T01:44:21Z",
       "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
       "date_type": "published"
-    },
-    {
-      "id": "c98039be53cc31f39abe",
-      "title": "b12491",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12491",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T01:38:36Z",
-      "summary": "mtmd: Add support for Qwen3-TTS' ICL/reference mode ( #32438 ) Added support for Qwen3-TTS ICL/reference mode Assisted-By: Claude Opus 5.5 fix correctness attach transcription to bitmap nits Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestatio…",
-      "date_type": "updated"
-    },
-    {
-      "id": "c121937b6969f96d9a9d",
-      "title": "b12490",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12490",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T01:17:45Z",
-      "summary": "qwen4exp : fix graph reallocation from the n-gram table scale ( #32483 ) qwen4exp : apply the n-gram table scale with ggml_scale read the scale once after load remove comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68901172 mac…",
-      "date_type": "updated"
-    },
-    {
-      "id": "566e9d2a7c45dd10d985",
-      "title": "b12489",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12489",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T00:54:01Z",
-      "summary": "server : return 400 when grammar and ignore_eos are on ( #32377 ) sampling : fix crash when both ignore_eos and grammar are on server : rework, throw 400 when grammar and ignore_eos are on sampling : move the check into the sampler (review suggestion) tests : remove redundant te…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9e6f929e347701f3643c",
-      "title": "b12488",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12488",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T00:36:32Z",
-      "summary": "ggml-cuda: disable quantized matvec fusion on all Pascal GPUs ( #32239 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68889180 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel…",
-      "date_type": "updated"
     },
     {
       "id": "26a444a0aabf92a2fc3e",
@@ -3497,28 +3552,6 @@
       "category": "official",
       "published_at": "2026-11-18T00:00:00Z",
       "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "date_type": "published"
-    },
-    {
-      "id": "ec56b5eff9affb1c339e",
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-18T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "5b89a2db7f60ae9099b7",
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-18T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -3641,39 +3674,6 @@
       "published_at": "2026-11-17T20:32:55Z",
       "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
       "date_type": "published"
-    },
-    {
-      "id": "e500f96befa0390c3494",
-      "title": "b12483",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12483",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T20:10:00Z",
-      "summary": "llama : keep the k-pool layout prefix on sequence edits ( #32137 ) llama : keep the k-pool layout prefix on sequence edits Assisted-by: Claude Code llama : address review of the k-pool layout update Append and edit share one branch, using stale > sq.pos_min. LLAMA_KPOOL_VERIFY=1…",
-      "date_type": "updated"
-    },
-    {
-      "id": "333f66a80acada820d13",
-      "title": "b12482",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12482",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T19:54:37Z",
-      "summary": "vocab : speed up PLaMo-2/3 tokenizer table build ( #32249 ) Assisted-by: Claude Code (Claude Opus 5.5) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68788910 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI…",
-      "date_type": "updated"
-    },
-    {
-      "id": "def96065836376d05017",
-      "title": "b12481",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12481",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-17T19:39:44Z",
-      "summary": "convert : fix FP8 qwen4exp checkpoints (n-gram table scale, block-scaled FP8) ( #32476 ) convert : fix FP8 n-gram table export for qwen4exp convert : dequantize block-scaled FP8 weight_scale_inv in ModelOpt checkpoints Website: https://llama.app Attestations: https://github.com/…",
-      "date_type": "updated"
     },
     {
       "id": "372bb734ba1d0b31e529",
@@ -4417,9 +4417,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 19,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4490,7 +4490,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.LG",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4508,7 +4508,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {

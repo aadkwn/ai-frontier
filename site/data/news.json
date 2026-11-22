@@ -1,11 +1,77 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-22T06:57:04Z",
-  "last_success_at": "2026-11-22T06:57:04Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-22T15:24:15Z",
+  "last_success_at": "2026-11-22T15:24:15Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "ceaa620683d00f64cc4a",
+      "title": "b12633",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T14:57:05Z",
+      "summary": "ggml : fix nonzero clear on WebGPU and non-UMA devices ( #32727 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70776484 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
+      "date_type": "updated"
+    },
+    {
+      "id": "14cfa1d88e05a6aeddfe",
+      "title": "b12632",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12632",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T14:41:59Z",
+      "summary": "HIP: fix double halving of NVFP4 scales on CDNA3 ( #32790 ) Fixes #32789 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70773688 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e8029993afd719ae8379",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-22T13:00:00Z",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Li…",
+      "date_type": "published"
+    },
+    {
+      "id": "a70beded45140cf8e953",
+      "title": "b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T11:19:04Z",
+      "summary": "Models like Llama 3.x emit tool calls as plain {\"name\": ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code",
+      "date_type": "updated"
+    },
+    {
+      "id": "c94ddbc22c9bf739b974",
+      "title": "b12631",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T09:06:37Z",
+      "summary": "webgpu : update GDN supports_op check ( #32782 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70718174 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L…",
+      "date_type": "updated"
+    },
+    {
+      "id": "cbaaaef49fc66d7b2f3a",
+      "title": "b12629",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T08:47:04Z",
+      "summary": "opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) ( #32686 ) opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 opencl: add Q5_0 coopmat GEMM for Adreno 850 opencl: add Q8_0 coopmat GEMM for Adreno 850 opencl: add Q4_K coopmat GE…",
+      "date_type": "updated"
+    },
     {
       "id": "eb74362db99329f92296",
       "title": "b12628",
@@ -13,7 +79,7 @@
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-22T06:57:03Z",
+      "published_at": "2026-11-22T06:58:12Z",
       "summary": "vulkan : support non-contiguous src in SCALE ( #32735 ) Assisted-By: Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70699278 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS …",
       "date_type": "updated"
     },
@@ -762,7 +828,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：164",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：206",
       "item_type": "model",
       "date_type": "created"
     },
@@ -818,7 +884,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：291",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：394",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1050,7 +1116,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：691",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：791",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3108,7 +3174,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：191",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：226",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3429,7 +3495,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：279",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：291",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3443,61 +3509,6 @@
       "published_at": "2026-11-18T05:00:00Z",
       "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
       "date_type": "published"
-    },
-    {
-      "id": "0121825aedd3af196a50",
-      "title": "b12498",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12498",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T04:22:36Z",
-      "summary": "server: slot_sched: fix lora and recurrent ( #32434 ) server: fix lora and recurrent tests: run the hybrid SWA checkpoint test with one token per ubatch With and without the cache, the prompt was not split into the same ubatches, and the generated tokens are decoded one at a tim…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6cb02699615b1b4f0b9c",
-      "title": "b12497",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12497",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T04:07:46Z",
-      "summary": "mtmd: support tiny-voca ( #32427 ) mtmd: support tiny-voca improve G2P Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68950753 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (…",
-      "date_type": "updated"
-    },
-    {
-      "id": "74ea1ed86ac90e23cde7",
-      "title": "b12496",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12496",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T03:48:52Z",
-      "summary": "ggml-cuda: hip: Tune stream_k algo and mmq configs to use stream_k on AMD GCN ( #30022 ) ggml-cuda: hip: enable stream_k on GCN ggml-cuda: Test on CDNA done no improvement, remove TODO ggml-cuda: HIP: GCN cleanup Website: https://llama.app Attestations: https://github.com/ggml-o…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f6048e16631720d31606",
-      "title": "b12494",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12494",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T02:41:53Z",
-      "summary": "mtmd: add kokoro tts support ( #32413 ) jinja: impl scope-chain key lookup add test for call_statement lambda chat: add tts_dict for kokoro G2P template more testing value_float_t range check no json-in-meta, add llama_model_meta_arr_str/_n mtmd: add kokoro tts support detailed …",
-      "date_type": "updated"
-    },
-    {
-      "id": "43156df6a155c5b014eb",
-      "title": "b12493",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12493",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T02:25:25Z",
-      "summary": "cuda: use the implicit GEMM conv2d path for F32 kernels ( #32482 ) The fast CONV_2D path (implicit GEMM with MMA, or cuBLAS for pointwise convolutions) required an F16 kernel. F32 kernels fell back to the naive direct convolution, which is much slower than im2col + mul_mat on la…",
-      "date_type": "updated"
     },
     {
       "id": "b330164a6f0ccccf3341",
@@ -3728,17 +3739,6 @@
       "category": "industry",
       "published_at": "2026-11-17T18:10:00Z",
       "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
-      "date_type": "published"
-    },
-    {
-      "id": "837c136c3245c58a015e",
-      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T18:04:16Z",
-      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
       "date_type": "published"
     },
     {
@@ -4417,9 +4417,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 19,
+      "message": "正常"
     },
     {
       "id": "google-ai",

@@ -1,11 +1,44 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-22T15:24:15Z",
-  "last_success_at": "2026-11-22T15:24:15Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-22T21:51:23Z",
+  "last_success_at": "2026-11-22T21:51:23Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "90468db0d5a9c8d3332b",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-22T21:14:07Z",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "date_type": "published"
+    },
+    {
+      "id": "b51af88d58d8138dece5",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-22T18:08:43Z",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "date_type": "published"
+    },
+    {
+      "id": "28c764e2cf8a36efd027",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-22T17:25:20Z",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found s…",
+      "date_type": "published"
+    },
     {
       "id": "ceaa620683d00f64cc4a",
       "title": "b12633",
@@ -38,6 +71,17 @@
       "published_at": "2026-11-22T13:00:00Z",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Li…",
       "date_type": "published"
+    },
+    {
+      "id": "5872f2f48dd112b24691",
+      "title": "b12635: ggml : add SIGMOID backward pass (#32126)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12635",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T11:33:13Z",
+      "summary": "ggml : add SIGMOID backward pass Sigmoid is used in Qwen3.5 hybrid models and had no backward pass. Bump RPC protocol patch version for the new op. Signed-off-by: gianni-cor gianfranco.cordella@tether.io replace assert with ggml_assert Co-authored-by: Johannes Gäßler johannesg@5…",
+      "date_type": "updated"
     },
     {
       "id": "a70beded45140cf8e953",
@@ -170,6 +214,17 @@
       "published_at": "2026-11-22T00:19:37Z",
       "summary": "ggml : improvements to the memory access pattern in ggml_compute_forward_mul_mat_one_chunk ( #30846 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70641771 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
       "date_type": "updated"
+    },
+    {
+      "id": "1a10f1676d46fc01a909",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-22T00:00:00Z",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "date_type": "published"
     },
     {
       "id": "930d60961dbf5db30555",
@@ -828,7 +883,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：206",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：246",
       "item_type": "model",
       "date_type": "created"
     },
@@ -884,7 +939,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：394",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：466",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1116,7 +1171,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：791",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：865",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2782,14 +2837,14 @@
       "date_type": "updated"
     },
     {
-      "id": "82fe289fe466dcc1d4f7",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "id": "a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "source": "OpenAI",
       "source_id": "openai",
       "category": "official",
       "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "date_type": "published"
     },
     {
@@ -2815,14 +2870,14 @@
       "date_type": "published"
     },
     {
-      "id": "a890a236270cc5e31862",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "id": "82fe289fe466dcc1d4f7",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "source": "OpenAI",
       "source_id": "openai",
       "category": "official",
       "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "date_type": "published"
     },
     {
@@ -3174,7 +3229,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T17:05:50Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：226",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：263",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3421,17 +3476,6 @@
       "date_type": "updated"
     },
     {
-      "id": "53d809d7420a3923e8ba",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-18T08:00:00Z",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "date_type": "published"
-    },
-    {
       "id": "58da586369f33999eb92",
       "title": "Research acceleration: The jagged frontier",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
@@ -3440,6 +3484,17 @@
       "category": "official",
       "published_at": "2026-11-18T08:00:00Z",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "date_type": "published"
+    },
+    {
+      "id": "53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "date_type": "published"
     },
     {
@@ -3472,7 +3527,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-18T06:47:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：104",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：193",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3486,18 +3541,6 @@
       "published_at": "2026-11-18T06:00:00Z",
       "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
       "date_type": "published"
-    },
-    {
-      "id": "ba6df33853b09a0c1734",
-      "title": "新模型：RadixArk/DaisyRose-27B",
-      "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-18T05:31:35Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：291",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "55cafb7085284a534355",
@@ -3709,39 +3752,6 @@
       "date_type": "published"
     },
     {
-      "id": "20774146b79ca781277a",
-      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-17T18:58:01Z",
-      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might no…",
-      "date_type": "published"
-    },
-    {
-      "id": "f6980f92e029130a7b2c",
-      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T18:48:23Z",
-      "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
-      "date_type": "published"
-    },
-    {
-      "id": "ecf8c81cb5048aa02c08",
-      "title": "As decision model use skyrockets, is customization the next frontier?",
-      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T18:10:00Z",
-      "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
-      "date_type": "published"
-    },
-    {
       "id": "8f6af8c44a4a1bfb5de3",
       "title": "Introducing GPT-6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -3786,17 +3796,6 @@
       "date_type": "published"
     },
     {
-      "id": "b43ef08ac3ed4f7af6f4",
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-17T00:00:00Z",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "date_type": "published"
-    },
-    {
       "id": "3b3be741a87f5e2153e6",
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
@@ -3805,6 +3804,17 @@
       "category": "official",
       "published_at": "2026-11-17T00:00:00Z",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "date_type": "published"
+    },
+    {
+      "id": "b43ef08ac3ed4f7af6f4",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-17T00:00:00Z",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "date_type": "published"
     },
     {
@@ -4389,17 +4399,6 @@
       "published_at": "2026-11-05T09:00:00Z",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "date_type": "published"
-    },
-    {
-      "id": "db9792e954d447010915",
-      "title": "Merge builds product and business tools with OpenAI technology",
-      "url": "https://openai.com/index/merge-builds-with-openai",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-05T08:00:00Z",
-      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4417,9 +4416,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 19,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4472,7 +4471,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 30,
+      "count": 28,
       "message": "正常"
     },
     {

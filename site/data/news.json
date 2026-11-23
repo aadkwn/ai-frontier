@@ -1,11 +1,121 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-22T21:51:23Z",
-  "last_success_at": "2026-11-22T21:51:23Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-23T02:51:25Z",
+  "last_success_at": "2026-11-23T02:51:25Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "fe484d92b61b106af597",
+      "title": "b12645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T02:36:35Z",
+      "summary": "chat: fix LFM2.5-VL template detection ( #32843 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70910857 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework …",
+      "date_type": "updated"
+    },
+    {
+      "id": "b50d0a3a620784f93708",
+      "title": "b12644",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T02:19:04Z",
+      "summary": "mtmd: speed up shared audio FFT ( #32815 ) mtmd: speed up shared audio FFT Replace recursive radix-2 splitting with iterative stages and batch the existing odd-size DFT across subsequences, preserving the previous operation order. Input buffers now hold only N real values for FF…",
+      "date_type": "updated"
+    },
+    {
+      "id": "2dd967ac880be38815c5",
+      "title": "b12643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T02:05:29Z",
+      "summary": "mtmd: fix qwen3a audio tail ( #32697 ) add: test to reporduce error reported in #32689 fix: remove extra tokens from zero-padding of Qwen3-Omni / Qwen3-ASR audio add: qwen3a_tokens_for_frames instead of magic numbers refactor: only ggml_pad when required refactor: move qwen3a_to…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9efca619f341535822fb",
+      "title": "b12642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12642",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T01:51:51Z",
+      "summary": "llama : copy all experts of a host weight shared by several nodes ( #32807 ) llama : copy all experts of a host weight shared by several nodes The scheduler copies a host weight to the device once per graph, so a partial expert copy made for the first MUL_MAT_ID is stale for the…",
+      "date_type": "updated"
+    },
+    {
+      "id": "09ce2b742400808ecece",
+      "title": "b12641",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12641",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T01:38:40Z",
+      "summary": "vocab: enable ignore_merges for inkling2 ( #32799 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70898119 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor…",
+      "date_type": "updated"
+    },
+    {
+      "id": "04e5e033b7998e4feb3c",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T01:25:53Z",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "date_type": "published"
+    },
+    {
+      "id": "5b3cd9e213bb65bef736",
+      "title": "b12640",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12640",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T01:23:05Z",
+      "summary": "server : add offset pagination to grep_search tool ( #32792 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70894511 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c974d249b0a82b3f551b",
+      "title": "b12638",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12638",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T00:52:46Z",
+      "summary": "chat : implement token aware parsing ( #29307 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70888244 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e322025278c6d29cc3ed",
+      "title": "b12646",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T00:48:16Z",
+      "summary": "ggml-backend : generic fallback in ggml_backend_tensor_memset ( #32574 )",
+      "date_type": "updated"
+    },
+    {
+      "id": "7d27fffa3906bd9ac7f9",
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-22T22:48:02Z",
+      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton …",
+      "date_type": "published"
+    },
     {
       "id": "90468db0d5a9c8d3332b",
       "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
@@ -40,6 +150,17 @@
       "date_type": "published"
     },
     {
+      "id": "943ca40ff192b1b05341",
+      "title": "b12637: server: support /models/sse on single-model mode (#32398)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12637",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T16:52:56Z",
+      "summary": "server: support /models/sse on single-model mode nits nits",
+      "date_type": "updated"
+    },
+    {
       "id": "ceaa620683d00f64cc4a",
       "title": "b12633",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
@@ -71,6 +192,17 @@
       "published_at": "2026-11-22T13:00:00Z",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Li…",
       "date_type": "published"
+    },
+    {
+      "id": "4461a9318d7549097f32",
+      "title": "b12636",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12636",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-22T11:40:10Z",
+      "summary": "ggml/gguf : avoid creating invalid enum values from untrusted file da…",
+      "date_type": "updated"
     },
     {
       "id": "5872f2f48dd112b24691",
@@ -883,7 +1015,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：246",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：249",
       "item_type": "model",
       "date_type": "created"
     },
@@ -939,7 +1071,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：466",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：505",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1171,7 +1303,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：865",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：899",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2177,6 +2309,18 @@
       "date_type": "updated"
     },
     {
+      "id": "e2e7ff054921706fe57f",
+      "title": "新模型：voyager-so/shot-reader-8b",
+      "url": "https://huggingface.co/voyager-so/shot-reader-8b",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-19T21:18:48Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：66",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "b331a244d62b8fc86861",
       "title": "Meta’s Muse Charm might cost $300",
       "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
@@ -2793,6 +2937,18 @@
       "date_type": "updated"
     },
     {
+      "id": "b87293c6bb8155c31699",
+      "title": "新模型：inclusionAI/LingSante-3.1-flash",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-19T04:30:30Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：49",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "d28a5871994982fa35b2",
       "title": "b12531",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
@@ -3289,17 +3445,6 @@
       "date_type": "updated"
     },
     {
-      "id": "aef632472a5e3af7f91b",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-18T15:00:23Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
       "id": "ddf152f6d3b592a40ce9",
       "title": "Will Wright’s next game uses AI to map your memories",
       "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
@@ -3344,17 +3489,6 @@
       "date_type": "published"
     },
     {
-      "id": "698247bdce186ae64875",
-      "title": "b12512",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12512",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T11:34:40Z",
-      "summary": "Add LLAMA_MOE_RANDOM_ROUTING=1 for benchmark-only random expert selec…",
-      "date_type": "updated"
-    },
-    {
       "id": "7910f56b348bc37fcbcc",
       "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
       "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
@@ -3377,61 +3511,6 @@
       "date_type": "published"
     },
     {
-      "id": "85049c04d9c9dfd6ab12",
-      "title": "b12511",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12511",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T11:09:22Z",
-      "summary": "server: fix transcription prompt for v1/realtime ( #32507 )",
-      "date_type": "updated"
-    },
-    {
-      "id": "ccbb3634a8b3b5e09bf5",
-      "title": "b12509: unicode : add continuation check lambda (#31070)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12509",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T10:44:28Z",
-      "summary": "This commit adds a lambda to check if a specified byte is not a valid continuation byte in a multibyte UTF8 sequence. The motivation for this is to improve readability and avoid some code duplication.",
-      "date_type": "updated"
-    },
-    {
-      "id": "496a41990f115206b069",
-      "title": "b12508: cuda : fuse NORM + MUL (+ ADD) (#32454)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12508",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T10:43:52Z",
-      "summary": "Assisted-by: Codex",
-      "date_type": "updated"
-    },
-    {
-      "id": "f23b5a090101aad23046",
-      "title": "b12507: vocab : extract bpe_rank loading into function (#30962)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12507",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T10:33:12Z",
-      "summary": "vocab : extract bpe_rank loading into function This commit extracts the BPE rank loading logic into a separate function named load_bpe_ranks . The motivation for this is that the came code is currently used by both gpt2/hybriddna/whitespace tokenizer models and gemma4 and this a…",
-      "date_type": "updated"
-    },
-    {
-      "id": "72495dda773a651d5cd4",
-      "title": "b12506: vulkan: add bfloat16 support to various ops (#32202)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12506",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T10:26:03Z",
-      "summary": "vulkan: expand bf16 support for unary and binary ops and rms_norm cpu: add bf16 support for scale, clamp, leaky_relu, swiglu_oai, swiglu_clamp, tri and diag fix sycl fill supports_op condition restore CUDA op order",
-      "date_type": "updated"
-    },
-    {
       "id": "184d931227f2504de1a3",
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
@@ -3441,39 +3520,6 @@
       "published_at": "2026-11-18T10:00:00Z",
       "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "date_type": "published"
-    },
-    {
-      "id": "1ccc29d38673204814fb",
-      "title": "b12503",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T08:32:17Z",
-      "summary": "ggml-openvino: expand model support, optimize NPU,GPU and memory usage ( #32172 ) ggml-openvino: fix SWA mask detection When the SWA cache size matches the full cache size, identify SWA layers by the number of layers using each mask instead of cache size; the larger group is SWA…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f3efcf0ea3fc4042dd23",
-      "title": "b12502",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12502",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T08:14:05Z",
-      "summary": "CUDA: use MMQ for MoE on V100 ( #32504 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69023761 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub…",
-      "date_type": "updated"
-    },
-    {
-      "id": "534b73a6228850b4da8d",
-      "title": "b12504",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12504",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T08:08:35Z",
-      "summary": "cuda : increase Pascal DP4A MMQ I tile for J=64 ( #31352 )",
-      "date_type": "updated"
     },
     {
       "id": "58da586369f33999eb92",
@@ -3507,29 +3553,6 @@
       "published_at": "2026-11-18T08:00:00Z",
       "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "date_type": "published"
-    },
-    {
-      "id": "9bcde726b893dcb45457",
-      "title": "b12500",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T07:08:23Z",
-      "summary": "cuda: decode the conv2d patch indices with fastdiv ( #32492 ) The implicit GEMM conv2d kernel recovers the channel and the kernel position of each reduction index with three integer divisions by runtime divisors, once per loaded row of every tile. Outside the 3x3 and 1x1 special…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a9df11b4372fe122b981",
-      "title": "新模型：sensenova/SenseNova-Loop-9B-GGUF",
-      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-18T06:47:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：193",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "99be0c0a7e074380d1a5",
@@ -3727,28 +3750,6 @@
       "category": "industry",
       "published_at": "2026-11-17T20:32:55Z",
       "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
-      "date_type": "published"
-    },
-    {
-      "id": "372bb734ba1d0b31e529",
-      "title": "Model ML raises $250M to automate investment banking grunt work",
-      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T19:32:11Z",
-      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
-      "date_type": "published"
-    },
-    {
-      "id": "534361927951e2d99a3b",
-      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T19:02:20Z",
-      "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
       "date_type": "published"
     },
     {
@@ -4416,9 +4417,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 19,
+      "message": "正常"
     },
     {
       "id": "google-ai",

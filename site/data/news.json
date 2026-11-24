@@ -1,11 +1,385 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-23T12:56:44Z",
-  "last_success_at": "2026-11-23T12:56:44Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-24T00:57:01Z",
+  "last_success_at": "2026-11-24T00:57:01Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "4a2208459a63a7a7535d",
+      "title": "b12658",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12658",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T00:56:59Z",
+      "summary": "rpc : typed request helpers and a single validation step on the server ( #32651 ) rpc : typed request helpers and a single validation step on the server Client and server share one table (rpc_msg_types) that maps each fixed-size command to its request and response structs. The c…",
+      "date_type": "updated"
+    },
+    {
+      "id": "5f857e56a810ca2364b7",
+      "title": "b12657",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12657",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T00:42:44Z",
+      "summary": "ggml-cuda : handle zero blocks in few-row MMQ quantization ( #32566 ) Assisted-by: ChatGPT (GPT-6) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71378179 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena…",
+      "date_type": "updated"
+    },
+    {
+      "id": "fb48ab0b87f6b3dbe6c8",
+      "title": "b12655",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T23:23:55Z",
+      "summary": "cmake: treat kleidiai files as vendored ( #32605 ) cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo aaron.teo1@ibm.com cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: http…",
+      "date_type": "updated"
+    },
+    {
+      "id": "fa9136539de5ecb7ea15",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T22:25:12Z",
+      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out…",
+      "date_type": "published"
+    },
+    {
+      "id": "38ea5b66d259522356b1",
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T22:10:32Z",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time…",
+      "date_type": "published"
+    },
+    {
+      "id": "4ce697c6dbd75e8a8795",
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T22:09:26Z",
+      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on wha…",
+      "date_type": "published"
+    },
+    {
+      "id": "a72cc3aa1f3d17c03694",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T22:05:50Z",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "date_type": "published"
+    },
+    {
+      "id": "eea6d4f773cb5b5a8639",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T22:02:05Z",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "date_type": "published"
+    },
+    {
+      "id": "d4f79d2af1d5e9d78757",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T21:47:41Z",
+      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+      "date_type": "published"
+    },
+    {
+      "id": "f323d7562d6653aad531",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-23T21:30:44Z",
+      "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+      "date_type": "published"
+    },
+    {
+      "id": "bcef4e5640ff9cf531af",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T21:25:42Z",
+      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "date_type": "published"
+    },
+    {
+      "id": "b0689cf87ab570a441c8",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-23T21:20:00Z",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "date_type": "published"
+    },
+    {
+      "id": "dfa0b937d567023b2982",
+      "title": "Many languages, one common neural code",
+      "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-23T21:15:00Z",
+      "summary": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "date_type": "published"
+    },
+    {
+      "id": "b6aa410db677fb565921",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T21:09:37Z",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic a…",
+      "date_type": "published"
+    },
+    {
+      "id": "19cceeec9c2ac703c154",
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T20:38:53Z",
+      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "date_type": "published"
+    },
+    {
+      "id": "6545db87281ad58ecc44",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T20:00:00Z",
+      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review …",
+      "date_type": "published"
+    },
+    {
+      "id": "ba7fe03235f718d9453a",
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T19:57:18Z",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitt…",
+      "date_type": "published"
+    },
+    {
+      "id": "50419d3a895fb0e44a48",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T19:14:46Z",
+      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "date_type": "published"
+    },
+    {
+      "id": "f878ab62338f7472bd88",
+      "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T19:04:52Z",
+      "summary": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and …",
+      "date_type": "published"
+    },
+    {
+      "id": "609c363594e6686756a7",
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T18:26:47Z",
+      "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social med…",
+      "date_type": "published"
+    },
+    {
+      "id": "9f6a9f2b4d78ebc0a292",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T18:12:22Z",
+      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "date_type": "published"
+    },
+    {
+      "id": "eb2701ff66febea27293",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-23T17:20:37Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "9e07b8c2cf04bf6d98eb",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T17:14:23Z",
+      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "date_type": "published"
+    },
+    {
+      "id": "d6fdac3c20f42b84f430",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-23T17:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "3ffa5c39e01e3431aafb",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-23T16:59:40Z",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "date_type": "published"
+    },
+    {
+      "id": "3e04281a8147d9d15cda",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T16:57:40Z",
+      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+      "date_type": "published"
+    },
+    {
+      "id": "79c3fac607e157536f7c",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T16:39:10Z",
+      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+      "date_type": "published"
+    },
+    {
+      "id": "f5ab5067ad25840d0a1d",
+      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T16:30:11Z",
+      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House communicati…",
+      "date_type": "published"
+    },
+    {
+      "id": "54b870a4c86e13f83ce3",
+      "title": "Tech leaders are celebrating Jensen Huang’s return",
+      "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-23T16:14:04Z",
+      "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indiscretions that led to your ouster from what was once the wor…",
+      "date_type": "published"
+    },
+    {
+      "id": "20cfb07f132dd65d4986",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-23T15:46:18Z",
+      "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
+      "date_type": "published"
+    },
+    {
+      "id": "5876b76a766d77a51f48",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T15:04:01Z",
+      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "date_type": "published"
+    },
+    {
+      "id": "10ed8c9647ecbbfb2cb0",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T14:43:03Z",
+      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "date_type": "published"
+    },
+    {
+      "id": "371d782b7284ba4a4363",
+      "title": "b12659",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12659",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T14:29:20Z",
+      "summary": "ggml-openvino: CI fixes, new model support, fixes and improvements. (…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0affd11db18d863015bf",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-23T14:21:59Z",
+      "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "date_type": "published"
+    },
     {
       "id": "d76321c82e0f0e357528",
       "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
@@ -60,6 +434,28 @@
       "published_at": "2026-11-23T08:40:41Z",
       "summary": "chat : improve inkling parser/grammar ( #32833 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70997558 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L…",
       "date_type": "updated"
+    },
+    {
+      "id": "10878202550bbbf922d1",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-23T08:00:00Z",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "date_type": "published"
+    },
+    {
+      "id": "1259b534687dd8b31711",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-23T08:00:00Z",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "date_type": "published"
     },
     {
       "id": "db003593b137525531f1",
@@ -1074,6 +1470,18 @@
       "date_type": "published"
     },
     {
+      "id": "d2f98570ba045778b064",
+      "title": "新模型：inclusionAI/Ling-3.2-air",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-23T03:55:12Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：100",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "35daebbb925807f6385a",
       "title": "b12648",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
@@ -1193,6 +1601,17 @@
       "published_at": "2026-11-23T00:52:46Z",
       "summary": "chat : implement token aware parsing ( #29307 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70888244 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
       "date_type": "updated"
+    },
+    {
+      "id": "00d52199bef25f9eda98",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-23T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
     },
     {
       "id": "7d27fffa3906bd9ac7f9",
@@ -1565,7 +1984,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-21T18:46:06Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：60",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：92",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2006,7 +2425,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：281",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2062,7 +2481,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：576",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：650",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2096,7 +2515,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T19:53:25Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：51",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：68",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2306,7 +2725,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：995",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1113",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3060,51 +3479,6 @@
       "date_type": "updated"
     },
     {
-      "id": "6cdcb1b54573b12fe5a6",
-      "title": "b12532",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12532",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T04:49:50Z",
-      "summary": "opencl: allow adjusting KV padding in decomposed FA ( #32522 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69491345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b87293c6bb8155c31699",
-      "title": "新模型：inclusionAI/LingSante-3.1-flash",
-      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-19T04:30:30Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：85",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "d28a5871994982fa35b2",
-      "title": "b12531",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T02:23:51Z",
-      "summary": "mtmd: support voxcpm2 ( #32443 ) mtmd: support voxcpm speed up a bit various fixes Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69455423 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
-      "date_type": "updated"
-    },
-    {
-      "id": "66c66d66acf0b3386c96",
-      "title": "b12530",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T01:13:35Z",
-      "summary": "ggml : WASM Relaxed SIMD Enhancement ( #19590 ) add relaxed simd fix indentation remove comments and whitespace wasm: fix relaxed SIMD kernels and add q3_K/q6_K support rm trailing space Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: …",
-      "date_type": "updated"
-    },
-    {
       "id": "108d95f376814446edb6",
       "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
       "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
@@ -3113,28 +3487,6 @@
       "category": "industry",
       "published_at": "2026-11-19T00:42:56Z",
       "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-      "date_type": "published"
-    },
-    {
-      "id": "9c92539b0dc61c42b2de",
-      "title": "b12529",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T00:15:20Z",
-      "summary": "llama : fix sticky NaN in recurrent state ( #31913 ) Co-authored-by: Alexey Kopytko alexey@kopytko.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69418514 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a890a236270cc5e31862",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "date_type": "published"
     },
     {
@@ -3171,6 +3523,17 @@
       "date_type": "published"
     },
     {
+      "id": "a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "date_type": "published"
+    },
+    {
       "id": "afb1f8fc849417dafc40",
       "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
       "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
@@ -3180,17 +3543,6 @@
       "published_at": "2026-11-18T23:45:00Z",
       "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
       "date_type": "published"
-    },
-    {
-      "id": "0261bc915f3e3290ced8",
-      "title": "b12528",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T23:42:30Z",
-      "summary": "server: fix sleep state for v1/realtime ( #32567 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69408923 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework…",
-      "date_type": "updated"
     },
     {
       "id": "e78487095dd3723203c4",
@@ -3224,17 +3576,6 @@
       "published_at": "2026-11-18T23:17:28Z",
       "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
       "date_type": "published"
-    },
-    {
-      "id": "bfd65a217923bb7b5a06",
-      "title": "b12527",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-18T22:59:51Z",
-      "summary": "model : limite: reject mudd configs that index past mudd_tap_idx on load ( #32562 ) n_mudd_taps comes from limite.mudd.tap_count, a scalar read separately from the length-checked tap_indices array. mudd_tap_idx is a fixed std::array<int32_t, 512> indexed at [i*n_taps] in both th…",
-      "date_type": "updated"
     },
     {
       "id": "49ff21afd78ef9de5ec7",
@@ -3380,17 +3721,6 @@
       "date_type": "published"
     },
     {
-      "id": "7132415e461f71d94422",
-      "title": "What is Nvidia without AI’s sugar daddy in charge?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T18:34:15Z",
-      "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the tru…",
-      "date_type": "published"
-    },
-    {
       "id": "cac57b5217ba2caa29c8",
       "title": "Genie 4 is now available",
       "url": "https://deepmind.google/blog/genie-4-is-now-available/",
@@ -3402,50 +3732,6 @@
       "date_type": "published"
     },
     {
-      "id": "d25de4f029966643c107",
-      "title": "Will Wright's next simulation will use AI to mine content from your memories",
-      "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-18T18:10:33Z",
-      "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
-      "date_type": "published"
-    },
-    {
-      "id": "13feb5a0d5b21e6a122b",
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T18:04:05Z",
-      "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
-      "date_type": "published"
-    },
-    {
-      "id": "120da5d8476ca5b48f81",
-      "title": "Disney’s new Star Wars animatronics interact with guests using AI",
-      "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T17:50:57Z",
-      "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney I…",
-      "date_type": "published"
-    },
-    {
-      "id": "663072a237570232a4ec",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T17:32:10Z",
-      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-      "date_type": "published"
-    },
-    {
       "id": "00a064e6720eae62fd0b",
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
@@ -3454,105 +3740,6 @@
       "category": "official",
       "published_at": "2026-11-18T17:00:00Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "d83fee4011ac317b0a62",
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T16:59:00Z",
-      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-      "date_type": "published"
-    },
-    {
-      "id": "eaeb1e564c509a5a9ad3",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T16:14:09Z",
-      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-      "date_type": "published"
-    },
-    {
-      "id": "4270e297502a029b32d7",
-      "title": "Remember the frontier AI pause? Chip companies don’t either",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T15:44:02Z",
-      "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slo…",
-      "date_type": "published"
-    },
-    {
-      "id": "ddf152f6d3b592a40ce9",
-      "title": "Will Wright’s next game uses AI to map your memories",
-      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T14:00:00Z",
-      "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to expl…",
-      "date_type": "published"
-    },
-    {
-      "id": "fcf93c416202eb38a45d",
-      "title": "Nvidia isn’t selling any more AI chips to China",
-      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T13:01:05Z",
-      "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the compa…",
-      "date_type": "published"
-    },
-    {
-      "id": "92c4470851babd486be2",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T13:00:00Z",
-      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-      "date_type": "published"
-    },
-    {
-      "id": "00b7a83010aaeca9a875",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T12:00:00Z",
-      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-      "date_type": "published"
-    },
-    {
-      "id": "7910f56b348bc37fcbcc",
-      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T11:30:00Z",
-      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-      "date_type": "published"
-    },
-    {
-      "id": "942518637ca001c7d154",
-      "title": "Suno now lets you make AI videos for your AI music",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T11:16:53Z",
-      "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descr…",
       "date_type": "published"
     },
     {
@@ -3611,61 +3798,6 @@
       "date_type": "published"
     },
     {
-      "id": "55cafb7085284a534355",
-      "title": "Helping AI text detectors keep up with changing conditions",
-      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-18T05:00:00Z",
-      "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
-      "date_type": "published"
-    },
-    {
-      "id": "b330164a6f0ccccf3341",
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T01:44:21Z",
-      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-      "date_type": "published"
-    },
-    {
-      "id": "26a444a0aabf92a2fc3e",
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-18T00:27:29Z",
-      "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
-      "date_type": "published"
-    },
-    {
-      "id": "ceeb5bf897d71eb6e293",
-      "title": "Nvidia promises that revenue will keep soaring — for now",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T00:16:50Z",
-      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
-      "date_type": "published"
-    },
-    {
-      "id": "68ddb817fe4001c0fc7b",
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-18T00:00:00Z",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "date_type": "published"
-    },
-    {
       "id": "a1de396d3910fa2e0f79",
       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
@@ -3677,91 +3809,14 @@
       "date_type": "published"
     },
     {
-      "id": "d34ce25785fdf87b116d",
-      "title": "Satya Nadella says he’s AGI-pilled now",
-      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-17T23:41:18Z",
-      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's or…",
-      "date_type": "published"
-    },
-    {
-      "id": "9818d892a2fa57697d36",
-      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T23:37:48Z",
-      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
-      "date_type": "published"
-    },
-    {
-      "id": "8339a30c8d70bc4c3f5c",
-      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T23:04:35Z",
-      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
-      "date_type": "published"
-    },
-    {
-      "id": "8a256ad53f34b968604e",
-      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T22:42:27Z",
-      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
-      "date_type": "published"
-    },
-    {
-      "id": "c55f92969fc4ef13b604",
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T22:29:05Z",
-      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
-      "date_type": "published"
-    },
-    {
-      "id": "b16a598086e446c0e216",
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T21:48:07Z",
-      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
-      "date_type": "published"
-    },
-    {
-      "id": "9fdb7eafd9b743622657",
-      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
-      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-17T21:40:59Z",
-      "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked …",
-      "date_type": "published"
-    },
-    {
-      "id": "1961d923c37034d580d5",
-      "title": "Google joins the tech outage trend by announcing it’s not having one",
-      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-17T21:34:50Z",
-      "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "id": "68ddb817fe4001c0fc7b",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
       "date_type": "published"
     },
     {
@@ -3809,17 +3864,6 @@
       "date_type": "published"
     },
     {
-      "id": "3b3be741a87f5e2153e6",
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-17T00:00:00Z",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "date_type": "published"
-    },
-    {
       "id": "b43ef08ac3ed4f7af6f4",
       "title": "Astra for Law leads in legal intelligence",
       "url": "https://openai.com/index/astra-law-6-2",
@@ -3828,6 +3872,17 @@
       "category": "official",
       "published_at": "2026-11-17T00:00:00Z",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "date_type": "published"
+    },
+    {
+      "id": "3b3be741a87f5e2153e6",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-17T00:00:00Z",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "date_type": "published"
     },
     {
@@ -4357,61 +4412,6 @@
       "published_at": "2026-11-06T00:00:00Z",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "date_type": "published"
-    },
-    {
-      "id": "bbd492caba72ca544b8b",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-05T20:00:00Z",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "date_type": "published"
-    },
-    {
-      "id": "f09d7876c1e95fcaa2b6",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-11-05T17:05:16Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "616c68177b707eae60eb",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-05T17:00:00Z",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "date_type": "published"
-    },
-    {
-      "id": "850ffbfc56c1fbbd5e04",
-      "title": "Le Chonk brings the brains. Studio puts it to work.",
-      "url": "https://mistral.ai/news/build-with-studio/",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "category": "official",
-      "published_at": "2026-11-05T12:00:14Z",
-      "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
-      "date_type": "published"
-    },
-    {
-      "id": "14e90e72d3401ddf817f",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-05T09:00:00Z",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4429,9 +4429,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 20,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4439,7 +4439,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 17,
+      "count": 18,
       "message": "正常"
     },
     {
@@ -4484,7 +4484,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 29,
+      "count": 30,
       "message": "正常"
     },
     {
@@ -4520,7 +4520,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 29,
+      "count": 30,
       "message": "正常"
     },
     {

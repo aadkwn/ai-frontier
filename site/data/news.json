@@ -1,11 +1,308 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-24T10:59:55Z",
-  "last_success_at": "2026-11-24T10:59:55Z",
+  "last_attempt_at": "2026-11-24T21:17:11Z",
+  "last_success_at": "2026-11-24T21:17:11Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "d0e234682f9b6d75ce9b",
+      "title": "What's going on with the Riemann hypothesis?",
+      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-24T20:34:53Z",
+      "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+      "date_type": "published"
+    },
+    {
+      "id": "555529a69b5d605cd299",
+      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-24T20:02:03Z",
+      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Tim…",
+      "date_type": "published"
+    },
+    {
+      "id": "15de07f0ce6e60833b26",
+      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "source": "MIT News AI",
+      "source_id": "mit-ai",
+      "category": "industry",
+      "published_at": "2026-11-24T19:30:00Z",
+      "summary": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "date_type": "published"
+    },
+    {
+      "id": "f9d627d3683ee803b633",
+      "title": "b12681",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12681",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T19:15:56Z",
+      "summary": "vulkan: support state size 96 in ssm_scan ( #32162 ) vulkan: support state size 96 in ssm_scan Assisted-by: Claude Code vulkan: specialize ssm_scan state size Assisted-by: Codex vulkan: clarify ssm_scan constant names Assisted-by: Codex Website: https://llama.app Attestations: h…",
+      "date_type": "updated"
+    },
+    {
+      "id": "949a815f425dc11c130e",
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-24T18:47:57Z",
+      "summary": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+      "date_type": "published"
+    },
+    {
+      "id": "e7b83b5d3e40bc022f47",
+      "title": "b12680",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12680",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T18:46:03Z",
+      "summary": "opencl: fix GDN QK offsets ( #32747 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71765735 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b68502d162ee9e06f7de",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T18:30:42Z",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "date_type": "published"
+    },
+    {
+      "id": "c721d869f97e26980033",
+      "title": "b12679",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T18:28:24Z",
+      "summary": "opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify ( #32909 ) Assisted-by: Codex Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71759211 macOS/iOS: macOS Apple Silicon (arm64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ee49075fab924212ef40",
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-24T18:15:00Z",
+      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that t…",
+      "date_type": "published"
+    },
+    {
+      "id": "9458878613dc3d17718f",
+      "title": "b12678",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12678",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T18:11:54Z",
+      "summary": "fix editor config in master ( #32914 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71752017 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a15f266d5fa6e5a5fe67",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T18:02:59Z",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "date_type": "published"
+    },
+    {
+      "id": "e612b5415dc5213a765e",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-24T17:34:34Z",
+      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "date_type": "published"
+    },
+    {
+      "id": "09e62d6e11167de49a84",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-24T17:17:09Z",
+      "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months a…",
+      "date_type": "published"
+    },
+    {
+      "id": "08a6094b9f24b3f9375f",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T17:00:00Z",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "date_type": "published"
+    },
+    {
+      "id": "022f717aafc7a3a3d2ac",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T16:46:00Z",
+      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "date_type": "published"
+    },
+    {
+      "id": "6a28e842b3bf4bfd8400",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-24T16:34:13Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "9b7f0538ab9342259f2c",
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-24T16:30:00Z",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese te…",
+      "date_type": "published"
+    },
+    {
+      "id": "417be228cec59f8a2ed9",
+      "title": "Patch release v5.24.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "source": "GitHub · Transformers",
+      "source_id": "github-transformers",
+      "category": "opensource",
+      "published_at": "2026-11-24T16:13:08Z",
+      "summary": "Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote code ( #51085 ) by @hmellor Restore modeling_attn_mask_utils fo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b6f91c10121e3db79fbf",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T16:10:00Z",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "date_type": "published"
+    },
+    {
+      "id": "1bfb90103b3c1d8e3d87",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-24T16:09:23Z",
+      "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leader…",
+      "date_type": "published"
+    },
+    {
+      "id": "22cc1bf342d89ca2fde4",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T16:02:37Z",
+      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "date_type": "published"
+    },
+    {
+      "id": "0d108e7b71c406494d2f",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google AI",
+      "source_id": "google-ai",
+      "category": "official",
+      "published_at": "2026-11-24T16:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "352ca41f41cfcf5a0a29",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T15:51:07Z",
+      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "date_type": "published"
+    },
+    {
+      "id": "1881b895e965b0335c1d",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-24T14:56:50Z",
+      "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+      "date_type": "published"
+    },
+    {
+      "id": "df1e6114e9dacf825631",
+      "title": "b12676",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T13:28:52Z",
+      "summary": "GDN: use replay instead of rollback ( #31669 ) GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e97dd56116f464d70dd3",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-24T12:30:05Z",
+      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "date_type": "published"
+    },
+    {
+      "id": "7758c04a629331bf9638",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-24T11:00:00Z",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "date_type": "published"
+    },
     {
       "id": "0af7158376dbf2f78a80",
       "title": "b12675",
@@ -37,6 +334,17 @@
       "category": "opensource",
       "published_at": "2026-11-24T08:27:44Z",
       "summary": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal de…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e5187acd34264c8abcb6",
+      "title": "b12682: ggml : use a range-reduced log1p for softplus (#32655)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12682",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T07:30:43Z",
+      "summary": "metal : use a range-reduced log1p for softplus Use the atanh series for x in [-0.5, 1] and precise::log(1 + x) otherwise. This avoids the cancellation in log(1 + exp(x)) for negative inputs and does not rely on fast-math folding of (1 + e) - 1. Assisted-by: dsh:llama.cpp/ggml-or…",
       "date_type": "updated"
     },
     {
@@ -1107,17 +1415,6 @@
       "date_type": "updated"
     },
     {
-      "id": "c721d869f97e26980033",
-      "title": "b12679: opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-24T01:12:33Z",
-      "summary": "Assisted-by: Codex Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com",
-      "date_type": "updated"
-    },
-    {
       "id": "4a2208459a63a7a7535d",
       "title": "b12658",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12658",
@@ -1140,6 +1437,39 @@
       "date_type": "updated"
     },
     {
+      "id": "7e14b56be67443085907",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-24T00:00:00Z",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "date_type": "published"
+    },
+    {
+      "id": "89a905d5eae9fa3ef5a8",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-24T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "35a7742018a78626cd49",
+      "title": "b12677",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12677",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-23T23:41:33Z",
+      "summary": "quantize : make local const static for MSVC ( #32902 )",
+      "date_type": "updated"
+    },
+    {
       "id": "fb48ab0b87f6b3dbe6c8",
       "title": "b12655",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655",
@@ -1148,17 +1478,6 @@
       "category": "opensource",
       "published_at": "2026-11-23T23:23:55Z",
       "summary": "cmake: treat kleidiai files as vendored ( #32605 ) cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo aaron.teo1@ibm.com cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: http…",
-      "date_type": "updated"
-    },
-    {
-      "id": "df1e6114e9dacf825631",
-      "title": "b12676: GDN: use replay instead of rollback (#31669)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T23:06:02Z",
-      "summary": "GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous owner. A…",
       "date_type": "updated"
     },
     {
@@ -1547,6 +1866,18 @@
       "date_type": "updated"
     },
     {
+      "id": "6f6ed263c61a3ab049b5",
+      "title": "新模型：baidu/ERNIE-5.5-Flash-Preview",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-23T09:00:29Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：248",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "05f35e6e532fa71d6e34",
       "title": "b12651",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
@@ -1600,6 +1931,18 @@
       "published_at": "2026-11-23T06:59:30Z",
       "summary": "opencl: add xielu ( #32791 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70965633 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
       "date_type": "updated"
+    },
+    {
+      "id": "173a6e686fb5d7ca0b10",
+      "title": "新模型：orcarouter/Inkling-2-Mini-abliterated-GGUF",
+      "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-23T05:14:32Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：147",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "e652a8cea99648519480",
@@ -1840,7 +2183,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：142",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：175",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2347,7 +2690,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-21T18:46:06Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：102",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：126",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2568,7 +2911,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：282",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：298",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2624,7 +2967,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：692",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：739",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2868,7 +3211,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1173",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1243",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2979,7 +3322,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T09:01:10Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：63",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：109",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3024,7 +3367,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T01:27:15Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：77",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3084,50 +3427,6 @@
       "date_type": "published"
     },
     {
-      "id": "701a571706ec6c00de8b",
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-20T00:00:00Z",
-      "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "18ac63b52f1497df4f08",
-      "title": "v0.40.17-rc2: mlxrunner: adapt saved history to memory pressure (#19678)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-19T23:41:42Z",
-      "summary": "mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active r…",
-      "date_type": "updated"
-    },
-    {
-      "id": "41eccff704a78b7fc963",
-      "title": "b12556",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12556",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T23:17:27Z",
-      "summary": "model : hrm : do not compute slot count as uint32_t ( #32601 ) load_arch_hparams multiplies n_hrm_layers_per_stack, n_hrm_h_cycles and (n_hrm_l_cycles + 1) into a uint32_t, then asserts the product equals block_count. Any factors whose true product is block_count + k*2^32 still …",
-      "date_type": "updated"
-    },
-    {
-      "id": "4a63f2e64b368a7beefe",
-      "title": "b12555",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12555",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T22:59:01Z",
-      "summary": "opencl: support dp4a for KQ mm in decomposed FA ( #32577 ) opencl: support int8 KQ for DK = 512 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Assisted-by: Codex opencl: allow query chunk up to 96 for int8 KQ Co-authored-…",
-      "date_type": "updated"
-    },
-    {
       "id": "f8133dc16aac0ad50d90",
       "title": "Apple is hiring engineers to build its own AI agent",
       "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
@@ -3139,28 +3438,6 @@
       "date_type": "published"
     },
     {
-      "id": "f082d9f511b634fc1fda",
-      "title": "b12554",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12554",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T22:23:11Z",
-      "summary": "ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) ( #32387 ) ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) cuda : SET_ROWS from BF16 into quantized types and F8_E4M3 cuda : fuse BF16 rope into a BF16 cache tests : trim the BF16 rope cases to one per code path W…",
-      "date_type": "updated"
-    },
-    {
-      "id": "53831803923e354ae931",
-      "title": "b12557: CUDA: implement support for duplicate expert IDs (#32505)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12557",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T22:21:24Z",
-      "summary": "implement support for duplicate expert IDs",
-      "date_type": "updated"
-    },
-    {
       "id": "c842cebd4bd1f2ab5a8a",
       "title": "AI helps researchers investigate how thousands of medical studies share code",
       "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
@@ -3170,17 +3447,6 @@
       "published_at": "2026-11-19T22:15:00Z",
       "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
       "date_type": "published"
-    },
-    {
-      "id": "97b1870af3035f4549bc",
-      "title": "b12553",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12553",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T22:10:10Z",
-      "summary": "mtmd : fix YuE2 projector loading ( #32606 ) Allow cls.output.weight to be absent from the mmproj. It is an optional Qwen3 reranking head that the YuE2 NAR decoder never uses. Without this fix, mtmd_init_from_file() fails with \"tensor cls.output.weight is missing from the mmproj…",
-      "date_type": "updated"
     },
     {
       "id": "a16a060150c59a522d90",
@@ -3205,17 +3471,6 @@
       "date_type": "published"
     },
     {
-      "id": "e62365a033f9c523bac1",
-      "title": "b12552",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T21:55:57Z",
-      "summary": "ggml-openvino: fix OpenVINO CI, minor fixes and optimizations ( #32590 ) ggml-openvino: round the GPU KV length up to a power of two Review notes (follow-ups, not blocking): convert_ggml_input_to_ov pads the KQ mask into a std::vector and then copies it into the ov::Tensor. Writ…",
-      "date_type": "updated"
-    },
-    {
       "id": "80283102200146719cd0",
       "title": "These tech outages are giving Y2K, AI agent style",
       "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
@@ -3225,17 +3480,6 @@
       "published_at": "2026-11-19T21:42:31Z",
       "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
       "date_type": "published"
-    },
-    {
-      "id": "d51c360f0857cc7558df",
-      "title": "b12551",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12551",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-19T21:40:04Z",
-      "summary": "cuda: Scatter kernel for set_n ( #32489 ) cuda: add scatter for batched tensor writes update test case to mirror get_n test case save restore timing logs refactor code into batch-copy.cu file Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat…",
-      "date_type": "updated"
     },
     {
       "id": "b331a244d62b8fc86861",
@@ -3458,17 +3702,6 @@
       "date_type": "published"
     },
     {
-      "id": "c263b280fabbf4887d0f",
-      "title": "Canva adds an AI ‘off’ button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T12:30:00Z",
-      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. Thi…",
-      "date_type": "published"
-    },
-    {
       "id": "9342dbf934e428aa00c1",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -3480,14 +3713,14 @@
       "date_type": "published"
     },
     {
-      "id": "108d95f376814446edb6",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T00:42:56Z",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "id": "da30645137037f0052cd",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "date_type": "published"
     },
     {
@@ -3499,17 +3732,6 @@
       "category": "official",
       "published_at": "2026-11-19T00:00:00Z",
       "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "date_type": "published"
-    },
-    {
-      "id": "da30645137037f0052cd",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "date_type": "published"
     },
     {
@@ -3535,83 +3757,6 @@
       "date_type": "published"
     },
     {
-      "id": "afb1f8fc849417dafc40",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T23:45:00Z",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "date_type": "published"
-    },
-    {
-      "id": "e78487095dd3723203c4",
-      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T23:25:17Z",
-      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-      "date_type": "published"
-    },
-    {
-      "id": "d8ba4398191c3d4681c9",
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T23:18:35Z",
-      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-power…",
-      "date_type": "published"
-    },
-    {
-      "id": "d442346cc5e57a267403",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T23:17:28Z",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "date_type": "published"
-    },
-    {
-      "id": "49ff21afd78ef9de5ec7",
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T22:58:11Z",
-      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "date_type": "published"
-    },
-    {
-      "id": "aed3ea0dfc61854d1cd6",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T22:11:15Z",
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "date_type": "published"
-    },
-    {
-      "id": "80bdab190c6dbdb4d3d9",
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T21:57:40Z",
-      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
-      "date_type": "published"
-    },
-    {
       "id": "95da0fde7d56c751139e",
       "title": "Introducing Gemini 4 Neon",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
@@ -3620,105 +3765,6 @@
       "category": "official",
       "published_at": "2026-11-18T21:35:43Z",
       "summary": "",
-      "date_type": "published"
-    },
-    {
-      "id": "734339654a32d098c3ae",
-      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T21:34:13Z",
-      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
-      "date_type": "published"
-    },
-    {
-      "id": "4546d2f009c0f33e9f2b",
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T21:31:21Z",
-      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
-      "date_type": "published"
-    },
-    {
-      "id": "388adedcc584c5bf9c69",
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T20:07:01Z",
-      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
-      "date_type": "published"
-    },
-    {
-      "id": "53453b71f99b11c73bbd",
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-18T19:56:39Z",
-      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
-      "date_type": "published"
-    },
-    {
-      "id": "d023ba6fde32bc2f03d6",
-      "title": "Trump’s latest land grab is an AI hub in the Philippines",
-      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T19:40:36Z",
-      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump ra…",
-      "date_type": "published"
-    },
-    {
-      "id": "ddb45fad21371efcf8bd",
-      "title": "Nvidia’s rise, visualized",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T19:30:00Z",
-      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary foun…",
-      "date_type": "published"
-    },
-    {
-      "id": "77b871659814b03471b2",
-      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-      "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-18T19:19:33Z",
-      "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
-      "date_type": "published"
-    },
-    {
-      "id": "b99d3925f7eef8109c06",
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-18T19:07:29Z",
-      "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted …",
-      "date_type": "published"
-    },
-    {
-      "id": "f4d5cc76792a20c67ba4",
-      "title": "This featherweight, flying robot carries its own sensors and computers",
-      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-18T19:00:00Z",
-      "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
       "date_type": "published"
     },
     {
@@ -3755,17 +3801,6 @@
       "date_type": "published"
     },
     {
-      "id": "58da586369f33999eb92",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-18T08:00:00Z",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "date_type": "published"
-    },
-    {
       "id": "53d809d7420a3923e8ba",
       "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
@@ -3774,6 +3809,17 @@
       "category": "official",
       "published_at": "2026-11-18T08:00:00Z",
       "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "date_type": "published"
+    },
+    {
+      "id": "58da586369f33999eb92",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-18T08:00:00Z",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "date_type": "published"
     },
     {
@@ -4369,50 +4415,6 @@
       "published_at": "2026-11-09T13:00:00Z",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "date_type": "published"
-    },
-    {
-      "id": "02e9abf47eaf3fa01f98",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-09T08:00:00Z",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "date_type": "published"
-    },
-    {
-      "id": "2e34e84f0999c607fcd0",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "url": "https://openai.com/index/kuken",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-09T08:00:00Z",
-      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-      "date_type": "published"
-    },
-    {
-      "id": "a0a44ed09dc9a1089b4e",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-06T08:00:00Z",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "date_type": "published"
-    },
-    {
-      "id": "5f721228af3682c2417b",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-06T00:00:00Z",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4440,7 +4442,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "message": "正常"
     },
     {
@@ -4539,7 +4541,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "message": "正常"
     },
     {

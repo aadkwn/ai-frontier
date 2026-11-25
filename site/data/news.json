@@ -1,11 +1,165 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-24T21:17:11Z",
-  "last_success_at": "2026-11-24T21:17:11Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-25T04:20:44Z",
+  "last_success_at": "2026-11-25T04:20:44Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "9ce015fea68371ec6809",
+      "title": "b12711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T04:07:58Z",
+      "summary": "ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 ( #32142 ) ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) ggml-cpu: fix comment and align to implementation ggml-cpu: exclude new kernels for apple arch Website: https://llama.app Att…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3cdf86ca50c5067ebeff",
+      "title": "b12709",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12709",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T03:55:23Z",
+      "summary": "ggml-cpu: add SVE-optimized q5_0 and q5_1 dot-product kernels ( #30867 ) Merged PR 5925: SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 perf(arm): optimize q5_0 q8_0 dot products with SVE Load high-bi…",
+      "date_type": "updated"
+    },
+    {
+      "id": "af5962719efb9e31476e",
+      "title": "b12708",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12708",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T03:40:38Z",
+      "summary": "server : include MCP image and audio data in tool results ( #32064 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71959162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6…",
+      "date_type": "updated"
+    },
+    {
+      "id": "16b93766d182b11a1412",
+      "title": "b12707",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12707",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T03:26:34Z",
+      "summary": "context : prevent excessive CPU polling without OpenMP ( #32378 ) common : prevent polling while GPU computes (on Metal or without OpenMP) use AudioWorkIntervalCreate to keep the thread on P-cores Revert \"use AudioWorkIntervalCreate to keep the thread on P-cores\" This reverts co…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3468643a107d2bbce953",
+      "title": "b12706",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12706",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T03:10:45Z",
+      "summary": "metal : reserve the top-k scratch only for short rows ( #32942 ) The bitonic top-k path is only faster for short rows. On M5 and M2 Ultra it wins up to 128 columns; above that the radix path is faster. Use the radix path for ncols > 128. The radix path selects in place and needs…",
+      "date_type": "updated"
+    },
+    {
+      "id": "95dc328516e74c2adbd7",
+      "title": "b12704",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12704",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T02:56:59Z",
+      "summary": "vulkan: add chunked GDN replay support ( #32721 ) vulkan: add replay support to chunked GDN shaders use atomicStore instead of atomicExchange for readability Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71947063 macOS/iOS: macOS App…",
+      "date_type": "updated"
+    },
+    {
+      "id": "36e36ed46fb5ab67f61e",
+      "title": "b12703",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12703",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T02:46:45Z",
+      "summary": "cuda : fuse RMS_NORM + MUL + MROPE/IMROPE and tune block size ( #32500 ) cuda : support MROPE/IMROPE and tune block size in rms_norm_mul_rope cuda : use 64 threads for multi-token ncols <= 256 in rms_norm_mul_rope Assisted-by: Antigravity Website: https://llama.app Attestations:…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d564abb2e4db107b98e0",
+      "title": "b12701",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12701",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T02:27:40Z",
+      "summary": "model : Inkling 2 Mini mix() weighted sum with the scores as src0 ( #32855 ) model : Inkling 2 Mini mix() weighted sum with the scores as src0 The weighted sum over the depth states has K = # of states so the old operand order ran one small mat-vec per token. Putting scores firs…",
+      "date_type": "updated"
+    },
+    {
+      "id": "11304642d4ef0ee9b560",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T00:12:02Z",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the qu…",
+      "date_type": "published"
+    },
+    {
+      "id": "3f66369c8927dc1a5f3b",
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T22:27:52Z",
+      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "date_type": "published"
+    },
+    {
+      "id": "a919734a680de1b27cad",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T21:48:27Z",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "date_type": "published"
+    },
+    {
+      "id": "ddf5f5e1e3a03a64600e",
+      "title": "Even the best AI agents struggle with everyday life",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T21:33:29Z",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "date_type": "published"
+    },
+    {
+      "id": "a18f6caa7fc18d5b78fd",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T21:32:38Z",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "date_type": "published"
+    },
+    {
+      "id": "9fd8a5bde39c37e2783d",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-24T21:19:52Z",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "date_type": "published"
+    },
     {
       "id": "d0e234682f9b6d75ce9b",
       "title": "What's going on with the Riemann hypothesis?",
@@ -70,6 +224,17 @@
       "category": "opensource",
       "published_at": "2026-11-24T18:46:03Z",
       "summary": "opencl: fix GDN QK offsets ( #32747 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71765735 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra…",
+      "date_type": "updated"
+    },
+    {
+      "id": "101285170393b46e4da5",
+      "title": "b12716: cmake : include the llguidance header from the source tree (#32928)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T18:31:24Z",
+      "summary": "Cargo 1.100 changed the build directory layout for intermediate artifacts, so the header destination llguidance derives from $OUT_DIR no longer resolves to target/release, and the build fails on a missing llguidance.h. The header is a source file that cargo only copies around, s…",
       "date_type": "updated"
     },
     {
@@ -183,6 +348,18 @@
       "date_type": "published"
     },
     {
+      "id": "fb828fc93bb9d0c84af5",
+      "title": "新模型：prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-24T16:32:20Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：131",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
       "id": "9b7f0538ab9342259f2c",
       "title": "Jensen Huang deepfakes are the hot new AI slop",
       "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
@@ -280,6 +457,28 @@
       "published_at": "2026-11-24T13:28:52Z",
       "summary": "GDN: use replay instead of rollback ( #31669 ) GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the…",
       "date_type": "updated"
+    },
+    {
+      "id": "31d7877117f1d6dcd7c1",
+      "title": "b12699: server : retry prompt cache restore after clearing idle slots (#30997)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12699",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-24T13:13:59Z",
+      "summary": "With a unified KV cache, a RAM-cached prompt can fail to restore because another idle slot still holds the cells it needs. Save and clear the other idle slots and retry the restore once in update_prompt_cache(). Builds on #32828 , which keeps the cache entry intact when a restor…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ac2f786b30f6d45772c4",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-24T13:00:00Z",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "date_type": "published"
     },
     {
       "id": "e97dd56116f464d70dd3",
@@ -1459,6 +1658,17 @@
       "date_type": "published"
     },
     {
+      "id": "a3c9028eefd69cfd15ff",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-24T00:00:00Z",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "date_type": "published"
+    },
+    {
       "id": "35a7742018a78626cd49",
       "title": "b12677",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12677",
@@ -1873,7 +2083,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：248",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：262",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1940,7 +2150,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：147",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：155",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2183,7 +2393,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：175",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：183",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2690,7 +2900,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-21T18:46:06Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：126",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：129",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2967,7 +3177,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：739",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：761",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3211,7 +3421,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-20T13:09:48Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1243",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：1270",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3249,50 +3459,6 @@
       "date_type": "updated"
     },
     {
-      "id": "45aa9cc06eaa53d97bd2",
-      "title": "b12564",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12564",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T12:04:38Z",
-      "summary": "CUDA: optimize Orin single-column MMVQ ( #31268 ) CUDA: optimize Orin single-column MMVQ Create a separate Orin branch in calc_rows_per_block Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70126209 macOS/iOS: macOS Apple Silicon (arm6…",
-      "date_type": "updated"
-    },
-    {
-      "id": "7b173031fcfa07ec653f",
-      "title": "b12563",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12563",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T11:39:37Z",
-      "summary": "CUDA: keep the MUL_MAT_ID precision in the per-expert fallback ( #31345 ) tests: add CUDA-only MUL_MAT/MUL_MAT_ID cases with results above the fp16 range IQ1_M weights have no MMQ kernel, so once the batch is bigger than the MMVQ limit the path is dequantize + cuBLAS. These case…",
-      "date_type": "updated"
-    },
-    {
-      "id": "b28dbe817d1edb356440",
-      "title": "b12562",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12562",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T11:24:17Z",
-      "summary": "vulkan: optimize RMS_NORM_MUL_ROPE loop control ( #31149 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70110758 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF…",
-      "date_type": "updated"
-    },
-    {
-      "id": "4f91664d9810fed62b94",
-      "title": "b12561",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12561",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T10:50:22Z",
-      "summary": "vulkan: chunked GATED_DELTA_NET implementation ( #30207 ) vulkan: add cm2 chunked GATED_DELTA_NET shader fix shmem bank conflict bottleneck optimize further add coopmat maintenance1 variant optimize for RDNA4 add gmem version RDNA4 optimize for Ampere fix nvidia shmem overuse fi…",
-      "date_type": "updated"
-    },
-    {
       "id": "7ad44f990f0c53ef2e2a",
       "title": "Combatting adversarial distillation",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
@@ -3302,74 +3468,6 @@
       "published_at": "2026-11-20T10:00:00Z",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "date_type": "published"
-    },
-    {
-      "id": "2cb06c7f0326085da61e",
-      "title": "b12560",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12560",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T09:31:38Z",
-      "summary": "webgpu : add COL2IM_1D support ( #31708 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70070382 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: U…",
-      "date_type": "updated"
-    },
-    {
-      "id": "36c9d589cbcc59474c23",
-      "title": "新模型：Aleph-Alpha/Kolibri-1.1",
-      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-20T09:01:10Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：109",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "f0fd4c5c1cd38f237521",
-      "title": "b12568: model: add Domyn Edge 4B Model (#32559)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12568",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T07:51:41Z",
-      "summary": "feat: add domyn-edge model Generate tokenizer hash for conversion + fix tests Address changes according to code-review skill catch ValueError in convert_hf_to_gguf_update.py renegerate fusion test baseline + fix model naming style",
-      "date_type": "updated"
-    },
-    {
-      "id": "b20917be5c71df98bfc8",
-      "title": "b12567: llamafile(s390x): add QK data type support (#32600)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12567",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T07:47:41Z",
-      "summary": "llamafile: add QK support for s390x Signed-off-by: Aaron Teo aaron.teo1@ibm.com llamafile: clean up for s390x Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com",
-      "date_type": "updated"
-    },
-    {
-      "id": "9b801969c96c60049bb2",
-      "title": "b12559",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12559",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T07:00:06Z",
-      "summary": "opencl: fold GQA head for f16 FA for better efficiency ( #32631 ) Assisted-by: Codex Co-authored-by: Li He lih@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70021…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9f183e9f9f75c876517d",
-      "title": "新模型：nari-labs/Qwen3.8-27B-NariQ-GGUF",
-      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-20T01:27:15Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：110",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "8288c457eabd2464774e",
@@ -3413,17 +3511,6 @@
       "category": "official",
       "published_at": "2026-11-20T00:00:00Z",
       "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "date_type": "published"
-    },
-    {
-      "id": "824c03b970f1dc58cad6",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "source": "Hugging Face Blog",
-      "source_id": "hf-blog",
-      "category": "opensource",
-      "published_at": "2026-11-20T00:00:00Z",
-      "summary": "",
       "date_type": "published"
     },
     {
@@ -3636,72 +3723,6 @@
       "date_type": "published"
     },
     {
-      "id": "9f19183b29edeb233beb",
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T15:16:45Z",
-      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. Wh…",
-      "date_type": "published"
-    },
-    {
-      "id": "ddb4b8e8befa63e4944c",
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T14:54:39Z",
-      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-      "date_type": "published"
-    },
-    {
-      "id": "60ff07a70f51c3692ee0",
-      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T14:25:37Z",
-      "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was f…",
-      "date_type": "published"
-    },
-    {
-      "id": "6bdfccb498eb826a94e3",
-      "title": "Study reveals data centers’ long-distance damage to air quality",
-      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-19T14:00:00Z",
-      "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
-      "date_type": "published"
-    },
-    {
-      "id": "91089de2fc64468c9b7f",
-      "title": "Superhuman pushes its Go assistant everywhere",
-      "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T14:00:00Z",
-      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
-      "date_type": "published"
-    },
-    {
-      "id": "b5b2890766e5da552ea9",
-      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T13:00:00Z",
-      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? …",
-      "date_type": "published"
-    },
-    {
       "id": "9342dbf934e428aa00c1",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -3710,17 +3731,6 @@
       "category": "official",
       "published_at": "2026-11-19T08:00:00Z",
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "date_type": "published"
-    },
-    {
-      "id": "da30645137037f0052cd",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "date_type": "published"
     },
     {
@@ -3735,6 +3745,17 @@
       "date_type": "published"
     },
     {
+      "id": "a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-19T00:00:00Z",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "date_type": "published"
+    },
+    {
       "id": "82fe289fe466dcc1d4f7",
       "title": "Explore the Codex Security Plugin",
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
@@ -3746,14 +3767,14 @@
       "date_type": "published"
     },
     {
-      "id": "a890a236270cc5e31862",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "id": "da30645137037f0052cd",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "source": "OpenAI",
       "source_id": "openai",
       "category": "official",
       "published_at": "2026-11-19T00:00:00Z",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "date_type": "published"
     },
     {
@@ -3911,17 +3932,6 @@
       "date_type": "published"
     },
     {
-      "id": "b43ef08ac3ed4f7af6f4",
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-17T00:00:00Z",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "date_type": "published"
-    },
-    {
       "id": "3b3be741a87f5e2153e6",
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
@@ -3930,6 +3940,17 @@
       "category": "official",
       "published_at": "2026-11-17T00:00:00Z",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "date_type": "published"
+    },
+    {
+      "id": "b43ef08ac3ed4f7af6f4",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "source": "OpenAI",
+      "source_id": "openai",
+      "category": "official",
+      "published_at": "2026-11-17T00:00:00Z",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "date_type": "published"
     },
     {
@@ -4393,28 +4414,6 @@
       "published_at": "2026-11-09T19:51:47Z",
       "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
       "date_type": "published"
-    },
-    {
-      "id": "caa9073cefb43725f1a5",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-09T19:00:00Z",
-      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "date_type": "published"
-    },
-    {
-      "id": "952d2516af2e905436ad",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "source": "OpenAI",
-      "source_id": "openai",
-      "category": "official",
-      "published_at": "2026-11-09T13:00:00Z",
-      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4432,9 +4431,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 20,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",

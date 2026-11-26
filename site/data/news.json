@@ -1,11 +1,187 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-25T15:40:41Z",
-  "last_success_at": "2026-11-25T15:40:41Z",
+  "last_attempt_at": "2026-11-26T00:27:05Z",
+  "last_success_at": "2026-11-26T00:27:05Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "19530c1c1d96a7b622b5",
+      "title": "b12751",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12751",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T23:33:53Z",
+      "summary": "vocab : implement Metaspace prepend_scheme always for BPE ( #33038 ) vocab : implement Metaspace prepend_scheme always for BPE Drop test-tokenizer-mmbert Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72410348 macOS/iOS: macOS Apple S…",
+      "date_type": "updated"
+    },
+    {
+      "id": "d7b28b808e94d828093f",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T22:44:32Z",
+      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "date_type": "published"
+    },
+    {
+      "id": "db24565b234f36f751dc",
+      "title": "b12738",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12738",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T22:40:13Z",
+      "summary": "server : handle CTRL_BREAK_EVENT on Windows for clean shutdown ( #32080 ) Windows can't send SIGINT to a child process, so scripts that launch llama-server could only kill it, which skips the clean shutdown. The console control handler only handled CTRL_C_EVENT, so a CTRL_BREAK_…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c95d57f8182f4a9618a3",
+      "title": "b12734",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12734",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T22:18:16Z",
+      "summary": "metal : commit the graph in chunks with one command buffer thread ( #32947 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72386571 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid…",
+      "date_type": "updated"
+    },
+    {
+      "id": "0af1151093497b21fd86",
+      "title": "b12732",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12732",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T21:55:34Z",
+      "summary": "ggml: allow input async copies ( #30685 ) ggml: allow input async copies Copy the host inputs of a split with set_tensor_async followed by a single synchronize, instead of one blocking copy per input. This is opt-in per device through the new async_host_input cap, which only CUD…",
+      "date_type": "updated"
+    },
+    {
+      "id": "c91a30b4e6522b01bf53",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-25T21:51:26Z",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might …",
+      "date_type": "published"
+    },
+    {
+      "id": "fb19c642f1b755843408",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T20:03:27Z",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "date_type": "published"
+    },
+    {
+      "id": "74d99a307b5dcf28e29d",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T19:54:57Z",
+      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "date_type": "published"
+    },
+    {
+      "id": "b4fddd7d3c17c325b415",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T19:44:24Z",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "date_type": "published"
+    },
+    {
+      "id": "88bd06d7e0e9b82f43a3",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-25T18:52:55Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "8b23f29d590b586f5e61",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T18:11:46Z",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "date_type": "published"
+    },
+    {
+      "id": "17929128d139e3d01b22",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-25T17:44:51Z",
+      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Goog…",
+      "date_type": "published"
+    },
+    {
+      "id": "5b2e3451b1a570f55bba",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T17:35:58Z",
+      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "date_type": "published"
+    },
+    {
+      "id": "361ff3dcd8aee7d010d4",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source": "Ars Technica AI",
+      "source_id": "ars-technica",
+      "category": "industry",
+      "published_at": "2026-11-25T16:47:14Z",
+      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "date_type": "published"
+    },
+    {
+      "id": "927dd6b10beb1b9592b8",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-25T16:00:59Z",
+      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone…",
+      "date_type": "published"
+    },
+    {
+      "id": "ef02d096cf97eadcf115",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-25T15:41:43Z",
+      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch de…",
+      "date_type": "published"
+    },
     {
       "id": "4fa08de0a59013653d28",
       "title": "b12728",
@@ -15,6 +191,17 @@
       "category": "opensource",
       "published_at": "2026-11-25T15:23:48Z",
       "summary": "ggml: allow reserving scratch memory in graph_optimize ( #31898 ) ggml: allow reserving scratch memory in graph_optimize Add add_scratch to ggml_backend_graph_optimize_params. A backend can reserve compute buffer memory that is allocated before a node first and kept until a node…",
+      "date_type": "updated"
+    },
+    {
+      "id": "43d9a66bd52bfc9b6974",
+      "title": "b12752: llama.cpp : bump version to 1.1.0 (#33043)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12752",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-25T15:11:22Z",
+      "summary": "llama.cpp : bump version to 1.1.0 authors : update",
       "date_type": "updated"
     },
     {
@@ -69,7 +256,7 @@
       "source_id": "techcrunch",
       "category": "industry",
       "published_at": "2026-11-25T13:00:00Z",
-      "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
       "date_type": "published"
     },
     {
@@ -1261,6 +1448,17 @@
       "date_type": "published"
     },
     {
+      "id": "df3be113c8aed13fbadf",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-25T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
       "id": "3f66369c8927dc1a5f3b",
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
       "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
@@ -1510,7 +1708,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：252",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：322",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1621,7 +1819,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：83",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：114",
       "item_type": "model",
       "date_type": "created"
     },
@@ -1635,6 +1833,17 @@
       "published_at": "2026-11-24T13:13:59Z",
       "summary": "With a unified KV cache, a RAM-cached prompt can fail to restore because another idle slot still holds the cells it needs. Save and clear the other idle slots and retry the restore once in update_prompt_cache(). Builds on #32828 , which keeps the cache entry intact when a restor…",
       "date_type": "updated"
+    },
+    {
+      "id": "10ef75306f1db512480f",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "source_id": "deepmind",
+      "category": "official",
+      "published_at": "2026-11-24T13:07:53Z",
+      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "date_type": "published"
     },
     {
       "id": "ac2f786b30f6d45772c4",
@@ -2480,7 +2689,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：278",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：306",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2547,7 +2756,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：182",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：217",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2570,7 +2779,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：201",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：235",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3077,7 +3286,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-21T18:46:06Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：137",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：158",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3269,40 +3478,6 @@
       "date_type": "updated"
     },
     {
-      "id": "43021bcadccac2477e40",
-      "title": "b12596",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12596",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T22:48:28Z",
-      "summary": "metal : allow the norm chain in either operand of the fused MUL/ADD ( #32300 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70363012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kle…",
-      "date_type": "updated"
-    },
-    {
-      "id": "05214cf0f5cef0971bb4",
-      "title": "b12591",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T22:34:30Z",
-      "summary": "ggml : major version bump reminders + deprecate ggml_ftype ( #32647 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70359245 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3ca19c118887a26e4d81",
-      "title": "新模型：OpenUncensored/Inkling-2-Mini-Uncensored",
-      "url": "https://huggingface.co/OpenUncensored/Inkling-2-Mini-Uncensored",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-20T22:34:28Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：298",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "ae5a204aaba705d52a51",
       "title": "Google rolls out new search homepage with AI chat history and no search button",
       "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
@@ -3347,18 +3522,6 @@
       "date_type": "published"
     },
     {
-      "id": "d4687905ee9aa3455e6f",
-      "title": "新模型：AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-20T20:42:23Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：797",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "b2926e8e7f4e634ac812",
       "title": "New approach enables physically consistent AI models of chaotic systems",
       "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
@@ -3381,18 +3544,6 @@
       "date_type": "published"
     },
     {
-      "id": "c420590c3dff14958ece",
-      "title": "新模型：CaryPalmer/Kintsugi-27B",
-      "url": "https://huggingface.co/CaryPalmer/Kintsugi-27B",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-20T19:53:25Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：70",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "81e856d23e6ca9408619",
       "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
@@ -3404,17 +3555,6 @@
       "date_type": "published"
     },
     {
-      "id": "7d4f3143ca30d784710a",
-      "title": "b12590",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-20T19:06:21Z",
-      "summary": "mtmd: drama3 voice cloning ( #32586 ) mtmd: drama3 voice cloning The Fish S2 codec encoder (fish_s2_spkenc) now also serves drama3: conversion: drama3 writes the codec encoder and the audio encoder KV, shared with fish_s2 fish_s2_spkenc: outputs the codes of the clip (gen-side r…",
-      "date_type": "updated"
-    },
-    {
       "id": "3afdf5a7b1a6fd8a2421",
       "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
       "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
@@ -3424,17 +3564,6 @@
       "published_at": "2026-11-20T18:50:19Z",
       "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data center…",
       "date_type": "published"
-    },
-    {
-      "id": "b01afd6d4fc556922097",
-      "title": "v0.40.17-rc3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-20T18:37:07Z",
-      "summary": "mlxrunner: add Inkling 2 Mini",
-      "date_type": "updated"
     },
     {
       "id": "fc059eec5b023eb85950",
@@ -3577,127 +3706,6 @@
       "category": "industry",
       "published_at": "2026-11-19T22:31:41Z",
       "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to…",
-      "date_type": "published"
-    },
-    {
-      "id": "c842cebd4bd1f2ab5a8a",
-      "title": "AI helps researchers investigate how thousands of medical studies share code",
-      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
-      "source": "MIT News AI",
-      "source_id": "mit-ai",
-      "category": "industry",
-      "published_at": "2026-11-19T22:15:00Z",
-      "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
-      "date_type": "published"
-    },
-    {
-      "id": "a16a060150c59a522d90",
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T21:59:35Z",
-      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on…",
-      "date_type": "published"
-    },
-    {
-      "id": "094a4dd2aa9bf45ff9ec",
-      "title": "Meta’s new Muse Charm device may cost $300",
-      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T21:58:06Z",
-      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
-      "date_type": "published"
-    },
-    {
-      "id": "80283102200146719cd0",
-      "title": "These tech outages are giving Y2K, AI agent style",
-      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T21:42:31Z",
-      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-      "date_type": "published"
-    },
-    {
-      "id": "b331a244d62b8fc86861",
-      "title": "Meta’s Muse Charm might cost $300",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T20:22:17Z",
-      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the h…",
-      "date_type": "published"
-    },
-    {
-      "id": "2f808e192e0664c80932",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-      "source": "Ars Technica AI",
-      "source_id": "ars-technica",
-      "category": "industry",
-      "published_at": "2026-11-19T20:19:28Z",
-      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-      "date_type": "published"
-    },
-    {
-      "id": "1fbaae0c3ffb18e8c78a",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T20:18:49Z",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "date_type": "published"
-    },
-    {
-      "id": "c363e4ee1aa6f6ac6b57",
-      "title": "Google is putting AI chats right on the homepage",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T20:05:06Z",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar …",
-      "date_type": "published"
-    },
-    {
-      "id": "0027e4a1d292e51621fc",
-      "title": "Anthropic’s IPO could deliver $156B to charity",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T19:10:45Z",
-      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
-      "date_type": "published"
-    },
-    {
-      "id": "534016fa5cae687038b3",
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T18:21:13Z",
-      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, maki…",
-      "date_type": "published"
-    },
-    {
-      "id": "3a850c903b02169f2b98",
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-19T18:09:11Z",
-      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
       "date_type": "published"
     },
     {
@@ -4403,17 +4411,6 @@
       "published_at": "2026-11-10T00:00:00Z",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "date_type": "published"
-    },
-    {
-      "id": "8827aad4505e69ef98eb",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "category": "official",
-      "published_at": "2026-11-09T19:51:47Z",
-      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-      "date_type": "published"
     }
   ],
   "sources": [
@@ -4432,7 +4429,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 20,
+      "count": 21,
       "message": "正常"
     },
     {
@@ -4540,7 +4537,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 8,
+      "count": 7,
       "message": "正常"
     },
     {

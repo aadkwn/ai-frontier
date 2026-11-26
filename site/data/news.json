@@ -1,11 +1,77 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-26T09:36:08Z",
-  "last_success_at": "2026-11-26T09:36:08Z",
+  "last_attempt_at": "2026-11-26T19:40:04Z",
+  "last_success_at": "2026-11-26T19:40:04Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "a0f1ce00ad86158f95be",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-26T17:52:02Z",
+      "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
+      "date_type": "updated"
+    },
+    {
+      "id": "ca4d7ed1bc504fd9768c",
+      "title": "b12780",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12780",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T17:39:56Z",
+      "summary": "ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) ( #32533 ) ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) ggml : fix MMVF expert offset overflow and tighten BF16 src1 gates ggml : strided BF16 src1 tests, explicit MUSA Q2_K rule, MMVF offset fi…",
+      "date_type": "updated"
+    },
+    {
+      "id": "29241a5bf2d9b2c178f8",
+      "title": "b12779",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12779",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T17:05:06Z",
+      "summary": "llama : refuse SPLIT_MODE_TENSOR for Hadamard-folded models ( #33080 ) Prism Bonsai models (prism.hadamard) aborted in the meta backend with GGML_ASSERT(split_state.ne[j] % div == 0) when loaded with -sm tensor: the ssm_out input permutation from tiled to grouped GDN head order …",
+      "date_type": "updated"
+    },
+    {
+      "id": "d9f6cd1f16683e51dedc",
+      "title": "b12778",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12778",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T16:37:39Z",
+      "summary": "CUDA: fuse the top-k MoE weight norm with an additive sum bias ( #32943 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72757804 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b81da0547893b26212f1",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-26T16:00:00Z",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "date_type": "published"
+    },
+    {
+      "id": "1507549a9315609afc73",
+      "title": "b12777",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12777",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T14:22:06Z",
+      "summary": "CUDA: loop over ne2/ne3 in non-contiguous concat ( #33006 ) The non-contiguous concat kernel mapped dst ne[2] and ne[3] directly to gridDim.y and gridDim.z, which are limited to 65535. Larger tensors made the launch fail with \"invalid configuration argument\". Cap the grid and lo…",
+      "date_type": "updated"
+    },
     {
       "id": "1d09a1cb2c51ccb323e1",
       "title": "b12776",
@@ -13,9 +79,42 @@
       "source": "GitHub · llama.cpp",
       "source_id": "github-llamacpp",
       "category": "opensource",
-      "published_at": "2026-11-26T09:25:33Z",
-      "summary": "CUDA: fix ROCm CI, do not pick the tile FA kernel for DKQ 576 with a …",
+      "published_at": "2026-11-26T11:52:19Z",
+      "summary": "CUDA: fix ROCm CI, do not pick the tile FA kernel for DKQ 576 with a GQA ratio not divisible by 4 ( #33045 ) CUDA: flash attention tile kernel for DKQ 576 with a GQA ratio of 2 The tile kernel for 576/512 only had variants for GQA ratios that are multiples of 4, while the kernel…",
       "date_type": "updated"
+    },
+    {
+      "id": "a734da9d3a1d876054f8",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-26T11:37:17Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
+      "id": "3a73f34cf158b195c66e",
+      "title": "b12782: CUDA: move the fusion code out of ggml-cuda.cu (#33087)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12782",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T10:58:44Z",
+      "summary": "Move the fusion matchers, ggml_cuda_can_fuse, ggml_cuda_try_fuse and the fusion alloc deps of graph_optimize into fusion.cu, unchanged. fusion.cuh exports ggml_cuda_try_fuse and ggml_cuda_fusion_add_alloc_deps. The GGML_CUDA_DISABLE_FUSION check is done by the two callers, and g…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e51b021662e92d608165",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-26T09:54:40Z",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private ch…",
+      "date_type": "published"
     },
     {
       "id": "a3f965f4880a420424e6",
@@ -70,17 +169,6 @@
       "category": "opensource",
       "published_at": "2026-11-26T06:46:56Z",
       "summary": "model: use the indexed bias in the Inkling 2 graph ( #33053 ) use the indexed bias in the Inkling 2 graph Remove RPC check Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72525428 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sili…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a0f1ce00ad86158f95be",
-      "title": "v0.40.19-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-26T06:20:48Z",
-      "summary": "bump llama-server ( #19917 )",
       "date_type": "updated"
     },
     {
@@ -1118,6 +1206,17 @@
       "date_type": "updated"
     },
     {
+      "id": "819f2bb8e324e5e7f3ab",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "source_id": "hf-blog",
+      "category": "opensource",
+      "published_at": "2026-11-26T00:00:00Z",
+      "summary": "",
+      "date_type": "published"
+    },
+    {
       "id": "19530c1c1d96a7b622b5",
       "title": "b12751",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12751",
@@ -2060,7 +2159,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：406",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：478",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2171,7 +2270,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：124",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2240,6 +2339,18 @@
       "published_at": "2026-11-24T10:00:15Z",
       "summary": "server : preserve a prompt-cache entry until restores succeed ( #32828 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71542828 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D…",
       "date_type": "updated"
+    },
+    {
+      "id": "681a2d77f0b8e136db49",
+      "title": "新模型：kandinskylab/Kandinsky-ImageSR-2.0",
+      "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-24T08:51:19Z",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：87",
+      "item_type": "model",
+      "date_type": "created"
     },
     {
       "id": "acd761c740c5ce014c75",
@@ -2821,7 +2932,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：317",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：322",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2888,7 +2999,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：234",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：251",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2911,7 +3022,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：240",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：247",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3312,28 +3423,6 @@
       "date_type": "updated"
     },
     {
-      "id": "831db0e1f1f965145500",
-      "title": "b12617",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12617",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T23:07:11Z",
-      "summary": "sycl: column-blocked gated_delta_net kernel ( #32456 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70630354 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame…",
-      "date_type": "updated"
-    },
-    {
-      "id": "01175aa94a1b7c086b23",
-      "title": "b12615",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12615",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T22:50:48Z",
-      "summary": "sycl: add fused ADD, RMS_NORM, MUL and vectorize rms norm ( #31753 ) sycl: vectorize contiguous rms norm sycl: add fused ADD, RMS_NORM, MUL tests: test fused ADD, RMS_NORM, MUL at decode widths Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attest…",
-      "date_type": "updated"
-    },
-    {
       "id": "7289e21f33e265e97a89",
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
@@ -3367,62 +3456,6 @@
       "date_type": "published"
     },
     {
-      "id": "9a1e9002620f78c79d24",
-      "title": "b12613",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12613",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T19:43:52Z",
-      "summary": "vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows ( #32466 ) vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows simplify code to make it clearer Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/7059733…",
-      "date_type": "updated"
-    },
-    {
-      "id": "3fa460bc4f9cde60c5c5",
-      "title": "b12612",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12612",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T19:33:06Z",
-      "summary": "vulkan: improve RDNA4 MMVQ performance for Q3_K, Q5_K and IQ4_XS ( #31804 ) vulkan: keep default MMVQ rows for Q3_K, Q5_K, IQ4_XS on RDNA4 AMD proprietary driver Assisted-by: Claude Opus 5.5 clean up mmvq shader load logic Co-authored-by: Ruben Ortlam rortlam@redhat.com Website:…",
-      "date_type": "updated"
-    },
-    {
-      "id": "a71165c2d2ae0a9ad5d1",
-      "title": "b12611",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12611",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T19:15:59Z",
-      "summary": "model : inkling2_loop share the loop slots after the scale pass ( #32704 ) The loop slots copied the physical layers at the end of load_arch_tensors, before the generic pass attaches the optional .scale tensors, so the later passes through the core ran NVFP4 experts without thei…",
-      "date_type": "updated"
-    },
-    {
-      "id": "44b9176363d30caf2df1",
-      "title": "b12609",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12609",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T19:02:53Z",
-      "summary": "ggml-zdnn: fix ztensor load race condition ( #32279 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70591271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enab…",
-      "date_type": "updated"
-    },
-    {
-      "id": "85f6a5f9c6ffac94e3a0",
-      "title": "新模型：strata-engine/Inkling-2-Mini-Strata",
-      "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-21T18:46:06Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：167",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
       "id": "d15566b2aef3b460300b",
       "title": "Here are the top AI agents that can live in your text messages",
       "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -3432,17 +3465,6 @@
       "published_at": "2026-11-21T17:00:00Z",
       "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
       "date_type": "published"
-    },
-    {
-      "id": "0a40b9c8bdaa515359b7",
-      "title": "b12608",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T16:08:46Z",
-      "summary": "ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 ( #32659 ) Fixes #31680 The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed…",
-      "date_type": "updated"
     },
     {
       "id": "53e893a48ca02ab22929",
@@ -3665,17 +3687,6 @@
       "date_type": "published"
     },
     {
-      "id": "327354b7a28e2854b8fd",
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-20T00:43:50Z",
-      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
-      "date_type": "published"
-    },
-    {
       "id": "8145fefb47ff1ca9fa55",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "url": "https://openai.com/business/customer-stories/hebbia",
@@ -3695,17 +3706,6 @@
       "category": "official",
       "published_at": "2026-11-20T00:00:00Z",
       "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "date_type": "published"
-    },
-    {
-      "id": "f8133dc16aac0ad50d90",
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-19T22:31:41Z",
-      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to…",
       "date_type": "published"
     },
     {

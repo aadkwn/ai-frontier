@@ -1,11 +1,99 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-27T12:32:42Z",
-  "last_success_at": "2026-11-27T12:32:42Z",
-  "status": "partial",
-  "successful_sources": 16,
+  "last_attempt_at": "2026-11-27T22:01:17Z",
+  "last_success_at": "2026-11-27T22:01:17Z",
+  "status": "ok",
+  "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "5e7004317a04e455b2d7",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-27T21:47:32Z",
+      "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
+      "date_type": "updated"
+    },
+    {
+      "id": "fc0006f706f60dada0d5",
+      "title": "b12818",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T20:47:42Z",
+      "summary": "ggml: support quant scales for fp8 and nvfp4 ( #28898 ) ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable …",
+      "date_type": "updated"
+    },
+    {
+      "id": "ac1e92b2adbd876df9d6",
+      "title": "b12816",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T17:05:51Z",
+      "summary": "graph : read recurrent states in place instead of copying ( #28841 ) ( #30139 ) graph : read recurrent states in place instead of copying ( #28841 ) This is a graph only change that speeds up token output in the majority of cases and backends by removing state copy steps. Where …",
+      "date_type": "updated"
+    },
+    {
+      "id": "4ccfa2054270aa656f5e",
+      "title": "b12819: CUDA: cache the device type at init (#33142)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T14:18:23Z",
+      "summary": "CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran doz…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4f7e2a21d4986adab6a0",
+      "title": "b12815",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T14:12:56Z",
+      "summary": "cuda : fix NVFP4 MMQ y_scale over-read in the stream-k fixup ( #33136 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73139901 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel …",
+      "date_type": "updated"
+    },
+    {
+      "id": "1d140bb3b26b0663e87b",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "source_id": "the-verge",
+      "category": "industry",
+      "published_at": "2026-11-27T14:00:00Z",
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+      "date_type": "published"
+    },
+    {
+      "id": "d57d01af0880249ad882",
+      "title": "b12814",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T13:31:40Z",
+      "summary": "moe-cache : support experts selected on another backend ( #33133 ) When the experts are selected on another backend than the cache, e.g. the loop passes of inkling2_loop with a layer split, the lookup reads a copy of the ids made by the scheduler, which has no source to read the…",
+      "date_type": "updated"
+    },
+    {
+      "id": "6fb69fdc2dba31cd26e6",
+      "title": "b12812",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T13:09:53Z",
+      "summary": "metal : check all fused nodes for concurrency ( #33175 ) metal : check all fused nodes for concurrency The concurrency check for a fused group only examined the last node, so intermediate outputs (e.g. the TOPK_MOE ids/weights) and the group's sources (e.g. the router logits) we…",
+      "date_type": "updated"
+    },
     {
       "id": "2cac280b2b558849c11d",
       "title": "b12811",
@@ -15,17 +103,6 @@
       "category": "opensource",
       "published_at": "2026-11-27T11:19:26Z",
       "summary": "ui: share conversations to Hugging Face datasets as agent traces ( #32608 ) ui: add @ggml-org/llama-huggingface, a Hugging Face account as a package A package in ui/lib that gives an app running in the browser, with no server of its own, a Hugging Face account. Its plain entry h…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6fb69fdc2dba31cd26e6",
-      "title": "b12812: metal : check all fused nodes for concurrency (#33175)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-27T09:10:50Z",
-      "summary": "metal : check all fused nodes for concurrency The concurrency check for a fused group only examined the last node, so intermediate outputs (e.g. the TOPK_MOE ids/weights) and the group's sources (e.g. the router logits) were ignored. This allowed the fused top-k kernel to run co…",
       "date_type": "updated"
     },
     {
@@ -535,17 +612,6 @@
       "date_type": "published"
     },
     {
-      "id": "a0f1ce00ad86158f95be",
-      "title": "v0.40.19",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "source": "GitHub · Ollama",
-      "source_id": "github-ollama",
-      "category": "opensource",
-      "published_at": "2026-11-26T17:52:02Z",
-      "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
-      "date_type": "updated"
-    },
-    {
       "id": "ca4d7ed1bc504fd9768c",
       "title": "b12780",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12780",
@@ -608,7 +674,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-26T13:01:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：180",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
       "item_type": "model",
       "date_type": "created"
     },
@@ -720,6 +786,17 @@
       "category": "opensource",
       "published_at": "2026-11-26T06:46:56Z",
       "summary": "model: use the indexed bias in the Inkling 2 graph ( #33053 ) use the indexed bias in the Inkling 2 graph Remove RPC check Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72525428 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sili…",
+      "date_type": "updated"
+    },
+    {
+      "id": "a0f1ce00ad86158f95be",
+      "title": "v0.40.19-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-26T06:20:48Z",
+      "summary": "bump llama-server ( #19917 )",
       "date_type": "updated"
     },
     {
@@ -2392,7 +2469,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：575",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：629",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2503,7 +2580,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：171",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：199",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2581,7 +2658,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T08:51:19Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：155",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：188",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3165,7 +3242,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：362",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：391",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3232,7 +3309,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：306",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：336",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3255,7 +3332,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：274",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：307",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3293,61 +3370,6 @@
       "date_type": "updated"
     },
     {
-      "id": "fe484d92b61b106af597",
-      "title": "b12645",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T02:36:35Z",
-      "summary": "chat: fix LFM2.5-VL template detection ( #32843 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70910857 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework …",
-      "date_type": "updated"
-    },
-    {
-      "id": "b50d0a3a620784f93708",
-      "title": "b12644",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T02:19:04Z",
-      "summary": "mtmd: speed up shared audio FFT ( #32815 ) mtmd: speed up shared audio FFT Replace recursive radix-2 splitting with iterative stages and batch the existing odd-size DFT across subsequences, preserving the previous operation order. Input buffers now hold only N real values for FF…",
-      "date_type": "updated"
-    },
-    {
-      "id": "2dd967ac880be38815c5",
-      "title": "b12643",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T02:05:29Z",
-      "summary": "mtmd: fix qwen3a audio tail ( #32697 ) add: test to reporduce error reported in #32689 fix: remove extra tokens from zero-padding of Qwen3-Omni / Qwen3-ASR audio add: qwen3a_tokens_for_frames instead of magic numbers refactor: only ggml_pad when required refactor: move qwen3a_to…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9efca619f341535822fb",
-      "title": "b12642",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12642",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T01:51:51Z",
-      "summary": "llama : copy all experts of a host weight shared by several nodes ( #32807 ) llama : copy all experts of a host weight shared by several nodes The scheduler copies a host weight to the device once per graph, so a partial expert copy made for the first MUL_MAT_ID is stale for the…",
-      "date_type": "updated"
-    },
-    {
-      "id": "09ce2b742400808ecece",
-      "title": "b12641",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12641",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T01:38:40Z",
-      "summary": "vocab: enable ignore_merges for inkling2 ( #32799 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70898119 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor…",
-      "date_type": "updated"
-    },
-    {
       "id": "04e5e033b7998e4feb3c",
       "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
       "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
@@ -3357,17 +3379,6 @@
       "published_at": "2026-11-23T01:25:53Z",
       "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
       "date_type": "published"
-    },
-    {
-      "id": "5b3cd9e213bb65bef736",
-      "title": "b12640",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12640",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T01:23:05Z",
-      "summary": "server : add offset pagination to grep_search tool ( #32792 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70894511 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64…",
-      "date_type": "updated"
     },
     {
       "id": "7d27fffa3906bd9ac7f9",
@@ -3664,17 +3675,6 @@
       "category": "industry",
       "published_at": "2026-11-20T14:00:00Z",
       "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "date_type": "published"
-    },
-    {
-      "id": "af7d30f58230f92314a9",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "source": "The Verge AI",
-      "source_id": "the-verge",
-      "category": "industry",
-      "published_at": "2026-11-20T12:30:47Z",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the use…",
       "date_type": "published"
     },
     {
@@ -4430,9 +4430,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": false,
-      "count": 0,
-      "message": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "count": 18,
+      "message": "正常"
     },
     {
       "id": "google-ai",
@@ -4440,7 +4440,7 @@
       "category": "official",
       "url": "https://blog.google/technology/ai/rss/",
       "ok": true,
-      "count": 19,
+      "count": 18,
       "message": "正常"
     },
     {
@@ -4485,7 +4485,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "message": "正常"
     },
     {

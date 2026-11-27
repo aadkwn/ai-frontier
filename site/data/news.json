@@ -1,11 +1,110 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-26T19:40:04Z",
-  "last_success_at": "2026-11-26T19:40:04Z",
-  "status": "ok",
-  "successful_sources": 17,
+  "last_attempt_at": "2026-11-27T02:53:58Z",
+  "last_success_at": "2026-11-27T02:53:58Z",
+  "status": "partial",
+  "successful_sources": 16,
   "total_sources": 17,
   "items": [
+    {
+      "id": "14f2694824e43f5d01f9",
+      "title": "b12803",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T02:09:47Z",
+      "summary": "bailingmoe3 : fuse ssm_conv + silu and remove redundant copies ( #33081 ) bailingmoe3 : apply silu before reshape to enable fused conv kernel bailingmoe3 : avoid redundant copies before attention output projection Website: https://llama.app Attestations: https://github.com/ggml-…",
+      "date_type": "updated"
+    },
+    {
+      "id": "caab5e98ff43d4264f0d",
+      "title": "b12801",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12801",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T01:55:01Z",
+      "summary": "ggml/CUDA+HIP: Flash Attention with indexed bias ( #33063 ) cuda : port indexed bias FA onto the refactored loaders Replays the #32740 bias support on the shared typed tile loader, adds bias in F32 to match the CPU reference and routes rows via KV_indirection. cuda : return zero…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9678616b2c6da3dc30f0",
+      "title": "b12800",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12800",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T23:12:50Z",
+      "summary": "opencl: add MoE int8 bin kernel host side changes for Adreno A850 ( #33069 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72871281 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I…",
+      "date_type": "updated"
+    },
+    {
+      "id": "3dfed99509e99a1aaa6b",
+      "title": "b12798",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12798",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T22:52:00Z",
+      "summary": "tests : relax the DEPTH_MIX tolerance to the mul_mat one ( #33141 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72867873 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f81a7da4ed7bfcd3abc0",
+      "title": "b12793",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12793",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T22:33:41Z",
+      "summary": "CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains ( #33060 ) model : inkling2 order the conv ops so backends can fuse them CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains Website: https://llama.app A…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e8e8a8b10b1c96b3e937",
+      "title": "b12791",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12791",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T22:13:25Z",
+      "summary": "vulkan: fix Windows driver RDNA1 architecture misclassification ( #33123 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72858637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int…",
+      "date_type": "updated"
+    },
+    {
+      "id": "e790d08daf03fd6929d9",
+      "title": "b12785",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12785",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T21:35:47Z",
+      "summary": "DFlash2: support Inkling-2-Mini DFlash2 ( #33073 ) support inkling2 DFlash2 address review comments Assisted-by: Claude Opus 5.5 Co-authored-by: Nikita Belokopytov belokopytov.n@gmail.com Co-authored-by: Nikita Belokopytov belokopytov.n@gmail.com Website: https://llama.app Attes…",
+      "date_type": "updated"
+    },
+    {
+      "id": "ceab47e6a5689cb603b9",
+      "title": "b12804: hip : fix bf16 MFMA operand vector type for CDNA (#33086)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T20:36:34Z",
+      "summary": "Follow-up to #30885 : the CDNA MFMA bf16 builtins also take short vectors, so LLVM 23 rejects __bf16 for gfx908, gfx90a, gfx942 and gfx950.",
+      "date_type": "updated"
+    },
+    {
+      "id": "979e22972f743c1451fe",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch AI",
+      "source_id": "techcrunch",
+      "category": "industry",
+      "published_at": "2026-11-26T20:03:54Z",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "date_type": "published"
+    },
     {
       "id": "a0f1ce00ad86158f95be",
       "title": "v0.40.19",
@@ -70,6 +169,29 @@
       "category": "opensource",
       "published_at": "2026-11-26T14:22:06Z",
       "summary": "CUDA: loop over ne2/ne3 in non-contiguous concat ( #33006 ) The non-contiguous concat kernel mapped dst ne[2] and ne[3] directly to gridDim.y and gridDim.z, which are limited to 65535. Larger tensors made the launch fail with \"invalid configuration argument\". Cap the grid and lo…",
+      "date_type": "updated"
+    },
+    {
+      "id": "b3f18e4fdfd29c330bc8",
+      "title": "新模型：ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+      "source": "Hugging Face · Models",
+      "source_id": "hf-models",
+      "category": "opensource",
+      "published_at": "2026-11-26T13:01:01Z",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：118",
+      "item_type": "model",
+      "date_type": "created"
+    },
+    {
+      "id": "074c28a123e93660935c",
+      "title": "b12788: tests : add RPC support to test-llama-archs (#33112)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12788",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-26T12:57:25Z",
+      "summary": "Running test-llama-archs with an RPC device is quite useful as an integration test for the RPC backend. Here is a sample run with the Vulkan backend: ggml-rpc-server -d Vulkan1 test-llama-archs --rpc 127.0.0.1:50052 -b RPC0",
       "date_type": "updated"
     },
     {
@@ -2159,7 +2281,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：478",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：531",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2270,7 +2392,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：136",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：164",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2348,7 +2470,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T08:51:19Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：87",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：128",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2932,7 +3054,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：322",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：353",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2999,7 +3121,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：251",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：298",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3022,7 +3144,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：247",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：272",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3302,105 +3424,6 @@
       "date_type": "updated"
     },
     {
-      "id": "eb74362db99329f92296",
-      "title": "b12628",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T06:58:12Z",
-      "summary": "vulkan : support non-contiguous src in SCALE ( #32735 ) Assisted-By: Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70699278 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS …",
-      "date_type": "updated"
-    },
-    {
-      "id": "15e6d235b75159628986",
-      "title": "b12627",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T03:55:22Z",
-      "summary": "server : fit non-causal batches in one ubatch ( #32713 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70673562 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra…",
-      "date_type": "updated"
-    },
-    {
-      "id": "62b21afb7b381756d859",
-      "title": "b12626",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T02:23:30Z",
-      "summary": "vulkan : fix memset for unaligned ranges for non-UMA devices ( #32725 ) See #32574 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70660507 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED m…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9dc988c26293515c48d2",
-      "title": "b12625",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T02:04:45Z",
-      "summary": "model: fix no_realloc for clef and vllm-decision2 ( #32754 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70657345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X…",
-      "date_type": "updated"
-    },
-    {
-      "id": "9bacb595644171201831",
-      "title": "b12624",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T01:51:17Z",
-      "summary": "chat : pass reasoning_effort = none if supported ( #32763 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70655398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC…",
-      "date_type": "updated"
-    },
-    {
-      "id": "f97e605e3c5a815e777f",
-      "title": "b12623",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T01:14:37Z",
-      "summary": "mtmd : merge Parakeet rel-pos views to avoid OOB ( #32722 ) Assisted-by: Grok Bot Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70649736 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma…",
-      "date_type": "updated"
-    },
-    {
-      "id": "db58e57ac1a29e1fcafc",
-      "title": "b12622",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T00:54:30Z",
-      "summary": "model: apply .scale tensors automatically + fix correctness ( #32669 ) model: apply .scale tensors automatically rm build_moe_ffn \"_s\" overload use llama_prec_policy fix ci build_lora_mm_id: rm w_s Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/at…",
-      "date_type": "updated"
-    },
-    {
-      "id": "608d90eff2268f0dbe57",
-      "title": "b12621",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T00:40:54Z",
-      "summary": "sycl: bound CONV_TRANSPOSE_1D input iteration ( #31109 ) Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i s0 <= idx < i s0 + K, in the same ascending order as before. Arc Pro B70, oneAPI 2026.1, test-backend-ops perf,…",
-      "date_type": "updated"
-    },
-    {
-      "id": "55b2e6f1e7198c785d19",
-      "title": "b12620",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12620",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-22T00:19:37Z",
-      "summary": "ggml : improvements to the memory access pattern in ggml_compute_forward_mul_mat_one_chunk ( #30846 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70641771 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI …",
-      "date_type": "updated"
-    },
-    {
       "id": "1a10f1676d46fc01a909",
       "title": "Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence",
@@ -3410,17 +3433,6 @@
       "published_at": "2026-11-22T00:00:00Z",
       "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "date_type": "published"
-    },
-    {
-      "id": "930d60961dbf5db30555",
-      "title": "b12619",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-21T23:50:00Z",
-      "summary": "mtmd: support kyutai/hibiki realtime full-duplex ( #32491 ) mtmd: support hibiki realtime duplex fix and clean up fix long session quality fix ci tests : add the moshi fusion baseline for Metal The Metal fusion check found 5 RMS_NORM+MUL fusions in the new moshi arch and no base…",
-      "date_type": "updated"
     },
     {
       "id": "7289e21f33e265e97a89",
@@ -3673,17 +3685,6 @@
       "category": "official",
       "published_at": "2026-11-20T10:00:00Z",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "date_type": "published"
-    },
-    {
-      "id": "8288c457eabd2464774e",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "TechCrunch AI",
-      "source_id": "techcrunch",
-      "category": "industry",
-      "published_at": "2026-11-20T00:56:01Z",
-      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
       "date_type": "published"
     },
     {
@@ -4428,9 +4429,9 @@
       "name": "Google DeepMind",
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
-      "ok": true,
-      "count": 21,
-      "message": "正常"
+      "ok": false,
+      "count": 0,
+      "message": "not well-formed (invalid token): line 1, column 0"
     },
     {
       "id": "google-ai",
@@ -4483,7 +4484,7 @@
       "category": "industry",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {

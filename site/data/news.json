@@ -1,11 +1,55 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-28T03:56:50Z",
-  "last_success_at": "2026-11-28T03:56:50Z",
+  "last_attempt_at": "2026-11-28T13:06:29Z",
+  "last_success_at": "2026-11-28T13:06:29Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "95ba2e621180dabfe3ac",
+      "title": "b12830",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12830",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T13:03:46Z",
+      "summary": "chat : Allow K2 Horizon tool call during thought ( #32993 ) Allow tool calls that would otherwise appear inside reasoning/thinking blocks for K2 Horizon. K2 Horizon models can emit tool calls without closing the thinking block. Without this fix the parser would only stop on expl…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f69caa651940129c9b59",
+      "title": "b12828",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12828",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T12:06:57Z",
+      "summary": "model : expand Inkling 2 tau after embeddings ( #33186 ) model : inkling2 expand tau after the embeddings model : build inkling2 embeddings before tau Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73437238 macOS/iOS: macOS Apple Sili…",
+      "date_type": "updated"
+    },
+    {
+      "id": "9a2d3c87e0218f17808b",
+      "title": "b12831: ggml-cpu: optimize s390x vector intrinsic (#32253)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12831",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T11:47:38Z",
+      "summary": "Signed-off-by: Aaron Teo aaron.teo1@ibm.com",
+      "date_type": "updated"
+    },
+    {
+      "id": "3012e65786ca17acd38b",
+      "title": "b12827",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12827",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T11:35:12Z",
+      "summary": "CUDA: consistent ncols2 selection for mma FA ( #32626 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73432687 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram…",
+      "date_type": "updated"
+    },
     {
       "id": "6310bf6c29de991cf5a7",
       "title": "b12823",
@@ -73,6 +117,17 @@
       "date_type": "updated"
     },
     {
+      "id": "0aaac66dce9dd6761b33",
+      "title": "v0.40.20-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+      "source": "GitHub · Ollama",
+      "source_id": "github-ollama",
+      "category": "opensource",
+      "published_at": "2026-11-27T21:06:59Z",
+      "summary": "bump llama-server ( #19953 )",
+      "date_type": "updated"
+    },
+    {
       "id": "fc0006f706f60dada0d5",
       "title": "b12818",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
@@ -81,6 +136,17 @@
       "category": "opensource",
       "published_at": "2026-11-27T20:47:42Z",
       "summary": "ggml: support quant scales for fp8 and nvfp4 ( #28898 ) ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable …",
+      "date_type": "updated"
+    },
+    {
+      "id": "bb377d4da862deebbaa3",
+      "title": "b12826",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12826",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-27T19:28:53Z",
+      "summary": "ui: show only the mention label in generated conversation titles ( #33 …",
       "date_type": "updated"
     },
     {
@@ -718,7 +784,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-26T13:01:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：289",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：313",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2160,7 +2226,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-25T04:02:44Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：130",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：186",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2513,7 +2579,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：644",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：672",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2624,7 +2690,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：203",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：206",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2702,7 +2768,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T08:51:19Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：198",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：220",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3268,51 +3334,6 @@
       "date_type": "published"
     },
     {
-      "id": "2a9a03bf36f72493e2b7",
-      "title": "b12653: ggml : update cmake MATH_LIBRARY check (#32864)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12653",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T10:05:21Z",
-      "summary": "This commit updates the cmake check for MATH_LIBRARY and removes the DEFINED operator for the if() command. The motivation for this is that on windows if a parent project of ggml calls find_library(MATH_LIBRARY) this could return MATH_LIBRARY-NOTFOUND which will cause the if cla…",
-      "date_type": "updated"
-    },
-    {
-      "id": "6f6ed263c61a3ab049b5",
-      "title": "新模型：baidu/ERNIE-5.5-Flash-Preview",
-      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：393",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "05f35e6e532fa71d6e34",
-      "title": "b12651",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T08:56:20Z",
-      "summary": "webgpu : add ROLL support ( #31887 ) webgpu : add ROLL support tests : keep ROLL cases portable across backends Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71003574 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64,…",
-      "date_type": "updated"
-    },
-    {
-      "id": "c78cb6de422702cd323e",
-      "title": "b12650",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T08:40:41Z",
-      "summary": "chat : improve inkling parser/grammar ( #32833 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70997558 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L…",
-      "date_type": "updated"
-    },
-    {
       "id": "10878202550bbbf922d1",
       "title": "Connected intelligence for in-house legal",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
@@ -3333,29 +3354,6 @@
       "published_at": "2026-11-23T08:00:00Z",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "date_type": "published"
-    },
-    {
-      "id": "db003593b137525531f1",
-      "title": "b12649",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T06:59:30Z",
-      "summary": "opencl: add xielu ( #32791 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70965633 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li…",
-      "date_type": "updated"
-    },
-    {
-      "id": "173a6e686fb5d7ca0b10",
-      "title": "新模型：orcarouter/Inkling-2-Mini-abliterated-GGUF",
-      "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：344",
-      "item_type": "model",
-      "date_type": "created"
     },
     {
       "id": "e652a8cea99648519480",
@@ -4493,7 +4491,7 @@
       "category": "papers",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "ok": true,
-      "count": 30,
+      "count": 0,
       "message": "正常"
     },
     {
@@ -4538,7 +4536,7 @@
       "category": "opensource",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "message": "正常"
     },
     {

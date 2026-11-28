@@ -1,11 +1,66 @@
 {
   "schema_version": 1,
-  "last_attempt_at": "2026-11-27T22:01:17Z",
-  "last_success_at": "2026-11-27T22:01:17Z",
+  "last_attempt_at": "2026-11-28T03:56:50Z",
+  "last_success_at": "2026-11-28T03:56:50Z",
   "status": "ok",
   "successful_sources": 17,
   "total_sources": 17,
   "items": [
+    {
+      "id": "6310bf6c29de991cf5a7",
+      "title": "b12823",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12823",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T01:28:25Z",
+      "summary": "CUDA: fix ADD_ID launch for more than 65535 tokens ( #33162 ) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with \"invalid configuration argument\". NVIDIA and HIP are equally affected, since gridDim.y is capped at…",
+      "date_type": "updated"
+    },
+    {
+      "id": "f9fd34f84f9c0a4dff48",
+      "title": "b12822",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12822",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T01:11:52Z",
+      "summary": "vulkan: handle empty conv3d kernel, fixes validation error ( #33106 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73330379 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x…",
+      "date_type": "updated"
+    },
+    {
+      "id": "513e803ef3f9820a888d",
+      "title": "b12821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12821",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T00:57:48Z",
+      "summary": "vulkan: further optimize coopmat2 GDN ( #32860 ) vulkan: further optimize coopmat2 GDN Refactor split+store callbacks so hi and lo portions are all stored together. This should help allow the stores to be vectorized. Interleave the state store callbacks with the gram_pmat work. …",
+      "date_type": "updated"
+    },
+    {
+      "id": "d3d02e9195aa9eab6969",
+      "title": "b12820",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12820",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T00:42:56Z",
+      "summary": "ggml-zdnn: make zTensor memory usage visible for fitting ( #31849 ) ggml-zdnn: make memory usage visible for fitting Signed-off-by: Aaron Teo aaron.teo1@ibm.com ggml-zdnn: switch to a flag check for ztensor buffer storage Signed-off-by: Aaron Teo aaron.teo1@ibm.com ggml-zdnn: fi…",
+      "date_type": "updated"
+    },
+    {
+      "id": "4ccfa2054270aa656f5e",
+      "title": "b12819",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "source": "GitHub · llama.cpp",
+      "source_id": "github-llamacpp",
+      "category": "opensource",
+      "published_at": "2026-11-28T00:24:38Z",
+      "summary": "CUDA: cache the device type at init ( #33142 ) CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the dev…",
+      "date_type": "updated"
+    },
     {
       "id": "5e7004317a04e455b2d7",
       "title": "v0.40.19",
@@ -37,17 +92,6 @@
       "category": "opensource",
       "published_at": "2026-11-27T17:05:51Z",
       "summary": "graph : read recurrent states in place instead of copying ( #28841 ) ( #30139 ) graph : read recurrent states in place instead of copying ( #28841 ) This is a graph only change that speeds up token output in the majority of cases and backends by removing state copy steps. Where …",
-      "date_type": "updated"
-    },
-    {
-      "id": "4ccfa2054270aa656f5e",
-      "title": "b12819: CUDA: cache the device type at init (#33142)",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-27T14:18:23Z",
-      "summary": "CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran doz…",
       "date_type": "updated"
     },
     {
@@ -674,7 +718,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-26T13:01:01Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：261",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：289",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2469,7 +2513,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T16:32:20Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：629",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：644",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2580,7 +2624,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T13:17:11Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：199",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：203",
       "item_type": "model",
       "date_type": "created"
     },
@@ -2658,7 +2702,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-24T08:51:19Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：188",
+      "summary": "新模型仓库 · 许可证：mit · 喜欢数：198",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3242,7 +3286,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T09:00:29Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：391",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：393",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3309,7 +3353,7 @@
       "source_id": "hf-models",
       "category": "opensource",
       "published_at": "2026-11-23T05:14:32Z",
-      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：336",
+      "summary": "新模型仓库 · 许可证：apache-2.0 · 喜欢数：344",
       "item_type": "model",
       "date_type": "created"
     },
@@ -3323,51 +3367,6 @@
       "published_at": "2026-11-23T05:00:00Z",
       "summary": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
       "date_type": "published"
-    },
-    {
-      "id": "d2f98570ba045778b064",
-      "title": "新模型：inclusionAI/Ling-3.2-air",
-      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
-      "source": "Hugging Face · Models",
-      "source_id": "hf-models",
-      "category": "opensource",
-      "published_at": "2026-11-23T03:55:12Z",
-      "summary": "新模型仓库 · 许可证：mit · 喜欢数：307",
-      "item_type": "model",
-      "date_type": "created"
-    },
-    {
-      "id": "35daebbb925807f6385a",
-      "title": "b12648",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T03:35:29Z",
-      "summary": "opencl: add q4_k coop-k c8 GEMM for spec verify ( #32716 ) opencl: add q4_k coop-k c8 GEMM for spec verify Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Assisted-by: Codex opencl: enable q4_k c8 GEMM for n >= 2 for X2 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com…",
-      "date_type": "updated"
-    },
-    {
-      "id": "350da73cc8b514fa1e3e",
-      "title": "b12647",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12647",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T03:22:56Z",
-      "summary": "tests : compare only the guaranteed GDN snapshot slots ( #32820 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70920365 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) …",
-      "date_type": "updated"
-    },
-    {
-      "id": "e322025278c6d29cc3ed",
-      "title": "b12646",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
-      "source": "GitHub · llama.cpp",
-      "source_id": "github-llamacpp",
-      "category": "opensource",
-      "published_at": "2026-11-23T03:04:50Z",
-      "summary": "ggml-backend : generic fallback in ggml_backend_tensor_memset ( #32574 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70916521 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel…",
-      "date_type": "updated"
     },
     {
       "id": "04e5e033b7998e4feb3c",
@@ -4431,7 +4430,7 @@
       "category": "official",
       "url": "https://deepmind.google/blog/rss.xml",
       "ok": true,
-      "count": 18,
+      "count": 17,
       "message": "正常"
     },
     {
@@ -4521,7 +4520,7 @@
       "category": "opensource",
       "url": "https://huggingface.co/blog/feed.xml",
       "ok": true,
-      "count": 30,
+      "count": 29,
       "message": "正常"
     },
     {
